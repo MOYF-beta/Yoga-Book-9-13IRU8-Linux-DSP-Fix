@@ -2,9 +2,13 @@
 
 是Deepseek V4搞定的修复，给了它windows提取的固件和`Linux on the Zenbook 14 OLED refresh (UM3402YAR)`提供的方法。提取的固件附带在仓库中了。
 
+我自己不能搞定这些操作，因此亦不能验证修复在一般意义上的正确性，请谨慎参考。
+
 感谢[Jichi Zhang](https://github.com/jichizhang/yoga-9-14imh9-linux?tab=readme-ov-file)提供的参考
 
 This fix is done by deepseek V4 flash, given extracted windows firmware and `Linux on the Zenbook 14 OLED refresh (UM3402YAR)` as ref. Extracted Finwares are also in this repo.
+
+I myself can't do such complex job, which also means I can't tell if this fix works for other devices. Use with caution.
 
 Thank [Jichi Zhang](https://github.com/jichizhang/yoga-9-14imh9-linux?tab=readme-ov-file)'s ref
 
