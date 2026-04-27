@@ -1,5 +1,9 @@
 # Yoga Book 9 13IRU8 (82YO) Linux Audio Fix / Linux 音频修复
 
+是Deepseek V4搞定的修复，给了它windows提取的固件和`Linux on the Zenbook 14 OLED refresh (UM3402YAR)`提供的方法。提取的固件附带在仓库中了。
+
+This fix is done by deepseek V4 flash, given extracted windows firmware and `Linux on the Zenbook 14 OLED refresh (UM3402YAR)` as ref. Extracted Finwares are also in this repo.
+
 **[English](#english) | [中文](#中文)**
 
 ---
@@ -31,6 +35,8 @@ PCI: 00:1f.3 Intel cAVS (8086:51ca)
 ## Root Cause Analysis
 
 ### Issue 1: `acpi=noirq` Causes I2C Controller Unavailable
+
+**in my case I used acpi=noirq, boot parameter includes is not enabled by default so this can be skipped.**
 
 **Symptoms:**
 ```
@@ -178,6 +184,8 @@ PCI: 00:1f.3 Intel cAVS (8086:51ca)
 ## 根因分析
 
 ### 问题 1: `acpi=noirq` 导致 I2C 控制器不可用
+
+**acpi=noirq 这个启动参数不是默认的，我自己添加了它。这一步应该可以跳过**
 
 **症状：**
 ```
