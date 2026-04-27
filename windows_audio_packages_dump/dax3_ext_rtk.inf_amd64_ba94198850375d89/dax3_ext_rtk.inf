@@ -1,0 +1,2147 @@
+;===================================================================
+; Dolby DAX APO driver package
+; Copyright (c)2020, Dolby Laboratories, INC.
+;===================================================================
+[Version]
+Signature 	= "$Windows NT$"
+Class       = Extension
+ClassGuid   = {e2f84ce7-8efa-411c-aa69-97454ca4cb57}
+Provider 	= %ManufacturerName%
+ExtensionId = {2C0454A3-AB52-4F33-8FD1-21140301103B}
+CatalogFile = dax3_ext_rtk.cat
+DriverVer = 02/07/2023,8.208.1209.34
+
+[Manufacturer]
+%ManufacturerName% = DeviceExtensions,NTamd64
+
+[DeviceExtensions.NTamd64]
+; %Device.ExtensionDesc% = DeviceExtension_Install_DolbyAtmos,
+%Device.ExtensionDesc% = DeviceExtension_Install_DolbyAtmos,HDAUDIO\FUNC_01&VEN_10EC&DEV_0235&SUBSYS_17AA31BC
+%Device.ExtensionDesc% = DeviceExtension_Install_DolbyAtmos,INTELAUDIO\FUNC_01&VEN_10EC&DEV_0235&SUBSYS_17AA31BC
+%Device.ExtensionDesc% = DeviceExtension_Install_DolbyAtmos,HDAUDIO\FUNC_01&VEN_10EC&DEV_0235&SUBSYS_17AA3179
+%Device.ExtensionDesc% = DeviceExtension_Install_DolbyAtmos,INTELAUDIO\FUNC_01&VEN_10EC&DEV_0235&SUBSYS_17AA3179
+%Device.ExtensionDesc% = DeviceExtension_Install_DolbyAtmos,HDAUDIO\FUNC_01&VEN_10EC&DEV_0235&SUBSYS_17AA31C2
+%Device.ExtensionDesc% = DeviceExtension_Install_DolbyAtmos,INTELAUDIO\FUNC_01&VEN_10EC&DEV_0235&SUBSYS_17AA31C2
+%Device.ExtensionDesc% = DeviceExtension_Install_DolbyAtmos,HDAUDIO\FUNC_01&VEN_10EC&DEV_0235&SUBSYS_17AA32C1
+%Device.ExtensionDesc% = DeviceExtension_Install_DolbyAtmos,INTELAUDIO\FUNC_01&VEN_10EC&DEV_0235&SUBSYS_17AA32C1
+%Device.ExtensionDesc% = DeviceExtension_Install_DolbyAtmos,HDAUDIO\FUNC_01&VEN_10EC&DEV_0287&SUBSYS_17AA381A
+%Device.ExtensionDesc% = DeviceExtension_Install_DolbyAtmos,INTELAUDIO\FUNC_01&VEN_10EC&DEV_0287&SUBSYS_17AA381A
+%Device.ExtensionDesc% = DeviceExtension_Install_DolbyAtmos,HDAUDIO\FUNC_01&VEN_10EC&DEV_0287&SUBSYS_17AA3844
+%Device.ExtensionDesc% = DeviceExtension_Install_DolbyAtmos,INTELAUDIO\FUNC_01&VEN_10EC&DEV_0287&SUBSYS_17AA3844
+%Device.ExtensionDesc% = DeviceExtension_Install_DolbyAtmos,HDAUDIO\FUNC_01&VEN_10EC&DEV_0285&SUBSYS_17AA3806
+%Device.ExtensionDesc% = DeviceExtension_Install_DolbyAtmos,INTELAUDIO\FUNC_01&VEN_10EC&DEV_0285&SUBSYS_17AA3806
+%Device.ExtensionDesc% = DeviceExtension_Install_DolbyAtmos,HDAUDIO\FUNC_01&VEN_10EC&DEV_0287&SUBSYS_17AA3838
+%Device.ExtensionDesc% = DeviceExtension_Install_DolbyAtmos,INTELAUDIO\FUNC_01&VEN_10EC&DEV_0287&SUBSYS_17AA3838
+%Device.ExtensionDesc% = DeviceExtension_Install_DolbyAtmos,HDAUDIO\FUNC_01&VEN_10EC&DEV_0235&SUBSYS_17AA3193
+%Device.ExtensionDesc% = DeviceExtension_Install_DolbyAtmos,INTELAUDIO\FUNC_01&VEN_10EC&DEV_0235&SUBSYS_17AA3193
+%Device.ExtensionDesc% = DeviceExtension_Install_DolbyAtmos,HDAUDIO\FUNC_01&VEN_10EC&DEV_0235&SUBSYS_17AA3173
+%Device.ExtensionDesc% = DeviceExtension_Install_DolbyAtmos,INTELAUDIO\FUNC_01&VEN_10EC&DEV_0235&SUBSYS_17AA3173
+%Device.ExtensionDesc% = DeviceExtension_Install_DolbyAtmos,HDAUDIO\FUNC_01&VEN_10EC&DEV_0274&SUBSYS_17AA3751
+%Device.ExtensionDesc% = DeviceExtension_Install_DolbyAtmos,INTELAUDIO\FUNC_01&VEN_10EC&DEV_0274&SUBSYS_17AA3751
+%Device.ExtensionDesc% = DeviceExtension_Install_DolbyAtmos,HDAUDIO\FUNC_01&VEN_10EC&DEV_0274&SUBSYS_17AA3734
+%Device.ExtensionDesc% = DeviceExtension_Install_DolbyAtmos,INTELAUDIO\FUNC_01&VEN_10EC&DEV_0274&SUBSYS_17AA3734
+%Device.ExtensionDesc% = DeviceExtension_Install_DolbyAtmos,HDAUDIO\FUNC_01&VEN_10EC&DEV_0285&SUBSYS_17AA380C
+%Device.ExtensionDesc% = DeviceExtension_Install_DolbyAtmos,INTELAUDIO\FUNC_01&VEN_10EC&DEV_0285&SUBSYS_17AA380C
+%Device.ExtensionDesc% = DeviceExtension_Install_DolbyAtmos,HDAUDIO\FUNC_01&VEN_10EC&DEV_0285&SUBSYS_17AA380E
+%Device.ExtensionDesc% = DeviceExtension_Install_DolbyAtmos,INTELAUDIO\FUNC_01&VEN_10EC&DEV_0285&SUBSYS_17AA380E
+%Device.ExtensionDesc% = DeviceExtension_Install_DolbyAtmos,HDAUDIO\FUNC_01&VEN_10EC&DEV_0235&SUBSYS_17AA32C6
+%Device.ExtensionDesc% = DeviceExtension_Install_DolbyAtmos,INTELAUDIO\FUNC_01&VEN_10EC&DEV_0235&SUBSYS_17AA32C6
+%Device.ExtensionDesc% = DeviceExtension_Install_DolbyAtmos,HDAUDIO\FUNC_01&VEN_10EC&DEV_0235&SUBSYS_17AA31B5
+%Device.ExtensionDesc% = DeviceExtension_Install_DolbyAtmos,INTELAUDIO\FUNC_01&VEN_10EC&DEV_0235&SUBSYS_17AA31B5
+%Device.ExtensionDesc% = DeviceExtension_Install_DolbyAtmos,HDAUDIO\FUNC_01&VEN_10EC&DEV_0235&SUBSYS_17AA3194
+%Device.ExtensionDesc% = DeviceExtension_Install_DolbyAtmos,INTELAUDIO\FUNC_01&VEN_10EC&DEV_0235&SUBSYS_17AA3194
+%Device.ExtensionDesc% = DeviceExtension_Install_DolbyAtmos,HDAUDIO\FUNC_01&VEN_10EC&DEV_0235&SUBSYS_17AA3174
+%Device.ExtensionDesc% = DeviceExtension_Install_DolbyAtmos,INTELAUDIO\FUNC_01&VEN_10EC&DEV_0235&SUBSYS_17AA3174
+%Device.ExtensionDesc% = DeviceExtension_Install_DolbyAtmos,HDAUDIO\FUNC_01&VEN_10EC&DEV_0235&SUBSYS_17AA31B8
+%Device.ExtensionDesc% = DeviceExtension_Install_DolbyAtmos,INTELAUDIO\FUNC_01&VEN_10EC&DEV_0235&SUBSYS_17AA31B8
+%Device.ExtensionDesc% = DeviceExtension_Install_DolbyAtmos,HDAUDIO\FUNC_01&VEN_10EC&DEV_0235&SUBSYS_17AA31BA
+%Device.ExtensionDesc% = DeviceExtension_Install_DolbyAtmos,INTELAUDIO\FUNC_01&VEN_10EC&DEV_0235&SUBSYS_17AA31BA
+%Device.ExtensionDesc% = DeviceExtension_Install_DolbyAtmos,HDAUDIO\FUNC_01&VEN_10EC&DEV_0235&SUBSYS_17AA31B9
+%Device.ExtensionDesc% = DeviceExtension_Install_DolbyAtmos,INTELAUDIO\FUNC_01&VEN_10EC&DEV_0235&SUBSYS_17AA31B9
+%Device.ExtensionDesc% = DeviceExtension_Install_DolbyAtmos,HDAUDIO\FUNC_01&VEN_10EC&DEV_0257&SUBSYS_17AA38CA
+%Device.ExtensionDesc% = DeviceExtension_Install_DolbyAtmos,INTELAUDIO\FUNC_01&VEN_10EC&DEV_0257&SUBSYS_17AA38CA
+%Device.ExtensionDesc% = DeviceExtension_Install_DolbyAtmos,HDAUDIO\FUNC_01&VEN_10EC&DEV_0257&SUBSYS_17AA38CB
+%Device.ExtensionDesc% = DeviceExtension_Install_DolbyAtmos,INTELAUDIO\FUNC_01&VEN_10EC&DEV_0257&SUBSYS_17AA38CB
+%Device.ExtensionDesc% = DeviceExtension_Install_DolbyAtmos,HDAUDIO\FUNC_01&VEN_10EC&DEV_0287&SUBSYS_17AA385B
+%Device.ExtensionDesc% = DeviceExtension_Install_DolbyAtmos,INTELAUDIO\FUNC_01&VEN_10EC&DEV_0287&SUBSYS_17AA385B
+%Device.ExtensionDesc% = DeviceExtension_Install_DolbyAtmos,HDAUDIO\FUNC_01&VEN_10EC&DEV_0287&SUBSYS_17AA384D
+%Device.ExtensionDesc% = DeviceExtension_Install_DolbyAtmos,INTELAUDIO\FUNC_01&VEN_10EC&DEV_0287&SUBSYS_17AA384D
+%Device.ExtensionDesc% = DeviceExtension_Install_DolbyAtmos,HDAUDIO\FUNC_01&VEN_10EC&DEV_0257&SUBSYS_17AA3957
+%Device.ExtensionDesc% = DeviceExtension_Install_DolbyAtmos,INTELAUDIO\FUNC_01&VEN_10EC&DEV_0257&SUBSYS_17AA3957
+%Device.ExtensionDesc% = DeviceExtension_Install_DolbyAtmos,HDAUDIO\FUNC_01&VEN_10EC&DEV_0287&SUBSYS_17AA383A
+%Device.ExtensionDesc% = DeviceExtension_Install_DolbyAtmos,INTELAUDIO\FUNC_01&VEN_10EC&DEV_0287&SUBSYS_17AA383A
+%Device.ExtensionDesc% = DeviceExtension_Install_DolbyAtmos,HDAUDIO\FUNC_01&VEN_10EC&DEV_0257&SUBSYS_17AA3985
+%Device.ExtensionDesc% = DeviceExtension_Install_DolbyAtmos,INTELAUDIO\FUNC_01&VEN_10EC&DEV_0257&SUBSYS_17AA3985
+%Device.ExtensionDesc% = DeviceExtension_Install_DolbyAtmos,HDAUDIO\FUNC_01&VEN_10EC&DEV_0257&SUBSYS_17AA39F6
+%Device.ExtensionDesc% = DeviceExtension_Install_DolbyAtmos,INTELAUDIO\FUNC_01&VEN_10EC&DEV_0257&SUBSYS_17AA39F6
+%Device.ExtensionDesc% = DeviceExtension_Install_DolbyAtmos,HDAUDIO\FUNC_01&VEN_10EC&DEV_0257&SUBSYS_17AA3A03
+%Device.ExtensionDesc% = DeviceExtension_Install_DolbyAtmos,INTELAUDIO\FUNC_01&VEN_10EC&DEV_0257&SUBSYS_17AA3A03
+%Device.ExtensionDesc% = DeviceExtension_Install_DolbyAtmos,HDAUDIO\FUNC_01&VEN_10EC&DEV_0287&SUBSYS_17AA3873
+%Device.ExtensionDesc% = DeviceExtension_Install_DolbyAtmos,INTELAUDIO\FUNC_01&VEN_10EC&DEV_0287&SUBSYS_17AA3873
+%Device.ExtensionDesc% = DeviceExtension_Install_DolbyAtmos,HDAUDIO\FUNC_01&VEN_10EC&DEV_0287&SUBSYS_17AA385A
+%Device.ExtensionDesc% = DeviceExtension_Install_DolbyAtmos,INTELAUDIO\FUNC_01&VEN_10EC&DEV_0287&SUBSYS_17AA385A
+%Device.ExtensionDesc% = DeviceExtension_Install_DolbyAtmos,HDAUDIO\FUNC_01&VEN_10EC&DEV_0287&SUBSYS_17AA384F
+%Device.ExtensionDesc% = DeviceExtension_Install_DolbyAtmos,INTELAUDIO\FUNC_01&VEN_10EC&DEV_0287&SUBSYS_17AA384F
+; %Device.ExtensionDesc% = DeviceExtension_Install_DolbyAtmosSpeakerSystem,
+%Device.ExtensionDesc% = DeviceExtension_Install_DolbyAtmosSpeakerSystem,HDAUDIO\FUNC_01&VEN_10EC&DEV_0287&SUBSYS_17AA3811
+%Device.ExtensionDesc% = DeviceExtension_Install_DolbyAtmosSpeakerSystem,INTELAUDIO\FUNC_01&VEN_10EC&DEV_0287&SUBSYS_17AA3811
+%Device.ExtensionDesc% = DeviceExtension_Install_DolbyAtmosSpeakerSystem,HDAUDIO\FUNC_01&VEN_10EC&DEV_0287&SUBSYS_17AA3812
+%Device.ExtensionDesc% = DeviceExtension_Install_DolbyAtmosSpeakerSystem,INTELAUDIO\FUNC_01&VEN_10EC&DEV_0287&SUBSYS_17AA3812
+%Device.ExtensionDesc% = DeviceExtension_Install_DolbyAtmosSpeakerSystem,INTELAUDIO\FUNC_01&VEN_10EC&DEV_0298&SUBSYS_17AA3818
+%Device.ExtensionDesc% = DeviceExtension_Install_DolbyAtmosSpeakerSystem,HDAUDIO\FUNC_01&VEN_10EC&DEV_0298&SUBSYS_17AA3819
+%Device.ExtensionDesc% = DeviceExtension_Install_DolbyAtmosSpeakerSystem,INTELAUDIO\FUNC_01&VEN_10EC&DEV_0298&SUBSYS_17AA3819
+%Device.ExtensionDesc% = DeviceExtension_Install_DolbyAtmosSpeakerSystem,HDAUDIO\FUNC_01&VEN_10EC&DEV_0285&SUBSYS_17AA383B
+%Device.ExtensionDesc% = DeviceExtension_Install_DolbyAtmosSpeakerSystem,INTELAUDIO\FUNC_01&VEN_10EC&DEV_0285&SUBSYS_17AA383B
+%Device.ExtensionDesc% = DeviceExtension_Install_DolbyAtmosSpeakerSystem,HDAUDIO\FUNC_01&VEN_10EC&DEV_0285&SUBSYS_17AA3803
+%Device.ExtensionDesc% = DeviceExtension_Install_DolbyAtmosSpeakerSystem,INTELAUDIO\FUNC_01&VEN_10EC&DEV_0285&SUBSYS_17AA3803
+%Device.ExtensionDesc% = DeviceExtension_Install_DolbyAtmosSpeakerSystem,INTELAUDIO\FUNC_01&VEN_10EC&DEV_0285&SUBSYS_17AA381A
+%Device.ExtensionDesc% = DeviceExtension_Install_DolbyAtmosSpeakerSystem,HDAUDIO\FUNC_01&VEN_10EC&DEV_0287&SUBSYS_17AA3853
+%Device.ExtensionDesc% = DeviceExtension_Install_DolbyAtmosSpeakerSystem,INTELAUDIO\FUNC_01&VEN_10EC&DEV_0287&SUBSYS_17AA3853
+%Device.ExtensionDesc% = DeviceExtension_Install_DolbyAtmosSpeakerSystem,HDAUDIO\FUNC_01&VEN_10EC&DEV_0287&SUBSYS_17AA384A
+%Device.ExtensionDesc% = DeviceExtension_Install_DolbyAtmosSpeakerSystem,INTELAUDIO\FUNC_01&VEN_10EC&DEV_0287&SUBSYS_17AA384A
+%Device.ExtensionDesc% = DeviceExtension_Install_DolbyAtmosSpeakerSystem,HDAUDIO\FUNC_01&VEN_10EC&DEV_0287&SUBSYS_17AA3858
+%Device.ExtensionDesc% = DeviceExtension_Install_DolbyAtmosSpeakerSystem,INTELAUDIO\FUNC_01&VEN_10EC&DEV_0287&SUBSYS_17AA3858
+%Device.ExtensionDesc% = DeviceExtension_Install_DolbyAtmosSpeakerSystem,HDAUDIO\FUNC_01&VEN_10EC&DEV_0287&SUBSYS_17AA3A36
+%Device.ExtensionDesc% = DeviceExtension_Install_DolbyAtmosSpeakerSystem,INTELAUDIO\FUNC_01&VEN_10EC&DEV_0287&SUBSYS_17AA3A36
+%Device.ExtensionDesc% = DeviceExtension_Install_DolbyAtmosSpeakerSystem,HDAUDIO\FUNC_01&VEN_10EC&DEV_0287&SUBSYS_17AA3A35
+%Device.ExtensionDesc% = DeviceExtension_Install_DolbyAtmosSpeakerSystem,INTELAUDIO\FUNC_01&VEN_10EC&DEV_0287&SUBSYS_17AA3A35
+%Device.ExtensionDesc% = DeviceExtension_Install_DolbyAtmosSpeakerSystem,HDAUDIO\FUNC_01&VEN_10EC&DEV_0287&SUBSYS_17AA380B
+%Device.ExtensionDesc% = DeviceExtension_Install_DolbyAtmosSpeakerSystem,INTELAUDIO\FUNC_01&VEN_10EC&DEV_0287&SUBSYS_17AA380B
+%Device.ExtensionDesc% = DeviceExtension_Install_DolbyAtmosSpeakerSystem,HDAUDIO\FUNC_01&VEN_10EC&DEV_0287&SUBSYS_17AA380A
+%Device.ExtensionDesc% = DeviceExtension_Install_DolbyAtmosSpeakerSystem,INTELAUDIO\FUNC_01&VEN_10EC&DEV_0287&SUBSYS_17AA380A
+%Device.ExtensionDesc% = DeviceExtension_Install_DolbyAtmosSpeakerSystem,HDAUDIO\FUNC_01&VEN_10EC&DEV_0287&SUBSYS_17AA380D
+%Device.ExtensionDesc% = DeviceExtension_Install_DolbyAtmosSpeakerSystem,INTELAUDIO\FUNC_01&VEN_10EC&DEV_0287&SUBSYS_17AA380D
+%Device.ExtensionDesc% = DeviceExtension_Install_DolbyAtmosSpeakerSystem,HDAUDIO\FUNC_01&VEN_10EC&DEV_0287&SUBSYS_17AA3A34
+%Device.ExtensionDesc% = DeviceExtension_Install_DolbyAtmosSpeakerSystem,INTELAUDIO\FUNC_01&VEN_10EC&DEV_0287&SUBSYS_17AA3A34
+%Device.ExtensionDesc% = DeviceExtension_Install_DolbyAtmosSpeakerSystem,HDAUDIO\FUNC_01&VEN_10EC&DEV_0287&SUBSYS_17AA3809
+%Device.ExtensionDesc% = DeviceExtension_Install_DolbyAtmosSpeakerSystem,INTELAUDIO\FUNC_01&VEN_10EC&DEV_0287&SUBSYS_17AA3809
+%Device.ExtensionDesc% = DeviceExtension_Install_DolbyAtmosSpeakerSystem,HDAUDIO\FUNC_01&VEN_10EC&DEV_0287&SUBSYS_17AA3852
+%Device.ExtensionDesc% = DeviceExtension_Install_DolbyAtmosSpeakerSystem,INTELAUDIO\FUNC_01&VEN_10EC&DEV_0287&SUBSYS_17AA3852
+%Device.ExtensionDesc% = DeviceExtension_Install_DolbyAtmosSpeakerSystem,HDAUDIO\FUNC_01&VEN_10EC&DEV_0298&SUBSYS_17AA381B
+%Device.ExtensionDesc% = DeviceExtension_Install_DolbyAtmosSpeakerSystem,INTELAUDIO\FUNC_01&VEN_10EC&DEV_0298&SUBSYS_17AA381B
+%Device.ExtensionDesc% = DeviceExtension_Install_DolbyAtmosSpeakerSystem,HDAUDIO\FUNC_01&VEN_10EC&DEV_0298&SUBSYS_17AA3822
+%Device.ExtensionDesc% = DeviceExtension_Install_DolbyAtmosSpeakerSystem,INTELAUDIO\FUNC_01&VEN_10EC&DEV_0298&SUBSYS_17AA3822
+%Device.ExtensionDesc% = DeviceExtension_Install_DolbyAtmosSpeakerSystem,HDAUDIO\FUNC_01&VEN_10EC&DEV_0287&SUBSYS_17AA3843
+%Device.ExtensionDesc% = DeviceExtension_Install_DolbyAtmosSpeakerSystem,INTELAUDIO\FUNC_01&VEN_10EC&DEV_0287&SUBSYS_17AA3843
+%Device.ExtensionDesc% = DeviceExtension_Install_DolbyAtmosSpeakerSystem,HDAUDIO\FUNC_01&VEN_10EC&DEV_0285&SUBSYS_17AA3804
+%Device.ExtensionDesc% = DeviceExtension_Install_DolbyAtmosSpeakerSystem,INTELAUDIO\FUNC_01&VEN_10EC&DEV_0285&SUBSYS_17AA3804
+%Device.ExtensionDesc% = DeviceExtension_Install_DolbyAtmosSpeakerSystem,HDAUDIO\FUNC_01&VEN_10EC&DEV_0285&SUBSYS_17AA3813
+%Device.ExtensionDesc% = DeviceExtension_Install_DolbyAtmosSpeakerSystem,INTELAUDIO\FUNC_01&VEN_10EC&DEV_0285&SUBSYS_17AA3813
+%Device.ExtensionDesc% = DeviceExtension_Install_DolbyAtmosSpeakerSystem,HDAUDIO\FUNC_01&VEN_10EC&DEV_0285&SUBSYS_17AA3818
+%Device.ExtensionDesc% = DeviceExtension_Install_DolbyAtmosSpeakerSystem,INTELAUDIO\FUNC_01&VEN_10EC&DEV_0285&SUBSYS_17AA3818
+%Device.ExtensionDesc% = DeviceExtension_Install_DolbyAtmosSpeakerSystem,HDAUDIO\FUNC_01&VEN_10EC&DEV_0287&SUBSYS_17AA3872
+%Device.ExtensionDesc% = DeviceExtension_Install_DolbyAtmosSpeakerSystem,INTELAUDIO\FUNC_01&VEN_10EC&DEV_0287&SUBSYS_17AA3872
+; %Device.ExtensionDesc% = DeviceExtension_Install_DolbyAudio,
+%Device.ExtensionDesc% = DeviceExtension_Install_DolbyAudio,HDAUDIO\FUNC_01&VEN_10EC&DEV_0257&SUBSYS_17AA3936
+%Device.ExtensionDesc% = DeviceExtension_Install_DolbyAudio,INTELAUDIO\FUNC_01&VEN_10EC&DEV_0257&SUBSYS_17AA3936
+%Device.ExtensionDesc% = DeviceExtension_Install_DolbyAudio,HDAUDIO\FUNC_01&VEN_10EC&DEV_0257&SUBSYS_17AA3938
+%Device.ExtensionDesc% = DeviceExtension_Install_DolbyAudio,INTELAUDIO\FUNC_01&VEN_10EC&DEV_0257&SUBSYS_17AA3938
+%Device.ExtensionDesc% = DeviceExtension_Install_DolbyAudio,HDAUDIO\FUNC_01&VEN_10EC&DEV_0257&SUBSYS_17AA396B
+%Device.ExtensionDesc% = DeviceExtension_Install_DolbyAudio,INTELAUDIO\FUNC_01&VEN_10EC&DEV_0257&SUBSYS_17AA396B
+%Device.ExtensionDesc% = DeviceExtension_Install_DolbyAudio,HDAUDIO\FUNC_01&VEN_10EC&DEV_0257&SUBSYS_17AA3973
+%Device.ExtensionDesc% = DeviceExtension_Install_DolbyAudio,INTELAUDIO\FUNC_01&VEN_10EC&DEV_0257&SUBSYS_17AA3973
+%Device.ExtensionDesc% = DeviceExtension_Install_DolbyAudio,HDAUDIO\FUNC_01&VEN_10EC&DEV_0257&SUBSYS_17AA396F
+%Device.ExtensionDesc% = DeviceExtension_Install_DolbyAudio,INTELAUDIO\FUNC_01&VEN_10EC&DEV_0257&SUBSYS_17AA396F
+%Device.ExtensionDesc% = DeviceExtension_Install_DolbyAudio,HDAUDIO\FUNC_01&VEN_10EC&DEV_0257&SUBSYS_17AA389A
+%Device.ExtensionDesc% = DeviceExtension_Install_DolbyAudio,INTELAUDIO\FUNC_01&VEN_10EC&DEV_0257&SUBSYS_17AA389A
+%Device.ExtensionDesc% = DeviceExtension_Install_DolbyAudio,HDAUDIO\FUNC_01&VEN_10EC&DEV_0257&SUBSYS_17AA3841
+%Device.ExtensionDesc% = DeviceExtension_Install_DolbyAudio,INTELAUDIO\FUNC_01&VEN_10EC&DEV_0257&SUBSYS_17AA3841
+%Device.ExtensionDesc% = DeviceExtension_Install_DolbyAudio,HDAUDIO\FUNC_01&VEN_10EC&DEV_0257&SUBSYS_17AA387C
+%Device.ExtensionDesc% = DeviceExtension_Install_DolbyAudio,INTELAUDIO\FUNC_01&VEN_10EC&DEV_0257&SUBSYS_17AA387C
+%Device.ExtensionDesc% = DeviceExtension_Install_DolbyAudio,INTELAUDIO\FUNC_01&VEN_10EC&DEV_0257&SUBSYS_17AA383E
+%Device.ExtensionDesc% = DeviceExtension_Install_DolbyAudio,INTELAUDIO\FUNC_01&VEN_10EC&DEV_0257&SUBSYS_17AA383D
+%Device.ExtensionDesc% = DeviceExtension_Install_DolbyAudio,HDAUDIO\FUNC_01&VEN_10EC&DEV_0257&SUBSYS_17AA3808
+%Device.ExtensionDesc% = DeviceExtension_Install_DolbyAudio,HDAUDIO\FUNC_01&VEN_10EC&DEV_0257&SUBSYS_17AA381E
+%Device.ExtensionDesc% = DeviceExtension_Install_DolbyAudio,HDAUDIO\FUNC_01&VEN_10EC&DEV_0257&SUBSYS_17AA3863
+%Device.ExtensionDesc% = DeviceExtension_Install_DolbyAudio,INTELAUDIO\FUNC_01&VEN_10EC&DEV_0257&SUBSYS_17AA3863
+%Device.ExtensionDesc% = DeviceExtension_Install_DolbyAudio,HDAUDIO\FUNC_01&VEN_10EC&DEV_0257&SUBSYS_17AA3861
+%Device.ExtensionDesc% = DeviceExtension_Install_DolbyAudio,INTELAUDIO\FUNC_01&VEN_10EC&DEV_0257&SUBSYS_17AA3861
+%Device.ExtensionDesc% = DeviceExtension_Install_DolbyAudio,INTELAUDIO\FUNC_01&VEN_10EC&DEV_0257&SUBSYS_17AA3847
+%Device.ExtensionDesc% = DeviceExtension_Install_DolbyAudio,INTELAUDIO\FUNC_01&VEN_10EC&DEV_0257&SUBSYS_17AA3807
+%Device.ExtensionDesc% = DeviceExtension_Install_DolbyAudio,INTELAUDIO\FUNC_01&VEN_10EC&DEV_0257&SUBSYS_17AA3806
+%Device.ExtensionDesc% = DeviceExtension_Install_DolbyAudio,INTELAUDIO\FUNC_01&VEN_10EC&DEV_0257&SUBSYS_17AA384A
+%Device.ExtensionDesc% = DeviceExtension_Install_DolbyAudio,HDAUDIO\FUNC_01&VEN_10EC&DEV_0257&SUBSYS_17AA387A
+%Device.ExtensionDesc% = DeviceExtension_Install_DolbyAudio,INTELAUDIO\FUNC_01&VEN_10EC&DEV_0257&SUBSYS_17AA387A
+%Device.ExtensionDesc% = DeviceExtension_Install_DolbyAudio,INTELAUDIO\FUNC_01&VEN_10EC&DEV_0257&SUBSYS_17AA3845
+%Device.ExtensionDesc% = DeviceExtension_Install_DolbyAudio,INTELAUDIO\FUNC_01&VEN_10EC&DEV_0257&SUBSYS_17AA3805
+%Device.ExtensionDesc% = DeviceExtension_Install_DolbyAudio,INTELAUDIO\FUNC_01&VEN_10EC&DEV_0257&SUBSYS_17AA383C
+%Device.ExtensionDesc% = DeviceExtension_Install_DolbyAudio,INTELAUDIO\FUNC_01&VEN_10EC&DEV_0257&SUBSYS_17AA3849
+%Device.ExtensionDesc% = DeviceExtension_Install_DolbyAudio,HDAUDIO\FUNC_01&VEN_10EC&DEV_0235&SUBSYS_17AA3713
+%Device.ExtensionDesc% = DeviceExtension_Install_DolbyAudio,HDAUDIO\FUNC_01&VEN_10EC&DEV_0235&SUBSYS_17AA3712
+%Device.ExtensionDesc% = DeviceExtension_Install_DolbyAudio,HDAUDIO\FUNC_01&VEN_10EC&DEV_0235&SUBSYS_17AA3710
+%Device.ExtensionDesc% = DeviceExtension_Install_DolbyAudio,HDAUDIO\FUNC_01&VEN_10EC&DEV_0235&SUBSYS_17AA370E
+%Device.ExtensionDesc% = DeviceExtension_Install_DolbyAudio,HDAUDIO\FUNC_01&VEN_10EC&DEV_0235&SUBSYS_17AA370B
+%Device.ExtensionDesc% = DeviceExtension_Install_DolbyAudio,HDAUDIO\FUNC_01&VEN_10EC&DEV_0235&SUBSYS_17AA3719
+%Device.ExtensionDesc% = DeviceExtension_Install_DolbyAudio,HDAUDIO\FUNC_01&VEN_10EC&DEV_0257&SUBSYS_17AA396A
+%Device.ExtensionDesc% = DeviceExtension_Install_DolbyAudio,INTELAUDIO\FUNC_01&VEN_10EC&DEV_0257&SUBSYS_17AA396A
+%Device.ExtensionDesc% = DeviceExtension_Install_DolbyAudio,HDAUDIO\FUNC_01&VEN_10EC&DEV_0257&SUBSYS_17AA39FF
+%Device.ExtensionDesc% = DeviceExtension_Install_DolbyAudio,INTELAUDIO\FUNC_01&VEN_10EC&DEV_0257&SUBSYS_17AA39FF
+%Device.ExtensionDesc% = DeviceExtension_Install_DolbyAudio,HDAUDIO\FUNC_01&VEN_10EC&DEV_0257&SUBSYS_17AA3972
+%Device.ExtensionDesc% = DeviceExtension_Install_DolbyAudio,INTELAUDIO\FUNC_01&VEN_10EC&DEV_0257&SUBSYS_17AA3972
+%Device.ExtensionDesc% = DeviceExtension_Install_DolbyAudio,HDAUDIO\FUNC_01&VEN_10EC&DEV_0257&SUBSYS_17AA396C
+%Device.ExtensionDesc% = DeviceExtension_Install_DolbyAudio,INTELAUDIO\FUNC_01&VEN_10EC&DEV_0257&SUBSYS_17AA396C
+%Device.ExtensionDesc% = DeviceExtension_Install_DolbyAudio,HDAUDIO\FUNC_01&VEN_10EC&DEV_0257&SUBSYS_17AA38C0
+%Device.ExtensionDesc% = DeviceExtension_Install_DolbyAudio,INTELAUDIO\FUNC_01&VEN_10EC&DEV_0257&SUBSYS_17AA38C0
+%Device.ExtensionDesc% = DeviceExtension_Install_DolbyAudio,HDAUDIO\FUNC_01&VEN_10EC&DEV_0257&SUBSYS_17AA38A1
+%Device.ExtensionDesc% = DeviceExtension_Install_DolbyAudio,INTELAUDIO\FUNC_01&VEN_10EC&DEV_0257&SUBSYS_17AA38A1
+%Device.ExtensionDesc% = DeviceExtension_Install_DolbyAudio,HDAUDIO\FUNC_01&VEN_10EC&DEV_0287&SUBSYS_17AA381B
+%Device.ExtensionDesc% = DeviceExtension_Install_DolbyAudio,INTELAUDIO\FUNC_01&VEN_10EC&DEV_0287&SUBSYS_17AA381B
+%Device.ExtensionDesc% = DeviceExtension_Install_DolbyAudio,HDAUDIO\FUNC_01&VEN_10EC&DEV_0257&SUBSYS_17AA394A
+%Device.ExtensionDesc% = DeviceExtension_Install_DolbyAudio,INTELAUDIO\FUNC_01&VEN_10EC&DEV_0257&SUBSYS_17AA394A
+%Device.ExtensionDesc% = DeviceExtension_Install_DolbyAudio,HDAUDIO\FUNC_01&VEN_10EC&DEV_0257&SUBSYS_17AA3866
+%Device.ExtensionDesc% = DeviceExtension_Install_DolbyAudio,INTELAUDIO\FUNC_01&VEN_10EC&DEV_0257&SUBSYS_17AA3866
+%Device.ExtensionDesc% = DeviceExtension_Install_DolbyAudio,HDAUDIO\FUNC_01&VEN_10EC&DEV_0257&SUBSYS_17AA3899
+%Device.ExtensionDesc% = DeviceExtension_Install_DolbyAudio,INTELAUDIO\FUNC_01&VEN_10EC&DEV_0257&SUBSYS_17AA3899
+%Device.ExtensionDesc% = DeviceExtension_Install_DolbyAudio,HDAUDIO\FUNC_01&VEN_10EC&DEV_0257&SUBSYS_17AA3937
+%Device.ExtensionDesc% = DeviceExtension_Install_DolbyAudio,INTELAUDIO\FUNC_01&VEN_10EC&DEV_0257&SUBSYS_17AA3937
+%Device.ExtensionDesc% = DeviceExtension_Install_DolbyAudio,HDAUDIO\FUNC_01&VEN_10EC&DEV_0235&SUBSYS_17AA371D
+%Device.ExtensionDesc% = DeviceExtension_Install_DolbyAudio,INTELAUDIO\FUNC_01&VEN_10EC&DEV_0235&SUBSYS_17AA371D
+%Device.ExtensionDesc% = DeviceExtension_Install_DolbyAudio,HDAUDIO\FUNC_01&VEN_10EC&DEV_0235&SUBSYS_17AA371B
+%Device.ExtensionDesc% = DeviceExtension_Install_DolbyAudio,INTELAUDIO\FUNC_01&VEN_10EC&DEV_0235&SUBSYS_17AA371B
+%Device.ExtensionDesc% = DeviceExtension_Install_DolbyAudio,HDAUDIO\FUNC_01&VEN_10EC&DEV_0235&SUBSYS_17AA3735
+%Device.ExtensionDesc% = DeviceExtension_Install_DolbyAudio,INTELAUDIO\FUNC_01&VEN_10EC&DEV_0235&SUBSYS_17AA3735
+%Device.ExtensionDesc% = DeviceExtension_Install_DolbyAudio,HDAUDIO\FUNC_01&VEN_10EC&DEV_0287&SUBSYS_17AA3818
+%Device.ExtensionDesc% = DeviceExtension_Install_DolbyAudio,INTELAUDIO\FUNC_01&VEN_10EC&DEV_0287&SUBSYS_17AA3818
+%Device.ExtensionDesc% = DeviceExtension_Install_DolbyAudio,HDAUDIO\FUNC_01&VEN_10EC&DEV_0235&SUBSYS_17AA374D
+%Device.ExtensionDesc% = DeviceExtension_Install_DolbyAudio,INTELAUDIO\FUNC_01&VEN_10EC&DEV_0235&SUBSYS_17AA374D
+%Device.ExtensionDesc% = DeviceExtension_Install_DolbyAudio,HDAUDIO\FUNC_01&VEN_10EC&DEV_0235&SUBSYS_17AA373D
+%Device.ExtensionDesc% = DeviceExtension_Install_DolbyAudio,INTELAUDIO\FUNC_01&VEN_10EC&DEV_0235&SUBSYS_17AA373D
+%Device.ExtensionDesc% = DeviceExtension_Install_DolbyAudio,HDAUDIO\FUNC_01&VEN_10EC&DEV_0256&SUBSYS_17AA3774
+%Device.ExtensionDesc% = DeviceExtension_Install_DolbyAudio,INTELAUDIO\FUNC_01&VEN_10EC&DEV_0256&SUBSYS_17AA3774
+%Device.ExtensionDesc% = DeviceExtension_Install_DolbyAudio,HDAUDIO\FUNC_01&VEN_10EC&DEV_0256&SUBSYS_17AA3744
+%Device.ExtensionDesc% = DeviceExtension_Install_DolbyAudio,INTELAUDIO\FUNC_01&VEN_10EC&DEV_0256&SUBSYS_17AA3744
+%Device.ExtensionDesc% = DeviceExtension_Install_DolbyAudio,HDAUDIO\FUNC_01&VEN_10EC&DEV_0256&SUBSYS_17AA375B
+%Device.ExtensionDesc% = DeviceExtension_Install_DolbyAudio,INTELAUDIO\FUNC_01&VEN_10EC&DEV_0256&SUBSYS_17AA375B
+%Device.ExtensionDesc% = DeviceExtension_Install_DolbyAudio,HDAUDIO\FUNC_01&VEN_10EC&DEV_0256&SUBSYS_17AA375A
+%Device.ExtensionDesc% = DeviceExtension_Install_DolbyAudio,INTELAUDIO\FUNC_01&VEN_10EC&DEV_0256&SUBSYS_17AA375A
+%Device.ExtensionDesc% = DeviceExtension_Install_DolbyAudio,HDAUDIO\FUNC_01&VEN_10EC&DEV_0256&SUBSYS_17AA373D
+%Device.ExtensionDesc% = DeviceExtension_Install_DolbyAudio,INTELAUDIO\FUNC_01&VEN_10EC&DEV_0256&SUBSYS_17AA373D
+%Device.ExtensionDesc% = DeviceExtension_Install_DolbyAudio,HDAUDIO\FUNC_01&VEN_10EC&DEV_0235&SUBSYS_17AA3749
+%Device.ExtensionDesc% = DeviceExtension_Install_DolbyAudio,INTELAUDIO\FUNC_01&VEN_10EC&DEV_0235&SUBSYS_17AA3749
+%Device.ExtensionDesc% = DeviceExtension_Install_DolbyAudio,HDAUDIO\FUNC_01&VEN_10EC&DEV_0235&SUBSYS_17AA3748
+%Device.ExtensionDesc% = DeviceExtension_Install_DolbyAudio,INTELAUDIO\FUNC_01&VEN_10EC&DEV_0235&SUBSYS_17AA3748
+%Device.ExtensionDesc% = DeviceExtension_Install_DolbyAudio,HDAUDIO\FUNC_01&VEN_10EC&DEV_0235&SUBSYS_17AA3744
+%Device.ExtensionDesc% = DeviceExtension_Install_DolbyAudio,INTELAUDIO\FUNC_01&VEN_10EC&DEV_0235&SUBSYS_17AA3744
+%Device.ExtensionDesc% = DeviceExtension_Install_DolbyAudio,HDAUDIO\FUNC_01&VEN_10EC&DEV_0235&SUBSYS_17AA374E
+%Device.ExtensionDesc% = DeviceExtension_Install_DolbyAudio,INTELAUDIO\FUNC_01&VEN_10EC&DEV_0235&SUBSYS_17AA374E
+%Device.ExtensionDesc% = DeviceExtension_Install_DolbyAudio,HDAUDIO\FUNC_01&VEN_10EC&DEV_0257&SUBSYS_17AA3883
+%Device.ExtensionDesc% = DeviceExtension_Install_DolbyAudio,INTELAUDIO\FUNC_01&VEN_10EC&DEV_0257&SUBSYS_17AA3883
+%Device.ExtensionDesc% = DeviceExtension_Install_DolbyAudio,HDAUDIO\FUNC_01&VEN_10EC&DEV_0257&SUBSYS_17AA3939
+%Device.ExtensionDesc% = DeviceExtension_Install_DolbyAudio,INTELAUDIO\FUNC_01&VEN_10EC&DEV_0257&SUBSYS_17AA3939
+%Device.ExtensionDesc% = DeviceExtension_Install_DolbyAudio,HDAUDIO\FUNC_01&VEN_10EC&DEV_0257&SUBSYS_17AA3949
+%Device.ExtensionDesc% = DeviceExtension_Install_DolbyAudio,INTELAUDIO\FUNC_01&VEN_10EC&DEV_0257&SUBSYS_17AA3949
+%Device.ExtensionDesc% = DeviceExtension_Install_DolbyAudio,HDAUDIO\FUNC_01&VEN_10EC&DEV_0257&SUBSYS_17AA387B
+%Device.ExtensionDesc% = DeviceExtension_Install_DolbyAudio,INTELAUDIO\FUNC_01&VEN_10EC&DEV_0257&SUBSYS_17AA387B
+%Device.ExtensionDesc% = DeviceExtension_Install_DolbyAudio,HDAUDIO\FUNC_01&VEN_10EC&DEV_0257&SUBSYS_17AA38BC
+%Device.ExtensionDesc% = DeviceExtension_Install_DolbyAudio,INTELAUDIO\FUNC_01&VEN_10EC&DEV_0257&SUBSYS_17AA38BC
+%Device.ExtensionDesc% = DeviceExtension_Install_DolbyAudio,HDAUDIO\FUNC_01&VEN_10EC&DEV_0257&SUBSYS_17AA38B5
+%Device.ExtensionDesc% = DeviceExtension_Install_DolbyAudio,INTELAUDIO\FUNC_01&VEN_10EC&DEV_0257&SUBSYS_17AA38B5
+%Device.ExtensionDesc% = DeviceExtension_Install_DolbyAudio,HDAUDIO\FUNC_01&VEN_10EC&DEV_0257&SUBSYS_17AA3980
+%Device.ExtensionDesc% = DeviceExtension_Install_DolbyAudio,INTELAUDIO\FUNC_01&VEN_10EC&DEV_0257&SUBSYS_17AA3980
+%Device.ExtensionDesc% = DeviceExtension_Install_DolbyAudio,HDAUDIO\FUNC_01&VEN_10EC&DEV_0257&SUBSYS_17AA39DB
+%Device.ExtensionDesc% = DeviceExtension_Install_DolbyAudio,INTELAUDIO\FUNC_01&VEN_10EC&DEV_0257&SUBSYS_17AA39DB
+%Device.ExtensionDesc% = DeviceExtension_Install_DolbyAudio,HDAUDIO\FUNC_01&VEN_10EC&DEV_0235&SUBSYS_17AA370F
+%Device.ExtensionDesc% = DeviceExtension_Install_DolbyAudio,HDAUDIO\FUNC_01&VEN_10EC&DEV_0235&SUBSYS_17AA370D
+%Device.ExtensionDesc% = DeviceExtension_Install_DolbyAudio,HDAUDIO\FUNC_01&VEN_10EC&DEV_0235&SUBSYS_17AA370C
+%Device.ExtensionDesc% = DeviceExtension_Install_DolbyAudio,HDAUDIO\FUNC_01&VEN_10EC&DEV_0235&SUBSYS_17AA3718
+%Device.ExtensionDesc% = DeviceExtension_Install_DolbyAudio,HDAUDIO\FUNC_01&VEN_10EC&DEV_0235&SUBSYS_17AA3711
+%Device.ExtensionDesc% = DeviceExtension_Install_DolbyAudio,HDAUDIO\FUNC_01&VEN_10EC&DEV_0230&SUBSYS_17AA3841
+%Device.ExtensionDesc% = DeviceExtension_Install_DolbyAudio,INTELAUDIO\FUNC_01&VEN_10EC&DEV_0230&SUBSYS_17AA3841
+%Device.ExtensionDesc% = DeviceExtension_Install_DolbyAudio,HDAUDIO\FUNC_01&VEN_10EC&DEV_0230&SUBSYS_17AA383E
+%Device.ExtensionDesc% = DeviceExtension_Install_DolbyAudio,INTELAUDIO\FUNC_01&VEN_10EC&DEV_0230&SUBSYS_17AA383E
+%Device.ExtensionDesc% = DeviceExtension_Install_DolbyAudio,HDAUDIO\FUNC_01&VEN_10EC&DEV_0230&SUBSYS_17AA383B
+%Device.ExtensionDesc% = DeviceExtension_Install_DolbyAudio,INTELAUDIO\FUNC_01&VEN_10EC&DEV_0230&SUBSYS_17AA383B
+%Device.ExtensionDesc% = DeviceExtension_Install_DolbyAudio,HDAUDIO\FUNC_01&VEN_10EC&DEV_0257&SUBSYS_17AA3984
+%Device.ExtensionDesc% = DeviceExtension_Install_DolbyAudio,INTELAUDIO\FUNC_01&VEN_10EC&DEV_0257&SUBSYS_17AA3984
+%Device.ExtensionDesc% = DeviceExtension_Install_DolbyAudio,HDAUDIO\FUNC_01&VEN_10EC&DEV_0257&SUBSYS_17AA3940
+%Device.ExtensionDesc% = DeviceExtension_Install_DolbyAudio,INTELAUDIO\FUNC_01&VEN_10EC&DEV_0257&SUBSYS_17AA3940
+%Device.ExtensionDesc% = DeviceExtension_Install_DolbyAudio,HDAUDIO\FUNC_01&VEN_10EC&DEV_0257&SUBSYS_17AA3925
+%Device.ExtensionDesc% = DeviceExtension_Install_DolbyAudio,INTELAUDIO\FUNC_01&VEN_10EC&DEV_0257&SUBSYS_17AA3925
+%Device.ExtensionDesc% = DeviceExtension_Install_DolbyAudio,HDAUDIO\FUNC_01&VEN_10EC&DEV_0257&SUBSYS_17AA392F
+%Device.ExtensionDesc% = DeviceExtension_Install_DolbyAudio,INTELAUDIO\FUNC_01&VEN_10EC&DEV_0257&SUBSYS_17AA392F
+%Device.ExtensionDesc% = DeviceExtension_Install_DolbyAudio,HDAUDIO\FUNC_01&VEN_10EC&DEV_0230&SUBSYS_17AA3857
+%Device.ExtensionDesc% = DeviceExtension_Install_DolbyAudio,INTELAUDIO\FUNC_01&VEN_10EC&DEV_0230&SUBSYS_17AA3857
+%Device.ExtensionDesc% = DeviceExtension_Install_DolbyAudio,HDAUDIO\FUNC_01&VEN_10EC&DEV_0230&SUBSYS_17AA3853
+%Device.ExtensionDesc% = DeviceExtension_Install_DolbyAudio,INTELAUDIO\FUNC_01&VEN_10EC&DEV_0230&SUBSYS_17AA3853
+%Device.ExtensionDesc% = DeviceExtension_Install_DolbyAudio,HDAUDIO\FUNC_01&VEN_10EC&DEV_0257&SUBSYS_17AA3851
+%Device.ExtensionDesc% = DeviceExtension_Install_DolbyAudio,INTELAUDIO\FUNC_01&VEN_10EC&DEV_0257&SUBSYS_17AA3851
+%Device.ExtensionDesc% = DeviceExtension_Install_DolbyAudio,HDAUDIO\FUNC_01&VEN_10EC&DEV_0257&SUBSYS_17AA3832
+%Device.ExtensionDesc% = DeviceExtension_Install_DolbyAudio,INTELAUDIO\FUNC_01&VEN_10EC&DEV_0257&SUBSYS_17AA3832
+%Device.ExtensionDesc% = DeviceExtension_Install_DolbyAudio,HDAUDIO\FUNC_01&VEN_10EC&DEV_0235&SUBSYS_17AA3725
+%Device.ExtensionDesc% = DeviceExtension_Install_DolbyAudio,INTELAUDIO\FUNC_01&VEN_10EC&DEV_0235&SUBSYS_17AA3725
+%Device.ExtensionDesc% = DeviceExtension_Install_DolbyAudio,HDAUDIO\FUNC_01&VEN_10EC&DEV_0235&SUBSYS_17AA372F
+%Device.ExtensionDesc% = DeviceExtension_Install_DolbyAudio,INTELAUDIO\FUNC_01&VEN_10EC&DEV_0235&SUBSYS_17AA372F
+%Device.ExtensionDesc% = DeviceExtension_Install_DolbyAudio,HDAUDIO\FUNC_01&VEN_10EC&DEV_0235&SUBSYS_17AA3737
+%Device.ExtensionDesc% = DeviceExtension_Install_DolbyAudio,INTELAUDIO\FUNC_01&VEN_10EC&DEV_0235&SUBSYS_17AA3737
+%Device.ExtensionDesc% = DeviceExtension_Install_DolbyAudio,HDAUDIO\FUNC_01&VEN_10EC&DEV_0230&SUBSYS_17AA3845
+%Device.ExtensionDesc% = DeviceExtension_Install_DolbyAudio,INTELAUDIO\FUNC_01&VEN_10EC&DEV_0230&SUBSYS_17AA3845
+%Device.ExtensionDesc% = DeviceExtension_Install_DolbyAudio,HDAUDIO\FUNC_01&VEN_10EC&DEV_0230&SUBSYS_17AA3839
+%Device.ExtensionDesc% = DeviceExtension_Install_DolbyAudio,INTELAUDIO\FUNC_01&VEN_10EC&DEV_0230&SUBSYS_17AA3839
+%Device.ExtensionDesc% = DeviceExtension_Install_DolbyAudio,HDAUDIO\FUNC_01&VEN_10EC&DEV_0230&SUBSYS_17AA383F
+%Device.ExtensionDesc% = DeviceExtension_Install_DolbyAudio,INTELAUDIO\FUNC_01&VEN_10EC&DEV_0230&SUBSYS_17AA383F
+%Device.ExtensionDesc% = DeviceExtension_Install_DolbyAudio,HDAUDIO\FUNC_01&VEN_10EC&DEV_0230&SUBSYS_17AA383C
+%Device.ExtensionDesc% = DeviceExtension_Install_DolbyAudio,INTELAUDIO\FUNC_01&VEN_10EC&DEV_0230&SUBSYS_17AA383C
+%Device.ExtensionDesc% = DeviceExtension_Install_DolbyAudio,HDAUDIO\FUNC_01&VEN_10EC&DEV_0257&SUBSYS_17AA3963
+%Device.ExtensionDesc% = DeviceExtension_Install_DolbyAudio,INTELAUDIO\FUNC_01&VEN_10EC&DEV_0257&SUBSYS_17AA3963
+%Device.ExtensionDesc% = DeviceExtension_Install_DolbyAudio,HDAUDIO\FUNC_01&VEN_10EC&DEV_0257&SUBSYS_17AA3932
+%Device.ExtensionDesc% = DeviceExtension_Install_DolbyAudio,INTELAUDIO\FUNC_01&VEN_10EC&DEV_0257&SUBSYS_17AA3932
+%Device.ExtensionDesc% = DeviceExtension_Install_DolbyAudio,HDAUDIO\FUNC_01&VEN_10EC&DEV_0257&SUBSYS_17AA3926
+%Device.ExtensionDesc% = DeviceExtension_Install_DolbyAudio,INTELAUDIO\FUNC_01&VEN_10EC&DEV_0257&SUBSYS_17AA3926
+%Device.ExtensionDesc% = DeviceExtension_Install_DolbyAudio,HDAUDIO\FUNC_01&VEN_10EC&DEV_0257&SUBSYS_17AA393E
+%Device.ExtensionDesc% = DeviceExtension_Install_DolbyAudio,INTELAUDIO\FUNC_01&VEN_10EC&DEV_0257&SUBSYS_17AA393E
+%Device.ExtensionDesc% = DeviceExtension_Install_DolbyAudio,HDAUDIO\FUNC_01&VEN_10EC&DEV_0257&SUBSYS_17AA393A
+%Device.ExtensionDesc% = DeviceExtension_Install_DolbyAudio,INTELAUDIO\FUNC_01&VEN_10EC&DEV_0257&SUBSYS_17AA393A
+%Device.ExtensionDesc% = DeviceExtension_Install_DolbyAudio,HDAUDIO\FUNC_01&VEN_10EC&DEV_0257&SUBSYS_17AA392D
+%Device.ExtensionDesc% = DeviceExtension_Install_DolbyAudio,INTELAUDIO\FUNC_01&VEN_10EC&DEV_0257&SUBSYS_17AA392D
+%Device.ExtensionDesc% = DeviceExtension_Install_DolbyAudio,HDAUDIO\FUNC_01&VEN_10EC&DEV_0230&SUBSYS_17AA3855
+%Device.ExtensionDesc% = DeviceExtension_Install_DolbyAudio,INTELAUDIO\FUNC_01&VEN_10EC&DEV_0230&SUBSYS_17AA3855
+%Device.ExtensionDesc% = DeviceExtension_Install_DolbyAudio,HDAUDIO\FUNC_01&VEN_10EC&DEV_0230&SUBSYS_17AA3852
+%Device.ExtensionDesc% = DeviceExtension_Install_DolbyAudio,INTELAUDIO\FUNC_01&VEN_10EC&DEV_0230&SUBSYS_17AA3852
+%Device.ExtensionDesc% = DeviceExtension_Install_DolbyAudio,HDAUDIO\FUNC_01&VEN_10EC&DEV_0230&SUBSYS_17AA3849
+%Device.ExtensionDesc% = DeviceExtension_Install_DolbyAudio,INTELAUDIO\FUNC_01&VEN_10EC&DEV_0230&SUBSYS_17AA3849
+%Device.ExtensionDesc% = DeviceExtension_Install_DolbyAudio,HDAUDIO\FUNC_01&VEN_10EC&DEV_0257&SUBSYS_17AA382F
+%Device.ExtensionDesc% = DeviceExtension_Install_DolbyAudio,INTELAUDIO\FUNC_01&VEN_10EC&DEV_0257&SUBSYS_17AA382F
+%Device.ExtensionDesc% = DeviceExtension_Install_DolbyAudio,HDAUDIO\FUNC_01&VEN_10EC&DEV_0257&SUBSYS_17AA3852
+%Device.ExtensionDesc% = DeviceExtension_Install_DolbyAudio,INTELAUDIO\FUNC_01&VEN_10EC&DEV_0257&SUBSYS_17AA3852
+%Device.ExtensionDesc% = DeviceExtension_Install_DolbyAudio,INTELAUDIO\FUNC_01&VEN_10EC&DEV_0257&SUBSYS_17AA3840
+%Device.ExtensionDesc% = DeviceExtension_Install_DolbyAudio,INTELAUDIO\FUNC_01&VEN_10EC&DEV_0257&SUBSYS_17AA3809
+%Device.ExtensionDesc% = DeviceExtension_Install_DolbyAudio,INTELAUDIO\FUNC_01&VEN_10EC&DEV_0257&SUBSYS_17AA384B
+%Device.ExtensionDesc% = DeviceExtension_Install_DolbyAudio,INTELAUDIO\FUNC_01&VEN_10EC&DEV_0257&SUBSYS_17AA383F
+%Device.ExtensionDesc% = DeviceExtension_Install_DolbyAudio,INTELAUDIO\FUNC_01&VEN_10EC&DEV_0257&SUBSYS_17AA380A
+%Device.ExtensionDesc% = DeviceExtension_Install_DolbyAudio,HDAUDIO\FUNC_01&VEN_10EC&DEV_0257&SUBSYS_17AA380E
+%Device.ExtensionDesc% = DeviceExtension_Install_DolbyAudio,HDAUDIO\FUNC_01&VEN_10EC&DEV_0257&SUBSYS_17AA380D
+%Device.ExtensionDesc% = DeviceExtension_Install_DolbyAudio,HDAUDIO\FUNC_01&VEN_10EC&DEV_0257&SUBSYS_17AA3862
+%Device.ExtensionDesc% = DeviceExtension_Install_DolbyAudio,INTELAUDIO\FUNC_01&VEN_10EC&DEV_0257&SUBSYS_17AA3862
+%Device.ExtensionDesc% = DeviceExtension_Install_DolbyAudio,HDAUDIO\FUNC_01&VEN_10EC&DEV_0257&SUBSYS_17AA3860
+%Device.ExtensionDesc% = DeviceExtension_Install_DolbyAudio,INTELAUDIO\FUNC_01&VEN_10EC&DEV_0257&SUBSYS_17AA3860
+%Device.ExtensionDesc% = DeviceExtension_Install_DolbyAudio,INTELAUDIO\FUNC_01&VEN_10EC&DEV_0257&SUBSYS_17AA3848
+%Device.ExtensionDesc% = DeviceExtension_Install_DolbyAudio,HDAUDIO\FUNC_01&VEN_10EC&DEV_0257&SUBSYS_17AA3C0E
+%Device.ExtensionDesc% = DeviceExtension_Install_DolbyAudio,INTELAUDIO\FUNC_01&VEN_10EC&DEV_0257&SUBSYS_17AA3C0E
+%Device.ExtensionDesc% = DeviceExtension_Install_DolbyAudio,HDAUDIO\FUNC_01&VEN_10EC&DEV_0257&SUBSYS_17AA3959
+%Device.ExtensionDesc% = DeviceExtension_Install_DolbyAudio,INTELAUDIO\FUNC_01&VEN_10EC&DEV_0257&SUBSYS_17AA3959
+%Device.ExtensionDesc% = DeviceExtension_Install_DolbyAudio,HDAUDIO\FUNC_01&VEN_10EC&DEV_0257&SUBSYS_17AA39F8
+%Device.ExtensionDesc% = DeviceExtension_Install_DolbyAudio,INTELAUDIO\FUNC_01&VEN_10EC&DEV_0257&SUBSYS_17AA39F8
+%Device.ExtensionDesc% = DeviceExtension_Install_DolbyAudio,HDAUDIO\FUNC_01&VEN_10EC&DEV_0257&SUBSYS_17AA39EB
+%Device.ExtensionDesc% = DeviceExtension_Install_DolbyAudio,INTELAUDIO\FUNC_01&VEN_10EC&DEV_0257&SUBSYS_17AA39EB
+%Device.ExtensionDesc% = DeviceExtension_Install_DolbyAudio,HDAUDIO\FUNC_01&VEN_10EC&DEV_0257&SUBSYS_17AA39D9
+%Device.ExtensionDesc% = DeviceExtension_Install_DolbyAudio,INTELAUDIO\FUNC_01&VEN_10EC&DEV_0257&SUBSYS_17AA39D9
+%Device.ExtensionDesc% = DeviceExtension_Install_DolbyAudio,HDAUDIO\FUNC_01&VEN_10EC&DEV_0257&SUBSYS_17AA39D7
+%Device.ExtensionDesc% = DeviceExtension_Install_DolbyAudio,INTELAUDIO\FUNC_01&VEN_10EC&DEV_0257&SUBSYS_17AA39D7
+%Device.ExtensionDesc% = DeviceExtension_Install_DolbyAudio,HDAUDIO\FUNC_01&VEN_10EC&DEV_0257&SUBSYS_17AA38AD
+%Device.ExtensionDesc% = DeviceExtension_Install_DolbyAudio,INTELAUDIO\FUNC_01&VEN_10EC&DEV_0257&SUBSYS_17AA38AD
+%Device.ExtensionDesc% = DeviceExtension_Install_DolbyAudio,HDAUDIO\FUNC_01&VEN_10EC&DEV_0257&SUBSYS_17AA3894
+%Device.ExtensionDesc% = DeviceExtension_Install_DolbyAudio,INTELAUDIO\FUNC_01&VEN_10EC&DEV_0257&SUBSYS_17AA3894
+%Device.ExtensionDesc% = DeviceExtension_Install_DolbyAudio,HDAUDIO\FUNC_01&VEN_10EC&DEV_0257&SUBSYS_17AA3865
+%Device.ExtensionDesc% = DeviceExtension_Install_DolbyAudio,INTELAUDIO\FUNC_01&VEN_10EC&DEV_0257&SUBSYS_17AA3865
+%Device.ExtensionDesc% = DeviceExtension_Install_DolbyAudio,HDAUDIO\FUNC_01&VEN_10EC&DEV_0257&SUBSYS_17AA3864
+%Device.ExtensionDesc% = DeviceExtension_Install_DolbyAudio,INTELAUDIO\FUNC_01&VEN_10EC&DEV_0257&SUBSYS_17AA3864
+%Device.ExtensionDesc% = DeviceExtension_Install_DolbyAudio,HDAUDIO\FUNC_01&VEN_10EC&DEV_0257&SUBSYS_17AA386C
+%Device.ExtensionDesc% = DeviceExtension_Install_DolbyAudio,INTELAUDIO\FUNC_01&VEN_10EC&DEV_0257&SUBSYS_17AA386C
+%Device.ExtensionDesc% = DeviceExtension_Install_DolbyAudio,HDAUDIO\FUNC_01&VEN_10EC&DEV_0257&SUBSYS_17AA39EE
+%Device.ExtensionDesc% = DeviceExtension_Install_DolbyAudio,INTELAUDIO\FUNC_01&VEN_10EC&DEV_0257&SUBSYS_17AA39EE
+%Device.ExtensionDesc% = DeviceExtension_Install_DolbyAudio,HDAUDIO\FUNC_01&VEN_10EC&DEV_0235&SUBSYS_17AA3726
+%Device.ExtensionDesc% = DeviceExtension_Install_DolbyAudio,INTELAUDIO\FUNC_01&VEN_10EC&DEV_0235&SUBSYS_17AA3726
+%Device.ExtensionDesc% = DeviceExtension_Install_DolbyAudio,HDAUDIO\FUNC_01&VEN_10EC&DEV_0235&SUBSYS_17AA372E
+%Device.ExtensionDesc% = DeviceExtension_Install_DolbyAudio,INTELAUDIO\FUNC_01&VEN_10EC&DEV_0235&SUBSYS_17AA372E
+%Device.ExtensionDesc% = DeviceExtension_Install_DolbyAudio,HDAUDIO\FUNC_01&VEN_10EC&DEV_0235&SUBSYS_17AA3738
+%Device.ExtensionDesc% = DeviceExtension_Install_DolbyAudio,INTELAUDIO\FUNC_01&VEN_10EC&DEV_0235&SUBSYS_17AA3738
+%Device.ExtensionDesc% = DeviceExtension_Install_DolbyAudio,HDAUDIO\FUNC_01&VEN_10EC&DEV_0287&SUBSYS_17AA3802
+%Device.ExtensionDesc% = DeviceExtension_Install_DolbyAudio,INTELAUDIO\FUNC_01&VEN_10EC&DEV_0287&SUBSYS_17AA3802
+%Device.ExtensionDesc% = DeviceExtension_Install_DolbyAudio,HDAUDIO\FUNC_01&VEN_10EC&DEV_0235&SUBSYS_17AA3721
+%Device.ExtensionDesc% = DeviceExtension_Install_DolbyAudio,INTELAUDIO\FUNC_01&VEN_10EC&DEV_0235&SUBSYS_17AA3721
+%Device.ExtensionDesc% = DeviceExtension_Install_DolbyAudio,HDAUDIO\FUNC_01&VEN_10EC&DEV_0235&SUBSYS_17AA371C
+%Device.ExtensionDesc% = DeviceExtension_Install_DolbyAudio,INTELAUDIO\FUNC_01&VEN_10EC&DEV_0235&SUBSYS_17AA371C
+%Device.ExtensionDesc% = DeviceExtension_Install_DolbyAudio,HDAUDIO\FUNC_01&VEN_10EC&DEV_0235&SUBSYS_17AA3736
+%Device.ExtensionDesc% = DeviceExtension_Install_DolbyAudio,INTELAUDIO\FUNC_01&VEN_10EC&DEV_0235&SUBSYS_17AA3736
+%Device.ExtensionDesc% = DeviceExtension_Install_DolbyAudio,HDAUDIO\FUNC_01&VEN_10EC&DEV_0235&SUBSYS_17AA3722
+%Device.ExtensionDesc% = DeviceExtension_Install_DolbyAudio,INTELAUDIO\FUNC_01&VEN_10EC&DEV_0235&SUBSYS_17AA3722
+%Device.ExtensionDesc% = DeviceExtension_Install_DolbyAudio,HDAUDIO\FUNC_01&VEN_10EC&DEV_0257&SUBSYS_17AA39DD
+%Device.ExtensionDesc% = DeviceExtension_Install_DolbyAudio,INTELAUDIO\FUNC_01&VEN_10EC&DEV_0257&SUBSYS_17AA39DD
+%Device.ExtensionDesc% = DeviceExtension_Install_DolbyAudio,HDAUDIO\FUNC_01&VEN_10EC&DEV_0257&SUBSYS_17AA38BE
+%Device.ExtensionDesc% = DeviceExtension_Install_DolbyAudio,INTELAUDIO\FUNC_01&VEN_10EC&DEV_0257&SUBSYS_17AA38BE
+%Device.ExtensionDesc% = DeviceExtension_Install_DolbyAudio,HDAUDIO\FUNC_01&VEN_10EC&DEV_0257&SUBSYS_17AA38B7
+%Device.ExtensionDesc% = DeviceExtension_Install_DolbyAudio,INTELAUDIO\FUNC_01&VEN_10EC&DEV_0257&SUBSYS_17AA38B7
+%Device.ExtensionDesc% = DeviceExtension_Install_DolbyAudio,HDAUDIO\FUNC_01&VEN_10EC&DEV_0257&SUBSYS_17AA3C10
+%Device.ExtensionDesc% = DeviceExtension_Install_DolbyAudio,INTELAUDIO\FUNC_01&VEN_10EC&DEV_0257&SUBSYS_17AA3C10
+%Device.ExtensionDesc% = DeviceExtension_Install_DolbyAudio,HDAUDIO\FUNC_01&VEN_10EC&DEV_0257&SUBSYS_17AA3982
+%Device.ExtensionDesc% = DeviceExtension_Install_DolbyAudio,INTELAUDIO\FUNC_01&VEN_10EC&DEV_0257&SUBSYS_17AA3982
+%Device.ExtensionDesc% = DeviceExtension_Install_DolbyAudio,HDAUDIO\FUNC_01&VEN_10EC&DEV_0257&SUBSYS_17AA395A
+%Device.ExtensionDesc% = DeviceExtension_Install_DolbyAudio,INTELAUDIO\FUNC_01&VEN_10EC&DEV_0257&SUBSYS_17AA395A
+%Device.ExtensionDesc% = DeviceExtension_Install_DolbyAudio,HDAUDIO\FUNC_01&VEN_10EC&DEV_0257&SUBSYS_17AA3BE6
+%Device.ExtensionDesc% = DeviceExtension_Install_DolbyAudio,INTELAUDIO\FUNC_01&VEN_10EC&DEV_0257&SUBSYS_17AA3BE6
+%Device.ExtensionDesc% = DeviceExtension_Install_DolbyAudio,HDAUDIO\FUNC_01&VEN_10EC&DEV_0257&SUBSYS_17AA3988
+%Device.ExtensionDesc% = DeviceExtension_Install_DolbyAudio,INTELAUDIO\FUNC_01&VEN_10EC&DEV_0257&SUBSYS_17AA3988
+%Device.ExtensionDesc% = DeviceExtension_Install_DolbyAudio,HDAUDIO\FUNC_01&VEN_10EC&DEV_0257&SUBSYS_17AA3944
+%Device.ExtensionDesc% = DeviceExtension_Install_DolbyAudio,INTELAUDIO\FUNC_01&VEN_10EC&DEV_0257&SUBSYS_17AA3944
+%Device.ExtensionDesc% = DeviceExtension_Install_DolbyAudio,HDAUDIO\FUNC_01&VEN_10EC&DEV_0257&SUBSYS_17AA3943
+%Device.ExtensionDesc% = DeviceExtension_Install_DolbyAudio,INTELAUDIO\FUNC_01&VEN_10EC&DEV_0257&SUBSYS_17AA3943
+%Device.ExtensionDesc% = DeviceExtension_Install_DolbyAudio,HDAUDIO\FUNC_01&VEN_10EC&DEV_0257&SUBSYS_17AA3889
+%Device.ExtensionDesc% = DeviceExtension_Install_DolbyAudio,INTELAUDIO\FUNC_01&VEN_10EC&DEV_0257&SUBSYS_17AA3889
+%Device.ExtensionDesc% = DeviceExtension_Install_DolbyAudio,HDAUDIO\FUNC_01&VEN_10EC&DEV_0257&SUBSYS_17AA388E
+%Device.ExtensionDesc% = DeviceExtension_Install_DolbyAudio,INTELAUDIO\FUNC_01&VEN_10EC&DEV_0257&SUBSYS_17AA388E
+%Device.ExtensionDesc% = DeviceExtension_Install_DolbyAudio,HDAUDIO\FUNC_01&VEN_10EC&DEV_0257&SUBSYS_17AA388D
+%Device.ExtensionDesc% = DeviceExtension_Install_DolbyAudio,INTELAUDIO\FUNC_01&VEN_10EC&DEV_0257&SUBSYS_17AA388D
+%Device.ExtensionDesc% = DeviceExtension_Install_DolbyAudio,HDAUDIO\FUNC_01&VEN_10EC&DEV_0257&SUBSYS_17AA388A
+%Device.ExtensionDesc% = DeviceExtension_Install_DolbyAudio,INTELAUDIO\FUNC_01&VEN_10EC&DEV_0257&SUBSYS_17AA388A
+%Device.ExtensionDesc% = DeviceExtension_Install_DolbyAudio,HDAUDIO\FUNC_01&VEN_10EC&DEV_0257&SUBSYS_17AA38C5
+%Device.ExtensionDesc% = DeviceExtension_Install_DolbyAudio,INTELAUDIO\FUNC_01&VEN_10EC&DEV_0257&SUBSYS_17AA38C5
+%Device.ExtensionDesc% = DeviceExtension_Install_DolbyAudio,HDAUDIO\FUNC_01&VEN_10EC&DEV_0257&SUBSYS_17AA38C4
+%Device.ExtensionDesc% = DeviceExtension_Install_DolbyAudio,INTELAUDIO\FUNC_01&VEN_10EC&DEV_0257&SUBSYS_17AA38C4
+%Device.ExtensionDesc% = DeviceExtension_Install_DolbyAudio,HDAUDIO\FUNC_01&VEN_10EC&DEV_0235&SUBSYS_17AA3745
+%Device.ExtensionDesc% = DeviceExtension_Install_DolbyAudio,INTELAUDIO\FUNC_01&VEN_10EC&DEV_0235&SUBSYS_17AA3745
+%Device.ExtensionDesc% = DeviceExtension_Install_DolbyAudio,HDAUDIO\FUNC_01&VEN_10EC&DEV_0235&SUBSYS_17AA374B
+%Device.ExtensionDesc% = DeviceExtension_Install_DolbyAudio,INTELAUDIO\FUNC_01&VEN_10EC&DEV_0235&SUBSYS_17AA374B
+%Device.ExtensionDesc% = DeviceExtension_Install_DolbyAudio,HDAUDIO\FUNC_01&VEN_10EC&DEV_0235&SUBSYS_17AA374A
+%Device.ExtensionDesc% = DeviceExtension_Install_DolbyAudio,INTELAUDIO\FUNC_01&VEN_10EC&DEV_0235&SUBSYS_17AA374A
+%Device.ExtensionDesc% = DeviceExtension_Install_DolbyAudio,HDAUDIO\FUNC_01&VEN_10EC&DEV_0256&SUBSYS_17AA3775
+%Device.ExtensionDesc% = DeviceExtension_Install_DolbyAudio,INTELAUDIO\FUNC_01&VEN_10EC&DEV_0256&SUBSYS_17AA3775
+%Device.ExtensionDesc% = DeviceExtension_Install_DolbyAudio,HDAUDIO\FUNC_01&VEN_10EC&DEV_0256&SUBSYS_17AA3746
+%Device.ExtensionDesc% = DeviceExtension_Install_DolbyAudio,INTELAUDIO\FUNC_01&VEN_10EC&DEV_0256&SUBSYS_17AA3746
+%Device.ExtensionDesc% = DeviceExtension_Install_DolbyAudio,HDAUDIO\FUNC_01&VEN_10EC&DEV_0256&SUBSYS_17AA3745
+%Device.ExtensionDesc% = DeviceExtension_Install_DolbyAudio,INTELAUDIO\FUNC_01&VEN_10EC&DEV_0256&SUBSYS_17AA3745
+%Device.ExtensionDesc% = DeviceExtension_Install_DolbyAudio,HDAUDIO\FUNC_01&VEN_10EC&DEV_0256&SUBSYS_17AA375D
+%Device.ExtensionDesc% = DeviceExtension_Install_DolbyAudio,INTELAUDIO\FUNC_01&VEN_10EC&DEV_0256&SUBSYS_17AA375D
+%Device.ExtensionDesc% = DeviceExtension_Install_DolbyAudio,HDAUDIO\FUNC_01&VEN_10EC&DEV_0256&SUBSYS_17AA375C
+%Device.ExtensionDesc% = DeviceExtension_Install_DolbyAudio,INTELAUDIO\FUNC_01&VEN_10EC&DEV_0256&SUBSYS_17AA375C
+%Device.ExtensionDesc% = DeviceExtension_Install_DolbyAudio,HDAUDIO\FUNC_01&VEN_10EC&DEV_0235&SUBSYS_17AA3746
+%Device.ExtensionDesc% = DeviceExtension_Install_DolbyAudio,INTELAUDIO\FUNC_01&VEN_10EC&DEV_0235&SUBSYS_17AA3746
+%Device.ExtensionDesc% = DeviceExtension_Install_DolbyAudio,HDAUDIO\FUNC_01&VEN_10EC&DEV_0257&SUBSYS_17AA38C1
+%Device.ExtensionDesc% = DeviceExtension_Install_DolbyAudio,INTELAUDIO\FUNC_01&VEN_10EC&DEV_0257&SUBSYS_17AA38C1
+%Device.ExtensionDesc% = DeviceExtension_Install_DolbyAudio,HDAUDIO\FUNC_01&VEN_10EC&DEV_0257&SUBSYS_17AA38A2
+%Device.ExtensionDesc% = DeviceExtension_Install_DolbyAudio,INTELAUDIO\FUNC_01&VEN_10EC&DEV_0257&SUBSYS_17AA38A2
+%Device.ExtensionDesc% = DeviceExtension_Install_DolbyAudio,HDAUDIO\FUNC_01&VEN_10EC&DEV_0287&SUBSYS_17AA381C
+%Device.ExtensionDesc% = DeviceExtension_Install_DolbyAudio,INTELAUDIO\FUNC_01&VEN_10EC&DEV_0287&SUBSYS_17AA381C
+%Device.ExtensionDesc% = DeviceExtension_Install_DolbyAudio,HDAUDIO\FUNC_01&VEN_10EC&DEV_0257&SUBSYS_17AA38A3
+%Device.ExtensionDesc% = DeviceExtension_Install_DolbyAudio,INTELAUDIO\FUNC_01&VEN_10EC&DEV_0257&SUBSYS_17AA38A3
+%Device.ExtensionDesc% = DeviceExtension_Install_DolbyAudio,HDAUDIO\FUNC_01&VEN_10EC&DEV_0257&SUBSYS_17AA3870
+%Device.ExtensionDesc% = DeviceExtension_Install_DolbyAudio,INTELAUDIO\FUNC_01&VEN_10EC&DEV_0257&SUBSYS_17AA3870
+%Device.ExtensionDesc% = DeviceExtension_Install_DolbyAudio,HDAUDIO\FUNC_01&VEN_10EC&DEV_0257&SUBSYS_17AA386D
+%Device.ExtensionDesc% = DeviceExtension_Install_DolbyAudio,INTELAUDIO\FUNC_01&VEN_10EC&DEV_0257&SUBSYS_17AA386D
+%Device.ExtensionDesc% = DeviceExtension_Install_DolbyAudio,HDAUDIO\FUNC_01&VEN_10EC&DEV_0257&SUBSYS_17AA38B9
+%Device.ExtensionDesc% = DeviceExtension_Install_DolbyAudio,INTELAUDIO\FUNC_01&VEN_10EC&DEV_0257&SUBSYS_17AA38B9
+%Device.ExtensionDesc% = DeviceExtension_Install_DolbyAudio,HDAUDIO\FUNC_01&VEN_10EC&DEV_0257&SUBSYS_17AA3C0F
+%Device.ExtensionDesc% = DeviceExtension_Install_DolbyAudio,INTELAUDIO\FUNC_01&VEN_10EC&DEV_0257&SUBSYS_17AA3C0F
+%Device.ExtensionDesc% = DeviceExtension_Install_DolbyAudio,HDAUDIO\FUNC_01&VEN_10EC&DEV_0257&SUBSYS_17AA3981
+%Device.ExtensionDesc% = DeviceExtension_Install_DolbyAudio,INTELAUDIO\FUNC_01&VEN_10EC&DEV_0257&SUBSYS_17AA3981
+%Device.ExtensionDesc% = DeviceExtension_Install_DolbyAudio,HDAUDIO\FUNC_01&VEN_10EC&DEV_0257&SUBSYS_17AA39DC
+%Device.ExtensionDesc% = DeviceExtension_Install_DolbyAudio,INTELAUDIO\FUNC_01&VEN_10EC&DEV_0257&SUBSYS_17AA39DC
+%Device.ExtensionDesc% = DeviceExtension_Install_DolbyAudio,HDAUDIO\FUNC_01&VEN_10EC&DEV_0257&SUBSYS_17AA38BD
+%Device.ExtensionDesc% = DeviceExtension_Install_DolbyAudio,INTELAUDIO\FUNC_01&VEN_10EC&DEV_0257&SUBSYS_17AA38BD
+%Device.ExtensionDesc% = DeviceExtension_Install_DolbyAudio,HDAUDIO\FUNC_01&VEN_10EC&DEV_0257&SUBSYS_17AA38B6
+%Device.ExtensionDesc% = DeviceExtension_Install_DolbyAudio,INTELAUDIO\FUNC_01&VEN_10EC&DEV_0257&SUBSYS_17AA38B6
+%Device.ExtensionDesc% = DeviceExtension_Install_DolbyAudio,HDAUDIO\FUNC_01&VEN_10EC&DEV_0257&SUBSYS_17AA38B8
+%Device.ExtensionDesc% = DeviceExtension_Install_DolbyAudio,INTELAUDIO\FUNC_01&VEN_10EC&DEV_0257&SUBSYS_17AA38B8
+%Device.ExtensionDesc% = DeviceExtension_Install_DolbyAudio,HDAUDIO\FUNC_01&VEN_10EC&DEV_0257&SUBSYS_17AA3C11
+%Device.ExtensionDesc% = DeviceExtension_Install_DolbyAudio,INTELAUDIO\FUNC_01&VEN_10EC&DEV_0257&SUBSYS_17AA3C11
+%Device.ExtensionDesc% = DeviceExtension_Install_DolbyAudio,HDAUDIO\FUNC_01&VEN_10EC&DEV_0257&SUBSYS_17AA3983
+%Device.ExtensionDesc% = DeviceExtension_Install_DolbyAudio,INTELAUDIO\FUNC_01&VEN_10EC&DEV_0257&SUBSYS_17AA3983
+%Device.ExtensionDesc% = DeviceExtension_Install_DolbyAudio,HDAUDIO\FUNC_01&VEN_10EC&DEV_0257&SUBSYS_17AA395B
+%Device.ExtensionDesc% = DeviceExtension_Install_DolbyAudio,INTELAUDIO\FUNC_01&VEN_10EC&DEV_0257&SUBSYS_17AA395B
+%Device.ExtensionDesc% = DeviceExtension_Install_DolbyAudio,HDAUDIO\FUNC_01&VEN_10EC&DEV_0257&SUBSYS_17AA39DE
+%Device.ExtensionDesc% = DeviceExtension_Install_DolbyAudio,INTELAUDIO\FUNC_01&VEN_10EC&DEV_0257&SUBSYS_17AA39DE
+%Device.ExtensionDesc% = DeviceExtension_Install_DolbyAudio,HDAUDIO\FUNC_01&VEN_10EC&DEV_0257&SUBSYS_17AA38BF
+%Device.ExtensionDesc% = DeviceExtension_Install_DolbyAudio,INTELAUDIO\FUNC_01&VEN_10EC&DEV_0257&SUBSYS_17AA38BF
+%Device.ExtensionDesc% = DeviceExtension_Install_DolbyAudio,HDAUDIO\FUNC_01&VEN_10EC&DEV_0257&SUBSYS_17AA3897
+%Device.ExtensionDesc% = DeviceExtension_Install_DolbyAudio,INTELAUDIO\FUNC_01&VEN_10EC&DEV_0257&SUBSYS_17AA3897
+%Device.ExtensionDesc% = DeviceExtension_Install_DolbyAudio,HDAUDIO\FUNC_01&VEN_10EC&DEV_0257&SUBSYS_17AA38D5
+%Device.ExtensionDesc% = DeviceExtension_Install_DolbyAudio,INTELAUDIO\FUNC_01&VEN_10EC&DEV_0257&SUBSYS_17AA38D5
+%Device.ExtensionDesc% = DeviceExtension_Install_DolbyAudio,HDAUDIO\FUNC_01&VEN_10EC&DEV_0257&SUBSYS_17AA3974
+%Device.ExtensionDesc% = DeviceExtension_Install_DolbyAudio,INTELAUDIO\FUNC_01&VEN_10EC&DEV_0257&SUBSYS_17AA3974
+%Device.ExtensionDesc% = DeviceExtension_Install_DolbyAudio,HDAUDIO\FUNC_01&VEN_10EC&DEV_0257&SUBSYS_17AA3893
+%Device.ExtensionDesc% = DeviceExtension_Install_DolbyAudio,INTELAUDIO\FUNC_01&VEN_10EC&DEV_0257&SUBSYS_17AA3893
+%Device.ExtensionDesc% = DeviceExtension_Install_DolbyAudio,HDAUDIO\FUNC_01&VEN_10EC&DEV_0257&SUBSYS_17AA3869
+%Device.ExtensionDesc% = DeviceExtension_Install_DolbyAudio,INTELAUDIO\FUNC_01&VEN_10EC&DEV_0257&SUBSYS_17AA3869
+%Device.ExtensionDesc% = DeviceExtension_Install_DolbyAudio,HDAUDIO\FUNC_01&VEN_10EC&DEV_0257&SUBSYS_17AA385B
+%Device.ExtensionDesc% = DeviceExtension_Install_DolbyAudio,INTELAUDIO\FUNC_01&VEN_10EC&DEV_0257&SUBSYS_17AA385B
+%Device.ExtensionDesc% = DeviceExtension_Install_DolbyAudio,HDAUDIO\FUNC_01&VEN_10EC&DEV_0257&SUBSYS_17AA39F3
+%Device.ExtensionDesc% = DeviceExtension_Install_DolbyAudio,INTELAUDIO\FUNC_01&VEN_10EC&DEV_0257&SUBSYS_17AA39F3
+%Device.ExtensionDesc% = DeviceExtension_Install_DolbyAudio,HDAUDIO\FUNC_01&VEN_10EC&DEV_0257&SUBSYS_17AA38B4
+%Device.ExtensionDesc% = DeviceExtension_Install_DolbyAudio,INTELAUDIO\FUNC_01&VEN_10EC&DEV_0257&SUBSYS_17AA38B4
+%Device.ExtensionDesc% = DeviceExtension_Install_DolbyAudio,HDAUDIO\FUNC_01&VEN_10EC&DEV_0257&SUBSYS_17AA397F
+%Device.ExtensionDesc% = DeviceExtension_Install_DolbyAudio,INTELAUDIO\FUNC_01&VEN_10EC&DEV_0257&SUBSYS_17AA397F
+%Device.ExtensionDesc% = DeviceExtension_Install_DolbyAudio,HDAUDIO\FUNC_01&VEN_10EC&DEV_0257&SUBSYS_17AA39DA
+%Device.ExtensionDesc% = DeviceExtension_Install_DolbyAudio,INTELAUDIO\FUNC_01&VEN_10EC&DEV_0257&SUBSYS_17AA39DA
+%Device.ExtensionDesc% = DeviceExtension_Install_DolbyAudio,HDAUDIO\FUNC_01&VEN_10EC&DEV_0257&SUBSYS_17AA38BB
+%Device.ExtensionDesc% = DeviceExtension_Install_DolbyAudio,INTELAUDIO\FUNC_01&VEN_10EC&DEV_0257&SUBSYS_17AA38BB
+%Device.ExtensionDesc% = DeviceExtension_Install_DolbyAudio,HDAUDIO\FUNC_01&VEN_10EC&DEV_0257&SUBSYS_17AA389B
+%Device.ExtensionDesc% = DeviceExtension_Install_DolbyAudio,INTELAUDIO\FUNC_01&VEN_10EC&DEV_0257&SUBSYS_17AA389B
+%Device.ExtensionDesc% = DeviceExtension_Install_DolbyAudio,HDAUDIO\FUNC_01&VEN_10EC&DEV_0257&SUBSYS_17AA3842
+%Device.ExtensionDesc% = DeviceExtension_Install_DolbyAudio,INTELAUDIO\FUNC_01&VEN_10EC&DEV_0257&SUBSYS_17AA3842
+%Device.ExtensionDesc% = DeviceExtension_Install_DolbyAudio,HDAUDIO\FUNC_01&VEN_10EC&DEV_0257&SUBSYS_17AA3874
+%Device.ExtensionDesc% = DeviceExtension_Install_DolbyAudio,INTELAUDIO\FUNC_01&VEN_10EC&DEV_0257&SUBSYS_17AA3874
+%Device.ExtensionDesc% = DeviceExtension_Install_DolbyAudio,HDAUDIO\FUNC_01&VEN_10EC&DEV_0257&SUBSYS_17AA3887
+%Device.ExtensionDesc% = DeviceExtension_Install_DolbyAudio,INTELAUDIO\FUNC_01&VEN_10EC&DEV_0257&SUBSYS_17AA3887
+%Device.ExtensionDesc% = DeviceExtension_Install_DolbyAudio,HDAUDIO\FUNC_01&VEN_10EC&DEV_0257&SUBSYS_17AA384C
+%Device.ExtensionDesc% = DeviceExtension_Install_DolbyAudio,INTELAUDIO\FUNC_01&VEN_10EC&DEV_0257&SUBSYS_17AA384C
+%Device.ExtensionDesc% = DeviceExtension_Install_DolbyAudio,HDAUDIO\FUNC_01&VEN_10EC&DEV_0257&SUBSYS_17AA387F
+%Device.ExtensionDesc% = DeviceExtension_Install_DolbyAudio,INTELAUDIO\FUNC_01&VEN_10EC&DEV_0257&SUBSYS_17AA387F
+%Device.ExtensionDesc% = DeviceExtension_Install_DolbyAudio,HDAUDIO\FUNC_01&VEN_10EC&DEV_0257&SUBSYS_17AA3830
+%Device.ExtensionDesc% = DeviceExtension_Install_DolbyAudio,INTELAUDIO\FUNC_01&VEN_10EC&DEV_0257&SUBSYS_17AA3830
+%Device.ExtensionDesc% = DeviceExtension_Install_DolbyAudio,HDAUDIO\FUNC_01&VEN_10EC&DEV_0257&SUBSYS_17AA38A6
+%Device.ExtensionDesc% = DeviceExtension_Install_DolbyAudio,INTELAUDIO\FUNC_01&VEN_10EC&DEV_0257&SUBSYS_17AA38A6
+%Device.ExtensionDesc% = DeviceExtension_Install_DolbyAudio,HDAUDIO\FUNC_01&VEN_10EC&DEV_0257&SUBSYS_17AA38BA
+%Device.ExtensionDesc% = DeviceExtension_Install_DolbyAudio,INTELAUDIO\FUNC_01&VEN_10EC&DEV_0257&SUBSYS_17AA38BA
+%Device.ExtensionDesc% = DeviceExtension_Install_DolbyAudio,HDAUDIO\FUNC_01&VEN_10EC&DEV_0257&SUBSYS_17AA38A4
+%Device.ExtensionDesc% = DeviceExtension_Install_DolbyAudio,INTELAUDIO\FUNC_01&VEN_10EC&DEV_0257&SUBSYS_17AA38A4
+%Device.ExtensionDesc% = DeviceExtension_Install_DolbyAudio,HDAUDIO\FUNC_01&VEN_10EC&DEV_0257&SUBSYS_17AA3871
+%Device.ExtensionDesc% = DeviceExtension_Install_DolbyAudio,INTELAUDIO\FUNC_01&VEN_10EC&DEV_0257&SUBSYS_17AA3871
+%Device.ExtensionDesc% = DeviceExtension_Install_DolbyAudio,HDAUDIO\FUNC_01&VEN_10EC&DEV_0257&SUBSYS_17AA3BE7
+%Device.ExtensionDesc% = DeviceExtension_Install_DolbyAudio,INTELAUDIO\FUNC_01&VEN_10EC&DEV_0257&SUBSYS_17AA3BE7
+%Device.ExtensionDesc% = DeviceExtension_Install_DolbyAudio,HDAUDIO\FUNC_01&VEN_10EC&DEV_0257&SUBSYS_17AA3946
+%Device.ExtensionDesc% = DeviceExtension_Install_DolbyAudio,INTELAUDIO\FUNC_01&VEN_10EC&DEV_0257&SUBSYS_17AA3946
+%Device.ExtensionDesc% = DeviceExtension_Install_DolbyAudio,HDAUDIO\FUNC_01&VEN_10EC&DEV_0257&SUBSYS_17AA3945
+%Device.ExtensionDesc% = DeviceExtension_Install_DolbyAudio,INTELAUDIO\FUNC_01&VEN_10EC&DEV_0257&SUBSYS_17AA3945
+%Device.ExtensionDesc% = DeviceExtension_Install_DolbyAudio,HDAUDIO\FUNC_01&VEN_10EC&DEV_0257&SUBSYS_17AA3892
+%Device.ExtensionDesc% = DeviceExtension_Install_DolbyAudio,INTELAUDIO\FUNC_01&VEN_10EC&DEV_0257&SUBSYS_17AA3892
+%Device.ExtensionDesc% = DeviceExtension_Install_DolbyAudio,HDAUDIO\FUNC_01&VEN_10EC&DEV_0257&SUBSYS_17AA3891
+%Device.ExtensionDesc% = DeviceExtension_Install_DolbyAudio,INTELAUDIO\FUNC_01&VEN_10EC&DEV_0257&SUBSYS_17AA3891
+%Device.ExtensionDesc% = DeviceExtension_Install_DolbyAudio,HDAUDIO\FUNC_01&VEN_10EC&DEV_0257&SUBSYS_17AA3886
+%Device.ExtensionDesc% = DeviceExtension_Install_DolbyAudio,INTELAUDIO\FUNC_01&VEN_10EC&DEV_0257&SUBSYS_17AA3886
+%Device.ExtensionDesc% = DeviceExtension_Install_DolbyAudio,HDAUDIO\FUNC_01&VEN_10EC&DEV_0257&SUBSYS_17AA3885
+%Device.ExtensionDesc% = DeviceExtension_Install_DolbyAudio,INTELAUDIO\FUNC_01&VEN_10EC&DEV_0257&SUBSYS_17AA3885
+%Device.ExtensionDesc% = DeviceExtension_Install_DolbyAudio,HDAUDIO\FUNC_01&VEN_10EC&DEV_0257&SUBSYS_17AA39D4
+%Device.ExtensionDesc% = DeviceExtension_Install_DolbyAudio,INTELAUDIO\FUNC_01&VEN_10EC&DEV_0257&SUBSYS_17AA39D4
+%Device.ExtensionDesc% = DeviceExtension_Install_DolbyAudio,HDAUDIO\FUNC_01&VEN_10EC&DEV_0257&SUBSYS_17AA38C9
+%Device.ExtensionDesc% = DeviceExtension_Install_DolbyAudio,INTELAUDIO\FUNC_01&VEN_10EC&DEV_0257&SUBSYS_17AA38C9
+%Device.ExtensionDesc% = DeviceExtension_Install_DolbyAudio,HDAUDIO\FUNC_01&VEN_10EC&DEV_0257&SUBSYS_17AA38C8
+%Device.ExtensionDesc% = DeviceExtension_Install_DolbyAudio,INTELAUDIO\FUNC_01&VEN_10EC&DEV_0257&SUBSYS_17AA38C8
+%Device.ExtensionDesc% = DeviceExtension_Install_DolbyAudio,HDAUDIO\FUNC_01&VEN_10EC&DEV_0287&SUBSYS_17AA3819
+%Device.ExtensionDesc% = DeviceExtension_Install_DolbyAudio,INTELAUDIO\FUNC_01&VEN_10EC&DEV_0287&SUBSYS_17AA3819
+%Device.ExtensionDesc% = DeviceExtension_Install_DolbyAudio,HDAUDIO\FUNC_01&VEN_10EC&DEV_0235&SUBSYS_17AA376B
+%Device.ExtensionDesc% = DeviceExtension_Install_DolbyAudio,INTELAUDIO\FUNC_01&VEN_10EC&DEV_0235&SUBSYS_17AA376B
+%Device.ExtensionDesc% = DeviceExtension_Install_DolbyAudio,HDAUDIO\FUNC_01&VEN_10EC&DEV_0235&SUBSYS_17AA374C
+%Device.ExtensionDesc% = DeviceExtension_Install_DolbyAudio,INTELAUDIO\FUNC_01&VEN_10EC&DEV_0235&SUBSYS_17AA374C
+%Device.ExtensionDesc% = DeviceExtension_Install_DolbyAudio,HDAUDIO\FUNC_01&VEN_10EC&DEV_0235&SUBSYS_17AA373E
+%Device.ExtensionDesc% = DeviceExtension_Install_DolbyAudio,INTELAUDIO\FUNC_01&VEN_10EC&DEV_0235&SUBSYS_17AA373E
+%Device.ExtensionDesc% = DeviceExtension_Install_DolbyAudio,HDAUDIO\FUNC_01&VEN_10EC&DEV_0235&SUBSYS_17AA373C
+%Device.ExtensionDesc% = DeviceExtension_Install_DolbyAudio,INTELAUDIO\FUNC_01&VEN_10EC&DEV_0235&SUBSYS_17AA373C
+%Device.ExtensionDesc% = DeviceExtension_Install_DolbyAudio,HDAUDIO\FUNC_01&VEN_10EC&DEV_0256&SUBSYS_17AA3773
+%Device.ExtensionDesc% = DeviceExtension_Install_DolbyAudio,INTELAUDIO\FUNC_01&VEN_10EC&DEV_0256&SUBSYS_17AA3773
+%Device.ExtensionDesc% = DeviceExtension_Install_DolbyAudio,HDAUDIO\FUNC_01&VEN_10EC&DEV_0256&SUBSYS_17AA3759
+%Device.ExtensionDesc% = DeviceExtension_Install_DolbyAudio,INTELAUDIO\FUNC_01&VEN_10EC&DEV_0256&SUBSYS_17AA3759
+%Device.ExtensionDesc% = DeviceExtension_Install_DolbyAudio,HDAUDIO\FUNC_01&VEN_10EC&DEV_0256&SUBSYS_17AA3758
+%Device.ExtensionDesc% = DeviceExtension_Install_DolbyAudio,INTELAUDIO\FUNC_01&VEN_10EC&DEV_0256&SUBSYS_17AA3758
+%Device.ExtensionDesc% = DeviceExtension_Install_DolbyAudio,HDAUDIO\FUNC_01&VEN_10EC&DEV_0235&SUBSYS_17AA3747
+%Device.ExtensionDesc% = DeviceExtension_Install_DolbyAudio,INTELAUDIO\FUNC_01&VEN_10EC&DEV_0235&SUBSYS_17AA3747
+%Device.ExtensionDesc% = DeviceExtension_Install_DolbyAudio,HDAUDIO\FUNC_01&VEN_10EC&DEV_0257&SUBSYS_17AA39EC
+%Device.ExtensionDesc% = DeviceExtension_Install_DolbyAudio,INTELAUDIO\FUNC_01&VEN_10EC&DEV_0257&SUBSYS_17AA39EC
+%Device.ExtensionDesc% = DeviceExtension_Install_DolbyAudio,HDAUDIO\FUNC_01&VEN_10EC&DEV_0257&SUBSYS_17AA39D8
+%Device.ExtensionDesc% = DeviceExtension_Install_DolbyAudio,INTELAUDIO\FUNC_01&VEN_10EC&DEV_0257&SUBSYS_17AA39D8
+%Device.ExtensionDesc% = DeviceExtension_Install_DolbyAudio,HDAUDIO\FUNC_01&VEN_10EC&DEV_0257&SUBSYS_17AA3958
+%Device.ExtensionDesc% = DeviceExtension_Install_DolbyAudio,INTELAUDIO\FUNC_01&VEN_10EC&DEV_0257&SUBSYS_17AA3958
+%Device.ExtensionDesc% = DeviceExtension_Install_DolbyAudio,HDAUDIO\FUNC_01&VEN_10EC&DEV_0257&SUBSYS_17AA39F7
+%Device.ExtensionDesc% = DeviceExtension_Install_DolbyAudio,INTELAUDIO\FUNC_01&VEN_10EC&DEV_0257&SUBSYS_17AA39F7
+%Device.ExtensionDesc% = DeviceExtension_Install_DolbyAudio,HDAUDIO\FUNC_01&VEN_10EC&DEV_0287&SUBSYS_17AA3864
+%Device.ExtensionDesc% = DeviceExtension_Install_DolbyAudio,INTELAUDIO\FUNC_01&VEN_10EC&DEV_0287&SUBSYS_17AA3864
+%Device.ExtensionDesc% = DeviceExtension_Install_DolbyAudio,HDAUDIO\FUNC_01&VEN_10EC&DEV_0257&SUBSYS_17AA395E
+%Device.ExtensionDesc% = DeviceExtension_Install_DolbyAudio,INTELAUDIO\FUNC_01&VEN_10EC&DEV_0257&SUBSYS_17AA395E
+%Device.ExtensionDesc% = DeviceExtension_Install_DolbyAudio,HDAUDIO\FUNC_01&VEN_10EC&DEV_0287&SUBSYS_17AA3867
+%Device.ExtensionDesc% = DeviceExtension_Install_DolbyAudio,INTELAUDIO\FUNC_01&VEN_10EC&DEV_0287&SUBSYS_17AA3867
+%Device.ExtensionDesc% = DeviceExtension_Install_DolbyAudio,HDAUDIO\FUNC_01&VEN_10EC&DEV_0230&SUBSYS_17AA384A
+%Device.ExtensionDesc% = DeviceExtension_Install_DolbyAudio,INTELAUDIO\FUNC_01&VEN_10EC&DEV_0230&SUBSYS_17AA384A
+%Device.ExtensionDesc% = DeviceExtension_Install_DolbyAudio,HDAUDIO\FUNC_01&VEN_10EC&DEV_0230&SUBSYS_17AA383D
+%Device.ExtensionDesc% = DeviceExtension_Install_DolbyAudio,INTELAUDIO\FUNC_01&VEN_10EC&DEV_0230&SUBSYS_17AA383D
+%Device.ExtensionDesc% = DeviceExtension_Install_DolbyAudio,HDAUDIO\FUNC_01&VEN_10EC&DEV_0230&SUBSYS_17AA383A
+%Device.ExtensionDesc% = DeviceExtension_Install_DolbyAudio,INTELAUDIO\FUNC_01&VEN_10EC&DEV_0230&SUBSYS_17AA383A
+%Device.ExtensionDesc% = DeviceExtension_Install_DolbyAudio,HDAUDIO\FUNC_01&VEN_10EC&DEV_0257&SUBSYS_17AA3964
+%Device.ExtensionDesc% = DeviceExtension_Install_DolbyAudio,INTELAUDIO\FUNC_01&VEN_10EC&DEV_0257&SUBSYS_17AA3964
+%Device.ExtensionDesc% = DeviceExtension_Install_DolbyAudio,HDAUDIO\FUNC_01&VEN_10EC&DEV_0257&SUBSYS_17AA3933
+%Device.ExtensionDesc% = DeviceExtension_Install_DolbyAudio,INTELAUDIO\FUNC_01&VEN_10EC&DEV_0257&SUBSYS_17AA3933
+%Device.ExtensionDesc% = DeviceExtension_Install_DolbyAudio,HDAUDIO\FUNC_01&VEN_10EC&DEV_0257&SUBSYS_17AA3827
+%Device.ExtensionDesc% = DeviceExtension_Install_DolbyAudio,INTELAUDIO\FUNC_01&VEN_10EC&DEV_0257&SUBSYS_17AA3827
+%Device.ExtensionDesc% = DeviceExtension_Install_DolbyAudio,HDAUDIO\FUNC_01&VEN_10EC&DEV_0257&SUBSYS_17AA393F
+%Device.ExtensionDesc% = DeviceExtension_Install_DolbyAudio,INTELAUDIO\FUNC_01&VEN_10EC&DEV_0257&SUBSYS_17AA393F
+%Device.ExtensionDesc% = DeviceExtension_Install_DolbyAudio,HDAUDIO\FUNC_01&VEN_10EC&DEV_0257&SUBSYS_17AA393B
+%Device.ExtensionDesc% = DeviceExtension_Install_DolbyAudio,INTELAUDIO\FUNC_01&VEN_10EC&DEV_0257&SUBSYS_17AA393B
+%Device.ExtensionDesc% = DeviceExtension_Install_DolbyAudio,HDAUDIO\FUNC_01&VEN_10EC&DEV_0257&SUBSYS_17AA392E
+%Device.ExtensionDesc% = DeviceExtension_Install_DolbyAudio,INTELAUDIO\FUNC_01&VEN_10EC&DEV_0257&SUBSYS_17AA392E
+%Device.ExtensionDesc% = DeviceExtension_Install_DolbyAudio,HDAUDIO\FUNC_01&VEN_10EC&DEV_0230&SUBSYS_17AA3858
+%Device.ExtensionDesc% = DeviceExtension_Install_DolbyAudio,INTELAUDIO\FUNC_01&VEN_10EC&DEV_0230&SUBSYS_17AA3858
+%Device.ExtensionDesc% = DeviceExtension_Install_DolbyAudio,HDAUDIO\FUNC_01&VEN_10EC&DEV_0230&SUBSYS_17AA3856
+%Device.ExtensionDesc% = DeviceExtension_Install_DolbyAudio,INTELAUDIO\FUNC_01&VEN_10EC&DEV_0230&SUBSYS_17AA3856
+%Device.ExtensionDesc% = DeviceExtension_Install_DolbyAudio,HDAUDIO\FUNC_01&VEN_10EC&DEV_0230&SUBSYS_17AA3847
+%Device.ExtensionDesc% = DeviceExtension_Install_DolbyAudio,INTELAUDIO\FUNC_01&VEN_10EC&DEV_0230&SUBSYS_17AA3847
+%Device.ExtensionDesc% = DeviceExtension_Install_DolbyAudio,HDAUDIO\FUNC_01&VEN_10EC&DEV_0230&SUBSYS_17AA3840
+%Device.ExtensionDesc% = DeviceExtension_Install_DolbyAudio,INTELAUDIO\FUNC_01&VEN_10EC&DEV_0230&SUBSYS_17AA3840
+; %Device.ExtensionDesc% = DeviceExtension_Install_DolbyAudioPremium,
+%Device.ExtensionDesc% = DeviceExtension_Install_DolbyAudioPremium,HDAUDIO\FUNC_01&VEN_10EC&DEV_0274&SUBSYS_17AA371E
+%Device.ExtensionDesc% = DeviceExtension_Install_DolbyAudioPremium,INTELAUDIO\FUNC_01&VEN_10EC&DEV_0274&SUBSYS_17AA371E
+%Device.ExtensionDesc% = DeviceExtension_Install_DolbyAudioPremium,HDAUDIO\FUNC_01&VEN_10EC&DEV_0274&SUBSYS_17AA373A
+%Device.ExtensionDesc% = DeviceExtension_Install_DolbyAudioPremium,INTELAUDIO\FUNC_01&VEN_10EC&DEV_0274&SUBSYS_17AA373A
+%Device.ExtensionDesc% = DeviceExtension_Install_DolbyAudioPremium,HDAUDIO\FUNC_01&VEN_10EC&DEV_0274&SUBSYS_17AA371F
+%Device.ExtensionDesc% = DeviceExtension_Install_DolbyAudioPremium,INTELAUDIO\FUNC_01&VEN_10EC&DEV_0274&SUBSYS_17AA371F
+%Device.ExtensionDesc% = DeviceExtension_Install_DolbyAudioPremium,HDAUDIO\FUNC_01&VEN_10EC&DEV_0274&SUBSYS_17AA3739
+%Device.ExtensionDesc% = DeviceExtension_Install_DolbyAudioPremium,INTELAUDIO\FUNC_01&VEN_10EC&DEV_0274&SUBSYS_17AA3739
+%Device.ExtensionDesc% = DeviceExtension_Install_DolbyAudioPremium,HDAUDIO\FUNC_01&VEN_10EC&DEV_0274&SUBSYS_17AA373B
+%Device.ExtensionDesc% = DeviceExtension_Install_DolbyAudioPremium,INTELAUDIO\FUNC_01&VEN_10EC&DEV_0274&SUBSYS_17AA373B
+%Device.ExtensionDesc% = DeviceExtension_Install_DolbyAudioPremium,HDAUDIO\FUNC_01&VEN_10EC&DEV_0274&SUBSYS_17AA3703
+%Device.ExtensionDesc% = DeviceExtension_Install_DolbyAudioPremium,INTELAUDIO\FUNC_01&VEN_10EC&DEV_0274&SUBSYS_17AA3702
+%Device.ExtensionDesc% = DeviceExtension_Install_DolbyAudioPremium,HDAUDIO\FUNC_01&VEN_10EC&DEV_0274&SUBSYS_17AA3720
+%Device.ExtensionDesc% = DeviceExtension_Install_DolbyAudioPremium,INTELAUDIO\FUNC_01&VEN_10EC&DEV_0274&SUBSYS_17AA3720
+; %Device.ExtensionDesc% = DeviceExtension_Install_DolbyAudioSpeakerSystem,
+; %Device.ExtensionDesc% = DeviceExtension_Install_Gaming,
+%Device.ExtensionDesc% = DeviceExtension_Install_Gaming,HDAUDIO\FUNC_01&VEN_10EC&DEV_0892&SUBSYS_17AA3715
+%Device.ExtensionDesc% = DeviceExtension_Install_Gaming,INTELAUDIO\FUNC_01&VEN_10EC&DEV_0892&SUBSYS_17AA3715
+%Device.ExtensionDesc% = DeviceExtension_Install_Gaming,HDAUDIO\FUNC_01&VEN_10EC&DEV_0897&SUBSYS_17AA3715
+%Device.ExtensionDesc% = DeviceExtension_Install_Gaming,INTELAUDIO\FUNC_01&VEN_10EC&DEV_0897&SUBSYS_17AA3715
+%Device.ExtensionDesc% = DeviceExtension_Install_Gaming,HDAUDIO\FUNC_01&VEN_10EC&DEV_0897&SUBSYS_17AA374F
+%Device.ExtensionDesc% = DeviceExtension_Install_Gaming,INTELAUDIO\FUNC_01&VEN_10EC&DEV_0897&SUBSYS_17AA374F
+%Device.ExtensionDesc% = DeviceExtension_Install_Gaming,HDAUDIO\FUNC_01&VEN_10EC&DEV_0887&SUBSYS_17AA3717
+%Device.ExtensionDesc% = DeviceExtension_Install_Gaming,INTELAUDIO\FUNC_01&VEN_10EC&DEV_0887&SUBSYS_17AA3717
+%Device.ExtensionDesc% = DeviceExtension_Install_Gaming,HDAUDIO\FUNC_01&VEN_10EC&DEV_0257&SUBSYS_17AA3872
+%Device.ExtensionDesc% = DeviceExtension_Install_Gaming,INTELAUDIO\FUNC_01&VEN_10EC&DEV_0257&SUBSYS_17AA3872
+%Device.ExtensionDesc% = DeviceExtension_Install_Gaming,HDAUDIO\FUNC_01&VEN_10EC&DEV_0257&SUBSYS_17AA389E
+%Device.ExtensionDesc% = DeviceExtension_Install_Gaming,INTELAUDIO\FUNC_01&VEN_10EC&DEV_0257&SUBSYS_17AA389E
+%Device.ExtensionDesc% = DeviceExtension_Install_Gaming,HDAUDIO\FUNC_01&VEN_10EC&DEV_0257&SUBSYS_17AA389C
+%Device.ExtensionDesc% = DeviceExtension_Install_Gaming,INTELAUDIO\FUNC_01&VEN_10EC&DEV_0257&SUBSYS_17AA389C
+%Device.ExtensionDesc% = DeviceExtension_Install_Gaming,HDAUDIO\FUNC_01&VEN_10EC&DEV_0257&SUBSYS_17AA387D
+%Device.ExtensionDesc% = DeviceExtension_Install_Gaming,INTELAUDIO\FUNC_01&VEN_10EC&DEV_0257&SUBSYS_17AA387D
+%Device.ExtensionDesc% = DeviceExtension_Install_Gaming,HDAUDIO\FUNC_01&VEN_10EC&DEV_0257&SUBSYS_17AA3924
+%Device.ExtensionDesc% = DeviceExtension_Install_Gaming,INTELAUDIO\FUNC_01&VEN_10EC&DEV_0257&SUBSYS_17AA3924
+%Device.ExtensionDesc% = DeviceExtension_Install_Gaming,HDAUDIO\FUNC_01&VEN_10EC&DEV_0257&SUBSYS_17AA3923
+%Device.ExtensionDesc% = DeviceExtension_Install_Gaming,INTELAUDIO\FUNC_01&VEN_10EC&DEV_0257&SUBSYS_17AA3923
+%Device.ExtensionDesc% = DeviceExtension_Install_Gaming,HDAUDIO\FUNC_01&VEN_10EC&DEV_0257&SUBSYS_17AA3875
+%Device.ExtensionDesc% = DeviceExtension_Install_Gaming,INTELAUDIO\FUNC_01&VEN_10EC&DEV_0257&SUBSYS_17AA3875
+%Device.ExtensionDesc% = DeviceExtension_Install_Gaming,HDAUDIO\FUNC_01&VEN_10EC&DEV_0892&SUBSYS_17AA3716
+%Device.ExtensionDesc% = DeviceExtension_Install_Gaming,INTELAUDIO\FUNC_01&VEN_10EC&DEV_0892&SUBSYS_17AA3716
+%Device.ExtensionDesc% = DeviceExtension_Install_Gaming,HDAUDIO\FUNC_01&VEN_10EC&DEV_0897&SUBSYS_17AA3716
+%Device.ExtensionDesc% = DeviceExtension_Install_Gaming,INTELAUDIO\FUNC_01&VEN_10EC&DEV_0897&SUBSYS_17AA3716
+%Device.ExtensionDesc% = DeviceExtension_Install_Gaming,HDAUDIO\FUNC_01&VEN_10EC&DEV_0257&SUBSYS_17AA389D
+%Device.ExtensionDesc% = DeviceExtension_Install_Gaming,INTELAUDIO\FUNC_01&VEN_10EC&DEV_0257&SUBSYS_17AA389D
+%Device.ExtensionDesc% = DeviceExtension_Install_Gaming,HDAUDIO\FUNC_01&VEN_10EC&DEV_0257&SUBSYS_17AA3922
+%Device.ExtensionDesc% = DeviceExtension_Install_Gaming,INTELAUDIO\FUNC_01&VEN_10EC&DEV_0257&SUBSYS_17AA3922
+%Device.ExtensionDesc% = DeviceExtension_Install_Gaming,HDAUDIO\FUNC_01&VEN_10EC&DEV_0257&SUBSYS_17AA3873
+%Device.ExtensionDesc% = DeviceExtension_Install_Gaming,INTELAUDIO\FUNC_01&VEN_10EC&DEV_0257&SUBSYS_17AA3873
+; %Device.ExtensionDesc% = DeviceExtension_Install_DolbyAtmosSpeakerSystemForGaming,
+%Device.ExtensionDesc% = DeviceExtension_Install_DolbyAtmosSpeakerSystemForGaming,HDAUDIO\FUNC_01&VEN_10EC&DEV_0287&SUBSYS_17AA3839
+%Device.ExtensionDesc% = DeviceExtension_Install_DolbyAtmosSpeakerSystemForGaming,INTELAUDIO\FUNC_01&VEN_10EC&DEV_0287&SUBSYS_17AA3839
+%Device.ExtensionDesc% = DeviceExtension_Install_DolbyAtmosSpeakerSystemForGaming,HDAUDIO\FUNC_01&VEN_10EC&DEV_0287&SUBSYS_17AA3822
+%Device.ExtensionDesc% = DeviceExtension_Install_DolbyAtmosSpeakerSystemForGaming,INTELAUDIO\FUNC_01&VEN_10EC&DEV_0287&SUBSYS_17AA3822
+%Device.ExtensionDesc% = DeviceExtension_Install_DolbyAtmosSpeakerSystemForGaming,HDAUDIO\FUNC_01&VEN_10EC&DEV_0287&SUBSYS_17AA3813
+%Device.ExtensionDesc% = DeviceExtension_Install_DolbyAtmosSpeakerSystemForGaming,INTELAUDIO\FUNC_01&VEN_10EC&DEV_0287&SUBSYS_17AA3813
+%Device.ExtensionDesc% = DeviceExtension_Install_DolbyAtmosSpeakerSystemForGaming,HDAUDIO\FUNC_01&VEN_10EC&DEV_0285&SUBSYS_17AA3807
+%Device.ExtensionDesc% = DeviceExtension_Install_DolbyAtmosSpeakerSystemForGaming,INTELAUDIO\FUNC_01&VEN_10EC&DEV_0285&SUBSYS_17AA3807
+%Device.ExtensionDesc% = DeviceExtension_Install_DolbyAtmosSpeakerSystemForGaming,HDAUDIO\FUNC_01&VEN_10EC&DEV_0285&SUBSYS_17AA383C
+%Device.ExtensionDesc% = DeviceExtension_Install_DolbyAtmosSpeakerSystemForGaming,INTELAUDIO\FUNC_01&VEN_10EC&DEV_0285&SUBSYS_17AA383C
+%Device.ExtensionDesc% = DeviceExtension_Install_DolbyAtmosSpeakerSystemForGaming,HDAUDIO\FUNC_01&VEN_10EC&DEV_0285&SUBSYS_17AA383D
+%Device.ExtensionDesc% = DeviceExtension_Install_DolbyAtmosSpeakerSystemForGaming,INTELAUDIO\FUNC_01&VEN_10EC&DEV_0285&SUBSYS_17AA383D
+%Device.ExtensionDesc% = DeviceExtension_Install_DolbyAtmosSpeakerSystemForGaming,HDAUDIO\FUNC_01&VEN_10EC&DEV_0285&SUBSYS_17AA383E
+%Device.ExtensionDesc% = DeviceExtension_Install_DolbyAtmosSpeakerSystemForGaming,INTELAUDIO\FUNC_01&VEN_10EC&DEV_0285&SUBSYS_17AA383E
+; %Device.ExtensionDesc% = DeviceExtension_Install_DolbyAccessNoGaming,
+%Device.ExtensionDesc% = DeviceExtension_Install_DolbyAccessNoGaming,HDAUDIO\FUNC_01&VEN_10EC&DEV_0257&SUBSYS_17AA3A08
+%Device.ExtensionDesc% = DeviceExtension_Install_DolbyAccessNoGaming,INTELAUDIO\FUNC_01&VEN_10EC&DEV_0257&SUBSYS_17AA3A08
+%Device.ExtensionDesc% = DeviceExtension_Install_DolbyAccessNoGaming,HDAUDIO\FUNC_01&VEN_10EC&DEV_0287&SUBSYS_17AA38BF
+%Device.ExtensionDesc% = DeviceExtension_Install_DolbyAccessNoGaming,INTELAUDIO\FUNC_01&VEN_10EC&DEV_0287&SUBSYS_17AA38BF
+%Device.ExtensionDesc% = DeviceExtension_Install_DolbyAccessNoGaming,HDAUDIO\FUNC_01&VEN_10EC&DEV_0287&SUBSYS_17AA38BE
+%Device.ExtensionDesc% = DeviceExtension_Install_DolbyAccessNoGaming,INTELAUDIO\FUNC_01&VEN_10EC&DEV_0287&SUBSYS_17AA38BE
+%Device.ExtensionDesc% = DeviceExtension_Install_DolbyAccessNoGaming,HDAUDIO\FUNC_01&VEN_10EC&DEV_0257&SUBSYS_17AA397C
+%Device.ExtensionDesc% = DeviceExtension_Install_DolbyAccessNoGaming,INTELAUDIO\FUNC_01&VEN_10EC&DEV_0257&SUBSYS_17AA397C
+%Device.ExtensionDesc% = DeviceExtension_Install_DolbyAccessNoGaming,HDAUDIO\FUNC_01&VEN_10EC&DEV_0257&SUBSYS_17AA3BEE
+%Device.ExtensionDesc% = DeviceExtension_Install_DolbyAccessNoGaming,INTELAUDIO\FUNC_01&VEN_10EC&DEV_0257&SUBSYS_17AA3BEE
+%Device.ExtensionDesc% = DeviceExtension_Install_DolbyAccessNoGaming,HDAUDIO\FUNC_01&VEN_10EC&DEV_0257&SUBSYS_17AA3A0A
+%Device.ExtensionDesc% = DeviceExtension_Install_DolbyAccessNoGaming,INTELAUDIO\FUNC_01&VEN_10EC&DEV_0257&SUBSYS_17AA3A0A
+%Device.ExtensionDesc% = DeviceExtension_Install_DolbyAccessNoGaming,HDAUDIO\FUNC_01&VEN_10EC&DEV_0257&SUBSYS_17AA3C15
+%Device.ExtensionDesc% = DeviceExtension_Install_DolbyAccessNoGaming,INTELAUDIO\FUNC_01&VEN_10EC&DEV_0257&SUBSYS_17AA3C15
+%Device.ExtensionDesc% = DeviceExtension_Install_DolbyAccessNoGaming,HDAUDIO\FUNC_01&VEN_10EC&DEV_0287&SUBSYS_17AA389F
+%Device.ExtensionDesc% = DeviceExtension_Install_DolbyAccessNoGaming,INTELAUDIO\FUNC_01&VEN_10EC&DEV_0287&SUBSYS_17AA389F
+%Device.ExtensionDesc% = DeviceExtension_Install_DolbyAccessNoGaming,HDAUDIO\FUNC_01&VEN_10EC&DEV_0287&SUBSYS_17AA38A2
+%Device.ExtensionDesc% = DeviceExtension_Install_DolbyAccessNoGaming,INTELAUDIO\FUNC_01&VEN_10EC&DEV_0287&SUBSYS_17AA38A2
+%Device.ExtensionDesc% = DeviceExtension_Install_DolbyAccessNoGaming,HDAUDIO\FUNC_01&VEN_10EC&DEV_0257&SUBSYS_17AA3C13
+%Device.ExtensionDesc% = DeviceExtension_Install_DolbyAccessNoGaming,INTELAUDIO\FUNC_01&VEN_10EC&DEV_0257&SUBSYS_17AA3C13
+%Device.ExtensionDesc% = DeviceExtension_Install_DolbyAccessNoGaming,HDAUDIO\FUNC_01&VEN_10EC&DEV_0287&SUBSYS_17AA38C6
+%Device.ExtensionDesc% = DeviceExtension_Install_DolbyAccessNoGaming,INTELAUDIO\FUNC_01&VEN_10EC&DEV_0287&SUBSYS_17AA38C6
+%Device.ExtensionDesc% = DeviceExtension_Install_DolbyAccessNoGaming,HDAUDIO\FUNC_01&VEN_10EC&DEV_0287&SUBSYS_17AA38AB
+%Device.ExtensionDesc% = DeviceExtension_Install_DolbyAccessNoGaming,INTELAUDIO\FUNC_01&VEN_10EC&DEV_0287&SUBSYS_17AA38AB
+%Device.ExtensionDesc% = DeviceExtension_Install_DolbyAccessNoGaming,HDAUDIO\FUNC_01&VEN_10EC&DEV_0257&SUBSYS_17AA3A07
+%Device.ExtensionDesc% = DeviceExtension_Install_DolbyAccessNoGaming,INTELAUDIO\FUNC_01&VEN_10EC&DEV_0257&SUBSYS_17AA3A07
+%Device.ExtensionDesc% = DeviceExtension_Install_DolbyAccessNoGaming,HDAUDIO\FUNC_01&VEN_10EC&DEV_0257&SUBSYS_17AA3A16
+%Device.ExtensionDesc% = DeviceExtension_Install_DolbyAccessNoGaming,INTELAUDIO\FUNC_01&VEN_10EC&DEV_0257&SUBSYS_17AA3A16
+%Device.ExtensionDesc% = DeviceExtension_Install_DolbyAccessNoGaming,HDAUDIO\FUNC_01&VEN_10EC&DEV_0257&SUBSYS_17AA39F4
+%Device.ExtensionDesc% = DeviceExtension_Install_DolbyAccessNoGaming,INTELAUDIO\FUNC_01&VEN_10EC&DEV_0257&SUBSYS_17AA39F4
+%Device.ExtensionDesc% = DeviceExtension_Install_DolbyAccessNoGaming,HDAUDIO\FUNC_01&VEN_10EC&DEV_0257&SUBSYS_17AA39F5
+%Device.ExtensionDesc% = DeviceExtension_Install_DolbyAccessNoGaming,INTELAUDIO\FUNC_01&VEN_10EC&DEV_0257&SUBSYS_17AA39F5
+%Device.ExtensionDesc% = DeviceExtension_Install_DolbyAccessNoGaming,HDAUDIO\FUNC_01&VEN_10EC&DEV_0257&SUBSYS_17AA3C12
+%Device.ExtensionDesc% = DeviceExtension_Install_DolbyAccessNoGaming,INTELAUDIO\FUNC_01&VEN_10EC&DEV_0257&SUBSYS_17AA3C12
+%Device.ExtensionDesc% = DeviceExtension_Install_DolbyAccessNoGaming,HDAUDIO\FUNC_01&VEN_10EC&DEV_0257&SUBSYS_17AA3A0B
+%Device.ExtensionDesc% = DeviceExtension_Install_DolbyAccessNoGaming,INTELAUDIO\FUNC_01&VEN_10EC&DEV_0257&SUBSYS_17AA3A0B
+%Device.ExtensionDesc% = DeviceExtension_Install_DolbyAccessNoGaming,HDAUDIO\FUNC_01&VEN_10EC&DEV_0257&SUBSYS_17AA3BEA
+%Device.ExtensionDesc% = DeviceExtension_Install_DolbyAccessNoGaming,INTELAUDIO\FUNC_01&VEN_10EC&DEV_0257&SUBSYS_17AA3BEA
+%Device.ExtensionDesc% = DeviceExtension_Install_DolbyAccessNoGaming,HDAUDIO\FUNC_01&VEN_10EC&DEV_0287&SUBSYS_17AA389C
+%Device.ExtensionDesc% = DeviceExtension_Install_DolbyAccessNoGaming,INTELAUDIO\FUNC_01&VEN_10EC&DEV_0287&SUBSYS_17AA389C
+%Device.ExtensionDesc% = DeviceExtension_Install_DolbyAccessNoGaming,HDAUDIO\FUNC_01&VEN_10EC&DEV_0257&SUBSYS_17AA3A23
+%Device.ExtensionDesc% = DeviceExtension_Install_DolbyAccessNoGaming,INTELAUDIO\FUNC_01&VEN_10EC&DEV_0257&SUBSYS_17AA3A23
+%Device.ExtensionDesc% = DeviceExtension_Install_DolbyAccessNoGaming,HDAUDIO\FUNC_01&VEN_10EC&DEV_0257&SUBSYS_17AA396E
+%Device.ExtensionDesc% = DeviceExtension_Install_DolbyAccessNoGaming,INTELAUDIO\FUNC_01&VEN_10EC&DEV_0257&SUBSYS_17AA396E
+%Device.ExtensionDesc% = DeviceExtension_Install_DolbyAccessNoGaming,HDAUDIO\FUNC_01&VEN_10EC&DEV_0257&SUBSYS_17AA396D
+%Device.ExtensionDesc% = DeviceExtension_Install_DolbyAccessNoGaming,INTELAUDIO\FUNC_01&VEN_10EC&DEV_0257&SUBSYS_17AA396D
+%Device.ExtensionDesc% = DeviceExtension_Install_DolbyAccessNoGaming,HDAUDIO\FUNC_01&VEN_10EC&DEV_0257&SUBSYS_17AA3C08
+%Device.ExtensionDesc% = DeviceExtension_Install_DolbyAccessNoGaming,INTELAUDIO\FUNC_01&VEN_10EC&DEV_0257&SUBSYS_17AA3C08
+%Device.ExtensionDesc% = DeviceExtension_Install_DolbyAccessNoGaming,HDAUDIO\FUNC_01&VEN_10EC&DEV_0257&SUBSYS_17AA3C0A
+%Device.ExtensionDesc% = DeviceExtension_Install_DolbyAccessNoGaming,INTELAUDIO\FUNC_01&VEN_10EC&DEV_0257&SUBSYS_17AA3C0A
+%Device.ExtensionDesc% = DeviceExtension_Install_DolbyAccessNoGaming,HDAUDIO\FUNC_01&VEN_10EC&DEV_0257&SUBSYS_17AA3A46
+%Device.ExtensionDesc% = DeviceExtension_Install_DolbyAccessNoGaming,INTELAUDIO\FUNC_01&VEN_10EC&DEV_0257&SUBSYS_17AA3A46
+%Device.ExtensionDesc% = DeviceExtension_Install_DolbyAccessNoGaming,HDAUDIO\FUNC_01&VEN_10EC&DEV_0257&SUBSYS_17AA3C01
+%Device.ExtensionDesc% = DeviceExtension_Install_DolbyAccessNoGaming,INTELAUDIO\FUNC_01&VEN_10EC&DEV_0257&SUBSYS_17AA3C01
+%Device.ExtensionDesc% = DeviceExtension_Install_DolbyAccessNoGaming,HDAUDIO\FUNC_01&VEN_10EC&DEV_0287&SUBSYS_17AA389A
+%Device.ExtensionDesc% = DeviceExtension_Install_DolbyAccessNoGaming,INTELAUDIO\FUNC_01&VEN_10EC&DEV_0287&SUBSYS_17AA389A
+%Device.ExtensionDesc% = DeviceExtension_Install_DolbyAccessNoGaming,HDAUDIO\FUNC_01&VEN_10EC&DEV_0257&SUBSYS_17AA3C07
+%Device.ExtensionDesc% = DeviceExtension_Install_DolbyAccessNoGaming,INTELAUDIO\FUNC_01&VEN_10EC&DEV_0257&SUBSYS_17AA3C07
+%Device.ExtensionDesc% = DeviceExtension_Install_DolbyAccessNoGaming,HDAUDIO\FUNC_01&VEN_10EC&DEV_0257&SUBSYS_17AA3C06
+%Device.ExtensionDesc% = DeviceExtension_Install_DolbyAccessNoGaming,INTELAUDIO\FUNC_01&VEN_10EC&DEV_0257&SUBSYS_17AA3C06
+%Device.ExtensionDesc% = DeviceExtension_Install_DolbyAccessNoGaming,HDAUDIO\FUNC_01&VEN_10EC&DEV_0257&SUBSYS_17AA3A26
+%Device.ExtensionDesc% = DeviceExtension_Install_DolbyAccessNoGaming,INTELAUDIO\FUNC_01&VEN_10EC&DEV_0257&SUBSYS_17AA3A26
+%Device.ExtensionDesc% = DeviceExtension_Install_DolbyAccessNoGaming,HDAUDIO\FUNC_01&VEN_10EC&DEV_0257&SUBSYS_17AA3A19
+%Device.ExtensionDesc% = DeviceExtension_Install_DolbyAccessNoGaming,INTELAUDIO\FUNC_01&VEN_10EC&DEV_0257&SUBSYS_17AA3A19
+%Device.ExtensionDesc% = DeviceExtension_Install_DolbyAccessNoGaming,HDAUDIO\FUNC_01&VEN_10EC&DEV_0287&SUBSYS_17AA389B
+%Device.ExtensionDesc% = DeviceExtension_Install_DolbyAccessNoGaming,INTELAUDIO\FUNC_01&VEN_10EC&DEV_0287&SUBSYS_17AA389B
+%Device.ExtensionDesc% = DeviceExtension_Install_DolbyAccessNoGaming,HDAUDIO\FUNC_01&VEN_10EC&DEV_0257&SUBSYS_17AA3978
+%Device.ExtensionDesc% = DeviceExtension_Install_DolbyAccessNoGaming,INTELAUDIO\FUNC_01&VEN_10EC&DEV_0257&SUBSYS_17AA3978
+%Device.ExtensionDesc% = DeviceExtension_Install_DolbyAccessNoGaming,HDAUDIO\FUNC_01&VEN_10EC&DEV_0257&SUBSYS_17AA3C04
+%Device.ExtensionDesc% = DeviceExtension_Install_DolbyAccessNoGaming,INTELAUDIO\FUNC_01&VEN_10EC&DEV_0257&SUBSYS_17AA3C04
+%Device.ExtensionDesc% = DeviceExtension_Install_DolbyAccessNoGaming,HDAUDIO\FUNC_01&VEN_10EC&DEV_0257&SUBSYS_17AA39FE
+%Device.ExtensionDesc% = DeviceExtension_Install_DolbyAccessNoGaming,INTELAUDIO\FUNC_01&VEN_10EC&DEV_0257&SUBSYS_17AA39FE
+%Device.ExtensionDesc% = DeviceExtension_Install_DolbyAccessNoGaming,HDAUDIO\FUNC_01&VEN_10EC&DEV_0257&SUBSYS_17AA22F0
+%Device.ExtensionDesc% = DeviceExtension_Install_DolbyAccessNoGaming,INTELAUDIO\FUNC_01&VEN_10EC&DEV_0257&SUBSYS_17AA22F0
+%Device.ExtensionDesc% = DeviceExtension_Install_DolbyAccessNoGaming,HDAUDIO\FUNC_01&VEN_10EC&DEV_0257&SUBSYS_17AA3A25
+%Device.ExtensionDesc% = DeviceExtension_Install_DolbyAccessNoGaming,INTELAUDIO\FUNC_01&VEN_10EC&DEV_0257&SUBSYS_17AA3A25
+%Device.ExtensionDesc% = DeviceExtension_Install_DolbyAccessNoGaming,HDAUDIO\FUNC_01&VEN_10EC&DEV_0257&SUBSYS_17AA39F2
+%Device.ExtensionDesc% = DeviceExtension_Install_DolbyAccessNoGaming,INTELAUDIO\FUNC_01&VEN_10EC&DEV_0257&SUBSYS_17AA39F2
+%Device.ExtensionDesc% = DeviceExtension_Install_DolbyAccessNoGaming,HDAUDIO\FUNC_01&VEN_10EC&DEV_0257&SUBSYS_17AA39ED
+%Device.ExtensionDesc% = DeviceExtension_Install_DolbyAccessNoGaming,INTELAUDIO\FUNC_01&VEN_10EC&DEV_0257&SUBSYS_17AA39ED
+%Device.ExtensionDesc% = DeviceExtension_Install_DolbyAccessNoGaming,HDAUDIO\FUNC_01&VEN_10EC&DEV_0287&SUBSYS_17AA386A
+%Device.ExtensionDesc% = DeviceExtension_Install_DolbyAccessNoGaming,INTELAUDIO\FUNC_01&VEN_10EC&DEV_0287&SUBSYS_17AA386A
+%Device.ExtensionDesc% = DeviceExtension_Install_DolbyAccessNoGaming,HDAUDIO\FUNC_01&VEN_10EC&DEV_0257&SUBSYS_17AA3A1B
+%Device.ExtensionDesc% = DeviceExtension_Install_DolbyAccessNoGaming,INTELAUDIO\FUNC_01&VEN_10EC&DEV_0257&SUBSYS_17AA3A1B
+%Device.ExtensionDesc% = DeviceExtension_Install_DolbyAccessNoGaming,HDAUDIO\FUNC_01&VEN_10EC&DEV_0257&SUBSYS_17AA3A1E
+%Device.ExtensionDesc% = DeviceExtension_Install_DolbyAccessNoGaming,INTELAUDIO\FUNC_01&VEN_10EC&DEV_0257&SUBSYS_17AA3A1E
+%Device.ExtensionDesc% = DeviceExtension_Install_DolbyAccessNoGaming,HDAUDIO\FUNC_01&VEN_10EC&DEV_0257&SUBSYS_17AA3A0E
+%Device.ExtensionDesc% = DeviceExtension_Install_DolbyAccessNoGaming,INTELAUDIO\FUNC_01&VEN_10EC&DEV_0257&SUBSYS_17AA3A0E
+%Device.ExtensionDesc% = DeviceExtension_Install_DolbyAccessNoGaming,HDAUDIO\FUNC_01&VEN_10EC&DEV_0287&SUBSYS_17AA38B0
+%Device.ExtensionDesc% = DeviceExtension_Install_DolbyAccessNoGaming,INTELAUDIO\FUNC_01&VEN_10EC&DEV_0287&SUBSYS_17AA38B0
+%Device.ExtensionDesc% = DeviceExtension_Install_DolbyAccessNoGaming,HDAUDIO\FUNC_01&VEN_10EC&DEV_0287&SUBSYS_17AA38AD
+%Device.ExtensionDesc% = DeviceExtension_Install_DolbyAccessNoGaming,INTELAUDIO\FUNC_01&VEN_10EC&DEV_0287&SUBSYS_17AA38AD
+%Device.ExtensionDesc% = DeviceExtension_Install_DolbyAccessNoGaming,HDAUDIO\FUNC_01&VEN_10EC&DEV_0256&SUBSYS_17AA32F3
+%Device.ExtensionDesc% = DeviceExtension_Install_DolbyAccessNoGaming,INTELAUDIO\FUNC_01&VEN_10EC&DEV_0256&SUBSYS_17AA32F3
+%Device.ExtensionDesc% = DeviceExtension_Install_DolbyAccessNoGaming,HDAUDIO\FUNC_01&VEN_10EC&DEV_0256&SUBSYS_17AA32F5
+%Device.ExtensionDesc% = DeviceExtension_Install_DolbyAccessNoGaming,INTELAUDIO\FUNC_01&VEN_10EC&DEV_0256&SUBSYS_17AA32F5
+%Device.ExtensionDesc% = DeviceExtension_Install_DolbyAccessNoGaming,HDAUDIO\FUNC_01&VEN_10EC&DEV_0257&SUBSYS_17AA3968
+%Device.ExtensionDesc% = DeviceExtension_Install_DolbyAccessNoGaming,INTELAUDIO\FUNC_01&VEN_10EC&DEV_0257&SUBSYS_17AA3968
+%Device.ExtensionDesc% = DeviceExtension_Install_DolbyAccessNoGaming,HDAUDIO\FUNC_01&VEN_10EC&DEV_0257&SUBSYS_17AA3967
+%Device.ExtensionDesc% = DeviceExtension_Install_DolbyAccessNoGaming,INTELAUDIO\FUNC_01&VEN_10EC&DEV_0257&SUBSYS_17AA3967
+%Device.ExtensionDesc% = DeviceExtension_Install_DolbyAccessNoGaming,HDAUDIO\FUNC_01&VEN_10EC&DEV_0257&SUBSYS_17AA3986
+%Device.ExtensionDesc% = DeviceExtension_Install_DolbyAccessNoGaming,INTELAUDIO\FUNC_01&VEN_10EC&DEV_0257&SUBSYS_17AA3986
+%Device.ExtensionDesc% = DeviceExtension_Install_DolbyAccessNoGaming,HDAUDIO\FUNC_01&VEN_10EC&DEV_0257&SUBSYS_17AA39EA
+%Device.ExtensionDesc% = DeviceExtension_Install_DolbyAccessNoGaming,INTELAUDIO\FUNC_01&VEN_10EC&DEV_0257&SUBSYS_17AA39EA
+%Device.ExtensionDesc% = DeviceExtension_Install_DolbyAccessNoGaming,HDAUDIO\FUNC_01&VEN_10EC&DEV_0257&SUBSYS_17AA3A04
+%Device.ExtensionDesc% = DeviceExtension_Install_DolbyAccessNoGaming,INTELAUDIO\FUNC_01&VEN_10EC&DEV_0257&SUBSYS_17AA3A04
+%Device.ExtensionDesc% = DeviceExtension_Install_DolbyAccessNoGaming,HDAUDIO\FUNC_01&VEN_10EC&DEV_0287&SUBSYS_17AA38C5
+%Device.ExtensionDesc% = DeviceExtension_Install_DolbyAccessNoGaming,INTELAUDIO\FUNC_01&VEN_10EC&DEV_0287&SUBSYS_17AA38C5
+%Device.ExtensionDesc% = DeviceExtension_Install_DolbyAccessNoGaming,HDAUDIO\FUNC_01&VEN_10EC&DEV_0287&SUBSYS_17AA3893
+%Device.ExtensionDesc% = DeviceExtension_Install_DolbyAccessNoGaming,INTELAUDIO\FUNC_01&VEN_10EC&DEV_0287&SUBSYS_17AA3893
+%Device.ExtensionDesc% = DeviceExtension_Install_DolbyAccessNoGaming,HDAUDIO\FUNC_01&VEN_10EC&DEV_0257&SUBSYS_17AA39EF
+%Device.ExtensionDesc% = DeviceExtension_Install_DolbyAccessNoGaming,INTELAUDIO\FUNC_01&VEN_10EC&DEV_0257&SUBSYS_17AA39EF
+%Device.ExtensionDesc% = DeviceExtension_Install_DolbyAccessNoGaming,HDAUDIO\FUNC_01&VEN_10EC&DEV_0287&SUBSYS_17AA3856
+%Device.ExtensionDesc% = DeviceExtension_Install_DolbyAccessNoGaming,INTELAUDIO\FUNC_01&VEN_10EC&DEV_0287&SUBSYS_17AA3856
+%Device.ExtensionDesc% = DeviceExtension_Install_DolbyAccessNoGaming,HDAUDIO\FUNC_01&VEN_10EC&DEV_0287&SUBSYS_17AA3881
+%Device.ExtensionDesc% = DeviceExtension_Install_DolbyAccessNoGaming,INTELAUDIO\FUNC_01&VEN_10EC&DEV_0287&SUBSYS_17AA3881
+%Device.ExtensionDesc% = DeviceExtension_Install_DolbyAccessNoGaming,HDAUDIO\FUNC_01&VEN_10EC&DEV_0257&SUBSYS_17AA3971
+%Device.ExtensionDesc% = DeviceExtension_Install_DolbyAccessNoGaming,INTELAUDIO\FUNC_01&VEN_10EC&DEV_0257&SUBSYS_17AA3971
+%Device.ExtensionDesc% = DeviceExtension_Install_DolbyAccessNoGaming,HDAUDIO\FUNC_01&VEN_10EC&DEV_0274&SUBSYS_17AA3767
+%Device.ExtensionDesc% = DeviceExtension_Install_DolbyAccessNoGaming,INTELAUDIO\FUNC_01&VEN_10EC&DEV_0274&SUBSYS_17AA3767
+%Device.ExtensionDesc% = DeviceExtension_Install_DolbyAccessNoGaming,HDAUDIO\FUNC_01&VEN_10EC&DEV_0274&SUBSYS_17AA377C
+%Device.ExtensionDesc% = DeviceExtension_Install_DolbyAccessNoGaming,INTELAUDIO\FUNC_01&VEN_10EC&DEV_0274&SUBSYS_17AA377C
+%Device.ExtensionDesc% = DeviceExtension_Install_DolbyAccessNoGaming,HDAUDIO\FUNC_01&VEN_10EC&DEV_0257&SUBSYS_17AA3A13
+%Device.ExtensionDesc% = DeviceExtension_Install_DolbyAccessNoGaming,INTELAUDIO\FUNC_01&VEN_10EC&DEV_0257&SUBSYS_17AA3A13
+%Device.ExtensionDesc% = DeviceExtension_Install_DolbyAccessNoGaming,HDAUDIO\FUNC_01&VEN_10EC&DEV_0287&SUBSYS_17AA3894
+%Device.ExtensionDesc% = DeviceExtension_Install_DolbyAccessNoGaming,INTELAUDIO\FUNC_01&VEN_10EC&DEV_0287&SUBSYS_17AA3894
+%Device.ExtensionDesc% = DeviceExtension_Install_DolbyAccessNoGaming,HDAUDIO\FUNC_01&VEN_10EC&DEV_0287&SUBSYS_17AA3871
+%Device.ExtensionDesc% = DeviceExtension_Install_DolbyAccessNoGaming,INTELAUDIO\FUNC_01&VEN_10EC&DEV_0287&SUBSYS_17AA3871
+%Device.ExtensionDesc% = DeviceExtension_Install_DolbyAccessNoGaming,HDAUDIO\FUNC_01&VEN_10EC&DEV_0257&SUBSYS_17AA397A
+%Device.ExtensionDesc% = DeviceExtension_Install_DolbyAccessNoGaming,INTELAUDIO\FUNC_01&VEN_10EC&DEV_0257&SUBSYS_17AA397A
+%Device.ExtensionDesc% = DeviceExtension_Install_DolbyAccessNoGaming,HDAUDIO\FUNC_01&VEN_10EC&DEV_0287&SUBSYS_17AA38B2
+%Device.ExtensionDesc% = DeviceExtension_Install_DolbyAccessNoGaming,INTELAUDIO\FUNC_01&VEN_10EC&DEV_0287&SUBSYS_17AA38B2
+%Device.ExtensionDesc% = DeviceExtension_Install_DolbyAccessNoGaming,HDAUDIO\FUNC_01&VEN_10EC&DEV_0287&SUBSYS_17AA3866
+%Device.ExtensionDesc% = DeviceExtension_Install_DolbyAccessNoGaming,INTELAUDIO\FUNC_01&VEN_10EC&DEV_0287&SUBSYS_17AA3866
+%Device.ExtensionDesc% = DeviceExtension_Install_DolbyAccessNoGaming,HDAUDIO\FUNC_01&VEN_10EC&DEV_0287&SUBSYS_17AA3865
+%Device.ExtensionDesc% = DeviceExtension_Install_DolbyAccessNoGaming,INTELAUDIO\FUNC_01&VEN_10EC&DEV_0287&SUBSYS_17AA3865
+%Device.ExtensionDesc% = DeviceExtension_Install_DolbyAccessNoGaming,HDAUDIO\FUNC_01&VEN_10EC&DEV_0274&SUBSYS_17AA377D
+%Device.ExtensionDesc% = DeviceExtension_Install_DolbyAccessNoGaming,INTELAUDIO\FUNC_01&VEN_10EC&DEV_0274&SUBSYS_17AA377D
+%Device.ExtensionDesc% = DeviceExtension_Install_DolbyAccessNoGaming,HDAUDIO\FUNC_01&VEN_10EC&DEV_0274&SUBSYS_17AA376C
+%Device.ExtensionDesc% = DeviceExtension_Install_DolbyAccessNoGaming,INTELAUDIO\FUNC_01&VEN_10EC&DEV_0274&SUBSYS_17AA376C
+%Device.ExtensionDesc% = DeviceExtension_Install_DolbyAccessNoGaming,HDAUDIO\FUNC_01&VEN_10EC&DEV_0257&SUBSYS_17AA3C03
+%Device.ExtensionDesc% = DeviceExtension_Install_DolbyAccessNoGaming,INTELAUDIO\FUNC_01&VEN_10EC&DEV_0257&SUBSYS_17AA3C03
+%Device.ExtensionDesc% = DeviceExtension_Install_DolbyAccessNoGaming,HDAUDIO\FUNC_01&VEN_10EC&DEV_0257&SUBSYS_17AA3C02
+%Device.ExtensionDesc% = DeviceExtension_Install_DolbyAccessNoGaming,INTELAUDIO\FUNC_01&VEN_10EC&DEV_0257&SUBSYS_17AA3C02
+%Device.ExtensionDesc% = DeviceExtension_Install_DolbyAccessNoGaming,HDAUDIO\FUNC_01&VEN_10EC&DEV_0287&SUBSYS_17AA3875
+%Device.ExtensionDesc% = DeviceExtension_Install_DolbyAccessNoGaming,INTELAUDIO\FUNC_01&VEN_10EC&DEV_0287&SUBSYS_17AA3875
+%Device.ExtensionDesc% = DeviceExtension_Install_DolbyAccessNoGaming,HDAUDIO\FUNC_01&VEN_10EC&DEV_0274&SUBSYS_17AA3763
+%Device.ExtensionDesc% = DeviceExtension_Install_DolbyAccessNoGaming,INTELAUDIO\FUNC_01&VEN_10EC&DEV_0274&SUBSYS_17AA3763
+%Device.ExtensionDesc% = DeviceExtension_Install_DolbyAccessNoGaming,HDAUDIO\FUNC_01&VEN_10EC&DEV_0274&SUBSYS_17AA3757
+%Device.ExtensionDesc% = DeviceExtension_Install_DolbyAccessNoGaming,INTELAUDIO\FUNC_01&VEN_10EC&DEV_0274&SUBSYS_17AA3757
+%Device.ExtensionDesc% = DeviceExtension_Install_DolbyAccessNoGaming,HDAUDIO\FUNC_01&VEN_10EC&DEV_0257&SUBSYS_17AA3A22
+%Device.ExtensionDesc% = DeviceExtension_Install_DolbyAccessNoGaming,INTELAUDIO\FUNC_01&VEN_10EC&DEV_0257&SUBSYS_17AA3A22
+%Device.ExtensionDesc% = DeviceExtension_Install_DolbyAccessNoGaming,HDAUDIO\FUNC_01&VEN_10EC&DEV_0257&SUBSYS_17AA3969
+%Device.ExtensionDesc% = DeviceExtension_Install_DolbyAccessNoGaming,INTELAUDIO\FUNC_01&VEN_10EC&DEV_0257&SUBSYS_17AA3969
+%Device.ExtensionDesc% = DeviceExtension_Install_DolbyAccessNoGaming,HDAUDIO\FUNC_01&VEN_10EC&DEV_0257&SUBSYS_17AA3960
+%Device.ExtensionDesc% = DeviceExtension_Install_DolbyAccessNoGaming,INTELAUDIO\FUNC_01&VEN_10EC&DEV_0257&SUBSYS_17AA3960
+%Device.ExtensionDesc% = DeviceExtension_Install_DolbyAccessNoGaming,HDAUDIO\FUNC_01&VEN_10EC&DEV_0257&SUBSYS_17AA3C09
+%Device.ExtensionDesc% = DeviceExtension_Install_DolbyAccessNoGaming,INTELAUDIO\FUNC_01&VEN_10EC&DEV_0257&SUBSYS_17AA3C09
+%Device.ExtensionDesc% = DeviceExtension_Install_DolbyAccessNoGaming,HDAUDIO\FUNC_01&VEN_10EC&DEV_0257&SUBSYS_17AA3BCD
+%Device.ExtensionDesc% = DeviceExtension_Install_DolbyAccessNoGaming,INTELAUDIO\FUNC_01&VEN_10EC&DEV_0257&SUBSYS_17AA3BCD
+%Device.ExtensionDesc% = DeviceExtension_Install_DolbyAccessNoGaming,HDAUDIO\FUNC_01&VEN_10EC&DEV_0287&SUBSYS_17AA38BB
+%Device.ExtensionDesc% = DeviceExtension_Install_DolbyAccessNoGaming,INTELAUDIO\FUNC_01&VEN_10EC&DEV_0287&SUBSYS_17AA38BB
+%Device.ExtensionDesc% = DeviceExtension_Install_DolbyAccessNoGaming,HDAUDIO\FUNC_01&VEN_10EC&DEV_0287&SUBSYS_17AA38BA
+%Device.ExtensionDesc% = DeviceExtension_Install_DolbyAccessNoGaming,INTELAUDIO\FUNC_01&VEN_10EC&DEV_0287&SUBSYS_17AA38BA
+%Device.ExtensionDesc% = DeviceExtension_Install_DolbyAccessNoGaming,HDAUDIO\FUNC_01&VEN_10EC&DEV_0287&SUBSYS_17AA3899
+%Device.ExtensionDesc% = DeviceExtension_Install_DolbyAccessNoGaming,INTELAUDIO\FUNC_01&VEN_10EC&DEV_0287&SUBSYS_17AA3899
+%Device.ExtensionDesc% = DeviceExtension_Install_DolbyAccessNoGaming,HDAUDIO\FUNC_01&VEN_10EC&DEV_0257&SUBSYS_17AA3A0F
+%Device.ExtensionDesc% = DeviceExtension_Install_DolbyAccessNoGaming,INTELAUDIO\FUNC_01&VEN_10EC&DEV_0257&SUBSYS_17AA3A0F
+%Device.ExtensionDesc% = DeviceExtension_Install_DolbyAccessNoGaming,HDAUDIO\FUNC_01&VEN_10EC&DEV_0257&SUBSYS_17AA3A17
+%Device.ExtensionDesc% = DeviceExtension_Install_DolbyAccessNoGaming,INTELAUDIO\FUNC_01&VEN_10EC&DEV_0257&SUBSYS_17AA3A17
+%Device.ExtensionDesc% = DeviceExtension_Install_DolbyAccessNoGaming,HDAUDIO\FUNC_01&VEN_10EC&DEV_0257&SUBSYS_17AA3A06
+%Device.ExtensionDesc% = DeviceExtension_Install_DolbyAccessNoGaming,INTELAUDIO\FUNC_01&VEN_10EC&DEV_0257&SUBSYS_17AA3A06
+%Device.ExtensionDesc% = DeviceExtension_Install_DolbyAccessNoGaming,HDAUDIO\FUNC_01&VEN_10EC&DEV_0257&SUBSYS_17AA3A09
+%Device.ExtensionDesc% = DeviceExtension_Install_DolbyAccessNoGaming,INTELAUDIO\FUNC_01&VEN_10EC&DEV_0257&SUBSYS_17AA3A09
+%Device.ExtensionDesc% = DeviceExtension_Install_DolbyAccessNoGaming,HDAUDIO\FUNC_01&VEN_10EC&DEV_0274&SUBSYS_17AA3764
+%Device.ExtensionDesc% = DeviceExtension_Install_DolbyAccessNoGaming,INTELAUDIO\FUNC_01&VEN_10EC&DEV_0274&SUBSYS_17AA3764
+%Device.ExtensionDesc% = DeviceExtension_Install_DolbyAccessNoGaming,HDAUDIO\FUNC_01&VEN_10EC&DEV_0274&SUBSYS_17AA377B
+%Device.ExtensionDesc% = DeviceExtension_Install_DolbyAccessNoGaming,INTELAUDIO\FUNC_01&VEN_10EC&DEV_0274&SUBSYS_17AA377B
+%Device.ExtensionDesc% = DeviceExtension_Install_DolbyAccessNoGaming,HDAUDIO\FUNC_01&VEN_10EC&DEV_0274&SUBSYS_17AA3778
+%Device.ExtensionDesc% = DeviceExtension_Install_DolbyAccessNoGaming,INTELAUDIO\FUNC_01&VEN_10EC&DEV_0274&SUBSYS_17AA3778
+%Device.ExtensionDesc% = DeviceExtension_Install_DolbyAccessNoGaming,HDAUDIO\FUNC_01&VEN_10EC&DEV_0287&SUBSYS_17AA38A9
+%Device.ExtensionDesc% = DeviceExtension_Install_DolbyAccessNoGaming,INTELAUDIO\FUNC_01&VEN_10EC&DEV_0287&SUBSYS_17AA38A9
+%Device.ExtensionDesc% = DeviceExtension_Install_DolbyAccessNoGaming,HDAUDIO\FUNC_01&VEN_10EC&DEV_0257&SUBSYS_17AA3C14
+%Device.ExtensionDesc% = DeviceExtension_Install_DolbyAccessNoGaming,INTELAUDIO\FUNC_01&VEN_10EC&DEV_0257&SUBSYS_17AA3C14
+%Device.ExtensionDesc% = DeviceExtension_Install_DolbyAccessNoGaming,HDAUDIO\FUNC_01&VEN_10EC&DEV_0287&SUBSYS_17AA387D
+%Device.ExtensionDesc% = DeviceExtension_Install_DolbyAccessNoGaming,INTELAUDIO\FUNC_01&VEN_10EC&DEV_0287&SUBSYS_17AA387D
+%Device.ExtensionDesc% = DeviceExtension_Install_DolbyAccessNoGaming,HDAUDIO\FUNC_01&VEN_10EC&DEV_0287&SUBSYS_17AA387E
+%Device.ExtensionDesc% = DeviceExtension_Install_DolbyAccessNoGaming,INTELAUDIO\FUNC_01&VEN_10EC&DEV_0287&SUBSYS_17AA387E
+%Device.ExtensionDesc% = DeviceExtension_Install_DolbyAccessNoGaming,HDAUDIO\FUNC_01&VEN_10EC&DEV_0287&SUBSYS_17AA389E
+%Device.ExtensionDesc% = DeviceExtension_Install_DolbyAccessNoGaming,INTELAUDIO\FUNC_01&VEN_10EC&DEV_0287&SUBSYS_17AA389E
+%Device.ExtensionDesc% = DeviceExtension_Install_DolbyAccessNoGaming,HDAUDIO\FUNC_01&VEN_10EC&DEV_0287&SUBSYS_17AA38C1
+%Device.ExtensionDesc% = DeviceExtension_Install_DolbyAccessNoGaming,INTELAUDIO\FUNC_01&VEN_10EC&DEV_0287&SUBSYS_17AA38C1
+%Device.ExtensionDesc% = DeviceExtension_Install_DolbyAccessNoGaming,HDAUDIO\FUNC_01&VEN_10EC&DEV_0287&SUBSYS_17AA38C0
+%Device.ExtensionDesc% = DeviceExtension_Install_DolbyAccessNoGaming,INTELAUDIO\FUNC_01&VEN_10EC&DEV_0287&SUBSYS_17AA38C0
+%Device.ExtensionDesc% = DeviceExtension_Install_DolbyAccessNoGaming,HDAUDIO\FUNC_01&VEN_10EC&DEV_0257&SUBSYS_17AA3A15
+%Device.ExtensionDesc% = DeviceExtension_Install_DolbyAccessNoGaming,INTELAUDIO\FUNC_01&VEN_10EC&DEV_0257&SUBSYS_17AA3A15
+%Device.ExtensionDesc% = DeviceExtension_Install_DolbyAccessNoGaming,HDAUDIO\FUNC_01&VEN_10EC&DEV_0257&SUBSYS_17AA3A12
+%Device.ExtensionDesc% = DeviceExtension_Install_DolbyAccessNoGaming,INTELAUDIO\FUNC_01&VEN_10EC&DEV_0257&SUBSYS_17AA3A12
+%Device.ExtensionDesc% = DeviceExtension_Install_DolbyAccessNoGaming,HDAUDIO\FUNC_01&VEN_10EC&DEV_0257&SUBSYS_17AA3A1A
+%Device.ExtensionDesc% = DeviceExtension_Install_DolbyAccessNoGaming,INTELAUDIO\FUNC_01&VEN_10EC&DEV_0257&SUBSYS_17AA3A1A
+%Device.ExtensionDesc% = DeviceExtension_Install_DolbyAccessNoGaming,HDAUDIO\FUNC_01&VEN_10EC&DEV_0257&SUBSYS_17AA3976
+%Device.ExtensionDesc% = DeviceExtension_Install_DolbyAccessNoGaming,INTELAUDIO\FUNC_01&VEN_10EC&DEV_0257&SUBSYS_17AA3976
+%Device.ExtensionDesc% = DeviceExtension_Install_DolbyAccessNoGaming,HDAUDIO\FUNC_01&VEN_10EC&DEV_0257&SUBSYS_17AA3975
+%Device.ExtensionDesc% = DeviceExtension_Install_DolbyAccessNoGaming,INTELAUDIO\FUNC_01&VEN_10EC&DEV_0257&SUBSYS_17AA3975
+%Device.ExtensionDesc% = DeviceExtension_Install_DolbyAccessNoGaming,HDAUDIO\FUNC_01&VEN_10EC&DEV_0287&SUBSYS_17AA38A0
+%Device.ExtensionDesc% = DeviceExtension_Install_DolbyAccessNoGaming,INTELAUDIO\FUNC_01&VEN_10EC&DEV_0287&SUBSYS_17AA38A0
+%Device.ExtensionDesc% = DeviceExtension_Install_DolbyAccessNoGaming,HDAUDIO\FUNC_01&VEN_10EC&DEV_0257&SUBSYS_17AA3BEF
+%Device.ExtensionDesc% = DeviceExtension_Install_DolbyAccessNoGaming,INTELAUDIO\FUNC_01&VEN_10EC&DEV_0257&SUBSYS_17AA3BEF
+%Device.ExtensionDesc% = DeviceExtension_Install_DolbyAccessNoGaming,HDAUDIO\FUNC_01&VEN_10EC&DEV_0257&SUBSYS_17AA3C0D
+%Device.ExtensionDesc% = DeviceExtension_Install_DolbyAccessNoGaming,INTELAUDIO\FUNC_01&VEN_10EC&DEV_0257&SUBSYS_17AA3C0D
+%Device.ExtensionDesc% = DeviceExtension_Install_DolbyAccessNoGaming,HDAUDIO\FUNC_01&VEN_10EC&DEV_0257&SUBSYS_17AA3BFF
+%Device.ExtensionDesc% = DeviceExtension_Install_DolbyAccessNoGaming,INTELAUDIO\FUNC_01&VEN_10EC&DEV_0257&SUBSYS_17AA3BFF
+%Device.ExtensionDesc% = DeviceExtension_Install_DolbyAccessNoGaming,HDAUDIO\FUNC_01&VEN_10EC&DEV_0256&SUBSYS_17AA3305
+%Device.ExtensionDesc% = DeviceExtension_Install_DolbyAccessNoGaming,INTELAUDIO\FUNC_01&VEN_10EC&DEV_0256&SUBSYS_17AA3305
+%Device.ExtensionDesc% = DeviceExtension_Install_DolbyAccessNoGaming,HDAUDIO\FUNC_01&VEN_10EC&DEV_0256&SUBSYS_17AA330F
+%Device.ExtensionDesc% = DeviceExtension_Install_DolbyAccessNoGaming,INTELAUDIO\FUNC_01&VEN_10EC&DEV_0256&SUBSYS_17AA330F
+%Device.ExtensionDesc% = DeviceExtension_Install_DolbyAccessNoGaming,HDAUDIO\FUNC_01&VEN_10EC&DEV_0256&SUBSYS_17AA3306
+%Device.ExtensionDesc% = DeviceExtension_Install_DolbyAccessNoGaming,INTELAUDIO\FUNC_01&VEN_10EC&DEV_0256&SUBSYS_17AA3306
+%Device.ExtensionDesc% = DeviceExtension_Install_DolbyAccessNoGaming,HDAUDIO\FUNC_01&VEN_10EC&DEV_0257&SUBSYS_17AA3A1C
+%Device.ExtensionDesc% = DeviceExtension_Install_DolbyAccessNoGaming,INTELAUDIO\FUNC_01&VEN_10EC&DEV_0257&SUBSYS_17AA3A1C
+%Device.ExtensionDesc% = DeviceExtension_Install_DolbyAccessNoGaming,HDAUDIO\FUNC_01&VEN_10EC&DEV_0257&SUBSYS_17AA3A1F
+%Device.ExtensionDesc% = DeviceExtension_Install_DolbyAccessNoGaming,INTELAUDIO\FUNC_01&VEN_10EC&DEV_0257&SUBSYS_17AA3A1F
+%Device.ExtensionDesc% = DeviceExtension_Install_DolbyAccessNoGaming,HDAUDIO\FUNC_01&VEN_10EC&DEV_0257&SUBSYS_17AA3A1D
+%Device.ExtensionDesc% = DeviceExtension_Install_DolbyAccessNoGaming,INTELAUDIO\FUNC_01&VEN_10EC&DEV_0257&SUBSYS_17AA3A1D
+%Device.ExtensionDesc% = DeviceExtension_Install_DolbyAccessNoGaming,HDAUDIO\FUNC_01&VEN_10EC&DEV_0287&SUBSYS_17AA3869
+%Device.ExtensionDesc% = DeviceExtension_Install_DolbyAccessNoGaming,INTELAUDIO\FUNC_01&VEN_10EC&DEV_0287&SUBSYS_17AA3869
+%Device.ExtensionDesc% = DeviceExtension_Install_DolbyAccessNoGaming,HDAUDIO\FUNC_01&VEN_10EC&DEV_0287&SUBSYS_17AA3870
+%Device.ExtensionDesc% = DeviceExtension_Install_DolbyAccessNoGaming,INTELAUDIO\FUNC_01&VEN_10EC&DEV_0287&SUBSYS_17AA3870
+%Device.ExtensionDesc% = DeviceExtension_Install_DolbyAccessNoGaming,HDAUDIO\FUNC_01&VEN_10EC&DEV_0257&SUBSYS_17AA3A05
+%Device.ExtensionDesc% = DeviceExtension_Install_DolbyAccessNoGaming,INTELAUDIO\FUNC_01&VEN_10EC&DEV_0257&SUBSYS_17AA3A05
+%Device.ExtensionDesc% = DeviceExtension_Install_DolbyAccessNoGaming,HDAUDIO\FUNC_01&VEN_10EC&DEV_0257&SUBSYS_17AA3A0D
+%Device.ExtensionDesc% = DeviceExtension_Install_DolbyAccessNoGaming,INTELAUDIO\FUNC_01&VEN_10EC&DEV_0257&SUBSYS_17AA3A0D
+%Device.ExtensionDesc% = DeviceExtension_Install_DolbyAccessNoGaming,HDAUDIO\FUNC_01&VEN_10EC&DEV_0257&SUBSYS_17AA3A14
+%Device.ExtensionDesc% = DeviceExtension_Install_DolbyAccessNoGaming,INTELAUDIO\FUNC_01&VEN_10EC&DEV_0257&SUBSYS_17AA3A14
+%Device.ExtensionDesc% = DeviceExtension_Install_DolbyAccessNoGaming,HDAUDIO\FUNC_01&VEN_10EC&DEV_0257&SUBSYS_17AA3BFE
+%Device.ExtensionDesc% = DeviceExtension_Install_DolbyAccessNoGaming,INTELAUDIO\FUNC_01&VEN_10EC&DEV_0257&SUBSYS_17AA3BFE
+%Device.ExtensionDesc% = DeviceExtension_Install_DolbyAccessNoGaming,HDAUDIO\FUNC_01&VEN_10EC&DEV_0287&SUBSYS_17AA3801
+%Device.ExtensionDesc% = DeviceExtension_Install_DolbyAccessNoGaming,INTELAUDIO\FUNC_01&VEN_10EC&DEV_0287&SUBSYS_17AA3801
+%Device.ExtensionDesc% = DeviceExtension_Install_DolbyAccessNoGaming,HDAUDIO\FUNC_01&VEN_10EC&DEV_0287&SUBSYS_17AA3896
+%Device.ExtensionDesc% = DeviceExtension_Install_DolbyAccessNoGaming,INTELAUDIO\FUNC_01&VEN_10EC&DEV_0287&SUBSYS_17AA3896
+%Device.ExtensionDesc% = DeviceExtension_Install_DolbyAccessNoGaming,HDAUDIO\FUNC_01&VEN_10EC&DEV_0287&SUBSYS_17AA3895
+%Device.ExtensionDesc% = DeviceExtension_Install_DolbyAccessNoGaming,INTELAUDIO\FUNC_01&VEN_10EC&DEV_0287&SUBSYS_17AA3895
+%Device.ExtensionDesc% = DeviceExtension_Install_DolbyAccessNoGaming,HDAUDIO\FUNC_01&VEN_10EC&DEV_0287&SUBSYS_17AA3863
+%Device.ExtensionDesc% = DeviceExtension_Install_DolbyAccessNoGaming,INTELAUDIO\FUNC_01&VEN_10EC&DEV_0287&SUBSYS_17AA3863
+%Device.ExtensionDesc% = DeviceExtension_Install_DolbyAccessNoGaming,HDAUDIO\FUNC_01&VEN_10EC&DEV_0287&SUBSYS_17AA386B
+%Device.ExtensionDesc% = DeviceExtension_Install_DolbyAccessNoGaming,INTELAUDIO\FUNC_01&VEN_10EC&DEV_0287&SUBSYS_17AA386B
+%Device.ExtensionDesc% = DeviceExtension_Install_DolbyAccessNoGaming,HDAUDIO\FUNC_01&VEN_10EC&DEV_0287&SUBSYS_17AA386D
+%Device.ExtensionDesc% = DeviceExtension_Install_DolbyAccessNoGaming,INTELAUDIO\FUNC_01&VEN_10EC&DEV_0287&SUBSYS_17AA386D
+%Device.ExtensionDesc% = DeviceExtension_Install_DolbyAccessNoGaming,HDAUDIO\FUNC_01&VEN_10EC&DEV_0257&SUBSYS_17AA3A28
+%Device.ExtensionDesc% = DeviceExtension_Install_DolbyAccessNoGaming,INTELAUDIO\FUNC_01&VEN_10EC&DEV_0257&SUBSYS_17AA3A28
+%Device.ExtensionDesc% = DeviceExtension_Install_DolbyAccessNoGaming,HDAUDIO\FUNC_01&VEN_10EC&DEV_0257&SUBSYS_17AA3A24
+%Device.ExtensionDesc% = DeviceExtension_Install_DolbyAccessNoGaming,INTELAUDIO\FUNC_01&VEN_10EC&DEV_0257&SUBSYS_17AA3A24
+%Device.ExtensionDesc% = DeviceExtension_Install_DolbyAccessNoGaming,HDAUDIO\FUNC_01&VEN_10EC&DEV_0257&SUBSYS_17AA39DF
+%Device.ExtensionDesc% = DeviceExtension_Install_DolbyAccessNoGaming,INTELAUDIO\FUNC_01&VEN_10EC&DEV_0257&SUBSYS_17AA39DF
+%Device.ExtensionDesc% = DeviceExtension_Install_DolbyAccessNoGaming,HDAUDIO\FUNC_01&VEN_10EC&DEV_0257&SUBSYS_17AA39FD
+%Device.ExtensionDesc% = DeviceExtension_Install_DolbyAccessNoGaming,INTELAUDIO\FUNC_01&VEN_10EC&DEV_0257&SUBSYS_17AA39FD
+%Device.ExtensionDesc% = DeviceExtension_Install_DolbyAccessNoGaming,HDAUDIO\FUNC_01&VEN_10EC&DEV_0287&SUBSYS_17AA38B1
+%Device.ExtensionDesc% = DeviceExtension_Install_DolbyAccessNoGaming,INTELAUDIO\FUNC_01&VEN_10EC&DEV_0287&SUBSYS_17AA38B1
+%Device.ExtensionDesc% = DeviceExtension_Install_DolbyAccessNoGaming,HDAUDIO\FUNC_01&VEN_10EC&DEV_0287&SUBSYS_17AA3898
+%Device.ExtensionDesc% = DeviceExtension_Install_DolbyAccessNoGaming,INTELAUDIO\FUNC_01&VEN_10EC&DEV_0287&SUBSYS_17AA3898
+%Device.ExtensionDesc% = DeviceExtension_Install_DolbyAccessNoGaming,HDAUDIO\FUNC_01&VEN_10EC&DEV_0287&SUBSYS_17AA38A1
+%Device.ExtensionDesc% = DeviceExtension_Install_DolbyAccessNoGaming,INTELAUDIO\FUNC_01&VEN_10EC&DEV_0287&SUBSYS_17AA38A1
+%Device.ExtensionDesc% = DeviceExtension_Install_DolbyAccessNoGaming,HDAUDIO\FUNC_01&VEN_10EC&DEV_0257&SUBSYS_17AA39FA
+%Device.ExtensionDesc% = DeviceExtension_Install_DolbyAccessNoGaming,INTELAUDIO\FUNC_01&VEN_10EC&DEV_0257&SUBSYS_17AA39FA
+%Device.ExtensionDesc% = DeviceExtension_Install_DolbyAccessNoGaming,HDAUDIO\FUNC_01&VEN_10EC&DEV_0257&SUBSYS_17AA38B3
+%Device.ExtensionDesc% = DeviceExtension_Install_DolbyAccessNoGaming,INTELAUDIO\FUNC_01&VEN_10EC&DEV_0257&SUBSYS_17AA38B3
+%Device.ExtensionDesc% = DeviceExtension_Install_DolbyAccessNoGaming,HDAUDIO\FUNC_01&VEN_10EC&DEV_0257&SUBSYS_17AA38B0
+%Device.ExtensionDesc% = DeviceExtension_Install_DolbyAccessNoGaming,INTELAUDIO\FUNC_01&VEN_10EC&DEV_0257&SUBSYS_17AA38B0
+%Device.ExtensionDesc% = DeviceExtension_Install_DolbyAccessNoGaming,HDAUDIO\FUNC_01&VEN_10EC&DEV_0257&SUBSYS_17AA3970
+%Device.ExtensionDesc% = DeviceExtension_Install_DolbyAccessNoGaming,INTELAUDIO\FUNC_01&VEN_10EC&DEV_0257&SUBSYS_17AA3970
+%Device.ExtensionDesc% = DeviceExtension_Install_DolbyAccessNoGaming,HDAUDIO\FUNC_01&VEN_10EC&DEV_0257&SUBSYS_17AA3966
+%Device.ExtensionDesc% = DeviceExtension_Install_DolbyAccessNoGaming,INTELAUDIO\FUNC_01&VEN_10EC&DEV_0257&SUBSYS_17AA3966
+%Device.ExtensionDesc% = DeviceExtension_Install_DolbyAccessNoGaming,HDAUDIO\FUNC_01&VEN_10EC&DEV_0257&SUBSYS_17AA39FC
+%Device.ExtensionDesc% = DeviceExtension_Install_DolbyAccessNoGaming,INTELAUDIO\FUNC_01&VEN_10EC&DEV_0257&SUBSYS_17AA39FC
+%Device.ExtensionDesc% = DeviceExtension_Install_DolbyAccessNoGaming,HDAUDIO\FUNC_01&VEN_10EC&DEV_0257&SUBSYS_17AA3A18
+%Device.ExtensionDesc% = DeviceExtension_Install_DolbyAccessNoGaming,INTELAUDIO\FUNC_01&VEN_10EC&DEV_0257&SUBSYS_17AA3A18
+%Device.ExtensionDesc% = DeviceExtension_Install_DolbyAccessNoGaming,HDAUDIO\FUNC_01&VEN_10EC&DEV_0257&SUBSYS_17AA3BF1
+%Device.ExtensionDesc% = DeviceExtension_Install_DolbyAccessNoGaming,INTELAUDIO\FUNC_01&VEN_10EC&DEV_0257&SUBSYS_17AA3BF1
+; %Device.ExtensionDesc% = DeviceExtension_Install_DolbyAccessGaming,
+; %Device.ExtensionDesc% = DeviceExtension_Install_DolbyAccessOEMNoGaming,
+; %Device.ExtensionDesc% = DeviceExtension_Install_DolbyAccessOEMGaming,
+; %Device.ExtensionDesc% = DeviceExtension_Install_NoUINoGaming,
+; %Device.ExtensionDesc% = DeviceExtension_Install_NoUIGaming,
+
+[DeviceExtension_Install_DolbyAtmos.NT]
+AddReg = PresetAddReg, DolbyAPO_AddReg
+CopyFiles = DolbyAPO_CopyFiles_OEM, DolbyAPO_CopyFiles_Tuning
+
+[DeviceExtension_Install_DolbyAtmosSpeakerSystem.NT]
+AddReg = PresetAddReg, DolbyAPO_AddReg
+CopyFiles = DolbyAPO_CopyFiles_OEM, DolbyAPO_CopyFiles_Tuning
+
+[DeviceExtension_Install_DolbyAudio.NT]
+AddReg = PresetAddReg, DolbyAPO_AddReg
+CopyFiles = DolbyAPO_CopyFiles_OEM, DolbyAPO_CopyFiles_Tuning
+
+[DeviceExtension_Install_DolbyAudioPremium.NT]
+AddReg = PresetAddReg, DolbyAPO_AddReg
+CopyFiles = DolbyAPO_CopyFiles_OEM, DolbyAPO_CopyFiles_Tuning
+
+[DeviceExtension_Install_DolbyAudioSpeakerSystem.NT]
+AddReg = PresetAddReg, DolbyAPO_AddReg
+CopyFiles = DolbyAPO_CopyFiles_OEM, DolbyAPO_CopyFiles_Tuning
+
+[DeviceExtension_Install_Gaming.NT]
+AddReg = PresetAddReg, DolbyAPO_AddReg
+CopyFiles = DolbyAPO_CopyFiles_OEM, DolbyAPO_CopyFiles_Tuning
+
+[DeviceExtension_Install_DolbyAtmosSpeakerSystemForGaming.NT]
+AddReg = PresetAddReg, DolbyAPO_AddReg
+CopyFiles = DolbyAPO_CopyFiles_OEM, DolbyAPO_CopyFiles_Tuning
+
+[DeviceExtension_Install_DolbyAccessNoGaming.NT]
+AddReg = PresetAddReg, DolbyAPO_AddReg
+CopyFiles = DolbyAPO_CopyFiles_OEM, DolbyAPO_CopyFiles_Tuning
+
+[DeviceExtension_Install_DolbyAccessGaming.NT]
+AddReg = PresetAddReg, DolbyAPO_AddReg
+CopyFiles = DolbyAPO_CopyFiles_OEM, DolbyAPO_CopyFiles_Tuning
+
+[DeviceExtension_Install_DolbyAccessOEMNoGaming.NT]
+AddReg = PresetAddReg, DolbyAPO_AddReg
+CopyFiles = DolbyAPO_CopyFiles_OEM, DolbyAPO_CopyFiles_Tuning
+
+[DeviceExtension_Install_DolbyAccessOEMGaming.NT]
+AddReg = PresetAddReg, DolbyAPO_AddReg
+CopyFiles = DolbyAPO_CopyFiles_OEM, DolbyAPO_CopyFiles_Tuning
+
+[DeviceExtension_Install_NoUINoGaming.NT]
+AddReg = PresetAddReg, DolbyAPO_AddReg
+CopyFiles = DolbyAPO_CopyFiles_OEM, DolbyAPO_CopyFiles_Tuning
+
+[DeviceExtension_Install_NoUIGaming.NT]
+AddReg = PresetAddReg, DolbyAPO_AddReg
+CopyFiles = DolbyAPO_CopyFiles_OEM, DolbyAPO_CopyFiles_Tuning
+
+[PresetAddReg]
+;; render endpoint settings for HDAudio
+HKR,InterfaceSetting,PrimaryLineOutTopo,%REG_MULTI_SZ_APPEND%,"ApoPreset1"                  ;; PrimaryLineOutTopo stands for Speakers(or Redirected headphone/speaker) endpoint
+HKR,InterfaceSetting,SingleLineOutTopo,%REG_MULTI_SZ_APPEND%,"ApoPreset1"                   ;; SingleLineOutTopo stands for Speakers(or Redirected headphone/speaker) endpoint
+HKR,InterfaceSetting,SecondaryLineOutTopo,%REG_MULTI_SZ_APPEND%,"ApoPreset2"                ;; SecondaryLineOutTopo stands for Headphone endpoint
+;; render endpoint settings for Intel SST
+HKR,InterfaceSetting,RearLineOutTopoSST,%REG_MULTI_SZ_APPEND%,"ApoPreset1"					;; Speakers(or Redirected headphone/speaker) endpoint with audio offloading DSP supported (Intel SST) 
+HKR,InterfaceSetting,RearLineOutTopoSST3,%REG_MULTI_SZ_APPEND%,"ApoPreset2"					;; Headphone endpoint with audio offloading DSP supported (Intel SST)
+;; render endpoint settings for AMD DSP
+HKR,InterfaceSetting,RearLineOutTopoHAP,%REG_MULTI_SZ_APPEND%,"ApoPreset1"					;; Speakers(or Redirected headphone/speaker) endpoint with audio offloading DSP supported (AMD HAP) 
+HKR,InterfaceSetting,RearLineOutTopoHAP3,%REG_MULTI_SZ_APPEND%,"ApoPreset2"					;; Headphone endpoint with audio offloading DSP supported (AMD HAP)
+
+[DolbyAPO_AddReg]
+; Add Dolby enabled device indicator string here.
+HKR, InterfaceSetting\ApoPreset1\EP\0, "{6CA6A085-3041-482B-9113-C61E7F250356},0",         ,"0.4.0"
+HKR, InterfaceSetting\ApoPreset2\EP\0, "{6CA6A085-3041-482B-9113-C61E7F250356},0",         ,"0.4.0"
+HKR, , DaxExtFolder,         ,%13%
+
+; AddComponent definition for all SKUs
+[DeviceExtension_Install_DolbyAtmos.NT.Components]
+AddComponent = DolbyAPO_DAX3APOSVC,, DolbyAPO_ComponentInstall_DAX3APOSVC
+AddComponent = DolbyAPO_DAX3HSA_DolbyAtmos,, DolbyAPO_ComponentInstall_DAX3HSA_DolbyAtmos
+
+[DeviceExtension_Install_DolbyAtmosSpeakerSystem.NT.Components]
+AddComponent = DolbyAPO_DAX3APOSVC,, DolbyAPO_ComponentInstall_DAX3APOSVC
+AddComponent = DolbyAPO_DAX3HSA_DolbyAtmosSpeakerSystem,, DolbyAPO_ComponentInstall_DAX3HSA_DolbyAtmosSpeakerSystem
+
+[DeviceExtension_Install_DolbyAudio.NT.Components]
+AddComponent = DolbyAPO_DAX3APOSVC,, DolbyAPO_ComponentInstall_DAX3APOSVC
+AddComponent = DolbyAPO_DAX3HSA_DolbyAudio,, DolbyAPO_ComponentInstall_DAX3HSA_DolbyAudio
+
+[DeviceExtension_Install_DolbyAudioPremium.NT.Components]
+AddComponent = DolbyAPO_DAX3APOSVC,, DolbyAPO_ComponentInstall_DAX3APOSVC
+AddComponent = DolbyAPO_DAX3HSA_DolbyAudioPremium,, DolbyAPO_ComponentInstall_DAX3HSA_DolbyAudioPremium
+
+[DeviceExtension_Install_DolbyAudioSpeakerSystem.NT.Components]
+AddComponent = DolbyAPO_DAX3APOSVC,, DolbyAPO_ComponentInstall_DAX3APOSVC
+AddComponent = DolbyAPO_DAX3HSA_DolbyAudioSpeakerSystem,, DolbyAPO_ComponentInstall_DAX3HSA_DolbyAudioSpeakerSystem
+
+[DeviceExtension_Install_Gaming.NT.Components]
+AddComponent = DolbyAPO_DAX3APOSVC,, DolbyAPO_ComponentInstall_DAX3APOSVC
+AddComponent = DolbyAPO_DAX3HSA_Gaming,, DolbyAPO_ComponentInstall_DAX3HSA_Gaming
+
+[DeviceExtension_Install_DolbyAtmosSpeakerSystemForGaming.NT.Components]
+AddComponent = DolbyAPO_DAX3APOSVC,, DolbyAPO_ComponentInstall_DAX3APOSVC
+AddComponent = DolbyAPO_DAX3HSA_DolbyAtmosSpeakerSystemForGaming,, DolbyAPO_ComponentInstall_DAX3HSA_DolbyAtmosSpeakerSystemForGaming
+
+[DeviceExtension_Install_DolbyAccessNoGaming.NT.Components]
+AddComponent = DolbyAPO_DAX3APOSVC,, DolbyAPO_ComponentInstall_DAX3APOSVC
+AddComponent = DolbyAPO_DAX3HSA_DolbyAccess,, DolbyAPO_ComponentInstall_DAX3HSA_DolbyAccess
+
+[DeviceExtension_Install_DolbyAccessGaming.NT.Components]
+AddComponent = DolbyAPO_DAX3APOSVC,, DolbyAPO_ComponentInstall_DAX3APOSVC
+AddComponent = DolbyAPO_DAX3HSA_DolbyAccess,, DolbyAPO_ComponentInstall_DAX3HSA_DolbyAccess
+
+[DeviceExtension_Install_DolbyAccessOEMNoGaming.NT.Components]
+AddComponent = DolbyAPO_DAX3APOSVC,, DolbyAPO_ComponentInstall_DAX3APOSVC
+AddComponent = DolbyAPO_DAX3HSA_DolbyAccessOEM,, DolbyAPO_ComponentInstall_DAX3HSA_DolbyAccessOEM
+
+[DeviceExtension_Install_DolbyAccessOEMGaming.NT.Components]
+AddComponent = DolbyAPO_DAX3APOSVC,, DolbyAPO_ComponentInstall_DAX3APOSVC
+AddComponent = DolbyAPO_DAX3HSA_DolbyAccessOEM,, DolbyAPO_ComponentInstall_DAX3HSA_DolbyAccessOEM
+
+[DeviceExtension_Install_NoUINoGaming.NT.Components]
+AddComponent = DolbyAPO_DAX3APOSVC,, DolbyAPO_ComponentInstall_DAX3APOSVC
+
+[DeviceExtension_Install_NoUIGaming.NT.Components]
+AddComponent = DolbyAPO_DAX3APOSVC,, DolbyAPO_ComponentInstall_DAX3APOSVC
+
+; APOSVC component
+[DolbyAPO_ComponentInstall_DAX3APOSVC]
+ComponentIds = VEN_DOLBY&PID_DAX3APOSVC  ; Matches with SWC\VEN_DOLBY&PID_DAX3APOSVC
+
+; HSA component definition for all SKUs
+[DolbyAPO_ComponentInstall_DAX3HSA_DolbyAtmos]
+ComponentIds = VEN_DOLBY&PID_DAX3HSA_DolbyAtmos ; Matches with SWC\VEN_DOLBY&PID_DAX3HSA_DolbyAtmos
+
+[DolbyAPO_ComponentInstall_DAX3HSA_DolbyAtmosSpeakerSystem]
+ComponentIds = VEN_DOLBY&PID_DAX3HSA_DolbyAtmosSpeakerSystem ; Matches with SWC\VEN_DOLBY&PID_DAX3HSA_DolbyAtmosSpeakerSystem
+
+[DolbyAPO_ComponentInstall_DAX3HSA_DolbyAudio]
+ComponentIds = VEN_DOLBY&PID_DAX3HSA_DolbyAudio ; Matches with SWC\VEN_DOLBY&PID_DAX3HSA_DolbyAudio
+
+[DolbyAPO_ComponentInstall_DAX3HSA_DolbyAudioPremium]
+ComponentIds = VEN_DOLBY&PID_DAX3HSA_DolbyAudioPremium ; Matches with SWC\VEN_DOLBY&PID_DAX3HSA_DolbyAudioPremium
+
+[DolbyAPO_ComponentInstall_DAX3HSA_DolbyAudioSpeakerSystem]
+ComponentIds = VEN_DOLBY&PID_DAX3HSA_DolbyAudioSpeakerSystem ; Matches with SWC\VEN_DOLBY&PID_DAX3HSA_DolbyAudioSpeakerSystem
+
+[DolbyAPO_ComponentInstall_DAX3HSA_Gaming]
+ComponentIds = VEN_DOLBY&PID_DAX3HSA_Gaming ; Matches with SWC\VEN_DOLBY&PID_DAX3HSA_Gaming
+
+[DolbyAPO_ComponentInstall_DAX3HSA_DolbyAtmosSpeakerSystemForGaming]
+ComponentIds = VEN_DOLBY&PID_DAX3HSA_DolbyAtmosSpeakerSystemForGaming ; Matches with SWC\VEN_DOLBY&PID_DAX3HSA_DolbyAtmosSpeakerSystemForGaming
+
+[DolbyAPO_ComponentInstall_DAX3HSA_DolbyAccess]
+ComponentIds = VEN_DOLBY&PID_DAX3HSA_DolbyAccess ; Matches with SWC\VEN_DOLBY&PID_DAX3HSA_DolbyAccess
+
+[DolbyAPO_ComponentInstall_DAX3HSA_DolbyAccessOEM]
+ComponentIds = VEN_DOLBY&PID_DAX3HSA_DolbyAccessOEM ; Matches with SWC\VEN_DOLBY&PID_DAX3HSA_DolbyAccessOEM
+
+[SourceDisksNames]
+222="APO Installation Disk",,,
+
+[SourceDisksFiles]
+; OEM xml
+operator_settings_lenovo_remove_logo.json = 222
+operator_settings_lenovo_override_volume.json = 222
+operator_settings_lenovo_edu.json = 222
+operator_settings_lenovo_disable_vl_feedback.json = 222
+operator_settings_lenovo_dafault.json = 222
+operator_settings_lenovo_audio_mirroring_amd.json = 222
+operator_settings_lenovo_audio_mirroring.json = 222
+operator_settings.xml = 222
+Operator_Info_Lenovo.xml = 222
+; Tuning xml
+DEV_0257_SUBSYS_17AA3A08_PCI_SUBSYS_380117AA.xml = 222
+DEV_0287_SUBSYS_17AA38BF_PCI_SUBSYS_380217AA.xml = 222
+DEV_0287_SUBSYS_17AA38BE_PCI_SUBSYS_380217AA.xml = 222
+DEV_0257_SUBSYS_17AA397C_PCI_SUBSYS_387F17AA.xml = 222
+DEV_0257_SUBSYS_17AA3BEE_PCI_SUBSYS_386217AA.xml = 222
+DEV_0274_SUBSYS_17AA371E_PCI_SUBSYS_371E17AA.xml = 222
+DEV_0257_SUBSYS_17AA3A0A_PCI_SUBSYS_380117AA.xml = 222
+DEV_0257_SUBSYS_17AA3C15_PCI_SUBSYS_388317AA.xml = 222
+DEV_0287_SUBSYS_17AA389F_PCI_SUBSYS_384B17AA.xml = 222
+DEV_0287_SUBSYS_17AA38A2_PCI_SUBSYS_384B17AA.xml = 222
+DEV_0235_SUBSYS_17AA31BC_PCI_SUBSYS_31BC17AA.xml = 222
+DEV_0235_SUBSYS_17AA3179_PCI_SUBSYS_317917AA.xml = 222
+DEV_0257_SUBSYS_17AA3C13_PCI_SUBSYS_386617AA.xml = 222
+DEV_0287_SUBSYS_17AA38C6_PCI_SUBSYS_388217AA.xml = 222
+DEV_0287_SUBSYS_17AA38AB_PCI_SUBSYS_384D17AA.xml = 222
+DEV_0257_SUBSYS_17AA3A07_PCI_SUBSYS_380117AA.xml = 222
+DEV_0257_SUBSYS_17AA3936_PCI_SUBSYS_383F17AA.xml = 222
+DEV_0257_SUBSYS_17AA3A16_PCI_SUBSYS_386317AA.xml = 222
+DEV_0257_SUBSYS_17AA3938_PCI_SUBSYS_383F17AA.xml = 222
+DEV_0274_SUBSYS_17AA373A_PCI_SUBSYS_373A17AA.xml = 222
+DEV_0257_SUBSYS_17AA39F4_PCI_SUBSYS_389217AA.xml = 222
+DEV_0257_SUBSYS_17AA39F5_PCI_SUBSYS_385D17AA_settings.xml = 222
+DEV_0257_SUBSYS_17AA39F5_PCI_SUBSYS_385D17AA.xml = 222
+DEV_0257_SUBSYS_17AA39F4_PCI_SUBSYS_389217AA_settings.xml = 222
+DEV_0235_SUBSYS_17AA31C2_PCI_SUBSYS_31C217AA.xml = 222
+DEV_0235_SUBSYS_17AA32C1_PCI_SUBSYS_32C117AA.xml = 222
+DEV_0257_SUBSYS_17AA396B_PCI_SUBSYS_387C17AA_settings.xml = 222
+DEV_0257_SUBSYS_17AA396B_PCI_SUBSYS_387C17AA.xml = 222
+DEV_0257_SUBSYS_17AA3973_PCI_SUBSYS_384A17AA_settings.xml = 222
+DEV_0257_SUBSYS_17AA3973_PCI_SUBSYS_384A17AA.xml = 222
+DEV_0257_SUBSYS_17AA396F_PCI_SUBSYS_384717AA_settings.xml = 222
+DEV_0257_SUBSYS_17AA396F_PCI_SUBSYS_384717AA.xml = 222
+DEV_0257_SUBSYS_17AA3C12_PCI_SUBSYS_386517AA.xml = 222
+DEV_0257_SUBSYS_17AA389A_PCI_SUBSYS_380317AA.xml = 222
+DEV_0257_SUBSYS_17AA3841_PCI_SUBSYS_381617AA.xml = 222
+DEV_0257_SUBSYS_17AA387C_PCI_SUBSYS_380517AA.xml = 222
+DEV_0287_SUBSYS_17AA381A_PCI_SUBSYS_381A17AA.xml = 222
+DEV_0287_SUBSYS_17AA3844_PCI_SUBSYS_382717AA.xml = 222
+DEV_0257_SUBSYS_17AA3A0B_PCI_SUBSYS_380117AA.xml = 222
+DEV_0287_SUBSYS_17AA3811_PCI_SUBSYS_381117AA.xml = 222
+DEV_0287_SUBSYS_17AA3812_PCI_SUBSYS_381117AA.xml = 222
+INTELAUDIO_DEV_0257_SUBSYS_17AA383E_PCI_SUBSYS_381017AA.xml = 222
+INTELAUDIO_DEV_0257_SUBSYS_17AA383D_PCI_SUBSYS_381017AA.xml = 222
+HDAUDIO_DEV_0257_SUBSYS_17AA3808_PCI_SUBSYS_381417AA.xml = 222
+HDAUDIO_DEV_0257_SUBSYS_17AA381E_PCI_SUBSYS_381417AA.xml = 222
+DEV_0257_SUBSYS_17AA3863_PCI_SUBSYS_382117AA.xml = 222
+DEV_0257_SUBSYS_17AA3861_PCI_SUBSYS_382117AA.xml = 222
+INTELAUDIO_DEV_0257_SUBSYS_17AA3847_PCI_SUBSYS_382117AA.xml = 222
+INTELAUDIO_DEV_0257_SUBSYS_17AA3807_PCI_SUBSYS_381617AA.xml = 222
+INTELAUDIO_DEV_0257_SUBSYS_17AA3806_PCI_SUBSYS_381617AA.xml = 222
+INTELAUDIO_DEV_0257_SUBSYS_17AA384A_PCI_SUBSYS_382117AA.xml = 222
+DEV_0257_SUBSYS_17AA387A_PCI_SUBSYS_381117AA.xml = 222
+INTELAUDIO_DEV_0257_SUBSYS_17AA3845_PCI_SUBSYS_382117AA.xml = 222
+INTELAUDIO_DEV_0257_SUBSYS_17AA3805_PCI_SUBSYS_381617AA.xml = 222
+INTELAUDIO_DEV_0257_SUBSYS_17AA383C_PCI_SUBSYS_381017AA.xml = 222
+INTELAUDIO_DEV_0257_SUBSYS_17AA3849_PCI_SUBSYS_382117AA.xml = 222
+DEV_0285_SUBSYS_17AA3806_PCI_SUBSYS_380617AA.xml = 222
+DEV_0257_SUBSYS_17AA3BEA_PCI_SUBSYS_380A17AA.xml = 222
+DEV_0287_SUBSYS_17AA389C_PCI_SUBSYS_384517AA.xml = 222
+DEV_0892_SUBSYS_17AA3715_PCI_SUBSYS_371517AA.xml = 222
+DEV_0897_SUBSYS_17AA3715_PCI_SUBSYS_371517AA.xml = 222
+DEV_0897_SUBSYS_17AA374F_PCI_SUBSYS_374F17AA.xml = 222
+DEV_0257_SUBSYS_17AA3A23_PCI_SUBSYS_386A17AA.xml = 222
+DEV_0257_SUBSYS_17AA396E_PCI_SUBSYS_380617AA.xml = 222
+DEV_0257_SUBSYS_17AA396D_PCI_SUBSYS_384617AA.xml = 222
+DEV_0257_SUBSYS_17AA3C08_PCI_SUBSYS_387E17AA.xml = 222
+DEV_0257_SUBSYS_17AA3C0A_PCI_SUBSYS_387F17AA.xml = 222
+DEV_0257_SUBSYS_17AA3A46_PCI_SUBSYS_384A17AA.xml = 222
+HDAUDIO_DEV_0235_SUBSYS_17AA3713_PCI_SUBSYS_370517AA.xml = 222
+HDAUDIO_DEV_0235_SUBSYS_17AA3712_PCI_SUBSYS_36FC17AA.xml = 222
+HDAUDIO_DEV_0235_SUBSYS_17AA3710_PCI_SUBSYS_36FE17AA.xml = 222
+HDAUDIO_DEV_0235_SUBSYS_17AA370E_PCI_SUBSYS_36FA17AA.xml = 222
+HDAUDIO_DEV_0235_SUBSYS_17AA370B_PCI_SUBSYS_370B17AA.xml = 222
+HDAUDIO_DEV_0235_SUBSYS_17AA3719_PCI_SUBSYS_371917AA.xml = 222
+DEV_0257_SUBSYS_17AA3C01_PCI_SUBSYS_385817AA.xml = 222
+DEV_0287_SUBSYS_17AA389A_PCI_SUBSYS_383F17AA.xml = 222
+DEV_0257_SUBSYS_17AA3C07_PCI_SUBSYS_387C17AA.xml = 222
+DEV_0257_SUBSYS_17AA3C06_PCI_SUBSYS_381A17AA.xml = 222
+DEV_0257_SUBSYS_17AA3A26_PCI_SUBSYS_384617AA.xml = 222
+DEV_0257_SUBSYS_17AA3A19_PCI_SUBSYS_386717AA.xml = 222
+DEV_0257_SUBSYS_17AA396A_PCI_SUBSYS_387B17AA.xml = 222
+DEV_0257_SUBSYS_17AA39FF_PCI_SUBSYS_389417AA_settings.xml = 222
+DEV_0257_SUBSYS_17AA39FF_PCI_SUBSYS_389417AA.xml = 222
+DEV_0257_SUBSYS_17AA3972_PCI_SUBSYS_384A17AA_settings.xml = 222
+DEV_0257_SUBSYS_17AA3972_PCI_SUBSYS_384A17AA.xml = 222
+DEV_0257_SUBSYS_17AA396C_PCI_SUBSYS_384717AA_settings.xml = 222
+DEV_0257_SUBSYS_17AA396C_PCI_SUBSYS_384717AA.xml = 222
+DEV_0257_SUBSYS_17AA396A_PCI_SUBSYS_387B17AA_settings.xml = 222
+DEV_0287_SUBSYS_17AA389B_PCI_SUBSYS_386C17AA.xml = 222
+DEV_0257_SUBSYS_17AA3978_PCI_SUBSYS_387E17AA.xml = 222
+DEV_0257_SUBSYS_17AA3C04_PCI_SUBSYS_386117AA.xml = 222
+INTELAUDIO_DEV_0298_SUBSYS_17AA3818_PCI_SUBSYS_382E17AA.xml = 222
+DEV_0257_SUBSYS_17AA39FE_PCI_SUBSYS_389317AA.xml = 222
+DEV_0257_SUBSYS_17AA22F0_PCI_SUBSYS_22F017AA.xml = 222
+DEV_0257_SUBSYS_17AA3A25_PCI_SUBSYS_380417AA.xml = 222
+DEV_0257_SUBSYS_17AA39F2_PCI_SUBSYS_385917AA.xml = 222
+DEV_0257_SUBSYS_17AA39ED_PCI_SUBSYS_388F17AA.xml = 222
+DEV_0287_SUBSYS_17AA386A_PCI_SUBSYS_380F17AA.xml = 222
+DEV_0298_SUBSYS_17AA3819_PCI_SUBSYS_380E17AA.xml = 222
+DEV_0257_SUBSYS_17AA3A1B_PCI_SUBSYS_386517AA.xml = 222
+DEV_0257_SUBSYS_17AA3A1E_PCI_SUBSYS_385B17AA.xml = 222
+DEV_0257_SUBSYS_17AA38C0_PCI_SUBSYS_382917AA.xml = 222
+DEV_0257_SUBSYS_17AA38A1_PCI_SUBSYS_382D17AA.xml = 222
+DEV_0287_SUBSYS_17AA381B_PCI_SUBSYS_380517AA.xml = 222
+DEV_0285_SUBSYS_17AA383B_PCI_SUBSYS_382717AA.xml = 222
+DEV_0285_SUBSYS_17AA3803_PCI_SUBSYS_382717AA.xml = 222
+INTELAUDIO_DEV_0285_SUBSYS_17AA381A_PCI_SUBSYS_380417AA.xml = 222
+DEV_0257_SUBSYS_17AA394A_PCI_SUBSYS_384217AA_settings.xml = 222
+DEV_0257_SUBSYS_17AA394A_PCI_SUBSYS_384217AA.xml = 222
+DEV_0287_SUBSYS_17AA3838_PCI_SUBSYS_383817AA.xml = 222
+DEV_0257_SUBSYS_17AA3A0E_PCI_SUBSYS_381317AA.xml = 222
+DEV_0257_SUBSYS_17AA3866_PCI_SUBSYS_386617AA.xml = 222
+DEV_0257_SUBSYS_17AA3899_PCI_SUBSYS_380417AA.xml = 222
+DEV_0287_SUBSYS_17AA38B0_PCI_SUBSYS_384E17AA.xml = 222
+DEV_0287_SUBSYS_17AA38AD_PCI_SUBSYS_384E17AA.xml = 222
+DEV_0274_SUBSYS_17AA371F_PCI_SUBSYS_371F17AA.xml = 222
+DEV_0256_SUBSYS_17AA32F3_PCI_SUBSYS_32F317AA.xml = 222
+DEV_0256_SUBSYS_17AA32F5_PCI_SUBSYS_32F517AA.xml = 222
+DEV_0274_SUBSYS_17AA3739_PCI_SUBSYS_373917AA.xml = 222
+DEV_0274_SUBSYS_17AA373B_PCI_SUBSYS_373B17AA.xml = 222
+DEV_0257_SUBSYS_17AA3968_PCI_SUBSYS_387A17AA.xml = 222
+DEV_0257_SUBSYS_17AA3967_PCI_SUBSYS_384517AA_settings.xml = 222
+DEV_0257_SUBSYS_17AA3967_PCI_SUBSYS_384517AA.xml = 222
+DEV_0257_SUBSYS_17AA3968_PCI_SUBSYS_387A17AA_settings.xml = 222
+DEV_0235_SUBSYS_17AA3193_PCI_SUBSYS_319317AA.xml = 222
+DEV_0235_SUBSYS_17AA3173_PCI_SUBSYS_317317AA.xml = 222
+DEV_0287_SUBSYS_17AA3853_PCI_SUBSYS_383217AA.xml = 222
+DEV_0287_SUBSYS_17AA384A_PCI_SUBSYS_383217AA.xml = 222
+DEV_0274_SUBSYS_17AA3751_PCI_SUBSYS_375117AA.xml = 222
+DEV_0274_SUBSYS_17AA3734_PCI_SUBSYS_373417AA.xml = 222
+DEV_0287_SUBSYS_17AA3839_PCI_SUBSYS_382617AA.xml = 222
+DEV_0257_SUBSYS_17AA3937_PCI_SUBSYS_383F17AA.xml = 222
+DEV_0887_SUBSYS_17AA3717_PCI_SUBSYS_371717AA.xml = 222
+DEV_0257_SUBSYS_17AA3986_PCI_SUBSYS_383617AA.xml = 222
+DEV_0257_SUBSYS_17AA39EA_PCI_SUBSYS_385517AA.xml = 222
+DEV_0257_SUBSYS_17AA3A04_PCI_SUBSYS_386017AA.xml = 222
+DEV_0257_SUBSYS_17AA3A04_PCI_SUBSYS_386017AA_settings.xml = 222
+DEV_0235_SUBSYS_17AA371D_PCI_SUBSYS_371D17AA.xml = 222
+DEV_0235_SUBSYS_17AA371B_PCI_SUBSYS_371B17AA.xml = 222
+DEV_0235_SUBSYS_17AA3735_PCI_SUBSYS_373717AA.xml = 222
+DEV_0287_SUBSYS_17AA38C5_PCI_SUBSYS_388117AA.xml = 222
+DEV_0287_SUBSYS_17AA3818_PCI_SUBSYS_380A17AA.xml = 222
+DEV_0235_SUBSYS_17AA374D_PCI_SUBSYS_374E17AA.xml = 222
+DEV_0235_SUBSYS_17AA373D_PCI_SUBSYS_374417AA.xml = 222
+DEV_0256_SUBSYS_17AA3774_PCI_SUBSYS_377417AA.xml = 222
+DEV_0256_SUBSYS_17AA3744_PCI_SUBSYS_374417AA.xml = 222
+DEV_0256_SUBSYS_17AA375B_PCI_SUBSYS_375A17AA.xml = 222
+DEV_0256_SUBSYS_17AA375A_PCI_SUBSYS_375A17AA.xml = 222
+DEV_0256_SUBSYS_17AA373D_PCI_SUBSYS_374417AA.xml = 222
+DEV_0235_SUBSYS_17AA3749_PCI_SUBSYS_374917AA.xml = 222
+DEV_0235_SUBSYS_17AA3748_PCI_SUBSYS_374917AA.xml = 222
+DEV_0235_SUBSYS_17AA3744_PCI_SUBSYS_377617AA.xml = 222
+DEV_0235_SUBSYS_17AA3744_PCI_SUBSYS_374417AA.xml = 222
+DEV_0235_SUBSYS_17AA374E_PCI_SUBSYS_374E17AA.xml = 222
+DEV_0287_SUBSYS_17AA3893_PCI_SUBSYS_384C17AA.xml = 222
+DEV_0285_SUBSYS_17AA380C_PCI_SUBSYS_380F17AA.xml = 222
+DEV_0285_SUBSYS_17AA380E_PCI_SUBSYS_383A17AA.xml = 222
+DEV_0257_SUBSYS_17AA39EF_PCI_SUBSYS_385817AA.xml = 222
+DEV_0287_SUBSYS_17AA3856_PCI_SUBSYS_383B17AA.xml = 222
+HDAUDIO_DEV_0274_SUBSYS_17AA3703_PCI_SUBSYS_370317AA.xml = 222
+INTELAUDIO_DEV_0274_SUBSYS_17AA3702_PCI_SUBSYS_370217AA.xml = 222
+DEV_0274_SUBSYS_17AA3720_PCI_SUBSYS_372017AA.xml = 222
+DEV_0257_SUBSYS_17AA3883_PCI_SUBSYS_380D17AA.xml = 222
+DEV_0257_SUBSYS_17AA3939_PCI_SUBSYS_380117AA.xml = 222
+DEV_0287_SUBSYS_17AA3881_PCI_SUBSYS_384317AA.xml = 222
+DEV_0257_SUBSYS_17AA3971_PCI_SUBSYS_384917AA.xml = 222
+DEV_0257_SUBSYS_17AA3949_PCI_SUBSYS_384217AA.xml = 222
+DEV_0257_SUBSYS_17AA3949_PCI_SUBSYS_384217AA_settings.xml = 222
+DEV_0257_SUBSYS_17AA387B_PCI_SUBSYS_380517AA.xml = 222
+DEV_0287_SUBSYS_17AA3858_PCI_SUBSYS_383C17AA.xml = 222
+DEV_0274_SUBSYS_17AA3767_PCI_SUBSYS_376717AA.xml = 222
+DEV_0274_SUBSYS_17AA377C_PCI_SUBSYS_377C17AA.xml = 222
+DEV_0257_SUBSYS_17AA38BC_PCI_SUBSYS_380517AA.xml = 222
+DEV_0257_SUBSYS_17AA38B5_PCI_SUBSYS_380E17AA.xml = 222
+DEV_0257_SUBSYS_17AA3980_PCI_SUBSYS_388117AA.xml = 222
+DEV_0257_SUBSYS_17AA39DB_PCI_SUBSYS_385117AA.xml = 222
+DEV_0257_SUBSYS_17AA3A13_PCI_SUBSYS_386217AA.xml = 222
+HDAUDIO_DEV_0235_SUBSYS_17AA370F_PCI_SUBSYS_36FF17AA.xml = 222
+HDAUDIO_DEV_0235_SUBSYS_17AA370D_PCI_SUBSYS_36FB17AA.xml = 222
+HDAUDIO_DEV_0235_SUBSYS_17AA370C_PCI_SUBSYS_370C17AA.xml = 222
+HDAUDIO_DEV_0235_SUBSYS_17AA3718_PCI_SUBSYS_371817AA.xml = 222
+HDAUDIO_DEV_0235_SUBSYS_17AA3711_PCI_SUBSYS_36FD17AA.xml = 222
+DEV_0230_SUBSYS_17AA3841_PCI_SUBSYS_380917AA.xml = 222
+DEV_0230_SUBSYS_17AA383E_PCI_SUBSYS_382217AA.xml = 222
+DEV_0230_SUBSYS_17AA383B_PCI_SUBSYS_381817AA.xml = 222
+DEV_0257_SUBSYS_17AA3984_PCI_SUBSYS_388117AA.xml = 222
+DEV_0257_SUBSYS_17AA3940_PCI_SUBSYS_381817AA.xml = 222
+DEV_0257_SUBSYS_17AA3925_PCI_SUBSYS_383F17AA.xml = 222
+DEV_0257_SUBSYS_17AA392F_PCI_SUBSYS_380917AA.xml = 222
+DEV_0230_SUBSYS_17AA3857_PCI_SUBSYS_383A17AA.xml = 222
+DEV_0230_SUBSYS_17AA3853_PCI_SUBSYS_383F17AA.xml = 222
+DEV_0287_SUBSYS_17AA3894_PCI_SUBSYS_386617AA.xml = 222
+DEV_0287_SUBSYS_17AA3871_PCI_SUBSYS_385817AA.xml = 222
+DEV_0257_SUBSYS_17AA3851_PCI_SUBSYS_385217AA.xml = 222
+DEV_0257_SUBSYS_17AA3832_PCI_SUBSYS_383217AA.xml = 222
+DEV_0287_SUBSYS_17AA3A36_PCI_SUBSYS_3A3517AA.xml = 222
+DEV_0287_SUBSYS_17AA3A35_PCI_SUBSYS_3A3517AA.xml = 222
+DEV_0287_SUBSYS_17AA380B_PCI_SUBSYS_380A17AA.xml = 222
+DEV_0287_SUBSYS_17AA380A_PCI_SUBSYS_380A17AA.xml = 222
+DEV_0257_SUBSYS_17AA397A_PCI_SUBSYS_387F17AA.xml = 222
+DEV_0287_SUBSYS_17AA38B2_PCI_SUBSYS_385917AA.xml = 222
+DEV_0257_SUBSYS_17AA3872_PCI_SUBSYS_380F17AA.xml = 222
+DEV_0257_SUBSYS_17AA389E_PCI_SUBSYS_382417AA.xml = 222
+DEV_0257_SUBSYS_17AA389C_PCI_SUBSYS_382417AA.xml = 222
+DEV_0257_SUBSYS_17AA387D_PCI_SUBSYS_381B17AA.xml = 222
+DEV_0257_SUBSYS_17AA3924_PCI_SUBSYS_381217AA.xml = 222
+DEV_0257_SUBSYS_17AA3923_PCI_SUBSYS_381217AA.xml = 222
+DEV_0257_SUBSYS_17AA3875_PCI_SUBSYS_380F17AA.xml = 222
+DEV_0287_SUBSYS_17AA380D_PCI_SUBSYS_380D17AA.xml = 222
+DEV_0287_SUBSYS_17AA3A34_PCI_SUBSYS_3A3417AA.xml = 222
+DEV_0287_SUBSYS_17AA3809_PCI_SUBSYS_380917AA.xml = 222
+DEV_0235_SUBSYS_17AA3725_PCI_SUBSYS_371B17AA.xml = 222
+DEV_0235_SUBSYS_17AA372F_PCI_SUBSYS_371D17AA.xml = 222
+DEV_0235_SUBSYS_17AA3737_PCI_SUBSYS_373717AA.xml = 222
+DEV_0287_SUBSYS_17AA3866_PCI_SUBSYS_380D17AA.xml = 222
+DEV_0287_SUBSYS_17AA3865_PCI_SUBSYS_380D17AA.xml = 222
+DEV_0274_SUBSYS_17AA377D_PCI_SUBSYS_377D17AA.xml = 222
+DEV_0274_SUBSYS_17AA376C_PCI_SUBSYS_376417AA.xml = 222
+DEV_0230_SUBSYS_17AA3845_PCI_SUBSYS_383F17AA.xml = 222
+DEV_0230_SUBSYS_17AA3839_PCI_SUBSYS_381817AA_settings.xml = 222
+DEV_0230_SUBSYS_17AA3839_PCI_SUBSYS_381817AA.xml = 222
+DEV_0230_SUBSYS_17AA383F_PCI_SUBSYS_380917AA_settings.xml = 222
+DEV_0230_SUBSYS_17AA383F_PCI_SUBSYS_380917AA.xml = 222
+DEV_0230_SUBSYS_17AA383C_PCI_SUBSYS_382217AA_settings.xml = 222
+DEV_0230_SUBSYS_17AA383C_PCI_SUBSYS_382217AA.xml = 222
+DEV_0257_SUBSYS_17AA3963_PCI_SUBSYS_382D17AA_settings.xml = 222
+DEV_0257_SUBSYS_17AA3963_PCI_SUBSYS_382D17AA.xml = 222
+DEV_0257_SUBSYS_17AA3932_PCI_SUBSYS_380117AA_settings.xml = 222
+DEV_0257_SUBSYS_17AA3932_PCI_SUBSYS_380117AA.xml = 222
+DEV_0257_SUBSYS_17AA3926_PCI_SUBSYS_383F17AA_settings.xml = 222
+DEV_0257_SUBSYS_17AA3926_PCI_SUBSYS_383F17AA.xml = 222
+DEV_0257_SUBSYS_17AA393E_PCI_SUBSYS_381817AA_settings.xml = 222
+DEV_0257_SUBSYS_17AA393E_PCI_SUBSYS_381817AA.xml = 222
+DEV_0257_SUBSYS_17AA393A_PCI_SUBSYS_381017AA_settings.xml = 222
+DEV_0257_SUBSYS_17AA393A_PCI_SUBSYS_381017AA.xml = 222
+DEV_0257_SUBSYS_17AA392D_PCI_SUBSYS_380917AA_settings.xml = 222
+DEV_0257_SUBSYS_17AA392D_PCI_SUBSYS_380917AA.xml = 222
+DEV_0230_SUBSYS_17AA3855_PCI_SUBSYS_382D17AA_settings.xml = 222
+DEV_0230_SUBSYS_17AA3855_PCI_SUBSYS_382D17AA.xml = 222
+DEV_0230_SUBSYS_17AA3852_PCI_SUBSYS_383A17AA.xml = 222
+DEV_0230_SUBSYS_17AA3849_PCI_SUBSYS_381017AA_settings.xml = 222
+DEV_0230_SUBSYS_17AA3849_PCI_SUBSYS_381017AA.xml = 222
+DEV_0230_SUBSYS_17AA3845_PCI_SUBSYS_383F17AA_settings.xml = 222
+DEV_0257_SUBSYS_17AA3C03_PCI_SUBSYS_387717AA.xml = 222
+DEV_0257_SUBSYS_17AA3C02_PCI_SUBSYS_387717AA.xml = 222
+DEV_0257_SUBSYS_17AA382F_PCI_SUBSYS_382F17AA.xml = 222
+DEV_0257_SUBSYS_17AA3852_PCI_SUBSYS_385217AA.xml = 222
+DEV_0287_SUBSYS_17AA3822_PCI_SUBSYS_381117AA.xml = 222
+DEV_0892_SUBSYS_17AA3716_PCI_SUBSYS_371617AA.xml = 222
+DEV_0897_SUBSYS_17AA3716_PCI_SUBSYS_371617AA.xml = 222
+DEV_0287_SUBSYS_17AA3875_PCI_SUBSYS_389117AA.xml = 222
+DEV_0274_SUBSYS_17AA3763_PCI_SUBSYS_376317AA.xml = 222
+DEV_0287_SUBSYS_17AA3813_PCI_SUBSYS_382617AA.xml = 222
+DEV_0274_SUBSYS_17AA3757_PCI_SUBSYS_375717AA.xml = 222
+DEV_0285_SUBSYS_17AA3807_PCI_SUBSYS_382417AA.xml = 222
+DEV_0285_SUBSYS_17AA383C_PCI_SUBSYS_382517AA.xml = 222
+DEV_0285_SUBSYS_17AA383D_PCI_SUBSYS_382417AA.xml = 222
+DEV_0285_SUBSYS_17AA383E_PCI_SUBSYS_382517AA.xml = 222
+INTELAUDIO_DEV_0257_SUBSYS_17AA3840_PCI_SUBSYS_381017AA.xml = 222
+INTELAUDIO_DEV_0257_SUBSYS_17AA3809_PCI_SUBSYS_381617AA.xml = 222
+INTELAUDIO_DEV_0257_SUBSYS_17AA384B_PCI_SUBSYS_382117AA.xml = 222
+INTELAUDIO_DEV_0257_SUBSYS_17AA383F_PCI_SUBSYS_381017AA.xml = 222
+INTELAUDIO_DEV_0257_SUBSYS_17AA380A_PCI_SUBSYS_381617AA.xml = 222
+HDAUDIO_DEV_0257_SUBSYS_17AA380E_PCI_SUBSYS_381417AA.xml = 222
+HDAUDIO_DEV_0257_SUBSYS_17AA380D_PCI_SUBSYS_381417AA.xml = 222
+DEV_0257_SUBSYS_17AA3862_PCI_SUBSYS_382117AA.xml = 222
+DEV_0257_SUBSYS_17AA3860_PCI_SUBSYS_382117AA.xml = 222
+INTELAUDIO_DEV_0257_SUBSYS_17AA3848_PCI_SUBSYS_382117AA.xml = 222
+DEV_0257_SUBSYS_17AA3A22_PCI_SUBSYS_386A17AA.xml = 222
+DEV_0257_SUBSYS_17AA3969_PCI_SUBSYS_384617AA.xml = 222
+DEV_0257_SUBSYS_17AA3960_PCI_SUBSYS_380617AA.xml = 222
+DEV_0257_SUBSYS_17AA3C09_PCI_SUBSYS_387F17AA.xml = 222
+DEV_0257_SUBSYS_17AA3BCD_PCI_SUBSYS_384A17AA.xml = 222
+DEV_0287_SUBSYS_17AA38BB_PCI_SUBSYS_387917AA.xml = 222
+DEV_0287_SUBSYS_17AA38BA_PCI_SUBSYS_387917AA.xml = 222
+DEV_0287_SUBSYS_17AA3899_PCI_SUBSYS_383F17AA.xml = 222
+DEV_0257_SUBSYS_17AA3A0F_PCI_SUBSYS_380217AA.xml = 222
+DEV_0257_SUBSYS_17AA3C0E_PCI_SUBSYS_385F17AA.xml = 222
+DEV_0257_SUBSYS_17AA3959_PCI_SUBSYS_382017AA.xml = 222
+DEV_0257_SUBSYS_17AA39F8_PCI_SUBSYS_380E17AA.xml = 222
+DEV_0257_SUBSYS_17AA39EB_PCI_SUBSYS_388117AA.xml = 222
+DEV_0257_SUBSYS_17AA39D9_PCI_SUBSYS_385117AA.xml = 222
+DEV_0257_SUBSYS_17AA3A17_PCI_SUBSYS_386317AA.xml = 222
+DEV_0257_SUBSYS_17AA39D7_PCI_SUBSYS_388417AA_settings.xml = 222
+DEV_0257_SUBSYS_17AA39D7_PCI_SUBSYS_388417AA.xml = 222
+DEV_0257_SUBSYS_17AA38AD_PCI_SUBSYS_380617AA.xml = 222
+DEV_0257_SUBSYS_17AA3894_PCI_SUBSYS_381D17AA_settings.xml = 222
+DEV_0257_SUBSYS_17AA3894_PCI_SUBSYS_381D17AA.xml = 222
+DEV_0257_SUBSYS_17AA3865_PCI_SUBSYS_382317AA_settings.xml = 222
+DEV_0257_SUBSYS_17AA3865_PCI_SUBSYS_382317AA.xml = 222
+DEV_0257_SUBSYS_17AA3864_PCI_SUBSYS_382317AA_settings.xml = 222
+DEV_0257_SUBSYS_17AA3864_PCI_SUBSYS_382317AA.xml = 222
+DEV_0257_SUBSYS_17AA386C_PCI_SUBSYS_382317AA_settings.xml = 222
+DEV_0257_SUBSYS_17AA386C_PCI_SUBSYS_382317AA.xml = 222
+DEV_0257_SUBSYS_17AA39EE_PCI_SUBSYS_385617AA.xml = 222
+DEV_0287_SUBSYS_17AA3852_PCI_SUBSYS_383217AA.xml = 222
+DEV_0257_SUBSYS_17AA3A06_PCI_SUBSYS_389817AA.xml = 222
+DEV_0257_SUBSYS_17AA3A09_PCI_SUBSYS_389917AA.xml = 222
+DEV_0274_SUBSYS_17AA3764_PCI_SUBSYS_376417AA.xml = 222
+DEV_0274_SUBSYS_17AA377B_PCI_SUBSYS_377B17AA.xml = 222
+DEV_0274_SUBSYS_17AA3778_PCI_SUBSYS_377817AA.xml = 222
+DEV_0287_SUBSYS_17AA38A9_PCI_SUBSYS_384D17AA.xml = 222
+DEV_0235_SUBSYS_17AA3726_PCI_SUBSYS_372117AA.xml = 222
+DEV_0235_SUBSYS_17AA372E_PCI_SUBSYS_371C17AA.xml = 222
+DEV_0235_SUBSYS_17AA3738_PCI_SUBSYS_373817AA.xml = 222
+DEV_0257_SUBSYS_17AA3C14_PCI_SUBSYS_388317AA.xml = 222
+DEV_0298_SUBSYS_17AA381B_PCI_SUBSYS_380217AA.xml = 222
+DEV_0298_SUBSYS_17AA3822_PCI_SUBSYS_383617AA.xml = 222
+DEV_0287_SUBSYS_17AA387D_PCI_SUBSYS_383517AA.xml = 222
+DEV_0287_SUBSYS_17AA387E_PCI_SUBSYS_383517AA.xml = 222
+DEV_0235_SUBSYS_17AA32C6_PCI_SUBSYS_32C617AA.xml = 222
+DEV_0235_SUBSYS_17AA31B5_PCI_SUBSYS_31B517AA.xml = 222
+DEV_0235_SUBSYS_17AA3194_PCI_SUBSYS_319417AA.xml = 222
+DEV_0235_SUBSYS_17AA3174_PCI_SUBSYS_317417AA.xml = 222
+DEV_0287_SUBSYS_17AA3802_PCI_SUBSYS_382017AA.xml = 222
+DEV_0235_SUBSYS_17AA3721_PCI_SUBSYS_372117AA.xml = 222
+DEV_0235_SUBSYS_17AA371C_PCI_SUBSYS_371C17AA.xml = 222
+DEV_0235_SUBSYS_17AA3736_PCI_SUBSYS_373817AA.xml = 222
+DEV_0235_SUBSYS_17AA31B8_PCI_SUBSYS_31B817AA.xml = 222
+DEV_0235_SUBSYS_17AA31BA_PCI_SUBSYS_31BA17AA.xml = 222
+DEV_0235_SUBSYS_17AA31B9_PCI_SUBSYS_31B917AA.xml = 222
+DEV_0287_SUBSYS_17AA3843_PCI_SUBSYS_381E17AA.xml = 222
+DEV_0235_SUBSYS_17AA3722_PCI_SUBSYS_372217AA.xml = 222
+DEV_0287_SUBSYS_17AA389E_PCI_SUBSYS_386617AA.xml = 222
+DEV_0257_SUBSYS_17AA38CA_PCI_SUBSYS_382A17AA.xml = 222
+DEV_0257_SUBSYS_17AA38CB_PCI_SUBSYS_383317AA.xml = 222
+DEV_0257_SUBSYS_17AA389D_PCI_SUBSYS_382417AA.xml = 222
+DEV_0257_SUBSYS_17AA3922_PCI_SUBSYS_381217AA.xml = 222
+DEV_0257_SUBSYS_17AA3873_PCI_SUBSYS_380F17AA.xml = 222
+DEV_0287_SUBSYS_17AA385B_PCI_SUBSYS_383617AA.xml = 222
+DEV_0287_SUBSYS_17AA384D_PCI_SUBSYS_383617AA.xml = 222
+DEV_0257_SUBSYS_17AA39DD_PCI_SUBSYS_385117AA.xml = 222
+DEV_0257_SUBSYS_17AA38BE_PCI_SUBSYS_380517AA.xml = 222
+DEV_0257_SUBSYS_17AA38B7_PCI_SUBSYS_380E17AA.xml = 222
+DEV_0257_SUBSYS_17AA3C10_PCI_SUBSYS_385F17AA.xml = 222
+DEV_0257_SUBSYS_17AA3982_PCI_SUBSYS_388117AA.xml = 222
+DEV_0257_SUBSYS_17AA395A_PCI_SUBSYS_382017AA.xml = 222
+DEV_0257_SUBSYS_17AA3BE6_PCI_SUBSYS_386D17AA.xml = 222
+DEV_0257_SUBSYS_17AA3988_PCI_SUBSYS_384D17AA.xml = 222
+DEV_0257_SUBSYS_17AA3944_PCI_SUBSYS_380917AA.xml = 222
+DEV_0257_SUBSYS_17AA3943_PCI_SUBSYS_380817AA.xml = 222
+DEV_0257_SUBSYS_17AA3889_PCI_SUBSYS_381C17AA.xml = 222
+DEV_0257_SUBSYS_17AA388E_PCI_SUBSYS_381017AA.xml = 222
+DEV_0257_SUBSYS_17AA388D_PCI_SUBSYS_381017AA.xml = 222
+DEV_0257_SUBSYS_17AA388A_PCI_SUBSYS_380217AA.xml = 222
+DEV_0257_SUBSYS_17AA38C5_PCI_SUBSYS_382C17AA.xml = 222
+DEV_0257_SUBSYS_17AA38C4_PCI_SUBSYS_382C17AA.xml = 222
+DEV_0235_SUBSYS_17AA3746_PCI_SUBSYS_374617AA.xml = 222
+DEV_0235_SUBSYS_17AA3745_PCI_SUBSYS_374617AA.xml = 222
+DEV_0235_SUBSYS_17AA374B_PCI_SUBSYS_374B17AA.xml = 222
+DEV_0235_SUBSYS_17AA374A_PCI_SUBSYS_374B17AA.xml = 222
+DEV_0256_SUBSYS_17AA3775_PCI_SUBSYS_377517AA.xml = 222
+DEV_0256_SUBSYS_17AA3746_PCI_SUBSYS_374617AA.xml = 222
+DEV_0256_SUBSYS_17AA3745_PCI_SUBSYS_374617AA.xml = 222
+DEV_0256_SUBSYS_17AA375D_PCI_SUBSYS_375C17AA.xml = 222
+DEV_0256_SUBSYS_17AA375C_PCI_SUBSYS_375C17AA.xml = 222
+DEV_0235_SUBSYS_17AA3746_PCI_SUBSYS_377717AA.xml = 222
+DEV_0287_SUBSYS_17AA38C1_PCI_SUBSYS_387D17AA.xml = 222
+DEV_0287_SUBSYS_17AA38C0_PCI_SUBSYS_387D17AA.xml = 222
+DEV_0257_SUBSYS_17AA3957_PCI_SUBSYS_384317AA.xml = 222
+DEV_0257_SUBSYS_17AA38C1_PCI_SUBSYS_382917AA.xml = 222
+DEV_0257_SUBSYS_17AA38A2_PCI_SUBSYS_382D17AA.xml = 222
+DEV_0287_SUBSYS_17AA381C_PCI_SUBSYS_380117AA.xml = 222
+DEV_0257_SUBSYS_17AA3A15_PCI_SUBSYS_386317AA.xml = 222
+DEV_0257_SUBSYS_17AA3A12_PCI_SUBSYS_386217AA.xml = 222
+DEV_0257_SUBSYS_17AA3A1A_PCI_SUBSYS_386417AA.xml = 222
+DEV_0257_SUBSYS_17AA3976_PCI_SUBSYS_384C17AA.xml = 222
+DEV_0257_SUBSYS_17AA3975_PCI_SUBSYS_384B17AA.xml = 222
+DEV_0287_SUBSYS_17AA38A0_PCI_SUBSYS_386E17AA.xml = 222
+DEV_0257_SUBSYS_17AA3BEF_PCI_SUBSYS_386217AA.xml = 222
+DEV_0257_SUBSYS_17AA3C0D_PCI_SUBSYS_386017AA.xml = 222
+DEV_0257_SUBSYS_17AA3BFF_PCI_SUBSYS_385817AA.xml = 222
+DEV_0285_SUBSYS_17AA3804_PCI_SUBSYS_380317AA.xml = 222
+DEV_0257_SUBSYS_17AA38A3_PCI_SUBSYS_380717AA.xml = 222
+DEV_0257_SUBSYS_17AA3870_PCI_SUBSYS_381117AA.xml = 222
+DEV_0257_SUBSYS_17AA386D_PCI_SUBSYS_381C17AA.xml = 222
+DEV_0257_SUBSYS_17AA38B9_PCI_SUBSYS_383717AA.xml = 222
+DEV_0256_SUBSYS_17AA3305_PCI_SUBSYS_330517AA.xml = 222
+DEV_0256_SUBSYS_17AA330F_PCI_SUBSYS_330F17AA.xml = 222
+DEV_0256_SUBSYS_17AA3306_PCI_SUBSYS_330617AA.xml = 222
+DEV_0257_SUBSYS_17AA3A1C_PCI_SUBSYS_386517AA.xml = 222
+DEV_0257_SUBSYS_17AA3A1F_PCI_SUBSYS_385C17AA.xml = 222
+DEV_0257_SUBSYS_17AA3A1D_PCI_SUBSYS_385A17AA.xml = 222
+DEV_0257_SUBSYS_17AA3C0F_PCI_SUBSYS_385F17AA.xml = 222
+DEV_0257_SUBSYS_17AA3981_PCI_SUBSYS_388117AA.xml = 222
+DEV_0257_SUBSYS_17AA39DC_PCI_SUBSYS_385117AA.xml = 222
+DEV_0257_SUBSYS_17AA38BD_PCI_SUBSYS_380517AA.xml = 222
+DEV_0257_SUBSYS_17AA38B6_PCI_SUBSYS_380E17AA.xml = 222
+DEV_0257_SUBSYS_17AA38B8_PCI_SUBSYS_380E17AA.xml = 222
+DEV_0257_SUBSYS_17AA3C11_PCI_SUBSYS_385F17AA.xml = 222
+DEV_0257_SUBSYS_17AA3983_PCI_SUBSYS_388117AA.xml = 222
+DEV_0257_SUBSYS_17AA395B_PCI_SUBSYS_382017AA.xml = 222
+DEV_0257_SUBSYS_17AA39DE_PCI_SUBSYS_385117AA.xml = 222
+DEV_0257_SUBSYS_17AA38BF_PCI_SUBSYS_380517AA.xml = 222
+DEV_0287_SUBSYS_17AA3869_PCI_SUBSYS_380F17AA.xml = 222
+DEV_0287_SUBSYS_17AA3870_PCI_SUBSYS_385717AA.xml = 222
+DEV_0257_SUBSYS_17AA3897_PCI_SUBSYS_381B17AA.xml = 222
+DEV_0257_SUBSYS_17AA3A05_PCI_SUBSYS_386017AA_settings.xml = 222
+DEV_0257_SUBSYS_17AA3A05_PCI_SUBSYS_386017AA.xml = 222
+DEV_0257_SUBSYS_17AA38D5_PCI_SUBSYS_383817AA_settings.xml = 222
+DEV_0257_SUBSYS_17AA38D5_PCI_SUBSYS_383817AA.xml = 222
+DEV_0257_SUBSYS_17AA3974_PCI_SUBSYS_387D17AA_settings.xml = 222
+DEV_0257_SUBSYS_17AA3974_PCI_SUBSYS_387D17AA.xml = 222
+DEV_0257_SUBSYS_17AA3893_PCI_SUBSYS_381017AA_settings.xml = 222
+DEV_0257_SUBSYS_17AA3893_PCI_SUBSYS_381017AA.xml = 222
+DEV_0257_SUBSYS_17AA3869_PCI_SUBSYS_382017AA_settings.xml = 222
+DEV_0257_SUBSYS_17AA3869_PCI_SUBSYS_382017AA.xml = 222
+DEV_0257_SUBSYS_17AA385B_PCI_SUBSYS_384117AA_settings.xml = 222
+DEV_0257_SUBSYS_17AA385B_PCI_SUBSYS_384117AA.xml = 222
+DEV_0257_SUBSYS_17AA39F3_PCI_SUBSYS_385B17AA_settings.xml = 222
+DEV_0257_SUBSYS_17AA39F3_PCI_SUBSYS_385B17AA.xml = 222
+DEV_0257_SUBSYS_17AA38B4_PCI_SUBSYS_380E17AA.xml = 222
+DEV_0257_SUBSYS_17AA397F_PCI_SUBSYS_388117AA.xml = 222
+DEV_0257_SUBSYS_17AA39DA_PCI_SUBSYS_385117AA.xml = 222
+DEV_0257_SUBSYS_17AA38BB_PCI_SUBSYS_380517AA.xml = 222
+DEV_0257_SUBSYS_17AA389B_PCI_SUBSYS_380317AA.xml = 222
+DEV_0257_SUBSYS_17AA3842_PCI_SUBSYS_381617AA.xml = 222
+DEV_0257_SUBSYS_17AA3874_PCI_SUBSYS_380E17AA.xml = 222
+DEV_0257_SUBSYS_17AA3887_PCI_SUBSYS_382517AA.xml = 222
+DEV_0257_SUBSYS_17AA38A6_PCI_SUBSYS_381017AA_settings.xml = 222
+DEV_0257_SUBSYS_17AA384C_PCI_SUBSYS_381617AA.xml = 222
+DEV_0257_SUBSYS_17AA387F_PCI_SUBSYS_381F17AA.xml = 222
+DEV_0257_SUBSYS_17AA387F_PCI_SUBSYS_381F17AA_settings.xml = 222
+DEV_0257_SUBSYS_17AA3830_PCI_SUBSYS_380F17AA.xml = 222
+DEV_0257_SUBSYS_17AA38A6_PCI_SUBSYS_381017AA.xml = 222
+DEV_0257_SUBSYS_17AA38BA_PCI_SUBSYS_383717AA.xml = 222
+DEV_0257_SUBSYS_17AA38A4_PCI_SUBSYS_380717AA.xml = 222
+DEV_0257_SUBSYS_17AA3871_PCI_SUBSYS_381117AA.xml = 222
+DEV_0257_SUBSYS_17AA3A0D_PCI_SUBSYS_386217AA.xml = 222
+DEV_0257_SUBSYS_17AA3A14_PCI_SUBSYS_386317AA.xml = 222
+DEV_0257_SUBSYS_17AA3BFE_PCI_SUBSYS_385817AA.xml = 222
+DEV_0257_SUBSYS_17AA3BE7_PCI_SUBSYS_386D17AA.xml = 222
+DEV_0257_SUBSYS_17AA3946_PCI_SUBSYS_380C17AA.xml = 222
+DEV_0257_SUBSYS_17AA3945_PCI_SUBSYS_380B17AA.xml = 222
+DEV_0257_SUBSYS_17AA3892_PCI_SUBSYS_381017AA.xml = 222
+DEV_0257_SUBSYS_17AA3891_PCI_SUBSYS_381017AA.xml = 222
+DEV_0257_SUBSYS_17AA3886_PCI_SUBSYS_380317AA.xml = 222
+DEV_0257_SUBSYS_17AA3885_PCI_SUBSYS_380417AA.xml = 222
+DEV_0257_SUBSYS_17AA39D4_PCI_SUBSYS_384D17AA.xml = 222
+DEV_0257_SUBSYS_17AA38C9_PCI_SUBSYS_382C17AA.xml = 222
+DEV_0257_SUBSYS_17AA38C8_PCI_SUBSYS_382C17AA.xml = 222
+DEV_0287_SUBSYS_17AA3819_PCI_SUBSYS_381717AA.xml = 222
+DEV_0285_SUBSYS_17AA3813_PCI_SUBSYS_381017AA.xml = 222
+DEV_0287_SUBSYS_17AA3801_PCI_SUBSYS_381C17AA.xml = 222
+DEV_0287_SUBSYS_17AA3896_PCI_SUBSYS_380117AA.xml = 222
+DEV_0287_SUBSYS_17AA3895_PCI_SUBSYS_380117AA.xml = 222
+DEV_0287_SUBSYS_17AA3863_PCI_SUBSYS_381C17AA.xml = 222
+DEV_0287_SUBSYS_17AA386B_PCI_SUBSYS_387917AA.xml = 222
+DEV_0287_SUBSYS_17AA386D_PCI_SUBSYS_387917AA.xml = 222
+DEV_0257_SUBSYS_17AA3A28_PCI_SUBSYS_384717AA.xml = 222
+DEV_0257_SUBSYS_17AA3A24_PCI_SUBSYS_38A417AA.xml = 222
+DEV_0287_SUBSYS_17AA383A_PCI_SUBSYS_380817AA.xml = 222
+DEV_0257_SUBSYS_17AA3985_PCI_SUBSYS_388217AA.xml = 222
+DEV_0257_SUBSYS_17AA39F6_PCI_SUBSYS_385E17AA.xml = 222
+DEV_0257_SUBSYS_17AA3A03_PCI_SUBSYS_389717AA.xml = 222
+DEV_0287_SUBSYS_17AA3873_PCI_SUBSYS_383517AA.xml = 222
+DEV_0287_SUBSYS_17AA385A_PCI_SUBSYS_384117AA.xml = 222
+DEV_0287_SUBSYS_17AA384F_PCI_SUBSYS_383517AA.xml = 222
+DEV_0257_SUBSYS_17AA39DF_PCI_SUBSYS_388D17AA_settings.xml = 222
+DEV_0257_SUBSYS_17AA39DF_PCI_SUBSYS_388D17AA.xml = 222
+DEV_0235_SUBSYS_17AA376B_PCI_SUBSYS_376B17AA.xml = 222
+DEV_0235_SUBSYS_17AA374C_PCI_SUBSYS_374C17AA.xml = 222
+DEV_0235_SUBSYS_17AA373E_PCI_SUBSYS_374C17AA.xml = 222
+DEV_0235_SUBSYS_17AA373C_PCI_SUBSYS_374717AA.xml = 222
+DEV_0256_SUBSYS_17AA3773_PCI_SUBSYS_377317AA.xml = 222
+DEV_0256_SUBSYS_17AA3759_PCI_SUBSYS_375817AA.xml = 222
+DEV_0256_SUBSYS_17AA3758_PCI_SUBSYS_375817AA.xml = 222
+DEV_0235_SUBSYS_17AA3747_PCI_SUBSYS_374717AA.xml = 222
+DEV_0257_SUBSYS_17AA39FD_PCI_SUBSYS_385F17AA.xml = 222
+DEV_0287_SUBSYS_17AA38B1_PCI_SUBSYS_385217AA.xml = 222
+DEV_0257_SUBSYS_17AA39EC_PCI_SUBSYS_388117AA.xml = 222
+DEV_0257_SUBSYS_17AA39D8_PCI_SUBSYS_385117AA.xml = 222
+DEV_0257_SUBSYS_17AA3958_PCI_SUBSYS_382017AA.xml = 222
+DEV_0257_SUBSYS_17AA39F7_PCI_SUBSYS_380E17AA.xml = 222
+DEV_0287_SUBSYS_17AA3898_PCI_SUBSYS_380117AA.xml = 222
+DEV_0287_SUBSYS_17AA38A1_PCI_SUBSYS_380117AA.xml = 222
+DEV_0285_SUBSYS_17AA3818_PCI_SUBSYS_380317AA.xml = 222
+DEV_0257_SUBSYS_17AA39FA_PCI_SUBSYS_384817AA.xml = 222
+DEV_0257_SUBSYS_17AA38B3_PCI_SUBSYS_382817AA_settings.xml = 222
+DEV_0257_SUBSYS_17AA38B3_PCI_SUBSYS_382817AA.xml = 222
+DEV_0257_SUBSYS_17AA38B0_PCI_SUBSYS_381917AA_settings.xml = 222
+DEV_0257_SUBSYS_17AA38B0_PCI_SUBSYS_381917AA.xml = 222
+DEV_0257_SUBSYS_17AA3970_PCI_SUBSYS_384817AA_settings.xml = 222
+DEV_0257_SUBSYS_17AA3970_PCI_SUBSYS_384817AA.xml = 222
+DEV_0257_SUBSYS_17AA3966_PCI_SUBSYS_387017AA_settings.xml = 222
+DEV_0257_SUBSYS_17AA3966_PCI_SUBSYS_387017AA.xml = 222
+DEV_0257_SUBSYS_17AA39FC_PCI_SUBSYS_387017AA_settings.xml = 222
+DEV_0257_SUBSYS_17AA39FC_PCI_SUBSYS_387017AA.xml = 222
+DEV_0257_SUBSYS_17AA39FA_PCI_SUBSYS_384817AA_settings.xml = 222
+DEV_0257_SUBSYS_17AA3A18_PCI_SUBSYS_380317AA.xml = 222
+DEV_0287_SUBSYS_17AA3864_PCI_SUBSYS_381317AA.xml = 222
+DEV_0257_SUBSYS_17AA395E_PCI_SUBSYS_384417AA.xml = 222
+DEV_0287_SUBSYS_17AA3867_PCI_SUBSYS_380217AA.xml = 222
+DEV_0230_SUBSYS_17AA384A_PCI_SUBSYS_381017AA_settings.xml = 222
+DEV_0230_SUBSYS_17AA384A_PCI_SUBSYS_381017AA.xml = 222
+DEV_0230_SUBSYS_17AA383D_PCI_SUBSYS_382217AA_settings.xml = 222
+DEV_0230_SUBSYS_17AA383D_PCI_SUBSYS_382217AA.xml = 222
+DEV_0230_SUBSYS_17AA383A_PCI_SUBSYS_381817AA_settings.xml = 222
+DEV_0230_SUBSYS_17AA383A_PCI_SUBSYS_381817AA.xml = 222
+DEV_0257_SUBSYS_17AA3964_PCI_SUBSYS_382D17AA_settings.xml = 222
+DEV_0257_SUBSYS_17AA3964_PCI_SUBSYS_382D17AA.xml = 222
+DEV_0257_SUBSYS_17AA3933_PCI_SUBSYS_380117AA_settings.xml = 222
+DEV_0257_SUBSYS_17AA3933_PCI_SUBSYS_380117AA.xml = 222
+DEV_0257_SUBSYS_17AA3827_PCI_SUBSYS_383F17AA_settings.xml = 222
+DEV_0257_SUBSYS_17AA3827_PCI_SUBSYS_383F17AA.xml = 222
+DEV_0257_SUBSYS_17AA393F_PCI_SUBSYS_381817AA_settings.xml = 222
+DEV_0257_SUBSYS_17AA393F_PCI_SUBSYS_381817AA.xml = 222
+DEV_0257_SUBSYS_17AA393B_PCI_SUBSYS_381017AA_settings.xml = 222
+DEV_0257_SUBSYS_17AA393B_PCI_SUBSYS_381017AA.xml = 222
+DEV_0257_SUBSYS_17AA392E_PCI_SUBSYS_380917AA_settings.xml = 222
+DEV_0257_SUBSYS_17AA392E_PCI_SUBSYS_380917AA.xml = 222
+DEV_0230_SUBSYS_17AA3858_PCI_SUBSYS_382D17AA_settings.xml = 222
+DEV_0230_SUBSYS_17AA3858_PCI_SUBSYS_382D17AA.xml = 222
+DEV_0230_SUBSYS_17AA3856_PCI_SUBSYS_383A17AA.xml = 222
+DEV_0230_SUBSYS_17AA3847_PCI_SUBSYS_383F17AA_settings.xml = 222
+DEV_0230_SUBSYS_17AA3847_PCI_SUBSYS_383F17AA.xml = 222
+DEV_0230_SUBSYS_17AA3840_PCI_SUBSYS_380917AA_settings.xml = 222
+DEV_0230_SUBSYS_17AA3840_PCI_SUBSYS_380917AA.xml = 222
+DEV_0257_SUBSYS_17AA3BF1_PCI_SUBSYS_386317AA.xml = 222
+DEV_0287_SUBSYS_17AA3872_PCI_SUBSYS_383417AA.xml = 222
+Headphone_Default_Generic_Default_Atmos3.7.xml = 222
+
+[DestinationDirs]
+DolbyAPO_CopyFiles_OEM = 13
+DolbyAPO_CopyFiles_Tuning = 13
+
+[DolbyAPO_CopyFiles_OEM]
+operator_settings_lenovo_remove_logo.json
+operator_settings_lenovo_override_volume.json
+operator_settings_lenovo_edu.json
+operator_settings_lenovo_disable_vl_feedback.json
+operator_settings_lenovo_dafault.json
+operator_settings_lenovo_audio_mirroring_amd.json
+operator_settings_lenovo_audio_mirroring.json
+operator_settings.xml
+Operator_Info_Lenovo.xml
+
+[DolbyAPO_CopyFiles_Tuning]
+DEV_0257_SUBSYS_17AA3A08_PCI_SUBSYS_380117AA.xml
+DEV_0287_SUBSYS_17AA38BF_PCI_SUBSYS_380217AA.xml
+DEV_0287_SUBSYS_17AA38BE_PCI_SUBSYS_380217AA.xml
+DEV_0257_SUBSYS_17AA397C_PCI_SUBSYS_387F17AA.xml
+DEV_0257_SUBSYS_17AA3BEE_PCI_SUBSYS_386217AA.xml
+DEV_0274_SUBSYS_17AA371E_PCI_SUBSYS_371E17AA.xml
+DEV_0257_SUBSYS_17AA3A0A_PCI_SUBSYS_380117AA.xml
+DEV_0257_SUBSYS_17AA3C15_PCI_SUBSYS_388317AA.xml
+DEV_0287_SUBSYS_17AA389F_PCI_SUBSYS_384B17AA.xml
+DEV_0287_SUBSYS_17AA38A2_PCI_SUBSYS_384B17AA.xml
+DEV_0235_SUBSYS_17AA31BC_PCI_SUBSYS_31BC17AA.xml
+DEV_0235_SUBSYS_17AA3179_PCI_SUBSYS_317917AA.xml
+DEV_0257_SUBSYS_17AA3C13_PCI_SUBSYS_386617AA.xml
+DEV_0287_SUBSYS_17AA38C6_PCI_SUBSYS_388217AA.xml
+DEV_0287_SUBSYS_17AA38AB_PCI_SUBSYS_384D17AA.xml
+DEV_0257_SUBSYS_17AA3A07_PCI_SUBSYS_380117AA.xml
+DEV_0257_SUBSYS_17AA3936_PCI_SUBSYS_383F17AA.xml
+DEV_0257_SUBSYS_17AA3A16_PCI_SUBSYS_386317AA.xml
+DEV_0257_SUBSYS_17AA3938_PCI_SUBSYS_383F17AA.xml
+DEV_0274_SUBSYS_17AA373A_PCI_SUBSYS_373A17AA.xml
+DEV_0257_SUBSYS_17AA39F4_PCI_SUBSYS_389217AA.xml
+DEV_0257_SUBSYS_17AA39F5_PCI_SUBSYS_385D17AA_settings.xml
+DEV_0257_SUBSYS_17AA39F5_PCI_SUBSYS_385D17AA.xml
+DEV_0257_SUBSYS_17AA39F4_PCI_SUBSYS_389217AA_settings.xml
+DEV_0235_SUBSYS_17AA31C2_PCI_SUBSYS_31C217AA.xml
+DEV_0235_SUBSYS_17AA32C1_PCI_SUBSYS_32C117AA.xml
+DEV_0257_SUBSYS_17AA396B_PCI_SUBSYS_387C17AA_settings.xml
+DEV_0257_SUBSYS_17AA396B_PCI_SUBSYS_387C17AA.xml
+DEV_0257_SUBSYS_17AA3973_PCI_SUBSYS_384A17AA_settings.xml
+DEV_0257_SUBSYS_17AA3973_PCI_SUBSYS_384A17AA.xml
+DEV_0257_SUBSYS_17AA396F_PCI_SUBSYS_384717AA_settings.xml
+DEV_0257_SUBSYS_17AA396F_PCI_SUBSYS_384717AA.xml
+DEV_0257_SUBSYS_17AA3C12_PCI_SUBSYS_386517AA.xml
+DEV_0257_SUBSYS_17AA389A_PCI_SUBSYS_380317AA.xml
+DEV_0257_SUBSYS_17AA3841_PCI_SUBSYS_381617AA.xml
+DEV_0257_SUBSYS_17AA387C_PCI_SUBSYS_380517AA.xml
+DEV_0287_SUBSYS_17AA381A_PCI_SUBSYS_381A17AA.xml
+DEV_0287_SUBSYS_17AA3844_PCI_SUBSYS_382717AA.xml
+DEV_0257_SUBSYS_17AA3A0B_PCI_SUBSYS_380117AA.xml
+DEV_0287_SUBSYS_17AA3811_PCI_SUBSYS_381117AA.xml
+DEV_0287_SUBSYS_17AA3812_PCI_SUBSYS_381117AA.xml
+INTELAUDIO_DEV_0257_SUBSYS_17AA383E_PCI_SUBSYS_381017AA.xml
+INTELAUDIO_DEV_0257_SUBSYS_17AA383D_PCI_SUBSYS_381017AA.xml
+HDAUDIO_DEV_0257_SUBSYS_17AA3808_PCI_SUBSYS_381417AA.xml
+HDAUDIO_DEV_0257_SUBSYS_17AA381E_PCI_SUBSYS_381417AA.xml
+DEV_0257_SUBSYS_17AA3863_PCI_SUBSYS_382117AA.xml
+DEV_0257_SUBSYS_17AA3861_PCI_SUBSYS_382117AA.xml
+INTELAUDIO_DEV_0257_SUBSYS_17AA3847_PCI_SUBSYS_382117AA.xml
+INTELAUDIO_DEV_0257_SUBSYS_17AA3807_PCI_SUBSYS_381617AA.xml
+INTELAUDIO_DEV_0257_SUBSYS_17AA3806_PCI_SUBSYS_381617AA.xml
+INTELAUDIO_DEV_0257_SUBSYS_17AA384A_PCI_SUBSYS_382117AA.xml
+DEV_0257_SUBSYS_17AA387A_PCI_SUBSYS_381117AA.xml
+INTELAUDIO_DEV_0257_SUBSYS_17AA3845_PCI_SUBSYS_382117AA.xml
+INTELAUDIO_DEV_0257_SUBSYS_17AA3805_PCI_SUBSYS_381617AA.xml
+INTELAUDIO_DEV_0257_SUBSYS_17AA383C_PCI_SUBSYS_381017AA.xml
+INTELAUDIO_DEV_0257_SUBSYS_17AA3849_PCI_SUBSYS_382117AA.xml
+DEV_0285_SUBSYS_17AA3806_PCI_SUBSYS_380617AA.xml
+DEV_0257_SUBSYS_17AA3BEA_PCI_SUBSYS_380A17AA.xml
+DEV_0287_SUBSYS_17AA389C_PCI_SUBSYS_384517AA.xml
+DEV_0892_SUBSYS_17AA3715_PCI_SUBSYS_371517AA.xml
+DEV_0897_SUBSYS_17AA3715_PCI_SUBSYS_371517AA.xml
+DEV_0897_SUBSYS_17AA374F_PCI_SUBSYS_374F17AA.xml
+DEV_0257_SUBSYS_17AA3A23_PCI_SUBSYS_386A17AA.xml
+DEV_0257_SUBSYS_17AA396E_PCI_SUBSYS_380617AA.xml
+DEV_0257_SUBSYS_17AA396D_PCI_SUBSYS_384617AA.xml
+DEV_0257_SUBSYS_17AA3C08_PCI_SUBSYS_387E17AA.xml
+DEV_0257_SUBSYS_17AA3C0A_PCI_SUBSYS_387F17AA.xml
+DEV_0257_SUBSYS_17AA3A46_PCI_SUBSYS_384A17AA.xml
+HDAUDIO_DEV_0235_SUBSYS_17AA3713_PCI_SUBSYS_370517AA.xml
+HDAUDIO_DEV_0235_SUBSYS_17AA3712_PCI_SUBSYS_36FC17AA.xml
+HDAUDIO_DEV_0235_SUBSYS_17AA3710_PCI_SUBSYS_36FE17AA.xml
+HDAUDIO_DEV_0235_SUBSYS_17AA370E_PCI_SUBSYS_36FA17AA.xml
+HDAUDIO_DEV_0235_SUBSYS_17AA370B_PCI_SUBSYS_370B17AA.xml
+HDAUDIO_DEV_0235_SUBSYS_17AA3719_PCI_SUBSYS_371917AA.xml
+DEV_0257_SUBSYS_17AA3C01_PCI_SUBSYS_385817AA.xml
+DEV_0287_SUBSYS_17AA389A_PCI_SUBSYS_383F17AA.xml
+DEV_0257_SUBSYS_17AA3C07_PCI_SUBSYS_387C17AA.xml
+DEV_0257_SUBSYS_17AA3C06_PCI_SUBSYS_381A17AA.xml
+DEV_0257_SUBSYS_17AA3A26_PCI_SUBSYS_384617AA.xml
+DEV_0257_SUBSYS_17AA3A19_PCI_SUBSYS_386717AA.xml
+DEV_0257_SUBSYS_17AA396A_PCI_SUBSYS_387B17AA.xml
+DEV_0257_SUBSYS_17AA39FF_PCI_SUBSYS_389417AA_settings.xml
+DEV_0257_SUBSYS_17AA39FF_PCI_SUBSYS_389417AA.xml
+DEV_0257_SUBSYS_17AA3972_PCI_SUBSYS_384A17AA_settings.xml
+DEV_0257_SUBSYS_17AA3972_PCI_SUBSYS_384A17AA.xml
+DEV_0257_SUBSYS_17AA396C_PCI_SUBSYS_384717AA_settings.xml
+DEV_0257_SUBSYS_17AA396C_PCI_SUBSYS_384717AA.xml
+DEV_0257_SUBSYS_17AA396A_PCI_SUBSYS_387B17AA_settings.xml
+DEV_0287_SUBSYS_17AA389B_PCI_SUBSYS_386C17AA.xml
+DEV_0257_SUBSYS_17AA3978_PCI_SUBSYS_387E17AA.xml
+DEV_0257_SUBSYS_17AA3C04_PCI_SUBSYS_386117AA.xml
+INTELAUDIO_DEV_0298_SUBSYS_17AA3818_PCI_SUBSYS_382E17AA.xml
+DEV_0257_SUBSYS_17AA39FE_PCI_SUBSYS_389317AA.xml
+DEV_0257_SUBSYS_17AA22F0_PCI_SUBSYS_22F017AA.xml
+DEV_0257_SUBSYS_17AA3A25_PCI_SUBSYS_380417AA.xml
+DEV_0257_SUBSYS_17AA39F2_PCI_SUBSYS_385917AA.xml
+DEV_0257_SUBSYS_17AA39ED_PCI_SUBSYS_388F17AA.xml
+DEV_0287_SUBSYS_17AA386A_PCI_SUBSYS_380F17AA.xml
+DEV_0298_SUBSYS_17AA3819_PCI_SUBSYS_380E17AA.xml
+DEV_0257_SUBSYS_17AA3A1B_PCI_SUBSYS_386517AA.xml
+DEV_0257_SUBSYS_17AA3A1E_PCI_SUBSYS_385B17AA.xml
+DEV_0257_SUBSYS_17AA38C0_PCI_SUBSYS_382917AA.xml
+DEV_0257_SUBSYS_17AA38A1_PCI_SUBSYS_382D17AA.xml
+DEV_0287_SUBSYS_17AA381B_PCI_SUBSYS_380517AA.xml
+DEV_0285_SUBSYS_17AA383B_PCI_SUBSYS_382717AA.xml
+DEV_0285_SUBSYS_17AA3803_PCI_SUBSYS_382717AA.xml
+INTELAUDIO_DEV_0285_SUBSYS_17AA381A_PCI_SUBSYS_380417AA.xml
+DEV_0257_SUBSYS_17AA394A_PCI_SUBSYS_384217AA_settings.xml
+DEV_0257_SUBSYS_17AA394A_PCI_SUBSYS_384217AA.xml
+DEV_0287_SUBSYS_17AA3838_PCI_SUBSYS_383817AA.xml
+DEV_0257_SUBSYS_17AA3A0E_PCI_SUBSYS_381317AA.xml
+DEV_0257_SUBSYS_17AA3866_PCI_SUBSYS_386617AA.xml
+DEV_0257_SUBSYS_17AA3899_PCI_SUBSYS_380417AA.xml
+DEV_0287_SUBSYS_17AA38B0_PCI_SUBSYS_384E17AA.xml
+DEV_0287_SUBSYS_17AA38AD_PCI_SUBSYS_384E17AA.xml
+DEV_0274_SUBSYS_17AA371F_PCI_SUBSYS_371F17AA.xml
+DEV_0256_SUBSYS_17AA32F3_PCI_SUBSYS_32F317AA.xml
+DEV_0256_SUBSYS_17AA32F5_PCI_SUBSYS_32F517AA.xml
+DEV_0274_SUBSYS_17AA3739_PCI_SUBSYS_373917AA.xml
+DEV_0274_SUBSYS_17AA373B_PCI_SUBSYS_373B17AA.xml
+DEV_0257_SUBSYS_17AA3968_PCI_SUBSYS_387A17AA.xml
+DEV_0257_SUBSYS_17AA3967_PCI_SUBSYS_384517AA_settings.xml
+DEV_0257_SUBSYS_17AA3967_PCI_SUBSYS_384517AA.xml
+DEV_0257_SUBSYS_17AA3968_PCI_SUBSYS_387A17AA_settings.xml
+DEV_0235_SUBSYS_17AA3193_PCI_SUBSYS_319317AA.xml
+DEV_0235_SUBSYS_17AA3173_PCI_SUBSYS_317317AA.xml
+DEV_0287_SUBSYS_17AA3853_PCI_SUBSYS_383217AA.xml
+DEV_0287_SUBSYS_17AA384A_PCI_SUBSYS_383217AA.xml
+DEV_0274_SUBSYS_17AA3751_PCI_SUBSYS_375117AA.xml
+DEV_0274_SUBSYS_17AA3734_PCI_SUBSYS_373417AA.xml
+DEV_0287_SUBSYS_17AA3839_PCI_SUBSYS_382617AA.xml
+DEV_0257_SUBSYS_17AA3937_PCI_SUBSYS_383F17AA.xml
+DEV_0887_SUBSYS_17AA3717_PCI_SUBSYS_371717AA.xml
+DEV_0257_SUBSYS_17AA3986_PCI_SUBSYS_383617AA.xml
+DEV_0257_SUBSYS_17AA39EA_PCI_SUBSYS_385517AA.xml
+DEV_0257_SUBSYS_17AA3A04_PCI_SUBSYS_386017AA.xml
+DEV_0257_SUBSYS_17AA3A04_PCI_SUBSYS_386017AA_settings.xml
+DEV_0235_SUBSYS_17AA371D_PCI_SUBSYS_371D17AA.xml
+DEV_0235_SUBSYS_17AA371B_PCI_SUBSYS_371B17AA.xml
+DEV_0235_SUBSYS_17AA3735_PCI_SUBSYS_373717AA.xml
+DEV_0287_SUBSYS_17AA38C5_PCI_SUBSYS_388117AA.xml
+DEV_0287_SUBSYS_17AA3818_PCI_SUBSYS_380A17AA.xml
+DEV_0235_SUBSYS_17AA374D_PCI_SUBSYS_374E17AA.xml
+DEV_0235_SUBSYS_17AA373D_PCI_SUBSYS_374417AA.xml
+DEV_0256_SUBSYS_17AA3774_PCI_SUBSYS_377417AA.xml
+DEV_0256_SUBSYS_17AA3744_PCI_SUBSYS_374417AA.xml
+DEV_0256_SUBSYS_17AA375B_PCI_SUBSYS_375A17AA.xml
+DEV_0256_SUBSYS_17AA375A_PCI_SUBSYS_375A17AA.xml
+DEV_0256_SUBSYS_17AA373D_PCI_SUBSYS_374417AA.xml
+DEV_0235_SUBSYS_17AA3749_PCI_SUBSYS_374917AA.xml
+DEV_0235_SUBSYS_17AA3748_PCI_SUBSYS_374917AA.xml
+DEV_0235_SUBSYS_17AA3744_PCI_SUBSYS_377617AA.xml
+DEV_0235_SUBSYS_17AA3744_PCI_SUBSYS_374417AA.xml
+DEV_0235_SUBSYS_17AA374E_PCI_SUBSYS_374E17AA.xml
+DEV_0287_SUBSYS_17AA3893_PCI_SUBSYS_384C17AA.xml
+DEV_0285_SUBSYS_17AA380C_PCI_SUBSYS_380F17AA.xml
+DEV_0285_SUBSYS_17AA380E_PCI_SUBSYS_383A17AA.xml
+DEV_0257_SUBSYS_17AA39EF_PCI_SUBSYS_385817AA.xml
+DEV_0287_SUBSYS_17AA3856_PCI_SUBSYS_383B17AA.xml
+HDAUDIO_DEV_0274_SUBSYS_17AA3703_PCI_SUBSYS_370317AA.xml
+INTELAUDIO_DEV_0274_SUBSYS_17AA3702_PCI_SUBSYS_370217AA.xml
+DEV_0274_SUBSYS_17AA3720_PCI_SUBSYS_372017AA.xml
+DEV_0257_SUBSYS_17AA3883_PCI_SUBSYS_380D17AA.xml
+DEV_0257_SUBSYS_17AA3939_PCI_SUBSYS_380117AA.xml
+DEV_0287_SUBSYS_17AA3881_PCI_SUBSYS_384317AA.xml
+DEV_0257_SUBSYS_17AA3971_PCI_SUBSYS_384917AA.xml
+DEV_0257_SUBSYS_17AA3949_PCI_SUBSYS_384217AA.xml
+DEV_0257_SUBSYS_17AA3949_PCI_SUBSYS_384217AA_settings.xml
+DEV_0257_SUBSYS_17AA387B_PCI_SUBSYS_380517AA.xml
+DEV_0287_SUBSYS_17AA3858_PCI_SUBSYS_383C17AA.xml
+DEV_0274_SUBSYS_17AA3767_PCI_SUBSYS_376717AA.xml
+DEV_0274_SUBSYS_17AA377C_PCI_SUBSYS_377C17AA.xml
+DEV_0257_SUBSYS_17AA38BC_PCI_SUBSYS_380517AA.xml
+DEV_0257_SUBSYS_17AA38B5_PCI_SUBSYS_380E17AA.xml
+DEV_0257_SUBSYS_17AA3980_PCI_SUBSYS_388117AA.xml
+DEV_0257_SUBSYS_17AA39DB_PCI_SUBSYS_385117AA.xml
+DEV_0257_SUBSYS_17AA3A13_PCI_SUBSYS_386217AA.xml
+HDAUDIO_DEV_0235_SUBSYS_17AA370F_PCI_SUBSYS_36FF17AA.xml
+HDAUDIO_DEV_0235_SUBSYS_17AA370D_PCI_SUBSYS_36FB17AA.xml
+HDAUDIO_DEV_0235_SUBSYS_17AA370C_PCI_SUBSYS_370C17AA.xml
+HDAUDIO_DEV_0235_SUBSYS_17AA3718_PCI_SUBSYS_371817AA.xml
+HDAUDIO_DEV_0235_SUBSYS_17AA3711_PCI_SUBSYS_36FD17AA.xml
+DEV_0230_SUBSYS_17AA3841_PCI_SUBSYS_380917AA.xml
+DEV_0230_SUBSYS_17AA383E_PCI_SUBSYS_382217AA.xml
+DEV_0230_SUBSYS_17AA383B_PCI_SUBSYS_381817AA.xml
+DEV_0257_SUBSYS_17AA3984_PCI_SUBSYS_388117AA.xml
+DEV_0257_SUBSYS_17AA3940_PCI_SUBSYS_381817AA.xml
+DEV_0257_SUBSYS_17AA3925_PCI_SUBSYS_383F17AA.xml
+DEV_0257_SUBSYS_17AA392F_PCI_SUBSYS_380917AA.xml
+DEV_0230_SUBSYS_17AA3857_PCI_SUBSYS_383A17AA.xml
+DEV_0230_SUBSYS_17AA3853_PCI_SUBSYS_383F17AA.xml
+DEV_0287_SUBSYS_17AA3894_PCI_SUBSYS_386617AA.xml
+DEV_0287_SUBSYS_17AA3871_PCI_SUBSYS_385817AA.xml
+DEV_0257_SUBSYS_17AA3851_PCI_SUBSYS_385217AA.xml
+DEV_0257_SUBSYS_17AA3832_PCI_SUBSYS_383217AA.xml
+DEV_0287_SUBSYS_17AA3A36_PCI_SUBSYS_3A3517AA.xml
+DEV_0287_SUBSYS_17AA3A35_PCI_SUBSYS_3A3517AA.xml
+DEV_0287_SUBSYS_17AA380B_PCI_SUBSYS_380A17AA.xml
+DEV_0287_SUBSYS_17AA380A_PCI_SUBSYS_380A17AA.xml
+DEV_0257_SUBSYS_17AA397A_PCI_SUBSYS_387F17AA.xml
+DEV_0287_SUBSYS_17AA38B2_PCI_SUBSYS_385917AA.xml
+DEV_0257_SUBSYS_17AA3872_PCI_SUBSYS_380F17AA.xml
+DEV_0257_SUBSYS_17AA389E_PCI_SUBSYS_382417AA.xml
+DEV_0257_SUBSYS_17AA389C_PCI_SUBSYS_382417AA.xml
+DEV_0257_SUBSYS_17AA387D_PCI_SUBSYS_381B17AA.xml
+DEV_0257_SUBSYS_17AA3924_PCI_SUBSYS_381217AA.xml
+DEV_0257_SUBSYS_17AA3923_PCI_SUBSYS_381217AA.xml
+DEV_0257_SUBSYS_17AA3875_PCI_SUBSYS_380F17AA.xml
+DEV_0287_SUBSYS_17AA380D_PCI_SUBSYS_380D17AA.xml
+DEV_0287_SUBSYS_17AA3A34_PCI_SUBSYS_3A3417AA.xml
+DEV_0287_SUBSYS_17AA3809_PCI_SUBSYS_380917AA.xml
+DEV_0235_SUBSYS_17AA3725_PCI_SUBSYS_371B17AA.xml
+DEV_0235_SUBSYS_17AA372F_PCI_SUBSYS_371D17AA.xml
+DEV_0235_SUBSYS_17AA3737_PCI_SUBSYS_373717AA.xml
+DEV_0287_SUBSYS_17AA3866_PCI_SUBSYS_380D17AA.xml
+DEV_0287_SUBSYS_17AA3865_PCI_SUBSYS_380D17AA.xml
+DEV_0274_SUBSYS_17AA377D_PCI_SUBSYS_377D17AA.xml
+DEV_0274_SUBSYS_17AA376C_PCI_SUBSYS_376417AA.xml
+DEV_0230_SUBSYS_17AA3845_PCI_SUBSYS_383F17AA.xml
+DEV_0230_SUBSYS_17AA3839_PCI_SUBSYS_381817AA_settings.xml
+DEV_0230_SUBSYS_17AA3839_PCI_SUBSYS_381817AA.xml
+DEV_0230_SUBSYS_17AA383F_PCI_SUBSYS_380917AA_settings.xml
+DEV_0230_SUBSYS_17AA383F_PCI_SUBSYS_380917AA.xml
+DEV_0230_SUBSYS_17AA383C_PCI_SUBSYS_382217AA_settings.xml
+DEV_0230_SUBSYS_17AA383C_PCI_SUBSYS_382217AA.xml
+DEV_0257_SUBSYS_17AA3963_PCI_SUBSYS_382D17AA_settings.xml
+DEV_0257_SUBSYS_17AA3963_PCI_SUBSYS_382D17AA.xml
+DEV_0257_SUBSYS_17AA3932_PCI_SUBSYS_380117AA_settings.xml
+DEV_0257_SUBSYS_17AA3932_PCI_SUBSYS_380117AA.xml
+DEV_0257_SUBSYS_17AA3926_PCI_SUBSYS_383F17AA_settings.xml
+DEV_0257_SUBSYS_17AA3926_PCI_SUBSYS_383F17AA.xml
+DEV_0257_SUBSYS_17AA393E_PCI_SUBSYS_381817AA_settings.xml
+DEV_0257_SUBSYS_17AA393E_PCI_SUBSYS_381817AA.xml
+DEV_0257_SUBSYS_17AA393A_PCI_SUBSYS_381017AA_settings.xml
+DEV_0257_SUBSYS_17AA393A_PCI_SUBSYS_381017AA.xml
+DEV_0257_SUBSYS_17AA392D_PCI_SUBSYS_380917AA_settings.xml
+DEV_0257_SUBSYS_17AA392D_PCI_SUBSYS_380917AA.xml
+DEV_0230_SUBSYS_17AA3855_PCI_SUBSYS_382D17AA_settings.xml
+DEV_0230_SUBSYS_17AA3855_PCI_SUBSYS_382D17AA.xml
+DEV_0230_SUBSYS_17AA3852_PCI_SUBSYS_383A17AA.xml
+DEV_0230_SUBSYS_17AA3849_PCI_SUBSYS_381017AA_settings.xml
+DEV_0230_SUBSYS_17AA3849_PCI_SUBSYS_381017AA.xml
+DEV_0230_SUBSYS_17AA3845_PCI_SUBSYS_383F17AA_settings.xml
+DEV_0257_SUBSYS_17AA3C03_PCI_SUBSYS_387717AA.xml
+DEV_0257_SUBSYS_17AA3C02_PCI_SUBSYS_387717AA.xml
+DEV_0257_SUBSYS_17AA382F_PCI_SUBSYS_382F17AA.xml
+DEV_0257_SUBSYS_17AA3852_PCI_SUBSYS_385217AA.xml
+DEV_0287_SUBSYS_17AA3822_PCI_SUBSYS_381117AA.xml
+DEV_0892_SUBSYS_17AA3716_PCI_SUBSYS_371617AA.xml
+DEV_0897_SUBSYS_17AA3716_PCI_SUBSYS_371617AA.xml
+DEV_0287_SUBSYS_17AA3875_PCI_SUBSYS_389117AA.xml
+DEV_0274_SUBSYS_17AA3763_PCI_SUBSYS_376317AA.xml
+DEV_0287_SUBSYS_17AA3813_PCI_SUBSYS_382617AA.xml
+DEV_0274_SUBSYS_17AA3757_PCI_SUBSYS_375717AA.xml
+DEV_0285_SUBSYS_17AA3807_PCI_SUBSYS_382417AA.xml
+DEV_0285_SUBSYS_17AA383C_PCI_SUBSYS_382517AA.xml
+DEV_0285_SUBSYS_17AA383D_PCI_SUBSYS_382417AA.xml
+DEV_0285_SUBSYS_17AA383E_PCI_SUBSYS_382517AA.xml
+INTELAUDIO_DEV_0257_SUBSYS_17AA3840_PCI_SUBSYS_381017AA.xml
+INTELAUDIO_DEV_0257_SUBSYS_17AA3809_PCI_SUBSYS_381617AA.xml
+INTELAUDIO_DEV_0257_SUBSYS_17AA384B_PCI_SUBSYS_382117AA.xml
+INTELAUDIO_DEV_0257_SUBSYS_17AA383F_PCI_SUBSYS_381017AA.xml
+INTELAUDIO_DEV_0257_SUBSYS_17AA380A_PCI_SUBSYS_381617AA.xml
+HDAUDIO_DEV_0257_SUBSYS_17AA380E_PCI_SUBSYS_381417AA.xml
+HDAUDIO_DEV_0257_SUBSYS_17AA380D_PCI_SUBSYS_381417AA.xml
+DEV_0257_SUBSYS_17AA3862_PCI_SUBSYS_382117AA.xml
+DEV_0257_SUBSYS_17AA3860_PCI_SUBSYS_382117AA.xml
+INTELAUDIO_DEV_0257_SUBSYS_17AA3848_PCI_SUBSYS_382117AA.xml
+DEV_0257_SUBSYS_17AA3A22_PCI_SUBSYS_386A17AA.xml
+DEV_0257_SUBSYS_17AA3969_PCI_SUBSYS_384617AA.xml
+DEV_0257_SUBSYS_17AA3960_PCI_SUBSYS_380617AA.xml
+DEV_0257_SUBSYS_17AA3C09_PCI_SUBSYS_387F17AA.xml
+DEV_0257_SUBSYS_17AA3BCD_PCI_SUBSYS_384A17AA.xml
+DEV_0287_SUBSYS_17AA38BB_PCI_SUBSYS_387917AA.xml
+DEV_0287_SUBSYS_17AA38BA_PCI_SUBSYS_387917AA.xml
+DEV_0287_SUBSYS_17AA3899_PCI_SUBSYS_383F17AA.xml
+DEV_0257_SUBSYS_17AA3A0F_PCI_SUBSYS_380217AA.xml
+DEV_0257_SUBSYS_17AA3C0E_PCI_SUBSYS_385F17AA.xml
+DEV_0257_SUBSYS_17AA3959_PCI_SUBSYS_382017AA.xml
+DEV_0257_SUBSYS_17AA39F8_PCI_SUBSYS_380E17AA.xml
+DEV_0257_SUBSYS_17AA39EB_PCI_SUBSYS_388117AA.xml
+DEV_0257_SUBSYS_17AA39D9_PCI_SUBSYS_385117AA.xml
+DEV_0257_SUBSYS_17AA3A17_PCI_SUBSYS_386317AA.xml
+DEV_0257_SUBSYS_17AA39D7_PCI_SUBSYS_388417AA_settings.xml
+DEV_0257_SUBSYS_17AA39D7_PCI_SUBSYS_388417AA.xml
+DEV_0257_SUBSYS_17AA38AD_PCI_SUBSYS_380617AA.xml
+DEV_0257_SUBSYS_17AA3894_PCI_SUBSYS_381D17AA_settings.xml
+DEV_0257_SUBSYS_17AA3894_PCI_SUBSYS_381D17AA.xml
+DEV_0257_SUBSYS_17AA3865_PCI_SUBSYS_382317AA_settings.xml
+DEV_0257_SUBSYS_17AA3865_PCI_SUBSYS_382317AA.xml
+DEV_0257_SUBSYS_17AA3864_PCI_SUBSYS_382317AA_settings.xml
+DEV_0257_SUBSYS_17AA3864_PCI_SUBSYS_382317AA.xml
+DEV_0257_SUBSYS_17AA386C_PCI_SUBSYS_382317AA_settings.xml
+DEV_0257_SUBSYS_17AA386C_PCI_SUBSYS_382317AA.xml
+DEV_0257_SUBSYS_17AA39EE_PCI_SUBSYS_385617AA.xml
+DEV_0287_SUBSYS_17AA3852_PCI_SUBSYS_383217AA.xml
+DEV_0257_SUBSYS_17AA3A06_PCI_SUBSYS_389817AA.xml
+DEV_0257_SUBSYS_17AA3A09_PCI_SUBSYS_389917AA.xml
+DEV_0274_SUBSYS_17AA3764_PCI_SUBSYS_376417AA.xml
+DEV_0274_SUBSYS_17AA377B_PCI_SUBSYS_377B17AA.xml
+DEV_0274_SUBSYS_17AA3778_PCI_SUBSYS_377817AA.xml
+DEV_0287_SUBSYS_17AA38A9_PCI_SUBSYS_384D17AA.xml
+DEV_0235_SUBSYS_17AA3726_PCI_SUBSYS_372117AA.xml
+DEV_0235_SUBSYS_17AA372E_PCI_SUBSYS_371C17AA.xml
+DEV_0235_SUBSYS_17AA3738_PCI_SUBSYS_373817AA.xml
+DEV_0257_SUBSYS_17AA3C14_PCI_SUBSYS_388317AA.xml
+DEV_0298_SUBSYS_17AA381B_PCI_SUBSYS_380217AA.xml
+DEV_0298_SUBSYS_17AA3822_PCI_SUBSYS_383617AA.xml
+DEV_0287_SUBSYS_17AA387D_PCI_SUBSYS_383517AA.xml
+DEV_0287_SUBSYS_17AA387E_PCI_SUBSYS_383517AA.xml
+DEV_0235_SUBSYS_17AA32C6_PCI_SUBSYS_32C617AA.xml
+DEV_0235_SUBSYS_17AA31B5_PCI_SUBSYS_31B517AA.xml
+DEV_0235_SUBSYS_17AA3194_PCI_SUBSYS_319417AA.xml
+DEV_0235_SUBSYS_17AA3174_PCI_SUBSYS_317417AA.xml
+DEV_0287_SUBSYS_17AA3802_PCI_SUBSYS_382017AA.xml
+DEV_0235_SUBSYS_17AA3721_PCI_SUBSYS_372117AA.xml
+DEV_0235_SUBSYS_17AA371C_PCI_SUBSYS_371C17AA.xml
+DEV_0235_SUBSYS_17AA3736_PCI_SUBSYS_373817AA.xml
+DEV_0235_SUBSYS_17AA31B8_PCI_SUBSYS_31B817AA.xml
+DEV_0235_SUBSYS_17AA31BA_PCI_SUBSYS_31BA17AA.xml
+DEV_0235_SUBSYS_17AA31B9_PCI_SUBSYS_31B917AA.xml
+DEV_0287_SUBSYS_17AA3843_PCI_SUBSYS_381E17AA.xml
+DEV_0235_SUBSYS_17AA3722_PCI_SUBSYS_372217AA.xml
+DEV_0287_SUBSYS_17AA389E_PCI_SUBSYS_386617AA.xml
+DEV_0257_SUBSYS_17AA38CA_PCI_SUBSYS_382A17AA.xml
+DEV_0257_SUBSYS_17AA38CB_PCI_SUBSYS_383317AA.xml
+DEV_0257_SUBSYS_17AA389D_PCI_SUBSYS_382417AA.xml
+DEV_0257_SUBSYS_17AA3922_PCI_SUBSYS_381217AA.xml
+DEV_0257_SUBSYS_17AA3873_PCI_SUBSYS_380F17AA.xml
+DEV_0287_SUBSYS_17AA385B_PCI_SUBSYS_383617AA.xml
+DEV_0287_SUBSYS_17AA384D_PCI_SUBSYS_383617AA.xml
+DEV_0257_SUBSYS_17AA39DD_PCI_SUBSYS_385117AA.xml
+DEV_0257_SUBSYS_17AA38BE_PCI_SUBSYS_380517AA.xml
+DEV_0257_SUBSYS_17AA38B7_PCI_SUBSYS_380E17AA.xml
+DEV_0257_SUBSYS_17AA3C10_PCI_SUBSYS_385F17AA.xml
+DEV_0257_SUBSYS_17AA3982_PCI_SUBSYS_388117AA.xml
+DEV_0257_SUBSYS_17AA395A_PCI_SUBSYS_382017AA.xml
+DEV_0257_SUBSYS_17AA3BE6_PCI_SUBSYS_386D17AA.xml
+DEV_0257_SUBSYS_17AA3988_PCI_SUBSYS_384D17AA.xml
+DEV_0257_SUBSYS_17AA3944_PCI_SUBSYS_380917AA.xml
+DEV_0257_SUBSYS_17AA3943_PCI_SUBSYS_380817AA.xml
+DEV_0257_SUBSYS_17AA3889_PCI_SUBSYS_381C17AA.xml
+DEV_0257_SUBSYS_17AA388E_PCI_SUBSYS_381017AA.xml
+DEV_0257_SUBSYS_17AA388D_PCI_SUBSYS_381017AA.xml
+DEV_0257_SUBSYS_17AA388A_PCI_SUBSYS_380217AA.xml
+DEV_0257_SUBSYS_17AA38C5_PCI_SUBSYS_382C17AA.xml
+DEV_0257_SUBSYS_17AA38C4_PCI_SUBSYS_382C17AA.xml
+DEV_0235_SUBSYS_17AA3746_PCI_SUBSYS_374617AA.xml
+DEV_0235_SUBSYS_17AA3745_PCI_SUBSYS_374617AA.xml
+DEV_0235_SUBSYS_17AA374B_PCI_SUBSYS_374B17AA.xml
+DEV_0235_SUBSYS_17AA374A_PCI_SUBSYS_374B17AA.xml
+DEV_0256_SUBSYS_17AA3775_PCI_SUBSYS_377517AA.xml
+DEV_0256_SUBSYS_17AA3746_PCI_SUBSYS_374617AA.xml
+DEV_0256_SUBSYS_17AA3745_PCI_SUBSYS_374617AA.xml
+DEV_0256_SUBSYS_17AA375D_PCI_SUBSYS_375C17AA.xml
+DEV_0256_SUBSYS_17AA375C_PCI_SUBSYS_375C17AA.xml
+DEV_0235_SUBSYS_17AA3746_PCI_SUBSYS_377717AA.xml
+DEV_0287_SUBSYS_17AA38C1_PCI_SUBSYS_387D17AA.xml
+DEV_0287_SUBSYS_17AA38C0_PCI_SUBSYS_387D17AA.xml
+DEV_0257_SUBSYS_17AA3957_PCI_SUBSYS_384317AA.xml
+DEV_0257_SUBSYS_17AA38C1_PCI_SUBSYS_382917AA.xml
+DEV_0257_SUBSYS_17AA38A2_PCI_SUBSYS_382D17AA.xml
+DEV_0287_SUBSYS_17AA381C_PCI_SUBSYS_380117AA.xml
+DEV_0257_SUBSYS_17AA3A15_PCI_SUBSYS_386317AA.xml
+DEV_0257_SUBSYS_17AA3A12_PCI_SUBSYS_386217AA.xml
+DEV_0257_SUBSYS_17AA3A1A_PCI_SUBSYS_386417AA.xml
+DEV_0257_SUBSYS_17AA3976_PCI_SUBSYS_384C17AA.xml
+DEV_0257_SUBSYS_17AA3975_PCI_SUBSYS_384B17AA.xml
+DEV_0287_SUBSYS_17AA38A0_PCI_SUBSYS_386E17AA.xml
+DEV_0257_SUBSYS_17AA3BEF_PCI_SUBSYS_386217AA.xml
+DEV_0257_SUBSYS_17AA3C0D_PCI_SUBSYS_386017AA.xml
+DEV_0257_SUBSYS_17AA3BFF_PCI_SUBSYS_385817AA.xml
+DEV_0285_SUBSYS_17AA3804_PCI_SUBSYS_380317AA.xml
+DEV_0257_SUBSYS_17AA38A3_PCI_SUBSYS_380717AA.xml
+DEV_0257_SUBSYS_17AA3870_PCI_SUBSYS_381117AA.xml
+DEV_0257_SUBSYS_17AA386D_PCI_SUBSYS_381C17AA.xml
+DEV_0257_SUBSYS_17AA38B9_PCI_SUBSYS_383717AA.xml
+DEV_0256_SUBSYS_17AA3305_PCI_SUBSYS_330517AA.xml
+DEV_0256_SUBSYS_17AA330F_PCI_SUBSYS_330F17AA.xml
+DEV_0256_SUBSYS_17AA3306_PCI_SUBSYS_330617AA.xml
+DEV_0257_SUBSYS_17AA3A1C_PCI_SUBSYS_386517AA.xml
+DEV_0257_SUBSYS_17AA3A1F_PCI_SUBSYS_385C17AA.xml
+DEV_0257_SUBSYS_17AA3A1D_PCI_SUBSYS_385A17AA.xml
+DEV_0257_SUBSYS_17AA3C0F_PCI_SUBSYS_385F17AA.xml
+DEV_0257_SUBSYS_17AA3981_PCI_SUBSYS_388117AA.xml
+DEV_0257_SUBSYS_17AA39DC_PCI_SUBSYS_385117AA.xml
+DEV_0257_SUBSYS_17AA38BD_PCI_SUBSYS_380517AA.xml
+DEV_0257_SUBSYS_17AA38B6_PCI_SUBSYS_380E17AA.xml
+DEV_0257_SUBSYS_17AA38B8_PCI_SUBSYS_380E17AA.xml
+DEV_0257_SUBSYS_17AA3C11_PCI_SUBSYS_385F17AA.xml
+DEV_0257_SUBSYS_17AA3983_PCI_SUBSYS_388117AA.xml
+DEV_0257_SUBSYS_17AA395B_PCI_SUBSYS_382017AA.xml
+DEV_0257_SUBSYS_17AA39DE_PCI_SUBSYS_385117AA.xml
+DEV_0257_SUBSYS_17AA38BF_PCI_SUBSYS_380517AA.xml
+DEV_0287_SUBSYS_17AA3869_PCI_SUBSYS_380F17AA.xml
+DEV_0287_SUBSYS_17AA3870_PCI_SUBSYS_385717AA.xml
+DEV_0257_SUBSYS_17AA3897_PCI_SUBSYS_381B17AA.xml
+DEV_0257_SUBSYS_17AA3A05_PCI_SUBSYS_386017AA_settings.xml
+DEV_0257_SUBSYS_17AA3A05_PCI_SUBSYS_386017AA.xml
+DEV_0257_SUBSYS_17AA38D5_PCI_SUBSYS_383817AA_settings.xml
+DEV_0257_SUBSYS_17AA38D5_PCI_SUBSYS_383817AA.xml
+DEV_0257_SUBSYS_17AA3974_PCI_SUBSYS_387D17AA_settings.xml
+DEV_0257_SUBSYS_17AA3974_PCI_SUBSYS_387D17AA.xml
+DEV_0257_SUBSYS_17AA3893_PCI_SUBSYS_381017AA_settings.xml
+DEV_0257_SUBSYS_17AA3893_PCI_SUBSYS_381017AA.xml
+DEV_0257_SUBSYS_17AA3869_PCI_SUBSYS_382017AA_settings.xml
+DEV_0257_SUBSYS_17AA3869_PCI_SUBSYS_382017AA.xml
+DEV_0257_SUBSYS_17AA385B_PCI_SUBSYS_384117AA_settings.xml
+DEV_0257_SUBSYS_17AA385B_PCI_SUBSYS_384117AA.xml
+DEV_0257_SUBSYS_17AA39F3_PCI_SUBSYS_385B17AA_settings.xml
+DEV_0257_SUBSYS_17AA39F3_PCI_SUBSYS_385B17AA.xml
+DEV_0257_SUBSYS_17AA38B4_PCI_SUBSYS_380E17AA.xml
+DEV_0257_SUBSYS_17AA397F_PCI_SUBSYS_388117AA.xml
+DEV_0257_SUBSYS_17AA39DA_PCI_SUBSYS_385117AA.xml
+DEV_0257_SUBSYS_17AA38BB_PCI_SUBSYS_380517AA.xml
+DEV_0257_SUBSYS_17AA389B_PCI_SUBSYS_380317AA.xml
+DEV_0257_SUBSYS_17AA3842_PCI_SUBSYS_381617AA.xml
+DEV_0257_SUBSYS_17AA3874_PCI_SUBSYS_380E17AA.xml
+DEV_0257_SUBSYS_17AA3887_PCI_SUBSYS_382517AA.xml
+DEV_0257_SUBSYS_17AA38A6_PCI_SUBSYS_381017AA_settings.xml
+DEV_0257_SUBSYS_17AA384C_PCI_SUBSYS_381617AA.xml
+DEV_0257_SUBSYS_17AA387F_PCI_SUBSYS_381F17AA.xml
+DEV_0257_SUBSYS_17AA387F_PCI_SUBSYS_381F17AA_settings.xml
+DEV_0257_SUBSYS_17AA3830_PCI_SUBSYS_380F17AA.xml
+DEV_0257_SUBSYS_17AA38A6_PCI_SUBSYS_381017AA.xml
+DEV_0257_SUBSYS_17AA38BA_PCI_SUBSYS_383717AA.xml
+DEV_0257_SUBSYS_17AA38A4_PCI_SUBSYS_380717AA.xml
+DEV_0257_SUBSYS_17AA3871_PCI_SUBSYS_381117AA.xml
+DEV_0257_SUBSYS_17AA3A0D_PCI_SUBSYS_386217AA.xml
+DEV_0257_SUBSYS_17AA3A14_PCI_SUBSYS_386317AA.xml
+DEV_0257_SUBSYS_17AA3BFE_PCI_SUBSYS_385817AA.xml
+DEV_0257_SUBSYS_17AA3BE7_PCI_SUBSYS_386D17AA.xml
+DEV_0257_SUBSYS_17AA3946_PCI_SUBSYS_380C17AA.xml
+DEV_0257_SUBSYS_17AA3945_PCI_SUBSYS_380B17AA.xml
+DEV_0257_SUBSYS_17AA3892_PCI_SUBSYS_381017AA.xml
+DEV_0257_SUBSYS_17AA3891_PCI_SUBSYS_381017AA.xml
+DEV_0257_SUBSYS_17AA3886_PCI_SUBSYS_380317AA.xml
+DEV_0257_SUBSYS_17AA3885_PCI_SUBSYS_380417AA.xml
+DEV_0257_SUBSYS_17AA39D4_PCI_SUBSYS_384D17AA.xml
+DEV_0257_SUBSYS_17AA38C9_PCI_SUBSYS_382C17AA.xml
+DEV_0257_SUBSYS_17AA38C8_PCI_SUBSYS_382C17AA.xml
+DEV_0287_SUBSYS_17AA3819_PCI_SUBSYS_381717AA.xml
+DEV_0285_SUBSYS_17AA3813_PCI_SUBSYS_381017AA.xml
+DEV_0287_SUBSYS_17AA3801_PCI_SUBSYS_381C17AA.xml
+DEV_0287_SUBSYS_17AA3896_PCI_SUBSYS_380117AA.xml
+DEV_0287_SUBSYS_17AA3895_PCI_SUBSYS_380117AA.xml
+DEV_0287_SUBSYS_17AA3863_PCI_SUBSYS_381C17AA.xml
+DEV_0287_SUBSYS_17AA386B_PCI_SUBSYS_387917AA.xml
+DEV_0287_SUBSYS_17AA386D_PCI_SUBSYS_387917AA.xml
+DEV_0257_SUBSYS_17AA3A28_PCI_SUBSYS_384717AA.xml
+DEV_0257_SUBSYS_17AA3A24_PCI_SUBSYS_38A417AA.xml
+DEV_0287_SUBSYS_17AA383A_PCI_SUBSYS_380817AA.xml
+DEV_0257_SUBSYS_17AA3985_PCI_SUBSYS_388217AA.xml
+DEV_0257_SUBSYS_17AA39F6_PCI_SUBSYS_385E17AA.xml
+DEV_0257_SUBSYS_17AA3A03_PCI_SUBSYS_389717AA.xml
+DEV_0287_SUBSYS_17AA3873_PCI_SUBSYS_383517AA.xml
+DEV_0287_SUBSYS_17AA385A_PCI_SUBSYS_384117AA.xml
+DEV_0287_SUBSYS_17AA384F_PCI_SUBSYS_383517AA.xml
+DEV_0257_SUBSYS_17AA39DF_PCI_SUBSYS_388D17AA_settings.xml
+DEV_0257_SUBSYS_17AA39DF_PCI_SUBSYS_388D17AA.xml
+DEV_0235_SUBSYS_17AA376B_PCI_SUBSYS_376B17AA.xml
+DEV_0235_SUBSYS_17AA374C_PCI_SUBSYS_374C17AA.xml
+DEV_0235_SUBSYS_17AA373E_PCI_SUBSYS_374C17AA.xml
+DEV_0235_SUBSYS_17AA373C_PCI_SUBSYS_374717AA.xml
+DEV_0256_SUBSYS_17AA3773_PCI_SUBSYS_377317AA.xml
+DEV_0256_SUBSYS_17AA3759_PCI_SUBSYS_375817AA.xml
+DEV_0256_SUBSYS_17AA3758_PCI_SUBSYS_375817AA.xml
+DEV_0235_SUBSYS_17AA3747_PCI_SUBSYS_374717AA.xml
+DEV_0257_SUBSYS_17AA39FD_PCI_SUBSYS_385F17AA.xml
+DEV_0287_SUBSYS_17AA38B1_PCI_SUBSYS_385217AA.xml
+DEV_0257_SUBSYS_17AA39EC_PCI_SUBSYS_388117AA.xml
+DEV_0257_SUBSYS_17AA39D8_PCI_SUBSYS_385117AA.xml
+DEV_0257_SUBSYS_17AA3958_PCI_SUBSYS_382017AA.xml
+DEV_0257_SUBSYS_17AA39F7_PCI_SUBSYS_380E17AA.xml
+DEV_0287_SUBSYS_17AA3898_PCI_SUBSYS_380117AA.xml
+DEV_0287_SUBSYS_17AA38A1_PCI_SUBSYS_380117AA.xml
+DEV_0285_SUBSYS_17AA3818_PCI_SUBSYS_380317AA.xml
+DEV_0257_SUBSYS_17AA39FA_PCI_SUBSYS_384817AA.xml
+DEV_0257_SUBSYS_17AA38B3_PCI_SUBSYS_382817AA_settings.xml
+DEV_0257_SUBSYS_17AA38B3_PCI_SUBSYS_382817AA.xml
+DEV_0257_SUBSYS_17AA38B0_PCI_SUBSYS_381917AA_settings.xml
+DEV_0257_SUBSYS_17AA38B0_PCI_SUBSYS_381917AA.xml
+DEV_0257_SUBSYS_17AA3970_PCI_SUBSYS_384817AA_settings.xml
+DEV_0257_SUBSYS_17AA3970_PCI_SUBSYS_384817AA.xml
+DEV_0257_SUBSYS_17AA3966_PCI_SUBSYS_387017AA_settings.xml
+DEV_0257_SUBSYS_17AA3966_PCI_SUBSYS_387017AA.xml
+DEV_0257_SUBSYS_17AA39FC_PCI_SUBSYS_387017AA_settings.xml
+DEV_0257_SUBSYS_17AA39FC_PCI_SUBSYS_387017AA.xml
+DEV_0257_SUBSYS_17AA39FA_PCI_SUBSYS_384817AA_settings.xml
+DEV_0257_SUBSYS_17AA3A18_PCI_SUBSYS_380317AA.xml
+DEV_0287_SUBSYS_17AA3864_PCI_SUBSYS_381317AA.xml
+DEV_0257_SUBSYS_17AA395E_PCI_SUBSYS_384417AA.xml
+DEV_0287_SUBSYS_17AA3867_PCI_SUBSYS_380217AA.xml
+DEV_0230_SUBSYS_17AA384A_PCI_SUBSYS_381017AA_settings.xml
+DEV_0230_SUBSYS_17AA384A_PCI_SUBSYS_381017AA.xml
+DEV_0230_SUBSYS_17AA383D_PCI_SUBSYS_382217AA_settings.xml
+DEV_0230_SUBSYS_17AA383D_PCI_SUBSYS_382217AA.xml
+DEV_0230_SUBSYS_17AA383A_PCI_SUBSYS_381817AA_settings.xml
+DEV_0230_SUBSYS_17AA383A_PCI_SUBSYS_381817AA.xml
+DEV_0257_SUBSYS_17AA3964_PCI_SUBSYS_382D17AA_settings.xml
+DEV_0257_SUBSYS_17AA3964_PCI_SUBSYS_382D17AA.xml
+DEV_0257_SUBSYS_17AA3933_PCI_SUBSYS_380117AA_settings.xml
+DEV_0257_SUBSYS_17AA3933_PCI_SUBSYS_380117AA.xml
+DEV_0257_SUBSYS_17AA3827_PCI_SUBSYS_383F17AA_settings.xml
+DEV_0257_SUBSYS_17AA3827_PCI_SUBSYS_383F17AA.xml
+DEV_0257_SUBSYS_17AA393F_PCI_SUBSYS_381817AA_settings.xml
+DEV_0257_SUBSYS_17AA393F_PCI_SUBSYS_381817AA.xml
+DEV_0257_SUBSYS_17AA393B_PCI_SUBSYS_381017AA_settings.xml
+DEV_0257_SUBSYS_17AA393B_PCI_SUBSYS_381017AA.xml
+DEV_0257_SUBSYS_17AA392E_PCI_SUBSYS_380917AA_settings.xml
+DEV_0257_SUBSYS_17AA392E_PCI_SUBSYS_380917AA.xml
+DEV_0230_SUBSYS_17AA3858_PCI_SUBSYS_382D17AA_settings.xml
+DEV_0230_SUBSYS_17AA3858_PCI_SUBSYS_382D17AA.xml
+DEV_0230_SUBSYS_17AA3856_PCI_SUBSYS_383A17AA.xml
+DEV_0230_SUBSYS_17AA3847_PCI_SUBSYS_383F17AA_settings.xml
+DEV_0230_SUBSYS_17AA3847_PCI_SUBSYS_383F17AA.xml
+DEV_0230_SUBSYS_17AA3840_PCI_SUBSYS_380917AA_settings.xml
+DEV_0230_SUBSYS_17AA3840_PCI_SUBSYS_380917AA.xml
+DEV_0257_SUBSYS_17AA3BF1_PCI_SUBSYS_386317AA.xml
+DEV_0287_SUBSYS_17AA3872_PCI_SUBSYS_383417AA.xml
+Headphone_Default_Generic_Default_Atmos3.7.xml
+
+[Strings]
+ManufacturerName 	= "Dolby"
+Device.ExtensionDesc = "Dolby Device Extension"
+
+REG_MULTI_SZ_APPEND                           = 0x00010008

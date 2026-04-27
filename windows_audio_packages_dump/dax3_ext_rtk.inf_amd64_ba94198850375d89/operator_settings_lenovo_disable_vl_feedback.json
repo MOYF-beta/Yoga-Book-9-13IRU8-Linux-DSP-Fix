@@ -1,0 +1,10 @@
+{
+  "format_version": "1.0.0",
+  "change_version": "1",
+  "change_date": "2023-02-08 04:23:36",
+  "source": "2.0.5.0",
+  "import": "operator_settings_lenovo_dafault.json",
+  "settings": {
+    "volume_feedback_enable": false
+  }
+}

@@ -1,0 +1,505 @@
+;
+; TAS2563.inf
+;
+
+[Version]
+Signature="$WINDOWS NT$"
+Class=System
+ClassGuid={4d36e97d-e325-11ce-bfc1-08002be10318}
+Provider=%ManufacturerName%
+CatalogFile=TAS2xxx.cat
+DriverVer = 02/16/2023,1.9.0.0
+PnpLockdown=1
+
+[DestinationDirs]
+DefaultDestDir = 12
+TAS2563_Device_CoInstaller_CopyFiles = 11
+
+; ================= Class section =====================
+
+[SourceDisksNames]
+1 = %DiskName%,,,""
+
+[SourceDisksFiles]
+TAS2xxx.sys  = 1,,
+TAS2XXXFirmware.bin = 1,Firmwares,   ;0
+TAS2XXX38BE.bin = 1,Firmwares,   ;1
+TAS2XXX38BF.bin = 1,Firmwares,   ;2
+TAS2XXX38B8.bin = 1,Firmwares,   ;3
+TAS2XXX38B9.bin = 1,Firmwares,   ;4
+TAS2XXX38BA.bin = 1,Firmwares,   ;5
+TAS2XXX38BB.bin = 1,Firmwares,   ;6
+TAS2XXX3884.bin = 1,Firmwares,   ;7
+TAS2XXX3886.bin = 1,Firmwares,   ;8
+TAS2XXX3881.bin = 1,Firmwares,   ;9
+TAS2XXX3882.bin = 1,Firmwares,   ;10
+TAS2XXX38A5.bin = 1,Firmwares,   ;11
+TAS2XXX38A7.bin = 1,Firmwares,   ;12
+TAS2XXX38A8.bin = 1,Firmwares,   ;13
+TAS2XXX387D.bin = 1,Firmwares,   ;14
+TAS2XXX387E.bin = 1,Firmwares,   ;15
+TAS2XXX387F.bin = 1,Firmwares,   ;16
+TAS2XXX3880.bin = 1,Firmwares,   ;17
+TAS2XXX38C3.bin = 1,Firmwares,   ;18
+AAC-3881-A.bin = 1,Firmwares,   ;19
+AAC-3881-B.bin = 1,Firmwares,   ;20
+AAC-387D-A.bin = 1,Firmwares,   ;21
+AAC-387D-B.bin = 1,Firmwares,   ;22
+AAC-387D-C.bin = 1,Firmwares,   ;23
+AAC-387D-D.bin = 1,Firmwares,   ;24
+TAS2563Firmware.bin = 1,Firmwares,   ;25
+;
+
+
+;*****************************************
+; Install Section
+;*****************************************
+
+[Manufacturer]
+%ManufacturerName%=Standard,NTamd64
+
+[Standard.NTamd64]
+%TAS2563.DeviceDesc%=TAS2563_Device, ACPI\INT8866
+%TAS2781.DeviceDesc%=TAS2781_17AA38BE_Device, ACPI\VEN_TIAS&DEV_2781&SUBSYS_17AA38BE
+%TAS2781.DeviceDesc%=TAS2781_17AA38BF_Device, ACPI\VEN_TIAS&DEV_2781&SUBSYS_17AA38BF
+%TAS2781.DeviceDesc%=TAS2781_17AA38B8_Device, ACPI\VEN_TIAS&DEV_2781&SUBSYS_17AA38B8
+%TAS2781.DeviceDesc%=TAS2781_17AA38B9_Device, ACPI\VEN_TIAS&DEV_2781&SUBSYS_17AA38B9
+%TAS2781.DeviceDesc%=TAS2781_17AA38BA_Device, ACPI\VEN_TIAS&DEV_2781&SUBSYS_17AA38BA
+%TAS2781.DeviceDesc%=TAS2781_17AA38BB_Device, ACPI\VEN_TIAS&DEV_2781&SUBSYS_17AA38BB
+%TAS2781.DeviceDesc%=TAS2781_17AA3884_Device, ACPI\VEN_TIAS&DEV_2781&SUBSYS_17AA3884
+%TAS2781.DeviceDesc%=TAS2781_17AA3886_Device, ACPI\VEN_TIAS&DEV_2781&SUBSYS_17AA3886
+%TAS2781.DeviceDesc%=TAS2781_17AA3881_Device, ACPI\VEN_TIAS&DEV_2781&SUBSYS_17AA3881
+%TAS2781.DeviceDesc%=TAS2781_17AA3882_Device, ACPI\VEN_TIAS&DEV_2781&SUBSYS_17AA3882
+%TAS2781.DeviceDesc%=TAS2781_17AA38A5_Device, ACPI\VEN_TIAS&DEV_2781&SUBSYS_17AA38A5
+%TAS2781.DeviceDesc%=TAS2781_17AA38A7_Device, ACPI\VEN_TIAS&DEV_2781&SUBSYS_17AA38A7
+%TAS2781.DeviceDesc%=TAS2781_17AA38A8_Device, ACPI\VEN_TIAS&DEV_2781&SUBSYS_17AA38A8
+%TAS2781.DeviceDesc%=TAS2781_17AA387D_Device, ACPI\VEN_TIAS&DEV_2781&SUBSYS_17AA387D
+%TAS2781.DeviceDesc%=TAS2781_17AA387E_Device, ACPI\VEN_TIAS&DEV_2781&SUBSYS_17AA387E
+%TAS2781.DeviceDesc%=TAS2781_17AA387F_Device, ACPI\VEN_TIAS&DEV_2781&SUBSYS_17AA387F
+%TAS2781.DeviceDesc%=TAS2781_17AA3880_Device, ACPI\VEN_TIAS&DEV_2781&SUBSYS_17AA3880
+%TAS2781.DeviceDesc%=TAS2781_17AA38C3_Device, ACPI\VEN_TIAS&DEV_2781&SUBSYS_17AA38C3
+
+[TAS2563_Device.NT]
+CopyFiles=Drivers_Dir
+
+[TAS2781_17AA38BE_Device.NT]
+CopyFiles=Drivers_17AA38BE_Dir
+
+[TAS2781_17AA38BF_Device.NT]
+CopyFiles=Drivers_17AA38BE_Dir
+
+[TAS2781_17AA38B8_Device.NT]
+CopyFiles=Drivers_17AA38B8_Dir
+
+[TAS2781_17AA38B9_Device.NT]
+CopyFiles=Drivers_17AA38B8_Dir
+
+[TAS2781_17AA38BA_Device.NT]
+CopyFiles=Drivers_17AA38BA_Dir
+
+[TAS2781_17AA38BB_Device.NT]
+CopyFiles=Drivers_17AA38BA_Dir
+
+[TAS2781_17AA3884_Device.NT]
+CopyFiles=Drivers_17AA3884_Dir
+
+[TAS2781_17AA3886_Device.NT]
+CopyFiles=Drivers_17AA3884_Dir
+
+[TAS2781_17AA3881_Device.NT]
+CopyFiles=Drivers_17AA3881_Dir
+
+[TAS2781_17AA3882_Device.NT]
+CopyFiles=Drivers_17AA3881_Dir
+
+[TAS2781_17AA38A5_Device.NT]
+CopyFiles=Drivers_17AA38A5_Dir
+
+[TAS2781_17AA38A7_Device.NT]
+CopyFiles=Drivers_17AA38A7_Dir
+
+[TAS2781_17AA38A8_Device.NT]
+CopyFiles=Drivers_17AA38A7_Dir
+
+[TAS2781_17AA387D_Device.NT]
+CopyFiles=Drivers_17AA387D_Dir
+
+[TAS2781_17AA387E_Device.NT]
+CopyFiles=Drivers_17AA387D_Dir
+
+[TAS2781_17AA387F_Device.NT]
+CopyFiles=Drivers_17AA387F_Dir
+
+[TAS2781_17AA3880_Device.NT]
+CopyFiles=Drivers_17AA387F_Dir
+
+[TAS2781_17AA38C3_Device.NT]
+CopyFiles=Drivers_17AA38C3_Dir
+
+[TAS2781_17AA3881_Device.NT.HW]
+AddReg=TAS2781_Device_filter_AddReg
+
+[TAS2781_17AA3882_Device.NT.HW]
+AddReg=TAS2781_Device_filter_AddReg
+
+[TAS2781_17AA38A5_Device.NT.HW]
+AddReg=TAS2781_Device_filter_AddReg
+
+[TAS2781_17AA3884_Device.NT.HW]
+AddReg=TAS2781_Device_filter_AddReg
+
+[TAS2781_17AA3886_Device.NT.HW]
+AddReg=TAS2781_Device_filter_AddReg
+
+[TAS2781_17AA38BE_Device.NT.HW]
+AddReg=TAS2781_Device_filter_AddReg
+
+[TAS2781_17AA38BF_Device.NT.HW]
+AddReg=TAS2781_Device_filter_AddReg
+
+[TAS2781_17AA387D_Device.NT.HW]
+AddReg=TAS2781_Device_filter_AddReg
+
+[TAS2781_17AA387E_Device.NT.HW]
+AddReg=TAS2781_Device_filter_AddReg
+
+[TAS2781_17AA387F_Device.NT.HW]
+AddReg=TAS2781_Device_filter_AddReg
+
+[TAS2781_17AA3880_Device.NT.HW]
+AddReg=TAS2781_Device_filter_AddReg
+
+[TAS2781_17AA38A7_Device.NT.HW]
+AddReg=TAS2781_Device_filter_AddReg
+
+[TAS2781_17AA38A8_Device.NT.HW]
+AddReg=TAS2781_Device_filter_AddReg
+
+[TAS2781_17AA38B8_Device.NT.HW]
+AddReg=TAS2781_Device_filter_AddReg
+
+[TAS2781_17AA38B9_Device.NT.HW]
+AddReg=TAS2781_Device_filter_AddReg
+
+[TAS2781_17AA38BA_Device.NT.HW]
+AddReg=TAS2781_Device_filter_AddReg
+
+[TAS2781_17AA38BB_Device.NT.HW]
+AddReg=TAS2781_Device_filter_AddReg
+
+[TAS2781_17AA38C3_Device.NT.HW]
+AddReg=TAS2781_Device_filter_AddReg
+
+[TAS2781_Device_filter_AddReg]
+HKR,"WDF","WdfDirectedPowerTransitionEnable",0x00010001,1
+
+[Drivers_Dir]
+TAS2xxx.sys
+TAS2563Firmware.bin
+
+[Drivers_17AA38BE_Dir]
+TAS2xxx.sys
+TAS2XXX38BE.bin
+TAS2XXX38BF.bin
+TAS2XXXFirmware.bin
+
+[Drivers_17AA38B8_Dir]
+TAS2xxx.sys
+TAS2XXX38B8.bin
+TAS2XXX38B9.bin
+TAS2XXXFirmware.bin
+
+[Drivers_17AA38BA_Dir]
+TAS2xxx.sys
+TAS2XXX38BA.bin
+TAS2XXX38BB.bin
+TAS2XXXFirmware.bin
+
+[Drivers_17AA3884_Dir]
+TAS2xxx.sys
+TAS2XXX3884.bin
+TAS2XXX3886.bin
+TAS2XXXFirmware.bin
+
+[Drivers_17AA3881_Dir]
+TAS2xxx.sys
+TAS2XXX3881.bin
+TAS2XXX3882.bin
+TAS2XXXFirmware.bin
+
+[Drivers_17AA38A5_Dir]
+TAS2xxx.sys
+TAS2XXX38A5.bin
+TAS2XXXFirmware.bin
+
+[Drivers_17AA38A7_Dir]
+TAS2xxx.sys
+TAS2XXX38A7.bin
+TAS2XXX38A8.bin
+TAS2XXXFirmware.bin
+
+[Drivers_17AA387D_Dir]
+TAS2xxx.sys
+TAS2XXX387D.bin
+TAS2XXX387E.bin
+TAS2XXXFirmware.bin
+AAC-387D-A.bin
+AAC-387D-B.bin
+AAC-387D-C.bin
+AAC-387D-D.bin
+
+[Drivers_17AA387F_Dir]
+TAS2xxx.sys
+TAS2XXX387F.bin
+TAS2XXX3880.bin
+TAS2XXXFirmware.bin
+
+[Drivers_17AA38C3_Dir]
+TAS2xxx.sys
+TAS2XXX38C3.bin
+TAS2XXXFirmware.bin
+
+
+;-------------- Service installation
+[TAS2563_Device.NT.Services]
+AddService = TAS2563,%SPSVCINST_ASSOCSERVICE%, TAS2563_Service_Inst
+
+; -------------- TAS2563 driver install sections
+[TAS2563_Service_Inst]
+DisplayName    = %TAS2563.SVCDESC%
+ServiceType    = 1               ; SERVICE_KERNEL_DRIVER
+StartType      = 3               ; SERVICE_DEMAND_START
+ErrorControl   = 1               ; SERVICE_ERROR_NORMAL
+ServiceBinary  = %12%\TAS2xxx.sys
+
+[TAS2563_Device.NT.CoInstallers]
+AddReg=TAS2563_Device_CoInstaller_AddReg
+CopyFiles=TAS2563_Device_CoInstaller_CopyFiles
+
+[TAS2563_Device_CoInstaller_AddReg]
+;
+
+
+;HKR,"WDF","WdfDirectedPowerTransitionEnable",0x00010001,1
+
+[TAS2563_Device_CoInstaller_CopyFiles]
+;
+
+
+
+[TAS2563_Device.NT.Wdf]
+KmdfService =  TAS2563, TAS2563_wdfsect
+
+;-------------- Service installation
+[TAS2781_17AA38BE_Device.NT.Services]
+AddService = TAS2781,%SPSVCINST_ASSOCSERVICE%, TAS2781_Service_Inst
+
+[TAS2781_17AA38BF_Device.NT.Services]
+AddService = TAS2781,%SPSVCINST_ASSOCSERVICE%, TAS2781_Service_Inst
+
+[TAS2781_17AA38B8_Device.NT.Services]
+AddService = TAS2781,%SPSVCINST_ASSOCSERVICE%, TAS2781_Service_Inst
+
+[TAS2781_17AA38B9_Device.NT.Services]
+AddService = TAS2781,%SPSVCINST_ASSOCSERVICE%, TAS2781_Service_Inst
+
+[TAS2781_17AA38BA_Device.NT.Services]
+AddService = TAS2781,%SPSVCINST_ASSOCSERVICE%, TAS2781_Service_Inst
+
+[TAS2781_17AA38BB_Device.NT.Services]
+AddService = TAS2781,%SPSVCINST_ASSOCSERVICE%, TAS2781_Service_Inst
+
+[TAS2781_17AA3884_Device.NT.Services]
+AddService = TAS2781,%SPSVCINST_ASSOCSERVICE%, TAS2781_Service_Inst
+
+[TAS2781_17AA3886_Device.NT.Services]
+AddService = TAS2781,%SPSVCINST_ASSOCSERVICE%, TAS2781_Service_Inst
+
+[TAS2781_17AA3881_Device.NT.Services]
+AddService = TAS2781,%SPSVCINST_ASSOCSERVICE%, TAS2781_Service_Inst
+
+[TAS2781_17AA3882_Device.NT.Services]
+AddService = TAS2781,%SPSVCINST_ASSOCSERVICE%, TAS2781_Service_Inst
+
+[TAS2781_17AA38A5_Device.NT.Services]
+AddService = TAS2781,%SPSVCINST_ASSOCSERVICE%, TAS2781_Service_Inst
+
+[TAS2781_17AA38A7_Device.NT.Services]
+AddService = TAS2781,%SPSVCINST_ASSOCSERVICE%, TAS2781_Service_Inst
+
+[TAS2781_17AA38A8_Device.NT.Services]
+AddService = TAS2781,%SPSVCINST_ASSOCSERVICE%, TAS2781_Service_Inst
+
+[TAS2781_17AA387D_Device.NT.Services]
+AddService = TAS2781,%SPSVCINST_ASSOCSERVICE%, TAS2781_Service_Inst
+
+[TAS2781_17AA387E_Device.NT.Services]
+AddService = TAS2781,%SPSVCINST_ASSOCSERVICE%, TAS2781_Service_Inst
+
+[TAS2781_17AA387F_Device.NT.Services]
+AddService = TAS2781,%SPSVCINST_ASSOCSERVICE%, TAS2781_Service_Inst
+
+[TAS2781_17AA3880_Device.NT.Services]
+AddService = TAS2781,%SPSVCINST_ASSOCSERVICE%, TAS2781_Service_Inst
+
+[TAS2781_17AA38C3_Device.NT.Services]
+AddService = TAS2781,%SPSVCINST_ASSOCSERVICE%, TAS2781_Service_Inst
+
+
+; -------------- TAS2781 driver install sections
+[TAS2781_Service_Inst]
+DisplayName    = %TAS2781.SVCDESC%
+ServiceType    = 1               ; SERVICE_KERNEL_DRIVER
+StartType      = 3               ; SERVICE_DEMAND_START
+ErrorControl   = 1               ; SERVICE_ERROR_NORMAL
+ServiceBinary  = %12%\TAS2xxx.sys
+
+[TAS2781_17AA38BE_Device.NT.CoInstallers] 
+AddReg=TAS2781_Device_CoInstaller_AddReg 
+CopyFiles=TAS2781_Device_CoInstaller_CopyFiles
+
+[TAS2781_17AA38BF_Device.NT.CoInstallers] 
+AddReg=TAS2781_Device_CoInstaller_AddReg 
+CopyFiles=TAS2781_Device_CoInstaller_CopyFiles
+
+[TAS2781_17AA38B8_Device.NT.CoInstallers] 
+AddReg=TAS2781_Device_CoInstaller_AddReg 
+CopyFiles=TAS2781_Device_CoInstaller_CopyFiles
+
+[TAS2781_17AA38B9_Device.NT.CoInstallers] 
+AddReg=TAS2781_Device_CoInstaller_AddReg 
+CopyFiles=TAS2781_Device_CoInstaller_CopyFiles
+
+[TAS2781_17AA38BA_Device.NT.CoInstallers] 
+AddReg=TAS2781_Device_CoInstaller_AddReg 
+CopyFiles=TAS2781_Device_CoInstaller_CopyFiles
+
+[TAS2781_17AA38BB_Device.NT.CoInstallers] 
+AddReg=TAS2781_Device_CoInstaller_AddReg 
+CopyFiles=TAS2781_Device_CoInstaller_CopyFiles
+
+[TAS2781_17AA3884_Device.NT.CoInstallers] 
+AddReg=TAS2781_Device_CoInstaller_AddReg 
+CopyFiles=TAS2781_Device_CoInstaller_CopyFiles
+
+[TAS2781_17AA3886_Device.NT.CoInstallers] 
+AddReg=TAS2781_Device_CoInstaller_AddReg 
+CopyFiles=TAS2781_Device_CoInstaller_CopyFiles
+
+[TAS2781_17AA3881_Device.NT.CoInstallers] 
+AddReg=TAS2781_Device_CoInstaller_AddReg 
+CopyFiles=TAS2781_Device_CoInstaller_CopyFiles
+
+[TAS2781_17AA3882_Device.NT.CoInstallers] 
+AddReg=TAS2781_Device_CoInstaller_AddReg 
+CopyFiles=TAS2781_Device_CoInstaller_CopyFiles
+
+[TAS2781_17AA38A5_Device.NT.CoInstallers] 
+AddReg=TAS2781_Device_CoInstaller_AddReg 
+CopyFiles=TAS2781_Device_CoInstaller_CopyFiles
+
+[TAS2781_17AA38A7_Device.NT.CoInstallers] 
+AddReg=TAS2781_Device_CoInstaller_AddReg 
+CopyFiles=TAS2781_Device_CoInstaller_CopyFiles
+
+[TAS2781_17AA38A8_Device.NT.CoInstallers] 
+AddReg=TAS2781_Device_CoInstaller_AddReg 
+CopyFiles=TAS2781_Device_CoInstaller_CopyFiles
+
+[TAS2781_17AA387D_Device.NT.CoInstallers] 
+AddReg=TAS2781_Device_CoInstaller_AddReg 
+CopyFiles=TAS2781_Device_CoInstaller_CopyFiles
+
+[TAS2781_17AA387E_Device.NT.CoInstallers] 
+AddReg=TAS2781_Device_CoInstaller_AddReg 
+CopyFiles=TAS2781_Device_CoInstaller_CopyFiles
+
+[TAS2781_17AA387F_Device.NT.CoInstallers] 
+AddReg=TAS2781_Device_CoInstaller_AddReg 
+CopyFiles=TAS2781_Device_CoInstaller_CopyFiles
+
+[TAS2781_17AA3880_Device.NT.CoInstallers] 
+AddReg=TAS2781_Device_CoInstaller_AddReg 
+CopyFiles=TAS2781_Device_CoInstaller_CopyFiles
+
+[TAS2781_17AA38C3_Device.NT.CoInstallers] 
+AddReg=TAS2781_Device_CoInstaller_AddReg 
+CopyFiles=TAS2781_Device_CoInstaller_CopyFiles
+
+[TAS2781_Device_CoInstaller_AddReg]
+;
+
+HKR,"WDF","WdfDirectedPowerTransitionEnable",0x00010001,1
+;HKR, , KSDFxSupportEnable, 0x00010001, 1
+
+[TAS2781_Device_CoInstaller_CopyFiles]
+;
+
+
+
+[TAS2781_17AA38BE_Device.NT.Wdf]
+KmdfService =  TAS2781, TAS2563_wdfsect
+
+[TAS2781_17AA38BF_Device.NT.Wdf]
+KmdfService =  TAS2781, TAS2563_wdfsect
+
+[TAS2781_17AA38B8_Device.NT.Wdf]
+KmdfService =  TAS2781, TAS2563_wdfsect
+
+[TAS2781_17AA38B9_Device.NT.Wdf]
+KmdfService =  TAS2781, TAS2563_wdfsect
+
+[TAS2781_17AA38BA_Device.NT.Wdf]
+KmdfService =  TAS2781, TAS2563_wdfsect
+
+[TAS2781_17AA38BB_Device.NT.Wdf]
+KmdfService =  TAS2781, TAS2563_wdfsect
+
+[TAS2781_17AA3884_Device.NT.Wdf]
+KmdfService =  TAS2781, TAS2563_wdfsect
+
+[TAS2781_17AA3886_Device.NT.Wdf]
+KmdfService =  TAS2781, TAS2563_wdfsect
+
+[TAS2781_17AA3881_Device.NT.Wdf]
+KmdfService =  TAS2781, TAS2563_wdfsect
+
+[TAS2781_17AA3882_Device.NT.Wdf]
+KmdfService =  TAS2781, TAS2563_wdfsect
+
+[TAS2781_17AA38A5_Device.NT.Wdf]
+KmdfService =  TAS2781, TAS2563_wdfsect
+
+[TAS2781_17AA38A7_Device.NT.Wdf]
+KmdfService =  TAS2781, TAS2563_wdfsect
+
+[TAS2781_17AA38A8_Device.NT.Wdf]
+KmdfService =  TAS2781, TAS2563_wdfsect
+
+[TAS2781_17AA387D_Device.NT.Wdf]
+KmdfService =  TAS2781, TAS2563_wdfsect
+
+[TAS2781_17AA387E_Device.NT.Wdf]
+KmdfService =  TAS2781, TAS2563_wdfsect
+
+[TAS2781_17AA387F_Device.NT.Wdf]
+KmdfService =  TAS2781, TAS2563_wdfsect
+
+[TAS2781_17AA3880_Device.NT.Wdf]
+KmdfService =  TAS2781, TAS2563_wdfsect
+
+[TAS2781_17AA38C3_Device.NT.Wdf]
+KmdfService =  TAS2781, TAS2563_wdfsect
+
+[TAS2563_wdfsect]
+KmdfLibraryVersion = 1.15
+
+[Strings]
+SPSVCINST_ASSOCSERVICE= 0x00000002
+ManufacturerName="Texas Instruments" 
+DiskName = "TAS2xxx Installation Disk"
+TAS2563.DeviceDesc = "TAS2563 Device"
+TAS2563.SVCDESC = "TAS2563 Service"
+TAS2781.DeviceDesc = "TI Smart Amplifier Driver for Speakers"
+TAS2781.SVCDESC = "TAS2781 Service"
+

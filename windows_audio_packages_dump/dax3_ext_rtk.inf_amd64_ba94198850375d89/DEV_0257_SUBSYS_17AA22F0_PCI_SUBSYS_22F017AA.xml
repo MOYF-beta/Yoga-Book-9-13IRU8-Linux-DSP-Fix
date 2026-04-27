@@ -1,0 +1,1595 @@
+<?xml version="1.0" encoding="utf-8"?>
+<device_data xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+    <xml_version value="3.5.7"/>
+    <dtt_version value="4.1.1.3"/>
+    <tuning_version value="1"/>
+    <tuning_date value="11/09/2022 17:28:23"/>
+    <constant>
+        <band_20_freq fs_44100="43,129,215,301,431,603,775,947,1206,1550,2067,2756,3618,4651,5685,7063,8958,11025,13781,18777" fs_48000="47,141,234,328,469,656,844,1031,1313,1688,2250,3000,3750,4688,5813,7125,9000,11250,13875,19688"/>
+        <ieq_detailed target="150,142,188,216,189,195,202,199,210,225,230,236,235,235,214,165,112,49,-24,-217"/>
+        <ieq_balanced target="157,167,218,218,203,188,192,192,205,213,218,209,193,159,134,97,71,22,-90,-283"/>
+        <ieq_warm target="114,146,183,169,170,128,103,90,98,126,127,140,96,85,80,66,38,-32,-132,-275"/>
+        <array_20_n192 target="-192,-192,-192,-192,-192,-192,-192,-192,-192,-192,-192,-192,-192,-192,-192,-192,-192,-192,-192,-192"/>
+        <array_20_zero target="0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0"/>
+        <array_32_zero target="0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0"/>
+    </constant>
+    <setting>
+        <product value="DAX 3 Windows"/>
+        <sku value="DolbyAudio"/>
+        <settings_filename value="operator_settings_lenovo_remove_logo.json"/>
+        <security-key value=""/>
+    </setting>
+    <endpoint type="internal_speaker" brand="Generic" model="Default" operating_mode="normal" fs="48000" total_count="2" front_count="2" side_count="0" height_count="0" has_subwoofer="0">
+        <speaker-config>
+            <front-count value="2"/>
+            <side-count value="0"/>
+            <height-count value="0"/>
+            <subwoofer-count value="0"/>
+            <output-count value="2"/>
+            <speaker name="Left" sbf_eq_enable="0">
+                <speaker-way output_route="0" delay="0"/>
+            </speaker>
+            <speaker name="Right" sbf_eq_enable="0">
+                <speaker-way output_route="1" delay="0"/>
+            </speaker>
+        </speaker-config>
+        <profile type="dynamic">
+            <tuning-cp>
+                <init-info>
+                    <low_latency_enable value="1"/>
+                    <mi_process_disable value="0"/>
+                    <speaker_virtualizer_mode value="0"/>
+                    <virtual_bass_process_enable value="0"/>
+                    <max_num_output_channels value="8"/>
+                    <mode value="0"/>
+                    <max_num_scratch_channels value="8"/>
+                    <max_num_filter_states value="10"/>
+                    <max_num_operations value="48"/>
+                    <max_num_operation_coefficients value="1848"/>
+                    <a_max_sample_delays preset="array_32_zero"/>
+                </init-info>
+                <audio-optimizer-enable value="0"/>
+                <audio-optimizer-bands>
+                    <ch_00 preset="array_20_zero"/>
+                    <ch_01 preset="array_20_zero"/>
+                    <ch_02 preset="array_20_zero"/>
+                    <ch_03 preset="array_20_zero"/>
+                    <ch_04 preset="array_20_zero"/>
+                    <ch_05 preset="array_20_zero"/>
+                    <ch_06 preset="array_20_zero"/>
+                    <ch_07 preset="array_20_zero"/>
+                </audio-optimizer-bands>
+                <bass-enhancer-enable value="0"/>
+                <bass-enhancer-boost value="0"/>
+                <bass-enhancer-cutoff-frequency value="200"/>
+                <bass-enhancer-width value="16"/>
+                <bass-extraction-enable value="0"/>
+                <bass-extraction-cutoff-frequency value="200"/>
+                <bass-extraction-lfe-gain value="0"/>
+                <calibration-boost value="0"/>
+                <customer-woofer-channel-index value="3"/>
+                <dialog-enhancer-enable value="0"/>
+                <dialog-enhancer-amount value="5"/>
+                <dialog-enhancer-ducking value="0"/>
+                <dynamic-range-control-metadata/>
+                <graphic-equalizer-enable value="0"/>
+                <graphic-equalizer-bands preset="array_20_zero"/>
+                <height-filter-mode value="0"/>
+                <ieq-enable value="0"/>
+                <ieq-amount value="10"/>
+                <ieq-bands-set preset="ieq_balanced"/>
+                <mi-dialog-enhancer-steering-enable value="1"/>
+                <mi-dv-leveler-steering-enable value="1"/>
+                <mi-ieq-steering-enable value="1"/>
+                <mi-surround-compressor-steering-enable value="1"/>
+                <mi-virt-steering-enable value="1"/>
+                <postgain value="0"/>
+                <pregain value="0"/>
+                <rear-height-filter-mode value="1"/>
+                <regulator-enable value="1"/>
+                <regulator-overdrive value="0"/>
+                <regulator-relaxation-amount value="96"/>
+                <regulator-speaker-dist-enable value="0"/>
+                <regulator-timbre-preservation value="12"/>
+                <regulator-tuning>
+                    <threshold_high preset="array_20_zero"/>
+                    <threshold_low preset="array_20_n192"/>
+                    <isolated_band preset="array_20_zero"/>
+                </regulator-tuning>
+                <surround-boost value="96"/>
+                <surround-decoder-enable value="1"/>
+                <surround-decoder-center-spreading-enable value="0"/>
+                <system-gain value="0"/>
+                <virtualizer-front-speaker-angle value="4"/>
+                <virtualizer-height-speaker-angle value="10"/>
+                <virtualizer-surround-speaker-angle value="4"/>
+                <virtualizer-rear-speaker-angle value="10"/>
+                <virtualizer-rear-height-speaker-angle value="10"/>
+                <virtualizer-start-band value="0"/>
+                <virtual-bass-mix-freqs value="94,469"/>
+                <virtual-bass-mode value="0"/>
+                <virtual-bass-overall-gain value="0"/>
+                <virtual-bass-subgains value="-32,-144,-192"/>
+                <virtual-bass-slope-gain value="0"/>
+                <virtual-bass-src-freqs value="35,160"/>
+                <volmax-boost value="96"/>
+                <volume-leveler-enable value="1"/>
+                <volume-leveler-amount value="4"/>
+                <volume-leveler-in-target value="-320"/>
+                <volume-leveler-out-target value="-320"/>
+                <volume-modeler-enable value="0"/>
+                <volume-modeler-calibration value="0"/>
+                <output-mode-partial-surround-virtualizer-enable value="1"/>
+                <output-mode-partial-height-virtualizer-enable value="0"/>
+                <woofer-regulator-enable value="0"/>
+                <woofer-regulator-tuning>
+                    <threshold_high preset="array_20_zero"/>
+                    <threshold_low preset="array_20_n192"/>
+                    <isolated_band preset="array_20_zero"/>
+                </woofer-regulator-tuning>
+                <output-mode>
+                    <processing_mode value="3"/>
+                    <nb_output_channels value="2"/>
+                    <mix_matrix value="16384,0,0,16384,11583,11583,8192,8192,16384,0,0,16384,16384,0,0,16384"/>
+                    <output_ports value="1,2,3,4,5,6,7,8"/>
+                </output-mode>
+            </tuning-cp>
+            <tuning-vlldp>
+                <init-info>
+                    <max_num_channels value="2"/>
+                    <max_num_operations value="10"/>
+                </init-info>
+                <audio-optimizer-bands>
+                    <ch_00 value="0,0,0,96,48,-16,-16,-48,0,0,-16,-24,-8,54,0,80,48,-48,-80,-96"/>
+                    <ch_01 value="0,0,0,96,48,-16,-16,-48,0,0,-16,-24,-8,54,0,80,48,-48,-80,-96"/>
+                    <ch_02 preset="array_20_zero"/>
+                    <ch_03 preset="array_20_zero"/>
+                    <ch_04 preset="array_20_zero"/>
+                    <ch_05 preset="array_20_zero"/>
+                    <ch_06 preset="array_20_zero"/>
+                    <ch_07 preset="array_20_zero"/>
+                </audio-optimizer-bands>
+                <audio-optimizer-enable value="1"/>
+                <filter_coefficients>
+                    <coefficient value="ECDQpAMACAABAAAAAAAAACZ/+P9P/vn/KX8BAAAAAAAAAP59//8M/AcAAH4BAAAAAAAAAMR4wv7x9pMAM3sBAAAAAAAAAKd8Uv8W/wcAiH8BAAEAAQAAACZ/+P9P/vn/KX8BAAEAAQAAAP59//8M/AcAAH4BAAEAAQAAAMR4wv7x9pMAM3sBAAEAAQAAAKd8Uv8W/wcAiH8BAAAAAAAAADh/+f9z/vr/On8BAAAAAAAAACd+//9c/AYAKX4BAAAAAAAAAGJ58v6Z93wAknsBAAAAAAAAAPJ8bP8o/wYAkX8BAAEAAQAAADh/+f9z/vr/On8BAAEAAQAAACd+//9c/AYAKX4BAAEAAQAAAGJ58v6Z93wAknsBAAEAAQAAAPJ8bP8o/wYAkX8BAAAAAAAAAJR//v8p//7/lX8BAAAAAAAAAP5+AAAA/gIA/34BAAAAAAAAAH98rP80+yQAiX0BAAAAAAAAAGd+0/+I/wIAw38BAAEAAQAAAJR//v8p//7/lX8BAAEAAQAAAP5+AAAA/gIA/34BAAEAAQAAAH98rP80+yQAiX0BAAEAAQAAAGd+0/+I/wIAw38BAAAAAAAAAJ1//v86////nX8BAAAAAAAAABN/AAAp/gEAE38BAAAAAAAAAMp8uf+T+x4Au30BAAAAAAAAAIp+2v+R/wEAyH8BAAEAAQAAAJ1//v86////nX8BAAEAAQAAABN/AAAp/gEAE38BAAEAAQAAAMp8uf+T+x4Au30BAAEAAQAAAIp+2v+R/wEAyH8BAAAAAAAAAMp///+V/wAAyn8BAAAAAAAAAH9/AAD//gAAf38BAAAAAAAAAEd+6v+J/QkAwH4BAAAAAAAAADl/9f/D/wAA4X8BAAEAAQAAAMp///+V/wAAyn8BAAEAAQAAAH9/AAD//gAAf38BAAEAAQAAAEd+6v+J/QkAwH4BAAEAAQAAADl/9f/D/wAA4X8BAAAAAAAAAM9/AACd/wAAz38BAAAAAAAAAIl/AAAT/wAAiX8BAAAAAAAAAGt+7v+7/QcA2n4BAAAAAAAAAEl/9v/I/wAA5H8BAAEAAQAAAM9/AACd/wAAz38BAAEAAQAAAIl/AAAT/wAAiX8BAAEAAQAAAGt+7v+7/QcA2n4BAAEAAQAAAEl/9v/I/wAA5H8="/>
+                </filter_coefficients>
+                <mb-compressor-enable value="1"/>
+                <mb-compressor-tuning>
+                    <group_count value="2"/>
+                    <band_group_0 value="5,-64,19658,22641,31782,48"/>
+                    <band_group_1 value="20,-64,19657,22641,31082,48"/>
+                    <band_group_2 value="20,0,32767,22641,27238,0"/>
+                    <band_group_3 value="20,0,32767,22641,27238,0"/>
+                </mb-compressor-tuning>
+                <mb-compressor-channel-deviation value="0"/>
+                <mb-compressor-agc-enable value="0"/>
+                <mb-compressor-target-power-level value="-80"/>
+                <mb-compressor-slow-gain-enable value="0"/>
+                <mb-compressor-band0-slow-gain-mix-level value="256"/>
+                <peak-level value="0"/>
+                <postgain value="0"/>
+                <regulator-stress-amount value="160,160,0,0,0,0,0,0"/>
+                <regulator-distortion-slope value="16"/>
+                <regulator-overdrive value="0"/>
+                <regulator-timbre-preservation value="12"/>
+                <regulator-speaker-dist-enable value="1"/>
+                <regulator-tuning>
+                    <threshold_high preset="array_20_zero"/>
+                    <threshold_low preset="array_20_n192"/>
+                    <isolated_band preset="array_20_zero"/>
+                </regulator-tuning>
+                <system-gain value="0"/>
+                <speaker-peq-enable value="1"/>
+                <speaker-peq-filters>
+                    <filter speaker="0" enabled="1" type="9" f0="120" order="4"/>
+                    <filter speaker="0" enabled="1" type="1" f0="818" gain="-12.000000" q="2.200000"/>
+                    <filter speaker="0" enabled="1" type="1" f0="550" gain="-1.500000" q="1.800000"/>
+                    <filter speaker="1" enabled="1" type="9" f0="120" order="4"/>
+                    <filter speaker="1" enabled="1" type="1" f0="818" gain="-12.000000" q="2.200000"/>
+                    <filter speaker="1" enabled="1" type="1" f0="550" gain="-1.500000" q="1.800000"/>
+                </speaker-peq-filters>
+            </tuning-vlldp>
+        </profile>
+        <profile type="movie">
+            <tuning-cp>
+                <init-info>
+                    <low_latency_enable value="1"/>
+                    <mi_process_disable value="0"/>
+                    <speaker_virtualizer_mode value="0"/>
+                    <virtual_bass_process_enable value="0"/>
+                    <max_num_output_channels value="8"/>
+                    <mode value="0"/>
+                    <max_num_scratch_channels value="8"/>
+                    <max_num_filter_states value="10"/>
+                    <max_num_operations value="48"/>
+                    <max_num_operation_coefficients value="1848"/>
+                    <a_max_sample_delays preset="array_32_zero"/>
+                </init-info>
+                <audio-optimizer-enable value="0"/>
+                <audio-optimizer-bands>
+                    <ch_00 preset="array_20_zero"/>
+                    <ch_01 preset="array_20_zero"/>
+                    <ch_02 preset="array_20_zero"/>
+                    <ch_03 preset="array_20_zero"/>
+                    <ch_04 preset="array_20_zero"/>
+                    <ch_05 preset="array_20_zero"/>
+                    <ch_06 preset="array_20_zero"/>
+                    <ch_07 preset="array_20_zero"/>
+                </audio-optimizer-bands>
+                <bass-enhancer-enable value="0"/>
+                <bass-enhancer-boost value="0"/>
+                <bass-enhancer-cutoff-frequency value="200"/>
+                <bass-enhancer-width value="16"/>
+                <bass-extraction-enable value="0"/>
+                <bass-extraction-cutoff-frequency value="200"/>
+                <bass-extraction-lfe-gain value="0"/>
+                <calibration-boost value="0"/>
+                <customer-woofer-channel-index value="3"/>
+                <dialog-enhancer-enable value="0"/>
+                <dialog-enhancer-amount value="5"/>
+                <dialog-enhancer-ducking value="0"/>
+                <dynamic-range-control-metadata/>
+                <graphic-equalizer-enable value="0"/>
+                <graphic-equalizer-bands preset="array_20_zero"/>
+                <height-filter-mode value="0"/>
+                <ieq-enable value="0"/>
+                <ieq-amount value="10"/>
+                <ieq-bands-set preset="ieq_balanced"/>
+                <mi-dialog-enhancer-steering-enable value="0"/>
+                <mi-dv-leveler-steering-enable value="0"/>
+                <mi-ieq-steering-enable value="0"/>
+                <mi-surround-compressor-steering-enable value="0"/>
+                <mi-virt-steering-enable value="0"/>
+                <postgain value="0"/>
+                <pregain value="0"/>
+                <rear-height-filter-mode value="1"/>
+                <regulator-enable value="1"/>
+                <regulator-overdrive value="0"/>
+                <regulator-relaxation-amount value="96"/>
+                <regulator-speaker-dist-enable value="0"/>
+                <regulator-timbre-preservation value="12"/>
+                <regulator-tuning>
+                    <threshold_high preset="array_20_zero"/>
+                    <threshold_low preset="array_20_n192"/>
+                    <isolated_band preset="array_20_zero"/>
+                </regulator-tuning>
+                <surround-boost value="96"/>
+                <surround-decoder-enable value="1"/>
+                <surround-decoder-center-spreading-enable value="0"/>
+                <system-gain value="0"/>
+                <virtualizer-front-speaker-angle value="4"/>
+                <virtualizer-height-speaker-angle value="10"/>
+                <virtualizer-surround-speaker-angle value="4"/>
+                <virtualizer-rear-speaker-angle value="10"/>
+                <virtualizer-rear-height-speaker-angle value="10"/>
+                <virtualizer-start-band value="0"/>
+                <virtual-bass-mix-freqs value="94,469"/>
+                <virtual-bass-mode value="0"/>
+                <virtual-bass-overall-gain value="0"/>
+                <virtual-bass-subgains value="-32,-144,-192"/>
+                <virtual-bass-slope-gain value="0"/>
+                <virtual-bass-src-freqs value="35,160"/>
+                <volmax-boost value="96"/>
+                <volume-leveler-enable value="1"/>
+                <volume-leveler-amount value="4"/>
+                <volume-leveler-in-target value="-320"/>
+                <volume-leveler-out-target value="-320"/>
+                <volume-modeler-enable value="0"/>
+                <volume-modeler-calibration value="0"/>
+                <output-mode-partial-surround-virtualizer-enable value="1"/>
+                <output-mode-partial-height-virtualizer-enable value="0"/>
+                <woofer-regulator-enable value="0"/>
+                <woofer-regulator-tuning>
+                    <threshold_high preset="array_20_zero"/>
+                    <threshold_low preset="array_20_n192"/>
+                    <isolated_band preset="array_20_zero"/>
+                </woofer-regulator-tuning>
+                <output-mode>
+                    <processing_mode value="3"/>
+                    <nb_output_channels value="2"/>
+                    <mix_matrix value="16384,0,0,16384,11583,11583,8192,8192,16384,0,0,16384,16384,0,0,16384"/>
+                    <output_ports value="1,2,3,4,5,6,7,8"/>
+                </output-mode>
+            </tuning-cp>
+            <tuning-vlldp>
+                <init-info>
+                    <max_num_channels value="2"/>
+                    <max_num_operations value="10"/>
+                </init-info>
+                <audio-optimizer-bands>
+                    <ch_00 value="0,0,0,96,48,-16,-16,-48,0,0,-16,-24,-8,54,0,80,48,-48,-80,-96"/>
+                    <ch_01 value="0,0,0,96,48,-16,-16,-48,0,0,-16,-24,-8,54,0,80,48,-48,-80,-96"/>
+                    <ch_02 preset="array_20_zero"/>
+                    <ch_03 preset="array_20_zero"/>
+                    <ch_04 preset="array_20_zero"/>
+                    <ch_05 preset="array_20_zero"/>
+                    <ch_06 preset="array_20_zero"/>
+                    <ch_07 preset="array_20_zero"/>
+                </audio-optimizer-bands>
+                <audio-optimizer-enable value="1"/>
+                <filter_coefficients>
+                    <coefficient value="ECDQpAMACAABAAAAAAAAACZ/+P9P/vn/KX8BAAAAAAAAAP59//8M/AcAAH4BAAAAAAAAAMR4wv7x9pMAM3sBAAAAAAAAAKd8Uv8W/wcAiH8BAAEAAQAAACZ/+P9P/vn/KX8BAAEAAQAAAP59//8M/AcAAH4BAAEAAQAAAMR4wv7x9pMAM3sBAAEAAQAAAKd8Uv8W/wcAiH8BAAAAAAAAADh/+f9z/vr/On8BAAAAAAAAACd+//9c/AYAKX4BAAAAAAAAAGJ58v6Z93wAknsBAAAAAAAAAPJ8bP8o/wYAkX8BAAEAAQAAADh/+f9z/vr/On8BAAEAAQAAACd+//9c/AYAKX4BAAEAAQAAAGJ58v6Z93wAknsBAAEAAQAAAPJ8bP8o/wYAkX8BAAAAAAAAAJR//v8p//7/lX8BAAAAAAAAAP5+AAAA/gIA/34BAAAAAAAAAH98rP80+yQAiX0BAAAAAAAAAGd+0/+I/wIAw38BAAEAAQAAAJR//v8p//7/lX8BAAEAAQAAAP5+AAAA/gIA/34BAAEAAQAAAH98rP80+yQAiX0BAAEAAQAAAGd+0/+I/wIAw38BAAAAAAAAAJ1//v86////nX8BAAAAAAAAABN/AAAp/gEAE38BAAAAAAAAAMp8uf+T+x4Au30BAAAAAAAAAIp+2v+R/wEAyH8BAAEAAQAAAJ1//v86////nX8BAAEAAQAAABN/AAAp/gEAE38BAAEAAQAAAMp8uf+T+x4Au30BAAEAAQAAAIp+2v+R/wEAyH8BAAAAAAAAAMp///+V/wAAyn8BAAAAAAAAAH9/AAD//gAAf38BAAAAAAAAAEd+6v+J/QkAwH4BAAAAAAAAADl/9f/D/wAA4X8BAAEAAQAAAMp///+V/wAAyn8BAAEAAQAAAH9/AAD//gAAf38BAAEAAQAAAEd+6v+J/QkAwH4BAAEAAQAAADl/9f/D/wAA4X8BAAAAAAAAAM9/AACd/wAAz38BAAAAAAAAAIl/AAAT/wAAiX8BAAAAAAAAAGt+7v+7/QcA2n4BAAAAAAAAAEl/9v/I/wAA5H8BAAEAAQAAAM9/AACd/wAAz38BAAEAAQAAAIl/AAAT/wAAiX8BAAEAAQAAAGt+7v+7/QcA2n4BAAEAAQAAAEl/9v/I/wAA5H8="/>
+                </filter_coefficients>
+                <mb-compressor-enable value="1"/>
+                <mb-compressor-tuning>
+                    <group_count value="2"/>
+                    <band_group_0 value="5,-64,19658,22641,31782,48"/>
+                    <band_group_1 value="20,-64,19657,22641,31082,48"/>
+                    <band_group_2 value="20,0,32767,22641,27238,0"/>
+                    <band_group_3 value="20,0,32767,22641,27238,0"/>
+                </mb-compressor-tuning>
+                <mb-compressor-channel-deviation value="0"/>
+                <mb-compressor-agc-enable value="0"/>
+                <mb-compressor-target-power-level value="-80"/>
+                <mb-compressor-slow-gain-enable value="0"/>
+                <mb-compressor-band0-slow-gain-mix-level value="256"/>
+                <peak-level value="0"/>
+                <postgain value="0"/>
+                <regulator-stress-amount value="160,160,0,0,0,0,0,0"/>
+                <regulator-distortion-slope value="16"/>
+                <regulator-overdrive value="0"/>
+                <regulator-timbre-preservation value="12"/>
+                <regulator-speaker-dist-enable value="1"/>
+                <regulator-tuning>
+                    <threshold_high preset="array_20_zero"/>
+                    <threshold_low preset="array_20_n192"/>
+                    <isolated_band preset="array_20_zero"/>
+                </regulator-tuning>
+                <system-gain value="0"/>
+                <speaker-peq-enable value="1"/>
+                <speaker-peq-filters>
+                    <filter speaker="0" enabled="1" type="9" f0="120" order="4"/>
+                    <filter speaker="0" enabled="1" type="1" f0="818" gain="-12.000000" q="2.200000"/>
+                    <filter speaker="0" enabled="1" type="1" f0="550" gain="-1.500000" q="1.800000"/>
+                    <filter speaker="1" enabled="1" type="9" f0="120" order="4"/>
+                    <filter speaker="1" enabled="1" type="1" f0="818" gain="-12.000000" q="2.200000"/>
+                    <filter speaker="1" enabled="1" type="1" f0="550" gain="-1.500000" q="1.800000"/>
+                </speaker-peq-filters>
+            </tuning-vlldp>
+        </profile>
+        <profile type="music">
+            <tuning-cp>
+                <init-info>
+                    <low_latency_enable value="1"/>
+                    <mi_process_disable value="0"/>
+                    <speaker_virtualizer_mode value="0"/>
+                    <virtual_bass_process_enable value="0"/>
+                    <max_num_output_channels value="8"/>
+                    <mode value="0"/>
+                    <max_num_scratch_channels value="8"/>
+                    <max_num_filter_states value="10"/>
+                    <max_num_operations value="48"/>
+                    <max_num_operation_coefficients value="1848"/>
+                    <a_max_sample_delays preset="array_32_zero"/>
+                </init-info>
+                <audio-optimizer-enable value="0"/>
+                <audio-optimizer-bands>
+                    <ch_00 preset="array_20_zero"/>
+                    <ch_01 preset="array_20_zero"/>
+                    <ch_02 preset="array_20_zero"/>
+                    <ch_03 preset="array_20_zero"/>
+                    <ch_04 preset="array_20_zero"/>
+                    <ch_05 preset="array_20_zero"/>
+                    <ch_06 preset="array_20_zero"/>
+                    <ch_07 preset="array_20_zero"/>
+                </audio-optimizer-bands>
+                <bass-enhancer-enable value="0"/>
+                <bass-enhancer-boost value="0"/>
+                <bass-enhancer-cutoff-frequency value="200"/>
+                <bass-enhancer-width value="16"/>
+                <bass-extraction-enable value="0"/>
+                <bass-extraction-cutoff-frequency value="200"/>
+                <bass-extraction-lfe-gain value="0"/>
+                <calibration-boost value="0"/>
+                <customer-woofer-channel-index value="3"/>
+                <dialog-enhancer-enable value="0"/>
+                <dialog-enhancer-amount value="7"/>
+                <dialog-enhancer-ducking value="0"/>
+                <dynamic-range-control-metadata/>
+                <graphic-equalizer-enable value="0"/>
+                <graphic-equalizer-bands preset="array_20_zero"/>
+                <height-filter-mode value="0"/>
+                <ieq-enable value="0"/>
+                <ieq-amount value="10"/>
+                <ieq-bands-set preset="ieq_balanced"/>
+                <mi-dialog-enhancer-steering-enable value="0"/>
+                <mi-dv-leveler-steering-enable value="0"/>
+                <mi-ieq-steering-enable value="0"/>
+                <mi-surround-compressor-steering-enable value="0"/>
+                <mi-virt-steering-enable value="0"/>
+                <postgain value="0"/>
+                <pregain value="0"/>
+                <rear-height-filter-mode value="1"/>
+                <regulator-enable value="1"/>
+                <regulator-overdrive value="0"/>
+                <regulator-relaxation-amount value="96"/>
+                <regulator-speaker-dist-enable value="0"/>
+                <regulator-timbre-preservation value="12"/>
+                <regulator-tuning>
+                    <threshold_high preset="array_20_zero"/>
+                    <threshold_low preset="array_20_n192"/>
+                    <isolated_band preset="array_20_zero"/>
+                </regulator-tuning>
+                <surround-boost value="0"/>
+                <surround-decoder-enable value="0"/>
+                <surround-decoder-center-spreading-enable value="0"/>
+                <system-gain value="0"/>
+                <virtualizer-front-speaker-angle value="10"/>
+                <virtualizer-height-speaker-angle value="10"/>
+                <virtualizer-surround-speaker-angle value="10"/>
+                <virtualizer-rear-speaker-angle value="10"/>
+                <virtualizer-rear-height-speaker-angle value="10"/>
+                <virtualizer-start-band value="0"/>
+                <virtual-bass-mix-freqs value="94,469"/>
+                <virtual-bass-mode value="0"/>
+                <virtual-bass-overall-gain value="0"/>
+                <virtual-bass-subgains value="-32,-144,-192"/>
+                <virtual-bass-slope-gain value="0"/>
+                <virtual-bass-src-freqs value="35,160"/>
+                <volmax-boost value="96"/>
+                <volume-leveler-enable value="1"/>
+                <volume-leveler-amount value="2"/>
+                <volume-leveler-in-target value="-320"/>
+                <volume-leveler-out-target value="-320"/>
+                <volume-modeler-enable value="0"/>
+                <volume-modeler-calibration value="0"/>
+                <output-mode-partial-surround-virtualizer-enable value="0"/>
+                <output-mode-partial-height-virtualizer-enable value="0"/>
+                <woofer-regulator-enable value="0"/>
+                <woofer-regulator-tuning>
+                    <threshold_high preset="array_20_zero"/>
+                    <threshold_low preset="array_20_n192"/>
+                    <isolated_band preset="array_20_zero"/>
+                </woofer-regulator-tuning>
+                <output-mode>
+                    <processing_mode value="1"/>
+                    <nb_output_channels value="2"/>
+                    <mix_matrix value="16384,0,0,16384,11583,11583,8192,8192,16384,0,0,16384,16384,0,0,16384"/>
+                    <output_ports value="1,2,3,4,5,6,7,8"/>
+                </output-mode>
+            </tuning-cp>
+            <tuning-vlldp>
+                <init-info>
+                    <max_num_channels value="2"/>
+                    <max_num_operations value="10"/>
+                </init-info>
+                <audio-optimizer-bands>
+                    <ch_00 value="0,0,0,96,48,-16,-16,-48,0,0,-16,-24,-8,54,0,80,48,-48,-80,-96"/>
+                    <ch_01 value="0,0,0,96,48,-16,-16,-48,0,0,-16,-24,-8,54,0,80,48,-48,-80,-96"/>
+                    <ch_02 preset="array_20_zero"/>
+                    <ch_03 preset="array_20_zero"/>
+                    <ch_04 preset="array_20_zero"/>
+                    <ch_05 preset="array_20_zero"/>
+                    <ch_06 preset="array_20_zero"/>
+                    <ch_07 preset="array_20_zero"/>
+                </audio-optimizer-bands>
+                <audio-optimizer-enable value="1"/>
+                <filter_coefficients>
+                    <coefficient value="ECDQpAMACAABAAAAAAAAACZ/+P9P/vn/KX8BAAAAAAAAAP59//8M/AcAAH4BAAAAAAAAAMR4wv7x9pMAM3sBAAAAAAAAAKd8Uv8W/wcAiH8BAAEAAQAAACZ/+P9P/vn/KX8BAAEAAQAAAP59//8M/AcAAH4BAAEAAQAAAMR4wv7x9pMAM3sBAAEAAQAAAKd8Uv8W/wcAiH8BAAAAAAAAADh/+f9z/vr/On8BAAAAAAAAACd+//9c/AYAKX4BAAAAAAAAAGJ58v6Z93wAknsBAAAAAAAAAPJ8bP8o/wYAkX8BAAEAAQAAADh/+f9z/vr/On8BAAEAAQAAACd+//9c/AYAKX4BAAEAAQAAAGJ58v6Z93wAknsBAAEAAQAAAPJ8bP8o/wYAkX8BAAAAAAAAAJR//v8p//7/lX8BAAAAAAAAAP5+AAAA/gIA/34BAAAAAAAAAH98rP80+yQAiX0BAAAAAAAAAGd+0/+I/wIAw38BAAEAAQAAAJR//v8p//7/lX8BAAEAAQAAAP5+AAAA/gIA/34BAAEAAQAAAH98rP80+yQAiX0BAAEAAQAAAGd+0/+I/wIAw38BAAAAAAAAAJ1//v86////nX8BAAAAAAAAABN/AAAp/gEAE38BAAAAAAAAAMp8uf+T+x4Au30BAAAAAAAAAIp+2v+R/wEAyH8BAAEAAQAAAJ1//v86////nX8BAAEAAQAAABN/AAAp/gEAE38BAAEAAQAAAMp8uf+T+x4Au30BAAEAAQAAAIp+2v+R/wEAyH8BAAAAAAAAAMp///+V/wAAyn8BAAAAAAAAAH9/AAD//gAAf38BAAAAAAAAAEd+6v+J/QkAwH4BAAAAAAAAADl/9f/D/wAA4X8BAAEAAQAAAMp///+V/wAAyn8BAAEAAQAAAH9/AAD//gAAf38BAAEAAQAAAEd+6v+J/QkAwH4BAAEAAQAAADl/9f/D/wAA4X8BAAAAAAAAAM9/AACd/wAAz38BAAAAAAAAAIl/AAAT/wAAiX8BAAAAAAAAAGt+7v+7/QcA2n4BAAAAAAAAAEl/9v/I/wAA5H8BAAEAAQAAAM9/AACd/wAAz38BAAEAAQAAAIl/AAAT/wAAiX8BAAEAAQAAAGt+7v+7/QcA2n4BAAEAAQAAAEl/9v/I/wAA5H8="/>
+                </filter_coefficients>
+                <mb-compressor-enable value="1"/>
+                <mb-compressor-tuning>
+                    <group_count value="2"/>
+                    <band_group_0 value="5,-64,19658,22641,31782,48"/>
+                    <band_group_1 value="20,-64,19657,22641,31082,48"/>
+                    <band_group_2 value="20,0,32767,22641,27238,0"/>
+                    <band_group_3 value="20,0,32767,22641,27238,0"/>
+                </mb-compressor-tuning>
+                <mb-compressor-channel-deviation value="0"/>
+                <mb-compressor-agc-enable value="0"/>
+                <mb-compressor-target-power-level value="-80"/>
+                <mb-compressor-slow-gain-enable value="0"/>
+                <mb-compressor-band0-slow-gain-mix-level value="256"/>
+                <peak-level value="0"/>
+                <postgain value="0"/>
+                <regulator-stress-amount value="160,160,0,0,0,0,0,0"/>
+                <regulator-distortion-slope value="16"/>
+                <regulator-overdrive value="0"/>
+                <regulator-timbre-preservation value="12"/>
+                <regulator-speaker-dist-enable value="1"/>
+                <regulator-tuning>
+                    <threshold_high preset="array_20_zero"/>
+                    <threshold_low preset="array_20_n192"/>
+                    <isolated_band preset="array_20_zero"/>
+                </regulator-tuning>
+                <system-gain value="0"/>
+                <speaker-peq-enable value="1"/>
+                <speaker-peq-filters>
+                    <filter speaker="0" enabled="1" type="9" f0="120" order="4"/>
+                    <filter speaker="0" enabled="1" type="1" f0="818" gain="-12.000000" q="2.200000"/>
+                    <filter speaker="0" enabled="1" type="1" f0="550" gain="-1.500000" q="1.800000"/>
+                    <filter speaker="1" enabled="1" type="9" f0="120" order="4"/>
+                    <filter speaker="1" enabled="1" type="1" f0="818" gain="-12.000000" q="2.200000"/>
+                    <filter speaker="1" enabled="1" type="1" f0="550" gain="-1.500000" q="1.800000"/>
+                </speaker-peq-filters>
+            </tuning-vlldp>
+        </profile>
+        <profile type="game">
+            <tuning-cp>
+                <init-info>
+                    <low_latency_enable value="1"/>
+                    <mi_process_disable value="0"/>
+                    <speaker_virtualizer_mode value="0"/>
+                    <virtual_bass_process_enable value="0"/>
+                    <max_num_output_channels value="8"/>
+                    <mode value="0"/>
+                    <max_num_scratch_channels value="8"/>
+                    <max_num_filter_states value="10"/>
+                    <max_num_operations value="48"/>
+                    <max_num_operation_coefficients value="1848"/>
+                    <a_max_sample_delays preset="array_32_zero"/>
+                </init-info>
+                <audio-optimizer-enable value="0"/>
+                <audio-optimizer-bands>
+                    <ch_00 preset="array_20_zero"/>
+                    <ch_01 preset="array_20_zero"/>
+                    <ch_02 preset="array_20_zero"/>
+                    <ch_03 preset="array_20_zero"/>
+                    <ch_04 preset="array_20_zero"/>
+                    <ch_05 preset="array_20_zero"/>
+                    <ch_06 preset="array_20_zero"/>
+                    <ch_07 preset="array_20_zero"/>
+                </audio-optimizer-bands>
+                <bass-enhancer-enable value="0"/>
+                <bass-enhancer-boost value="0"/>
+                <bass-enhancer-cutoff-frequency value="200"/>
+                <bass-enhancer-width value="16"/>
+                <bass-extraction-enable value="0"/>
+                <bass-extraction-cutoff-frequency value="200"/>
+                <bass-extraction-lfe-gain value="0"/>
+                <calibration-boost value="0"/>
+                <customer-woofer-channel-index value="3"/>
+                <dialog-enhancer-enable value="0"/>
+                <dialog-enhancer-amount value="7"/>
+                <dialog-enhancer-ducking value="0"/>
+                <dynamic-range-control-metadata/>
+                <graphic-equalizer-enable value="0"/>
+                <graphic-equalizer-bands preset="array_20_zero"/>
+                <height-filter-mode value="0"/>
+                <ieq-enable value="0"/>
+                <ieq-amount value="10"/>
+                <ieq-bands-set preset="ieq_balanced"/>
+                <mi-dialog-enhancer-steering-enable value="0"/>
+                <mi-dv-leveler-steering-enable value="0"/>
+                <mi-ieq-steering-enable value="0"/>
+                <mi-surround-compressor-steering-enable value="0"/>
+                <mi-virt-steering-enable value="0"/>
+                <postgain value="0"/>
+                <pregain value="0"/>
+                <rear-height-filter-mode value="1"/>
+                <regulator-enable value="1"/>
+                <regulator-overdrive value="0"/>
+                <regulator-relaxation-amount value="96"/>
+                <regulator-speaker-dist-enable value="0"/>
+                <regulator-timbre-preservation value="12"/>
+                <regulator-tuning>
+                    <threshold_high preset="array_20_zero"/>
+                    <threshold_low preset="array_20_n192"/>
+                    <isolated_band preset="array_20_zero"/>
+                </regulator-tuning>
+                <surround-boost value="0"/>
+                <surround-decoder-enable value="1"/>
+                <surround-decoder-center-spreading-enable value="0"/>
+                <system-gain value="0"/>
+                <virtualizer-front-speaker-angle value="4"/>
+                <virtualizer-height-speaker-angle value="10"/>
+                <virtualizer-surround-speaker-angle value="4"/>
+                <virtualizer-rear-speaker-angle value="10"/>
+                <virtualizer-rear-height-speaker-angle value="10"/>
+                <virtualizer-start-band value="0"/>
+                <virtual-bass-mix-freqs value="94,469"/>
+                <virtual-bass-mode value="0"/>
+                <virtual-bass-overall-gain value="0"/>
+                <virtual-bass-subgains value="-32,-144,-192"/>
+                <virtual-bass-slope-gain value="0"/>
+                <virtual-bass-src-freqs value="35,160"/>
+                <volmax-boost value="96"/>
+                <volume-leveler-enable value="1"/>
+                <volume-leveler-amount value="0"/>
+                <volume-leveler-in-target value="-320"/>
+                <volume-leveler-out-target value="-320"/>
+                <volume-modeler-enable value="0"/>
+                <volume-modeler-calibration value="0"/>
+                <output-mode-partial-surround-virtualizer-enable value="1"/>
+                <output-mode-partial-height-virtualizer-enable value="0"/>
+                <woofer-regulator-enable value="0"/>
+                <woofer-regulator-tuning>
+                    <threshold_high preset="array_20_zero"/>
+                    <threshold_low preset="array_20_n192"/>
+                    <isolated_band preset="array_20_zero"/>
+                </woofer-regulator-tuning>
+                <output-mode>
+                    <processing_mode value="3"/>
+                    <nb_output_channels value="2"/>
+                    <mix_matrix value="16384,0,0,16384,11583,11583,8192,8192,16384,0,0,16384,16384,0,0,16384"/>
+                    <output_ports value="1,2,3,4,5,6,7,8"/>
+                </output-mode>
+            </tuning-cp>
+            <tuning-vlldp>
+                <init-info>
+                    <max_num_channels value="2"/>
+                    <max_num_operations value="10"/>
+                </init-info>
+                <audio-optimizer-bands>
+                    <ch_00 value="0,0,0,96,48,-16,-16,-48,0,0,-16,-24,-8,54,0,80,48,-48,-80,-96"/>
+                    <ch_01 value="0,0,0,96,48,-16,-16,-48,0,0,-16,-24,-8,54,0,80,48,-48,-80,-96"/>
+                    <ch_02 preset="array_20_zero"/>
+                    <ch_03 preset="array_20_zero"/>
+                    <ch_04 preset="array_20_zero"/>
+                    <ch_05 preset="array_20_zero"/>
+                    <ch_06 preset="array_20_zero"/>
+                    <ch_07 preset="array_20_zero"/>
+                </audio-optimizer-bands>
+                <audio-optimizer-enable value="1"/>
+                <filter_coefficients>
+                    <coefficient value="ECDQpAMACAABAAAAAAAAACZ/+P9P/vn/KX8BAAAAAAAAAP59//8M/AcAAH4BAAAAAAAAAMR4wv7x9pMAM3sBAAAAAAAAAKd8Uv8W/wcAiH8BAAEAAQAAACZ/+P9P/vn/KX8BAAEAAQAAAP59//8M/AcAAH4BAAEAAQAAAMR4wv7x9pMAM3sBAAEAAQAAAKd8Uv8W/wcAiH8BAAAAAAAAADh/+f9z/vr/On8BAAAAAAAAACd+//9c/AYAKX4BAAAAAAAAAGJ58v6Z93wAknsBAAAAAAAAAPJ8bP8o/wYAkX8BAAEAAQAAADh/+f9z/vr/On8BAAEAAQAAACd+//9c/AYAKX4BAAEAAQAAAGJ58v6Z93wAknsBAAEAAQAAAPJ8bP8o/wYAkX8BAAAAAAAAAJR//v8p//7/lX8BAAAAAAAAAP5+AAAA/gIA/34BAAAAAAAAAH98rP80+yQAiX0BAAAAAAAAAGd+0/+I/wIAw38BAAEAAQAAAJR//v8p//7/lX8BAAEAAQAAAP5+AAAA/gIA/34BAAEAAQAAAH98rP80+yQAiX0BAAEAAQAAAGd+0/+I/wIAw38BAAAAAAAAAJ1//v86////nX8BAAAAAAAAABN/AAAp/gEAE38BAAAAAAAAAMp8uf+T+x4Au30BAAAAAAAAAIp+2v+R/wEAyH8BAAEAAQAAAJ1//v86////nX8BAAEAAQAAABN/AAAp/gEAE38BAAEAAQAAAMp8uf+T+x4Au30BAAEAAQAAAIp+2v+R/wEAyH8BAAAAAAAAAMp///+V/wAAyn8BAAAAAAAAAH9/AAD//gAAf38BAAAAAAAAAEd+6v+J/QkAwH4BAAAAAAAAADl/9f/D/wAA4X8BAAEAAQAAAMp///+V/wAAyn8BAAEAAQAAAH9/AAD//gAAf38BAAEAAQAAAEd+6v+J/QkAwH4BAAEAAQAAADl/9f/D/wAA4X8BAAAAAAAAAM9/AACd/wAAz38BAAAAAAAAAIl/AAAT/wAAiX8BAAAAAAAAAGt+7v+7/QcA2n4BAAAAAAAAAEl/9v/I/wAA5H8BAAEAAQAAAM9/AACd/wAAz38BAAEAAQAAAIl/AAAT/wAAiX8BAAEAAQAAAGt+7v+7/QcA2n4BAAEAAQAAAEl/9v/I/wAA5H8="/>
+                </filter_coefficients>
+                <mb-compressor-enable value="1"/>
+                <mb-compressor-tuning>
+                    <group_count value="2"/>
+                    <band_group_0 value="5,-64,19658,22641,31782,48"/>
+                    <band_group_1 value="20,-64,19657,22641,31082,48"/>
+                    <band_group_2 value="20,0,32767,22641,27238,0"/>
+                    <band_group_3 value="20,0,32767,22641,27238,0"/>
+                </mb-compressor-tuning>
+                <mb-compressor-channel-deviation value="0"/>
+                <mb-compressor-agc-enable value="0"/>
+                <mb-compressor-target-power-level value="-80"/>
+                <mb-compressor-slow-gain-enable value="0"/>
+                <mb-compressor-band0-slow-gain-mix-level value="256"/>
+                <peak-level value="0"/>
+                <postgain value="0"/>
+                <regulator-stress-amount value="160,160,0,0,0,0,0,0"/>
+                <regulator-distortion-slope value="16"/>
+                <regulator-overdrive value="0"/>
+                <regulator-timbre-preservation value="12"/>
+                <regulator-speaker-dist-enable value="1"/>
+                <regulator-tuning>
+                    <threshold_high preset="array_20_zero"/>
+                    <threshold_low preset="array_20_n192"/>
+                    <isolated_band preset="array_20_zero"/>
+                </regulator-tuning>
+                <system-gain value="0"/>
+                <speaker-peq-enable value="1"/>
+                <speaker-peq-filters>
+                    <filter speaker="0" enabled="1" type="9" f0="120" order="4"/>
+                    <filter speaker="0" enabled="1" type="1" f0="818" gain="-12.000000" q="2.200000"/>
+                    <filter speaker="0" enabled="1" type="1" f0="550" gain="-1.500000" q="1.800000"/>
+                    <filter speaker="1" enabled="1" type="9" f0="120" order="4"/>
+                    <filter speaker="1" enabled="1" type="1" f0="818" gain="-12.000000" q="2.200000"/>
+                    <filter speaker="1" enabled="1" type="1" f0="550" gain="-1.500000" q="1.800000"/>
+                </speaker-peq-filters>
+            </tuning-vlldp>
+        </profile>
+        <profile type="voice">
+            <tuning-cp>
+                <init-info>
+                    <low_latency_enable value="1"/>
+                    <mi_process_disable value="0"/>
+                    <speaker_virtualizer_mode value="0"/>
+                    <virtual_bass_process_enable value="0"/>
+                    <max_num_output_channels value="8"/>
+                    <mode value="0"/>
+                    <max_num_scratch_channels value="8"/>
+                    <max_num_filter_states value="10"/>
+                    <max_num_operations value="48"/>
+                    <max_num_operation_coefficients value="1848"/>
+                    <a_max_sample_delays preset="array_32_zero"/>
+                </init-info>
+                <audio-optimizer-enable value="0"/>
+                <audio-optimizer-bands>
+                    <ch_00 preset="array_20_zero"/>
+                    <ch_01 preset="array_20_zero"/>
+                    <ch_02 preset="array_20_zero"/>
+                    <ch_03 preset="array_20_zero"/>
+                    <ch_04 preset="array_20_zero"/>
+                    <ch_05 preset="array_20_zero"/>
+                    <ch_06 preset="array_20_zero"/>
+                    <ch_07 preset="array_20_zero"/>
+                </audio-optimizer-bands>
+                <bass-enhancer-enable value="0"/>
+                <bass-enhancer-boost value="0"/>
+                <bass-enhancer-cutoff-frequency value="200"/>
+                <bass-enhancer-width value="16"/>
+                <bass-extraction-enable value="0"/>
+                <bass-extraction-cutoff-frequency value="200"/>
+                <bass-extraction-lfe-gain value="0"/>
+                <calibration-boost value="0"/>
+                <customer-woofer-channel-index value="3"/>
+                <dialog-enhancer-enable value="0"/>
+                <dialog-enhancer-amount value="3"/>
+                <dialog-enhancer-ducking value="0"/>
+                <dynamic-range-control-metadata/>
+                <graphic-equalizer-enable value="0"/>
+                <graphic-equalizer-bands preset="array_20_zero"/>
+                <height-filter-mode value="0"/>
+                <ieq-enable value="0"/>
+                <ieq-amount value="10"/>
+                <ieq-bands-set preset="ieq_balanced"/>
+                <mi-dialog-enhancer-steering-enable value="0"/>
+                <mi-dv-leveler-steering-enable value="0"/>
+                <mi-ieq-steering-enable value="0"/>
+                <mi-surround-compressor-steering-enable value="0"/>
+                <mi-virt-steering-enable value="0"/>
+                <postgain value="0"/>
+                <pregain value="0"/>
+                <rear-height-filter-mode value="1"/>
+                <regulator-enable value="1"/>
+                <regulator-overdrive value="0"/>
+                <regulator-relaxation-amount value="96"/>
+                <regulator-speaker-dist-enable value="0"/>
+                <regulator-timbre-preservation value="12"/>
+                <regulator-tuning>
+                    <threshold_high preset="array_20_zero"/>
+                    <threshold_low preset="array_20_n192"/>
+                    <isolated_band preset="array_20_zero"/>
+                </regulator-tuning>
+                <surround-boost value="0"/>
+                <surround-decoder-enable value="0"/>
+                <surround-decoder-center-spreading-enable value="0"/>
+                <system-gain value="0"/>
+                <virtualizer-front-speaker-angle value="10"/>
+                <virtualizer-height-speaker-angle value="10"/>
+                <virtualizer-surround-speaker-angle value="10"/>
+                <virtualizer-rear-speaker-angle value="10"/>
+                <virtualizer-rear-height-speaker-angle value="10"/>
+                <virtualizer-start-band value="0"/>
+                <virtual-bass-mix-freqs value="94,469"/>
+                <virtual-bass-mode value="0"/>
+                <virtual-bass-overall-gain value="0"/>
+                <virtual-bass-subgains value="-32,-144,-192"/>
+                <virtual-bass-slope-gain value="0"/>
+                <virtual-bass-src-freqs value="35,160"/>
+                <volmax-boost value="128"/>
+                <volume-leveler-enable value="0"/>
+                <volume-leveler-amount value="0"/>
+                <volume-leveler-in-target value="-320"/>
+                <volume-leveler-out-target value="-320"/>
+                <volume-modeler-enable value="0"/>
+                <volume-modeler-calibration value="0"/>
+                <output-mode-partial-surround-virtualizer-enable value="0"/>
+                <output-mode-partial-height-virtualizer-enable value="0"/>
+                <woofer-regulator-enable value="0"/>
+                <woofer-regulator-tuning>
+                    <threshold_high preset="array_20_zero"/>
+                    <threshold_low preset="array_20_n192"/>
+                    <isolated_band preset="array_20_zero"/>
+                </woofer-regulator-tuning>
+                <output-mode>
+                    <processing_mode value="1"/>
+                    <nb_output_channels value="2"/>
+                    <mix_matrix value="16384,0,0,16384,11583,11583,8192,8192,16384,0,0,16384,16384,0,0,16384"/>
+                    <output_ports value="1,2,3,4,5,6,7,8"/>
+                </output-mode>
+            </tuning-cp>
+            <tuning-vlldp>
+                <init-info>
+                    <max_num_channels value="2"/>
+                    <max_num_operations value="10"/>
+                </init-info>
+                <audio-optimizer-bands>
+                    <ch_00 value="-240,-160,0,0,0,-128,-144,-144,-48,16,16,16,40,40,48,48,0,0,0,0"/>
+                    <ch_01 value="-240,-160,0,0,0,-128,-144,-144,-48,16,16,16,40,40,48,48,0,0,0,0"/>
+                    <ch_02 preset="array_20_zero"/>
+                    <ch_03 preset="array_20_zero"/>
+                    <ch_04 preset="array_20_zero"/>
+                    <ch_05 preset="array_20_zero"/>
+                    <ch_06 preset="array_20_zero"/>
+                    <ch_07 preset="array_20_zero"/>
+                </audio-optimizer-bands>
+                <audio-optimizer-enable value="1"/>
+                <filter_coefficients>
+                    <coefficient value=""/>
+                </filter_coefficients>
+                <mb-compressor-enable value="0"/>
+                <mb-compressor-tuning>
+                    <group_count value="1"/>
+                    <band_group_0 value="20,0,32767,22641,27238,0"/>
+                    <band_group_1 value="20,0,32767,22641,27238,0"/>
+                    <band_group_2 value="20,0,32767,22641,27238,0"/>
+                    <band_group_3 value="20,0,32767,22641,27238,0"/>
+                </mb-compressor-tuning>
+                <mb-compressor-channel-deviation value="0"/>
+                <mb-compressor-agc-enable value="0"/>
+                <mb-compressor-target-power-level value="-80"/>
+                <mb-compressor-slow-gain-enable value="0"/>
+                <mb-compressor-band0-slow-gain-mix-level value="256"/>
+                <peak-level value="0"/>
+                <postgain value="0"/>
+                <regulator-stress-amount value="0,0,0,0,0,0,0,0"/>
+                <regulator-distortion-slope value="16"/>
+                <regulator-overdrive value="0"/>
+                <regulator-timbre-preservation value="12"/>
+                <regulator-speaker-dist-enable value="1"/>
+                <regulator-tuning>
+                    <threshold_high preset="array_20_zero"/>
+                    <threshold_low preset="array_20_n192"/>
+                    <isolated_band preset="array_20_zero"/>
+                </regulator-tuning>
+                <system-gain value="0"/>
+                <speaker-peq-enable value="1"/>
+                <speaker-peq-filters/>
+            </tuning-vlldp>
+        </profile>
+        <profile type="voice_onlinecourse">
+            <tuning-cp>
+                <init-info>
+                    <low_latency_enable value="1"/>
+                    <mi_process_disable value="0"/>
+                    <speaker_virtualizer_mode value="0"/>
+                    <virtual_bass_process_enable value="0"/>
+                    <max_num_output_channels value="8"/>
+                    <mode value="0"/>
+                    <max_num_scratch_channels value="8"/>
+                    <max_num_filter_states value="10"/>
+                    <max_num_operations value="48"/>
+                    <max_num_operation_coefficients value="1848"/>
+                    <a_max_sample_delays preset="array_32_zero"/>
+                </init-info>
+                <audio-optimizer-enable value="0"/>
+                <audio-optimizer-bands>
+                    <ch_00 preset="array_20_zero"/>
+                    <ch_01 preset="array_20_zero"/>
+                    <ch_02 preset="array_20_zero"/>
+                    <ch_03 preset="array_20_zero"/>
+                    <ch_04 preset="array_20_zero"/>
+                    <ch_05 preset="array_20_zero"/>
+                    <ch_06 preset="array_20_zero"/>
+                    <ch_07 preset="array_20_zero"/>
+                </audio-optimizer-bands>
+                <bass-enhancer-enable value="0"/>
+                <bass-enhancer-boost value="0"/>
+                <bass-enhancer-cutoff-frequency value="200"/>
+                <bass-enhancer-width value="16"/>
+                <bass-extraction-enable value="0"/>
+                <bass-extraction-cutoff-frequency value="200"/>
+                <bass-extraction-lfe-gain value="0"/>
+                <calibration-boost value="0"/>
+                <customer-woofer-channel-index value="3"/>
+                <dialog-enhancer-enable value="0"/>
+                <dialog-enhancer-amount value="5"/>
+                <dialog-enhancer-ducking value="0"/>
+                <dynamic-range-control-metadata/>
+                <graphic-equalizer-enable value="0"/>
+                <graphic-equalizer-bands preset="array_20_zero"/>
+                <height-filter-mode value="0"/>
+                <ieq-enable value="0"/>
+                <ieq-amount value="10"/>
+                <ieq-bands-set preset="ieq_balanced"/>
+                <mi-dialog-enhancer-steering-enable value="0"/>
+                <mi-dv-leveler-steering-enable value="0"/>
+                <mi-ieq-steering-enable value="0"/>
+                <mi-surround-compressor-steering-enable value="0"/>
+                <mi-virt-steering-enable value="0"/>
+                <postgain value="0"/>
+                <pregain value="0"/>
+                <rear-height-filter-mode value="1"/>
+                <regulator-enable value="1"/>
+                <regulator-overdrive value="0"/>
+                <regulator-relaxation-amount value="96"/>
+                <regulator-speaker-dist-enable value="0"/>
+                <regulator-timbre-preservation value="12"/>
+                <regulator-tuning>
+                    <threshold_high preset="array_20_zero"/>
+                    <threshold_low preset="array_20_n192"/>
+                    <isolated_band preset="array_20_zero"/>
+                </regulator-tuning>
+                <surround-boost value="0"/>
+                <surround-decoder-enable value="0"/>
+                <surround-decoder-center-spreading-enable value="0"/>
+                <system-gain value="0"/>
+                <virtualizer-front-speaker-angle value="10"/>
+                <virtualizer-height-speaker-angle value="10"/>
+                <virtualizer-surround-speaker-angle value="10"/>
+                <virtualizer-rear-speaker-angle value="10"/>
+                <virtualizer-rear-height-speaker-angle value="10"/>
+                <virtualizer-start-band value="0"/>
+                <virtual-bass-mix-freqs value="94,469"/>
+                <virtual-bass-mode value="0"/>
+                <virtual-bass-overall-gain value="0"/>
+                <virtual-bass-subgains value="-32,-144,-192"/>
+                <virtual-bass-slope-gain value="0"/>
+                <virtual-bass-src-freqs value="35,160"/>
+                <volmax-boost value="64"/>
+                <volume-leveler-enable value="1"/>
+                <volume-leveler-amount value="0"/>
+                <volume-leveler-in-target value="-320"/>
+                <volume-leveler-out-target value="-320"/>
+                <volume-modeler-enable value="0"/>
+                <volume-modeler-calibration value="0"/>
+                <output-mode-partial-surround-virtualizer-enable value="0"/>
+                <output-mode-partial-height-virtualizer-enable value="0"/>
+                <woofer-regulator-enable value="0"/>
+                <woofer-regulator-tuning>
+                    <threshold_high preset="array_20_zero"/>
+                    <threshold_low preset="array_20_n192"/>
+                    <isolated_band preset="array_20_zero"/>
+                </woofer-regulator-tuning>
+                <output-mode>
+                    <processing_mode value="1"/>
+                    <nb_output_channels value="2"/>
+                    <mix_matrix value="16384,0,0,16384,11583,11583,8192,8192,16384,0,0,16384,16384,0,0,16384"/>
+                    <output_ports value="1,2,3,4,5,6,7,8"/>
+                </output-mode>
+            </tuning-cp>
+            <tuning-vlldp>
+                <init-info>
+                    <max_num_channels value="2"/>
+                    <max_num_operations value="10"/>
+                </init-info>
+                <audio-optimizer-bands>
+                    <ch_00 value="0,0,0,112,32,-32,-32,-64,-16,-16,-24,-32,-16,48,32,64,80,-64,-96,-16"/>
+                    <ch_01 value="0,0,0,112,32,-32,-32,-64,-16,-16,-24,-32,-16,48,32,64,80,-64,-96,-16"/>
+                    <ch_02 preset="array_20_zero"/>
+                    <ch_03 preset="array_20_zero"/>
+                    <ch_04 preset="array_20_zero"/>
+                    <ch_05 preset="array_20_zero"/>
+                    <ch_06 preset="array_20_zero"/>
+                    <ch_07 preset="array_20_zero"/>
+                </audio-optimizer-bands>
+                <audio-optimizer-enable value="1"/>
+                <filter_coefficients>
+                    <coefficient value="ECB+pwMACgABAAAAAAAAACZ/+P9P/vn/KX8BAAAAAAAAAP59//8M/AcAAH4BAAAAAAAAAMR4wv7x9pMAM3sBAAAAAAABALl2Xvj2Acr/D0EBAAAAAAAAAIx8Pv9c/wUArH8BAAEAAQAAACZ/+P9P/vn/KX8BAAEAAQAAAP59//8M/AcAAH4BAAEAAQAAAMR4wv7x9pMAM3sBAAEAAQABALl2Xvj2Acr/D0EBAAEAAQAAAIx8Pv9c/wUArH8BAAAAAAAAADh/+f9z/vr/On8BAAAAAAAAACd+//9c/AYAKX4BAAAAAAAAAGJ58v6Z93wAknsBAAAAAAABAL93fvnUAdT/+kABAAAAAAAAANp8XP9o/wQAsn8BAAEAAQAAADh/+f9z/vr/On8BAAEAAQAAACd+//9c/AYAKX4BAAEAAQAAAGJ58v6Z93wAknsBAAEAAQABAL93fvnUAdT/+kABAAEAAQAAANp8XP9o/wQAsn8BAAAAAAAAAJR//v8p//7/lX8BAAAAAAAAAP5+AAAA/gIA/34BAAAAAAAAAH98rP80+yQAiX0BAAAAAAABAE18+/0OAfb/i0ABAAAAAAAAAFx+zv+s/wEA1X8BAAEAAQAAAJR//v8p//7/lX8BAAEAAQAAAP5+AAAA/gIA/34BAAEAAQAAAH98rP80+yQAiX0BAAEAAQABAE18+/0OAfb/i0ABAAEAAQAAAFx+zv+s/wEA1X8BAAAAAAAAAJ1//v86////nX8BAAAAAAAAABN/AAAp/gEAE38BAAAAAAAAAMp8uf+T+x4Au30BAAAAAAABAKx8Sv76APj/gEABAAAAAAAAAH9+1v+y/wEA2X8BAAEAAQAAAJ1//v86////nX8BAAEAAQAAABN/AAAp/gEAE38BAAEAAQAAAMp8uf+T+x4Au30BAAEAAQABAKx8Sv76APj/gEABAAEAAQAAAH9+1v+y/wEA2X8BAAAAAAAAAMp///+V/wAAyn8BAAAAAAAAAH9/AAD//gAAf38BAAAAAAAAAEd+6v+J/QkAwH4BAAAAAAABAGV+e/+LAP7/RkABAAAAAAAAADN/8//V/wAA638BAAEAAQAAAMp///+V/wAAyn8BAAEAAQAAAH9/AAD//gAAf38BAAEAAQAAAEd+6v+J/QkAwH4BAAEAAQABAGV+e/+LAP7/RkABAAEAAQAAADN/8//V/wAA638BAAAAAAAAAM9/AACd/wAAz38BAAAAAAAAAIl/AAAT/wAAiX8BAAAAAAAAAGt+7v+7/QcA2n4BAAAAAAABAIx+kP+AAP7/QUABAAAAAAAAAER/9f/Z/wAA7H8BAAEAAQAAAM9/AACd/wAAz38BAAEAAQAAAIl/AAAT/wAAiX8BAAEAAQAAAGt+7v+7/QcA2n4BAAEAAQABAIx+kP+AAP7/QUABAAEAAQAAAER/9f/Z/wAA7H8="/>
+                </filter_coefficients>
+                <mb-compressor-enable value="0"/>
+                <mb-compressor-tuning>
+                    <group_count value="2"/>
+                    <band_group_0 value="5,-139,19658,22641,31782,48"/>
+                    <band_group_1 value="20,-139,19657,22641,31082,48"/>
+                    <band_group_2 value="20,0,32767,22641,27238,0"/>
+                    <band_group_3 value="20,0,32767,22641,27238,0"/>
+                </mb-compressor-tuning>
+                <mb-compressor-channel-deviation value="0"/>
+                <mb-compressor-agc-enable value="0"/>
+                <mb-compressor-target-power-level value="-80"/>
+                <mb-compressor-slow-gain-enable value="0"/>
+                <mb-compressor-band0-slow-gain-mix-level value="256"/>
+                <peak-level value="0"/>
+                <postgain value="0"/>
+                <regulator-stress-amount value="0,0,0,0,0,0,0,0"/>
+                <regulator-distortion-slope value="16"/>
+                <regulator-overdrive value="0"/>
+                <regulator-timbre-preservation value="12"/>
+                <regulator-speaker-dist-enable value="1"/>
+                <regulator-tuning>
+                    <threshold_high preset="array_20_zero"/>
+                    <threshold_low preset="array_20_n192"/>
+                    <isolated_band preset="array_20_zero"/>
+                </regulator-tuning>
+                <system-gain value="0"/>
+                <speaker-peq-enable value="1"/>
+                <speaker-peq-filters>
+                    <filter speaker="0" enabled="1" type="9" f0="120" order="4"/>
+                    <filter speaker="0" enabled="1" type="1" f0="818" gain="-12.000000" q="2.200000"/>
+                    <filter speaker="0" enabled="1" type="1" f0="1830" gain="3.000000" q="2.600000"/>
+                    <filter speaker="0" enabled="1" type="1" f0="579" gain="-1.000000" q="1.800000"/>
+                    <filter speaker="1" enabled="1" type="9" f0="120" order="4"/>
+                    <filter speaker="1" enabled="1" type="1" f0="818" gain="-12.000000" q="2.200000"/>
+                    <filter speaker="1" enabled="1" type="1" f0="1830" gain="3.000000" q="2.600000"/>
+                    <filter speaker="1" enabled="1" type="1" f0="579" gain="-1.000000" q="1.800000"/>
+                </speaker-peq-filters>
+            </tuning-vlldp>
+        </profile>
+        <profile type="personalize_user1">
+            <tuning-cp>
+                <init-info>
+                    <low_latency_enable value="1"/>
+                    <mi_process_disable value="0"/>
+                    <speaker_virtualizer_mode value="0"/>
+                    <virtual_bass_process_enable value="0"/>
+                    <max_num_output_channels value="8"/>
+                    <mode value="0"/>
+                    <max_num_scratch_channels value="8"/>
+                    <max_num_filter_states value="10"/>
+                    <max_num_operations value="48"/>
+                    <max_num_operation_coefficients value="1848"/>
+                    <a_max_sample_delays preset="array_32_zero"/>
+                </init-info>
+                <audio-optimizer-enable value="0"/>
+                <audio-optimizer-bands>
+                    <ch_00 preset="array_20_zero"/>
+                    <ch_01 preset="array_20_zero"/>
+                    <ch_02 preset="array_20_zero"/>
+                    <ch_03 preset="array_20_zero"/>
+                    <ch_04 preset="array_20_zero"/>
+                    <ch_05 preset="array_20_zero"/>
+                    <ch_06 preset="array_20_zero"/>
+                    <ch_07 preset="array_20_zero"/>
+                </audio-optimizer-bands>
+                <bass-enhancer-enable value="0"/>
+                <bass-enhancer-boost value="0"/>
+                <bass-enhancer-cutoff-frequency value="200"/>
+                <bass-enhancer-width value="16"/>
+                <bass-extraction-enable value="0"/>
+                <bass-extraction-cutoff-frequency value="200"/>
+                <bass-extraction-lfe-gain value="0"/>
+                <calibration-boost value="0"/>
+                <customer-woofer-channel-index value="3"/>
+                <dialog-enhancer-enable value="0"/>
+                <dialog-enhancer-amount value="10"/>
+                <dialog-enhancer-ducking value="0"/>
+                <dynamic-range-control-metadata/>
+                <graphic-equalizer-enable value="0"/>
+                <graphic-equalizer-bands preset="array_20_zero"/>
+                <height-filter-mode value="0"/>
+                <ieq-enable value="0"/>
+                <ieq-amount value="10"/>
+                <ieq-bands-set preset="ieq_balanced"/>
+                <mi-dialog-enhancer-steering-enable value="0"/>
+                <mi-dv-leveler-steering-enable value="0"/>
+                <mi-ieq-steering-enable value="0"/>
+                <mi-surround-compressor-steering-enable value="0"/>
+                <mi-virt-steering-enable value="0"/>
+                <postgain value="0"/>
+                <pregain value="0"/>
+                <rear-height-filter-mode value="1"/>
+                <regulator-enable value="1"/>
+                <regulator-overdrive value="0"/>
+                <regulator-relaxation-amount value="96"/>
+                <regulator-speaker-dist-enable value="0"/>
+                <regulator-timbre-preservation value="12"/>
+                <regulator-tuning>
+                    <threshold_high preset="array_20_zero"/>
+                    <threshold_low preset="array_20_n192"/>
+                    <isolated_band preset="array_20_zero"/>
+                </regulator-tuning>
+                <surround-boost value="48"/>
+                <surround-decoder-enable value="1"/>
+                <surround-decoder-center-spreading-enable value="0"/>
+                <system-gain value="0"/>
+                <virtualizer-front-speaker-angle value="4"/>
+                <virtualizer-height-speaker-angle value="10"/>
+                <virtualizer-surround-speaker-angle value="4"/>
+                <virtualizer-rear-speaker-angle value="10"/>
+                <virtualizer-rear-height-speaker-angle value="10"/>
+                <virtualizer-start-band value="0"/>
+                <virtual-bass-mix-freqs value="94,469"/>
+                <virtual-bass-mode value="0"/>
+                <virtual-bass-overall-gain value="0"/>
+                <virtual-bass-subgains value="-32,-144,-192"/>
+                <virtual-bass-slope-gain value="0"/>
+                <virtual-bass-src-freqs value="35,160"/>
+                <volmax-boost value="96"/>
+                <volume-leveler-enable value="1"/>
+                <volume-leveler-amount value="2"/>
+                <volume-leveler-in-target value="-320"/>
+                <volume-leveler-out-target value="-320"/>
+                <volume-modeler-enable value="0"/>
+                <volume-modeler-calibration value="0"/>
+                <output-mode-partial-surround-virtualizer-enable value="1"/>
+                <output-mode-partial-height-virtualizer-enable value="0"/>
+                <woofer-regulator-enable value="0"/>
+                <woofer-regulator-tuning>
+                    <threshold_high preset="array_20_zero"/>
+                    <threshold_low preset="array_20_n192"/>
+                    <isolated_band preset="array_20_zero"/>
+                </woofer-regulator-tuning>
+                <output-mode>
+                    <processing_mode value="3"/>
+                    <nb_output_channels value="2"/>
+                    <mix_matrix value="16384,0,0,16384,11583,11583,8192,8192,16384,0,0,16384,16384,0,0,16384"/>
+                    <output_ports value="1,2,3,4,5,6,7,8"/>
+                </output-mode>
+            </tuning-cp>
+            <tuning-vlldp>
+                <init-info>
+                    <max_num_channels value="2"/>
+                    <max_num_operations value="10"/>
+                </init-info>
+                <audio-optimizer-bands>
+                    <ch_00 value="0,0,0,96,48,-16,-16,-48,0,0,-16,-24,-8,54,0,80,48,-48,-80,-96"/>
+                    <ch_01 value="0,0,0,96,48,-16,-16,-48,0,0,-16,-24,-8,54,0,80,48,-48,-80,-96"/>
+                    <ch_02 preset="array_20_zero"/>
+                    <ch_03 preset="array_20_zero"/>
+                    <ch_04 preset="array_20_zero"/>
+                    <ch_05 preset="array_20_zero"/>
+                    <ch_06 preset="array_20_zero"/>
+                    <ch_07 preset="array_20_zero"/>
+                </audio-optimizer-bands>
+                <audio-optimizer-enable value="1"/>
+                <filter_coefficients>
+                    <coefficient value="ECDQpAMACAABAAAAAAAAACZ/+P9P/vn/KX8BAAAAAAAAAP59//8M/AcAAH4BAAAAAAAAAMR4wv7x9pMAM3sBAAAAAAAAAKd8Uv8W/wcAiH8BAAEAAQAAACZ/+P9P/vn/KX8BAAEAAQAAAP59//8M/AcAAH4BAAEAAQAAAMR4wv7x9pMAM3sBAAEAAQAAAKd8Uv8W/wcAiH8BAAAAAAAAADh/+f9z/vr/On8BAAAAAAAAACd+//9c/AYAKX4BAAAAAAAAAGJ58v6Z93wAknsBAAAAAAAAAPJ8bP8o/wYAkX8BAAEAAQAAADh/+f9z/vr/On8BAAEAAQAAACd+//9c/AYAKX4BAAEAAQAAAGJ58v6Z93wAknsBAAEAAQAAAPJ8bP8o/wYAkX8BAAAAAAAAAJR//v8p//7/lX8BAAAAAAAAAP5+AAAA/gIA/34BAAAAAAAAAH98rP80+yQAiX0BAAAAAAAAAGd+0/+I/wIAw38BAAEAAQAAAJR//v8p//7/lX8BAAEAAQAAAP5+AAAA/gIA/34BAAEAAQAAAH98rP80+yQAiX0BAAEAAQAAAGd+0/+I/wIAw38BAAAAAAAAAJ1//v86////nX8BAAAAAAAAABN/AAAp/gEAE38BAAAAAAAAAMp8uf+T+x4Au30BAAAAAAAAAIp+2v+R/wEAyH8BAAEAAQAAAJ1//v86////nX8BAAEAAQAAABN/AAAp/gEAE38BAAEAAQAAAMp8uf+T+x4Au30BAAEAAQAAAIp+2v+R/wEAyH8BAAAAAAAAAMp///+V/wAAyn8BAAAAAAAAAH9/AAD//gAAf38BAAAAAAAAAEd+6v+J/QkAwH4BAAAAAAAAADl/9f/D/wAA4X8BAAEAAQAAAMp///+V/wAAyn8BAAEAAQAAAH9/AAD//gAAf38BAAEAAQAAAEd+6v+J/QkAwH4BAAEAAQAAADl/9f/D/wAA4X8BAAAAAAAAAM9/AACd/wAAz38BAAAAAAAAAIl/AAAT/wAAiX8BAAAAAAAAAGt+7v+7/QcA2n4BAAAAAAAAAEl/9v/I/wAA5H8BAAEAAQAAAM9/AACd/wAAz38BAAEAAQAAAIl/AAAT/wAAiX8BAAEAAQAAAGt+7v+7/QcA2n4BAAEAAQAAAEl/9v/I/wAA5H8="/>
+                </filter_coefficients>
+                <mb-compressor-enable value="1"/>
+                <mb-compressor-tuning>
+                    <group_count value="2"/>
+                    <band_group_0 value="5,-64,19658,22641,31782,48"/>
+                    <band_group_1 value="20,-64,19657,22641,31082,48"/>
+                    <band_group_2 value="20,0,32767,22641,27238,0"/>
+                    <band_group_3 value="20,0,32767,22641,27238,0"/>
+                </mb-compressor-tuning>
+                <mb-compressor-channel-deviation value="0"/>
+                <mb-compressor-agc-enable value="0"/>
+                <mb-compressor-target-power-level value="-80"/>
+                <mb-compressor-slow-gain-enable value="0"/>
+                <mb-compressor-band0-slow-gain-mix-level value="256"/>
+                <peak-level value="0"/>
+                <postgain value="0"/>
+                <regulator-stress-amount value="160,160,0,0,0,0,0,0"/>
+                <regulator-distortion-slope value="16"/>
+                <regulator-overdrive value="0"/>
+                <regulator-timbre-preservation value="12"/>
+                <regulator-speaker-dist-enable value="1"/>
+                <regulator-tuning>
+                    <threshold_high preset="array_20_zero"/>
+                    <threshold_low preset="array_20_n192"/>
+                    <isolated_band preset="array_20_zero"/>
+                </regulator-tuning>
+                <system-gain value="0"/>
+                <speaker-peq-enable value="1"/>
+                <speaker-peq-filters>
+                    <filter speaker="0" enabled="1" type="9" f0="120" order="4"/>
+                    <filter speaker="0" enabled="1" type="1" f0="818" gain="-12.000000" q="2.200000"/>
+                    <filter speaker="0" enabled="1" type="1" f0="550" gain="-1.500000" q="1.800000"/>
+                    <filter speaker="1" enabled="1" type="9" f0="120" order="4"/>
+                    <filter speaker="1" enabled="1" type="1" f0="818" gain="-12.000000" q="2.200000"/>
+                    <filter speaker="1" enabled="1" type="1" f0="550" gain="-1.500000" q="1.800000"/>
+                </speaker-peq-filters>
+            </tuning-vlldp>
+        </profile>
+        <profile type="personalize_user2">
+            <tuning-cp>
+                <init-info>
+                    <low_latency_enable value="1"/>
+                    <mi_process_disable value="0"/>
+                    <speaker_virtualizer_mode value="0"/>
+                    <virtual_bass_process_enable value="0"/>
+                    <max_num_output_channels value="8"/>
+                    <mode value="0"/>
+                    <max_num_scratch_channels value="8"/>
+                    <max_num_filter_states value="10"/>
+                    <max_num_operations value="48"/>
+                    <max_num_operation_coefficients value="1848"/>
+                    <a_max_sample_delays preset="array_32_zero"/>
+                </init-info>
+                <audio-optimizer-enable value="0"/>
+                <audio-optimizer-bands>
+                    <ch_00 preset="array_20_zero"/>
+                    <ch_01 preset="array_20_zero"/>
+                    <ch_02 preset="array_20_zero"/>
+                    <ch_03 preset="array_20_zero"/>
+                    <ch_04 preset="array_20_zero"/>
+                    <ch_05 preset="array_20_zero"/>
+                    <ch_06 preset="array_20_zero"/>
+                    <ch_07 preset="array_20_zero"/>
+                </audio-optimizer-bands>
+                <bass-enhancer-enable value="0"/>
+                <bass-enhancer-boost value="0"/>
+                <bass-enhancer-cutoff-frequency value="200"/>
+                <bass-enhancer-width value="16"/>
+                <bass-extraction-enable value="0"/>
+                <bass-extraction-cutoff-frequency value="200"/>
+                <bass-extraction-lfe-gain value="0"/>
+                <calibration-boost value="0"/>
+                <customer-woofer-channel-index value="3"/>
+                <dialog-enhancer-enable value="0"/>
+                <dialog-enhancer-amount value="10"/>
+                <dialog-enhancer-ducking value="0"/>
+                <dynamic-range-control-metadata/>
+                <graphic-equalizer-enable value="0"/>
+                <graphic-equalizer-bands preset="array_20_zero"/>
+                <height-filter-mode value="0"/>
+                <ieq-enable value="0"/>
+                <ieq-amount value="10"/>
+                <ieq-bands-set preset="ieq_balanced"/>
+                <mi-dialog-enhancer-steering-enable value="0"/>
+                <mi-dv-leveler-steering-enable value="0"/>
+                <mi-ieq-steering-enable value="0"/>
+                <mi-surround-compressor-steering-enable value="0"/>
+                <mi-virt-steering-enable value="0"/>
+                <postgain value="0"/>
+                <pregain value="0"/>
+                <rear-height-filter-mode value="1"/>
+                <regulator-enable value="1"/>
+                <regulator-overdrive value="0"/>
+                <regulator-relaxation-amount value="96"/>
+                <regulator-speaker-dist-enable value="0"/>
+                <regulator-timbre-preservation value="12"/>
+                <regulator-tuning>
+                    <threshold_high preset="array_20_zero"/>
+                    <threshold_low preset="array_20_n192"/>
+                    <isolated_band preset="array_20_zero"/>
+                </regulator-tuning>
+                <surround-boost value="48"/>
+                <surround-decoder-enable value="1"/>
+                <surround-decoder-center-spreading-enable value="0"/>
+                <system-gain value="0"/>
+                <virtualizer-front-speaker-angle value="4"/>
+                <virtualizer-height-speaker-angle value="10"/>
+                <virtualizer-surround-speaker-angle value="4"/>
+                <virtualizer-rear-speaker-angle value="10"/>
+                <virtualizer-rear-height-speaker-angle value="10"/>
+                <virtualizer-start-band value="0"/>
+                <virtual-bass-mix-freqs value="94,469"/>
+                <virtual-bass-mode value="0"/>
+                <virtual-bass-overall-gain value="0"/>
+                <virtual-bass-subgains value="-32,-144,-192"/>
+                <virtual-bass-slope-gain value="0"/>
+                <virtual-bass-src-freqs value="35,160"/>
+                <volmax-boost value="96"/>
+                <volume-leveler-enable value="1"/>
+                <volume-leveler-amount value="2"/>
+                <volume-leveler-in-target value="-320"/>
+                <volume-leveler-out-target value="-320"/>
+                <volume-modeler-enable value="0"/>
+                <volume-modeler-calibration value="0"/>
+                <output-mode-partial-surround-virtualizer-enable value="1"/>
+                <output-mode-partial-height-virtualizer-enable value="0"/>
+                <woofer-regulator-enable value="0"/>
+                <woofer-regulator-tuning>
+                    <threshold_high preset="array_20_zero"/>
+                    <threshold_low preset="array_20_n192"/>
+                    <isolated_band preset="array_20_zero"/>
+                </woofer-regulator-tuning>
+                <output-mode>
+                    <processing_mode value="3"/>
+                    <nb_output_channels value="2"/>
+                    <mix_matrix value="16384,0,0,16384,11583,11583,8192,8192,16384,0,0,16384,16384,0,0,16384"/>
+                    <output_ports value="1,2,3,4,5,6,7,8"/>
+                </output-mode>
+            </tuning-cp>
+            <tuning-vlldp>
+                <init-info>
+                    <max_num_channels value="2"/>
+                    <max_num_operations value="10"/>
+                </init-info>
+                <audio-optimizer-bands>
+                    <ch_00 value="0,0,0,96,48,-16,-16,-48,0,0,-16,-24,-8,54,0,80,48,-48,-80,-96"/>
+                    <ch_01 value="0,0,0,96,48,-16,-16,-48,0,0,-16,-24,-8,54,0,80,48,-48,-80,-96"/>
+                    <ch_02 preset="array_20_zero"/>
+                    <ch_03 preset="array_20_zero"/>
+                    <ch_04 preset="array_20_zero"/>
+                    <ch_05 preset="array_20_zero"/>
+                    <ch_06 preset="array_20_zero"/>
+                    <ch_07 preset="array_20_zero"/>
+                </audio-optimizer-bands>
+                <audio-optimizer-enable value="1"/>
+                <filter_coefficients>
+                    <coefficient value="ECDQpAMACAABAAAAAAAAACZ/+P9P/vn/KX8BAAAAAAAAAP59//8M/AcAAH4BAAAAAAAAAMR4wv7x9pMAM3sBAAAAAAAAAKd8Uv8W/wcAiH8BAAEAAQAAACZ/+P9P/vn/KX8BAAEAAQAAAP59//8M/AcAAH4BAAEAAQAAAMR4wv7x9pMAM3sBAAEAAQAAAKd8Uv8W/wcAiH8BAAAAAAAAADh/+f9z/vr/On8BAAAAAAAAACd+//9c/AYAKX4BAAAAAAAAAGJ58v6Z93wAknsBAAAAAAAAAPJ8bP8o/wYAkX8BAAEAAQAAADh/+f9z/vr/On8BAAEAAQAAACd+//9c/AYAKX4BAAEAAQAAAGJ58v6Z93wAknsBAAEAAQAAAPJ8bP8o/wYAkX8BAAAAAAAAAJR//v8p//7/lX8BAAAAAAAAAP5+AAAA/gIA/34BAAAAAAAAAH98rP80+yQAiX0BAAAAAAAAAGd+0/+I/wIAw38BAAEAAQAAAJR//v8p//7/lX8BAAEAAQAAAP5+AAAA/gIA/34BAAEAAQAAAH98rP80+yQAiX0BAAEAAQAAAGd+0/+I/wIAw38BAAAAAAAAAJ1//v86////nX8BAAAAAAAAABN/AAAp/gEAE38BAAAAAAAAAMp8uf+T+x4Au30BAAAAAAAAAIp+2v+R/wEAyH8BAAEAAQAAAJ1//v86////nX8BAAEAAQAAABN/AAAp/gEAE38BAAEAAQAAAMp8uf+T+x4Au30BAAEAAQAAAIp+2v+R/wEAyH8BAAAAAAAAAMp///+V/wAAyn8BAAAAAAAAAH9/AAD//gAAf38BAAAAAAAAAEd+6v+J/QkAwH4BAAAAAAAAADl/9f/D/wAA4X8BAAEAAQAAAMp///+V/wAAyn8BAAEAAQAAAH9/AAD//gAAf38BAAEAAQAAAEd+6v+J/QkAwH4BAAEAAQAAADl/9f/D/wAA4X8BAAAAAAAAAM9/AACd/wAAz38BAAAAAAAAAIl/AAAT/wAAiX8BAAAAAAAAAGt+7v+7/QcA2n4BAAAAAAAAAEl/9v/I/wAA5H8BAAEAAQAAAM9/AACd/wAAz38BAAEAAQAAAIl/AAAT/wAAiX8BAAEAAQAAAGt+7v+7/QcA2n4BAAEAAQAAAEl/9v/I/wAA5H8="/>
+                </filter_coefficients>
+                <mb-compressor-enable value="1"/>
+                <mb-compressor-tuning>
+                    <group_count value="2"/>
+                    <band_group_0 value="5,-64,19658,22641,31782,48"/>
+                    <band_group_1 value="20,-64,19657,22641,31082,48"/>
+                    <band_group_2 value="20,0,32767,22641,27238,0"/>
+                    <band_group_3 value="20,0,32767,22641,27238,0"/>
+                </mb-compressor-tuning>
+                <mb-compressor-channel-deviation value="0"/>
+                <mb-compressor-agc-enable value="0"/>
+                <mb-compressor-target-power-level value="-80"/>
+                <mb-compressor-slow-gain-enable value="0"/>
+                <mb-compressor-band0-slow-gain-mix-level value="256"/>
+                <peak-level value="0"/>
+                <postgain value="0"/>
+                <regulator-stress-amount value="160,160,0,0,0,0,0,0"/>
+                <regulator-distortion-slope value="16"/>
+                <regulator-overdrive value="0"/>
+                <regulator-timbre-preservation value="12"/>
+                <regulator-speaker-dist-enable value="1"/>
+                <regulator-tuning>
+                    <threshold_high preset="array_20_zero"/>
+                    <threshold_low preset="array_20_n192"/>
+                    <isolated_band preset="array_20_zero"/>
+                </regulator-tuning>
+                <system-gain value="0"/>
+                <speaker-peq-enable value="1"/>
+                <speaker-peq-filters>
+                    <filter speaker="0" enabled="1" type="9" f0="120" order="4"/>
+                    <filter speaker="0" enabled="1" type="1" f0="818" gain="-12.000000" q="2.200000"/>
+                    <filter speaker="0" enabled="1" type="1" f0="550" gain="-1.500000" q="1.800000"/>
+                    <filter speaker="1" enabled="1" type="9" f0="120" order="4"/>
+                    <filter speaker="1" enabled="1" type="1" f0="818" gain="-12.000000" q="2.200000"/>
+                    <filter speaker="1" enabled="1" type="1" f0="550" gain="-1.500000" q="1.800000"/>
+                </speaker-peq-filters>
+            </tuning-vlldp>
+        </profile>
+        <profile type="personalize_user3">
+            <tuning-cp>
+                <init-info>
+                    <low_latency_enable value="1"/>
+                    <mi_process_disable value="0"/>
+                    <speaker_virtualizer_mode value="0"/>
+                    <virtual_bass_process_enable value="0"/>
+                    <max_num_output_channels value="8"/>
+                    <mode value="0"/>
+                    <max_num_scratch_channels value="8"/>
+                    <max_num_filter_states value="10"/>
+                    <max_num_operations value="48"/>
+                    <max_num_operation_coefficients value="1848"/>
+                    <a_max_sample_delays preset="array_32_zero"/>
+                </init-info>
+                <audio-optimizer-enable value="0"/>
+                <audio-optimizer-bands>
+                    <ch_00 preset="array_20_zero"/>
+                    <ch_01 preset="array_20_zero"/>
+                    <ch_02 preset="array_20_zero"/>
+                    <ch_03 preset="array_20_zero"/>
+                    <ch_04 preset="array_20_zero"/>
+                    <ch_05 preset="array_20_zero"/>
+                    <ch_06 preset="array_20_zero"/>
+                    <ch_07 preset="array_20_zero"/>
+                </audio-optimizer-bands>
+                <bass-enhancer-enable value="0"/>
+                <bass-enhancer-boost value="0"/>
+                <bass-enhancer-cutoff-frequency value="200"/>
+                <bass-enhancer-width value="16"/>
+                <bass-extraction-enable value="0"/>
+                <bass-extraction-cutoff-frequency value="200"/>
+                <bass-extraction-lfe-gain value="0"/>
+                <calibration-boost value="0"/>
+                <customer-woofer-channel-index value="3"/>
+                <dialog-enhancer-enable value="0"/>
+                <dialog-enhancer-amount value="10"/>
+                <dialog-enhancer-ducking value="0"/>
+                <dynamic-range-control-metadata/>
+                <graphic-equalizer-enable value="0"/>
+                <graphic-equalizer-bands preset="array_20_zero"/>
+                <height-filter-mode value="0"/>
+                <ieq-enable value="0"/>
+                <ieq-amount value="10"/>
+                <ieq-bands-set preset="ieq_balanced"/>
+                <mi-dialog-enhancer-steering-enable value="0"/>
+                <mi-dv-leveler-steering-enable value="0"/>
+                <mi-ieq-steering-enable value="0"/>
+                <mi-surround-compressor-steering-enable value="0"/>
+                <mi-virt-steering-enable value="0"/>
+                <postgain value="0"/>
+                <pregain value="0"/>
+                <rear-height-filter-mode value="1"/>
+                <regulator-enable value="1"/>
+                <regulator-overdrive value="0"/>
+                <regulator-relaxation-amount value="96"/>
+                <regulator-speaker-dist-enable value="0"/>
+                <regulator-timbre-preservation value="12"/>
+                <regulator-tuning>
+                    <threshold_high preset="array_20_zero"/>
+                    <threshold_low preset="array_20_n192"/>
+                    <isolated_band preset="array_20_zero"/>
+                </regulator-tuning>
+                <surround-boost value="48"/>
+                <surround-decoder-enable value="1"/>
+                <surround-decoder-center-spreading-enable value="0"/>
+                <system-gain value="0"/>
+                <virtualizer-front-speaker-angle value="4"/>
+                <virtualizer-height-speaker-angle value="10"/>
+                <virtualizer-surround-speaker-angle value="4"/>
+                <virtualizer-rear-speaker-angle value="10"/>
+                <virtualizer-rear-height-speaker-angle value="10"/>
+                <virtualizer-start-band value="0"/>
+                <virtual-bass-mix-freqs value="94,469"/>
+                <virtual-bass-mode value="0"/>
+                <virtual-bass-overall-gain value="0"/>
+                <virtual-bass-subgains value="-32,-144,-192"/>
+                <virtual-bass-slope-gain value="0"/>
+                <virtual-bass-src-freqs value="35,160"/>
+                <volmax-boost value="96"/>
+                <volume-leveler-enable value="1"/>
+                <volume-leveler-amount value="2"/>
+                <volume-leveler-in-target value="-320"/>
+                <volume-leveler-out-target value="-320"/>
+                <volume-modeler-enable value="0"/>
+                <volume-modeler-calibration value="0"/>
+                <output-mode-partial-surround-virtualizer-enable value="1"/>
+                <output-mode-partial-height-virtualizer-enable value="0"/>
+                <woofer-regulator-enable value="0"/>
+                <woofer-regulator-tuning>
+                    <threshold_high preset="array_20_zero"/>
+                    <threshold_low preset="array_20_n192"/>
+                    <isolated_band preset="array_20_zero"/>
+                </woofer-regulator-tuning>
+                <output-mode>
+                    <processing_mode value="3"/>
+                    <nb_output_channels value="2"/>
+                    <mix_matrix value="16384,0,0,16384,11583,11583,8192,8192,16384,0,0,16384,16384,0,0,16384"/>
+                    <output_ports value="1,2,3,4,5,6,7,8"/>
+                </output-mode>
+            </tuning-cp>
+            <tuning-vlldp>
+                <init-info>
+                    <max_num_channels value="2"/>
+                    <max_num_operations value="10"/>
+                </init-info>
+                <audio-optimizer-bands>
+                    <ch_00 value="0,0,0,96,48,-16,-16,-48,0,0,-16,-24,-8,54,0,80,48,-48,-80,-96"/>
+                    <ch_01 value="0,0,0,96,48,-16,-16,-48,0,0,-16,-24,-8,54,0,80,48,-48,-80,-96"/>
+                    <ch_02 preset="array_20_zero"/>
+                    <ch_03 preset="array_20_zero"/>
+                    <ch_04 preset="array_20_zero"/>
+                    <ch_05 preset="array_20_zero"/>
+                    <ch_06 preset="array_20_zero"/>
+                    <ch_07 preset="array_20_zero"/>
+                </audio-optimizer-bands>
+                <audio-optimizer-enable value="1"/>
+                <filter_coefficients>
+                    <coefficient value="ECDQpAMACAABAAAAAAAAACZ/+P9P/vn/KX8BAAAAAAAAAP59//8M/AcAAH4BAAAAAAAAAMR4wv7x9pMAM3sBAAAAAAAAAKd8Uv8W/wcAiH8BAAEAAQAAACZ/+P9P/vn/KX8BAAEAAQAAAP59//8M/AcAAH4BAAEAAQAAAMR4wv7x9pMAM3sBAAEAAQAAAKd8Uv8W/wcAiH8BAAAAAAAAADh/+f9z/vr/On8BAAAAAAAAACd+//9c/AYAKX4BAAAAAAAAAGJ58v6Z93wAknsBAAAAAAAAAPJ8bP8o/wYAkX8BAAEAAQAAADh/+f9z/vr/On8BAAEAAQAAACd+//9c/AYAKX4BAAEAAQAAAGJ58v6Z93wAknsBAAEAAQAAAPJ8bP8o/wYAkX8BAAAAAAAAAJR//v8p//7/lX8BAAAAAAAAAP5+AAAA/gIA/34BAAAAAAAAAH98rP80+yQAiX0BAAAAAAAAAGd+0/+I/wIAw38BAAEAAQAAAJR//v8p//7/lX8BAAEAAQAAAP5+AAAA/gIA/34BAAEAAQAAAH98rP80+yQAiX0BAAEAAQAAAGd+0/+I/wIAw38BAAAAAAAAAJ1//v86////nX8BAAAAAAAAABN/AAAp/gEAE38BAAAAAAAAAMp8uf+T+x4Au30BAAAAAAAAAIp+2v+R/wEAyH8BAAEAAQAAAJ1//v86////nX8BAAEAAQAAABN/AAAp/gEAE38BAAEAAQAAAMp8uf+T+x4Au30BAAEAAQAAAIp+2v+R/wEAyH8BAAAAAAAAAMp///+V/wAAyn8BAAAAAAAAAH9/AAD//gAAf38BAAAAAAAAAEd+6v+J/QkAwH4BAAAAAAAAADl/9f/D/wAA4X8BAAEAAQAAAMp///+V/wAAyn8BAAEAAQAAAH9/AAD//gAAf38BAAEAAQAAAEd+6v+J/QkAwH4BAAEAAQAAADl/9f/D/wAA4X8BAAAAAAAAAM9/AACd/wAAz38BAAAAAAAAAIl/AAAT/wAAiX8BAAAAAAAAAGt+7v+7/QcA2n4BAAAAAAAAAEl/9v/I/wAA5H8BAAEAAQAAAM9/AACd/wAAz38BAAEAAQAAAIl/AAAT/wAAiX8BAAEAAQAAAGt+7v+7/QcA2n4BAAEAAQAAAEl/9v/I/wAA5H8="/>
+                </filter_coefficients>
+                <mb-compressor-enable value="1"/>
+                <mb-compressor-tuning>
+                    <group_count value="2"/>
+                    <band_group_0 value="5,-64,19658,22641,31782,48"/>
+                    <band_group_1 value="20,-64,19657,22641,31082,48"/>
+                    <band_group_2 value="20,0,32767,22641,27238,0"/>
+                    <band_group_3 value="20,0,32767,22641,27238,0"/>
+                </mb-compressor-tuning>
+                <mb-compressor-channel-deviation value="0"/>
+                <mb-compressor-agc-enable value="0"/>
+                <mb-compressor-target-power-level value="-80"/>
+                <mb-compressor-slow-gain-enable value="0"/>
+                <mb-compressor-band0-slow-gain-mix-level value="256"/>
+                <peak-level value="0"/>
+                <postgain value="0"/>
+                <regulator-stress-amount value="160,160,0,0,0,0,0,0"/>
+                <regulator-distortion-slope value="16"/>
+                <regulator-overdrive value="0"/>
+                <regulator-timbre-preservation value="12"/>
+                <regulator-speaker-dist-enable value="1"/>
+                <regulator-tuning>
+                    <threshold_high preset="array_20_zero"/>
+                    <threshold_low preset="array_20_n192"/>
+                    <isolated_band preset="array_20_zero"/>
+                </regulator-tuning>
+                <system-gain value="0"/>
+                <speaker-peq-enable value="1"/>
+                <speaker-peq-filters>
+                    <filter speaker="0" enabled="1" type="9" f0="120" order="4"/>
+                    <filter speaker="0" enabled="1" type="1" f0="818" gain="-12.000000" q="2.200000"/>
+                    <filter speaker="0" enabled="1" type="1" f0="550" gain="-1.500000" q="1.800000"/>
+                    <filter speaker="1" enabled="1" type="9" f0="120" order="4"/>
+                    <filter speaker="1" enabled="1" type="1" f0="818" gain="-12.000000" q="2.200000"/>
+                    <filter speaker="1" enabled="1" type="1" f0="550" gain="-1.500000" q="1.800000"/>
+                </speaker-peq-filters>
+            </tuning-vlldp>
+        </profile>
+        <profile type="off">
+            <tuning-cp>
+                <init-info>
+                    <low_latency_enable value="1"/>
+                    <mi_process_disable value="0"/>
+                    <speaker_virtualizer_mode value="0"/>
+                    <virtual_bass_process_enable value="0"/>
+                    <max_num_output_channels value="8"/>
+                    <mode value="0"/>
+                    <max_num_scratch_channels value="8"/>
+                    <max_num_filter_states value="10"/>
+                    <max_num_operations value="48"/>
+                    <max_num_operation_coefficients value="1848"/>
+                    <a_max_sample_delays preset="array_32_zero"/>
+                </init-info>
+                <audio-optimizer-enable value="0"/>
+                <audio-optimizer-bands>
+                    <ch_00 preset="array_20_zero"/>
+                    <ch_01 preset="array_20_zero"/>
+                    <ch_02 preset="array_20_zero"/>
+                    <ch_03 preset="array_20_zero"/>
+                    <ch_04 preset="array_20_zero"/>
+                    <ch_05 preset="array_20_zero"/>
+                    <ch_06 preset="array_20_zero"/>
+                    <ch_07 preset="array_20_zero"/>
+                </audio-optimizer-bands>
+                <bass-enhancer-enable value="0"/>
+                <bass-enhancer-boost value="0"/>
+                <bass-enhancer-cutoff-frequency value="200"/>
+                <bass-enhancer-width value="16"/>
+                <bass-extraction-enable value="0"/>
+                <bass-extraction-cutoff-frequency value="200"/>
+                <bass-extraction-lfe-gain value="0"/>
+                <calibration-boost value="0"/>
+                <customer-woofer-channel-index value="3"/>
+                <dialog-enhancer-enable value="0"/>
+                <dialog-enhancer-amount value="0"/>
+                <dialog-enhancer-ducking value="0"/>
+                <dynamic-range-control-metadata/>
+                <graphic-equalizer-enable value="0"/>
+                <graphic-equalizer-bands preset="array_20_zero"/>
+                <height-filter-mode value="0"/>
+                <ieq-enable value="0"/>
+                <ieq-amount value="10"/>
+                <ieq-bands-set preset="ieq_balanced"/>
+                <mi-dialog-enhancer-steering-enable value="0"/>
+                <mi-dv-leveler-steering-enable value="0"/>
+                <mi-ieq-steering-enable value="0"/>
+                <mi-surround-compressor-steering-enable value="0"/>
+                <mi-virt-steering-enable value="0"/>
+                <postgain value="0"/>
+                <pregain value="0"/>
+                <rear-height-filter-mode value="1"/>
+                <regulator-enable value="1"/>
+                <regulator-overdrive value="0"/>
+                <regulator-relaxation-amount value="96"/>
+                <regulator-speaker-dist-enable value="0"/>
+                <regulator-timbre-preservation value="12"/>
+                <regulator-tuning>
+                    <threshold_high preset="array_20_zero"/>
+                    <threshold_low preset="array_20_n192"/>
+                    <isolated_band preset="array_20_zero"/>
+                </regulator-tuning>
+                <surround-boost value="0"/>
+                <surround-decoder-enable value="0"/>
+                <surround-decoder-center-spreading-enable value="0"/>
+                <system-gain value="0"/>
+                <virtualizer-front-speaker-angle value="10"/>
+                <virtualizer-height-speaker-angle value="10"/>
+                <virtualizer-surround-speaker-angle value="10"/>
+                <virtualizer-rear-speaker-angle value="10"/>
+                <virtualizer-rear-height-speaker-angle value="10"/>
+                <virtualizer-start-band value="0"/>
+                <virtual-bass-mix-freqs value="94,469"/>
+                <virtual-bass-mode value="0"/>
+                <virtual-bass-overall-gain value="0"/>
+                <virtual-bass-subgains value="-32,-144,-192"/>
+                <virtual-bass-slope-gain value="0"/>
+                <virtual-bass-src-freqs value="35,160"/>
+                <volmax-boost value="0"/>
+                <volume-leveler-enable value="0"/>
+                <volume-leveler-amount value="0"/>
+                <volume-leveler-in-target value="-320"/>
+                <volume-leveler-out-target value="-320"/>
+                <volume-modeler-enable value="0"/>
+                <volume-modeler-calibration value="0"/>
+                <output-mode-partial-surround-virtualizer-enable value="0"/>
+                <output-mode-partial-height-virtualizer-enable value="0"/>
+                <woofer-regulator-enable value="0"/>
+                <woofer-regulator-tuning>
+                    <threshold_high preset="array_20_zero"/>
+                    <threshold_low preset="array_20_n192"/>
+                    <isolated_band preset="array_20_zero"/>
+                </woofer-regulator-tuning>
+                <output-mode>
+                    <processing_mode value="1"/>
+                    <nb_output_channels value="2"/>
+                    <mix_matrix value="16384,0,0,16384,11583,11583,8192,8192,16384,0,0,16384,16384,0,0,16384"/>
+                    <output_ports value="1,2,3,4,5,6,7,8"/>
+                </output-mode>
+            </tuning-cp>
+            <tuning-vlldp>
+                <init-info>
+                    <max_num_channels value="2"/>
+                    <max_num_operations value="10"/>
+                </init-info>
+                <audio-optimizer-bands>
+                    <ch_00 preset="array_20_zero"/>
+                    <ch_01 preset="array_20_zero"/>
+                    <ch_02 preset="array_20_zero"/>
+                    <ch_03 preset="array_20_zero"/>
+                    <ch_04 preset="array_20_zero"/>
+                    <ch_05 preset="array_20_zero"/>
+                    <ch_06 preset="array_20_zero"/>
+                    <ch_07 preset="array_20_zero"/>
+                </audio-optimizer-bands>
+                <audio-optimizer-enable value="0"/>
+                <filter_coefficients>
+                    <coefficient value=""/>
+                </filter_coefficients>
+                <mb-compressor-enable value="0"/>
+                <mb-compressor-tuning>
+                    <group_count value="1"/>
+                    <band_group_0 value="20,0,32767,22641,27238,0"/>
+                    <band_group_1 value="20,0,32767,22641,27238,0"/>
+                    <band_group_2 value="20,0,32767,22641,27238,0"/>
+                    <band_group_3 value="20,0,32767,22641,27238,0"/>
+                </mb-compressor-tuning>
+                <mb-compressor-channel-deviation value="0"/>
+                <mb-compressor-agc-enable value="0"/>
+                <mb-compressor-target-power-level value="-80"/>
+                <mb-compressor-slow-gain-enable value="0"/>
+                <mb-compressor-band0-slow-gain-mix-level value="256"/>
+                <peak-level value="0"/>
+                <postgain value="0"/>
+                <regulator-stress-amount value="0,0,0,0,0,0,0,0"/>
+                <regulator-distortion-slope value="16"/>
+                <regulator-overdrive value="0"/>
+                <regulator-timbre-preservation value="12"/>
+                <regulator-speaker-dist-enable value="0"/>
+                <regulator-tuning>
+                    <threshold_high preset="array_20_zero"/>
+                    <threshold_low preset="array_20_n192"/>
+                    <isolated_band preset="array_20_zero"/>
+                </regulator-tuning>
+                <system-gain value="0"/>
+                <speaker-peq-enable value="0"/>
+                <speaker-peq-filters/>
+            </tuning-vlldp>
+        </profile>
+    </endpoint>
+</device_data>
