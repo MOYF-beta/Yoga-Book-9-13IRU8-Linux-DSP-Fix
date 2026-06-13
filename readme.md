@@ -228,6 +228,43 @@ sudo pacman -S easyeffects lsp-plugins-lv2
 
 The **Bass Loudness** plugin with `link=true` automatically applies more bass boost at lower system volumes and less at higher volumes — matching the Dolby Volume Leveler behavior. This fixes the "low volume = weak bass" problem.
 
+### Issue 5: Bass Speaker Fails After Audio Playback (Runtime PM)
+
+**Update (2026-06-13):** After audio playback finishes, the bass speaker may become silent/inactive in some cases, recovering only after logout or reboot.
+
+**Root Cause:** The TAS2781 HDA driver's `tas2781_runtime_resume()` function does not fully restore the DSP state:
+- It only calls `tasdevice_prmg_load()` (reload program)
+- Missing: `tasdevice_reset()` (hardware reset), `tasdevice_select_cfg_blk()` (config block selection with subwoofer channel setup)
+
+Additionally, the HDA codec (Realtek ALC287) node `0x14` (Bass Speaker pin) relies on a single DAC connection (`0x02`), while the main speaker (`0x17`) has 4 redundant DAC paths. After runtime suspend/resume, the bass speaker's EAPD or Pin-ctls may not restore correctly.
+
+**Fix:** Disable runtime PM for the TAS2781 smart amplifier and the HDA codec via udev rules:
+
+```bash
+# Create udev rule
+cat << 'EOF' | sudo tee /etc/udev/rules.d/99-audio-pm-fix.rules
+# Disable runtime PM for TAS2781 smart amplifier to prevent bass speaker failure
+ACTION=="add", SUBSYSTEM=="i2c", ATTR{name}=="TIAS2781:00", ATTR{power/control}="on"
+# Disable runtime PM for HDA codec (Realtek ALC287)
+ACTION=="add", SUBSYSTEM=="hdaudio", DRIVER=="snd_hda_codec_alc269", ATTR{power/control}="on"
+EOF
+
+# Reload udev rules
+sudo udevadm control --reload-rules
+
+# Apply immediately
+echo on | sudo tee /sys/bus/i2c/devices/i2c-TIAS2781:00/power/control
+echo on | sudo tee /sys/bus/hdaudio/devices/ehdaudio0D0/power/control
+```
+
+Verify the fix:
+```bash
+cat /sys/bus/i2c/devices/i2c-TIAS2781:00/power/control
+# Should output: on
+cat /sys/bus/hdaudio/devices/ehdaudio0D0/power/control
+# Should output: on
+```
+
 ### Note on UEFI Calibration
 
 The `V1 CRC error` in dmesg is expected and does **not** affect the EasyEffects preset functionality. It indicates missing per-unit factory calibration data in UEFI, which cannot be recreated without the original factory calibration. The DSP falls back to safe defaults.
